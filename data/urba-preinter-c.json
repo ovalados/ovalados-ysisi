@@ -1,0 +1,1315 @@
+{
+  "teams": [
+    {
+      "name": "La Plata C",
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 38,
+      "pc": 10,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "d"
+      ]
+    },
+    {
+      "name": "Hindu C",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 46,
+      "pc": 77,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Champagnat C",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 27,
+      "pc": 18,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Alumni C",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 84,
+      "pc": 45,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Newman C",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 52,
+      "pc": 71,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "SIC C",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 148,
+      "pc": 22,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Belgrano Athletic C",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 50,
+      "pc": 69,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Buenos Aires C&RC C",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 52,
+      "pc": 68,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "CUBA C",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 49,
+      "pc": 37,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "CASI C",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 32,
+      "pc": 58,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Los Tilos C",
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 45,
+      "pc": 12,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "d"
+      ]
+    },
+    {
+      "name": "Atletico del Rosario C",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 49,
+      "pc": 52,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Regatas Bella Vista C",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 58,
+      "pc": 46,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Los Matreros C",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 12,
+      "pc": 157,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Regatas Bella Vista C",
+          "played": true,
+          "hs": 7,
+          "as": 44,
+          "bp_away": true
+        },
+        {
+          "home": "La Plata C",
+          "away": "Atletico del Rosario C",
+          "played": true,
+          "hs": 38,
+          "as": 10,
+          "bp_home": true
+        },
+        {
+          "home": "Hindu C",
+          "away": "Los Tilos C",
+          "played": true,
+          "hs": 12,
+          "as": 45,
+          "bp_away": true
+        },
+        {
+          "home": "Champagnat C",
+          "away": "CASI C",
+          "played": true,
+          "hs": 24,
+          "as": 0,
+          "bp_home": true
+        },
+        {
+          "home": "Alumni C",
+          "away": "CUBA C",
+          "played": true,
+          "hs": 34,
+          "as": 31,
+          "bf_away": true
+        },
+        {
+          "home": "Newman C",
+          "away": "Buenos Aires C&RC C",
+          "played": true,
+          "hs": 18,
+          "as": 38,
+          "bp_away": true
+        },
+        {
+          "home": "SIC C",
+          "away": "Belgrano Athletic C",
+          "played": true,
+          "hs": 35,
+          "as": 17,
+          "bp_home": true
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC C",
+          "away": "Los Matreros C",
+          "played": true,
+          "hs": 113,
+          "as": 5,
+          "bp_home": true
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Newman C",
+          "played": true,
+          "hs": 33,
+          "as": 34,
+          "bf_home": true
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Alumni C",
+          "played": true,
+          "hs": 14,
+          "as": 50,
+          "bp_away": true
+        },
+        {
+          "home": "CUBA C",
+          "away": "Champagnat C",
+          "played": true,
+          "hs": 18,
+          "as": 3,
+          "bp_home": true
+        },
+        {
+          "home": "CASI C",
+          "away": "Hindu C",
+          "played": true,
+          "hs": 32,
+          "as": 34,
+          "bf_home": true
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "La Plata C",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Regatas Bella Vista C",
+          "played": true,
+          "hs": 39,
+          "as": 14,
+          "bp_home": true
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "SIC C",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Newman C",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Alumni C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Los Tilos C",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Alumni C",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Champagnat C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "CASI C",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Champagnat C",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Hindu C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "CUBA C",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Hindu C",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "",
+      "ms": [
+        {
+          "home": "La Plata C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "La Plata C",
+          "played": false
+        }
+      ]
+    },
+    "14": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "SIC C",
+          "played": false
+        }
+      ]
+    },
+    "15": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        }
+      ]
+    },
+    "16": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Newman C",
+          "played": false
+        }
+      ]
+    },
+    "17": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Los Tilos C",
+          "played": false
+        }
+      ]
+    },
+    "18": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Tilos C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Alumni C",
+          "played": false
+        }
+      ]
+    },
+    "19": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "CASI C",
+          "played": false
+        }
+      ]
+    },
+    "20": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Champagnat C",
+          "played": false
+        }
+      ]
+    },
+    "21": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "CUBA C",
+          "played": false
+        }
+      ]
+    },
+    "22": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CUBA C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Hindu C",
+          "played": false
+        }
+      ]
+    },
+    "23": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        }
+      ]
+    },
+    "24": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "La Plata C",
+          "played": false
+        }
+      ]
+    },
+    "25": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Regatas Bella Vista C",
+          "away": "Hindu C",
+          "played": false
+        },
+        {
+          "home": "Atletico del Rosario C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C&RC C",
+          "away": "Belgrano Athletic C",
+          "played": false
+        }
+      ]
+    },
+    "26": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athletic C",
+          "away": "Los Matreros C",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Buenos Aires C&RC C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Hindu C",
+          "away": "Atletico del Rosario C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Regatas Bella Vista C",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-03-23T23:17:23.194893+00:00",
+  "matchesScraped": 14,
+  "championshipId": "2025197",
+  "nombre": "Pre-Inter C"
+}

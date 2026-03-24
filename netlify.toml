@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Ignorar deploys cuando solo cambian archivos de data/
+[context.production]
+  ignore = "git diff --quiet HEAD^ HEAD -- . ':(exclude)data/'"

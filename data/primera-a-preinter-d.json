@@ -1,0 +1,1310 @@
+{
+  "teams": [
+    {
+      "name": "Hurling D",
+      "pts": 2,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 12,
+      "pc": 68,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "d"
+      ]
+    },
+    {
+      "name": "Curupayti E",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 50,
+      "pc": 60,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Curupayti D",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 95,
+      "pc": 31,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "San Luis D",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 55,
+      "pc": 68,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Olivos D",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 51,
+      "pc": 25,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Gimnasia y Esgrima D",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 8,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "d"
+      ]
+    },
+    {
+      "name": "San Cirano E",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 17,
+      "pc": 37,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "San Cirano D",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 37,
+      "pc": 58,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Deportiva Francesa D",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 56,
+      "pc": 59,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Deportiva Francesa E",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 57,
+      "pc": 84,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Pueyrredon D",
+      "pts": 3,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 17,
+      "pc": 21,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "d"
+      ]
+    },
+    {
+      "name": "San Luis E",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 104,
+      "pc": 19,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Pucara E",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 33,
+      "pc": 67,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Pucara D",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 31,
+      "pc": 26,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Pucara E",
+          "played": true,
+          "hs": 31,
+          "as": 26,
+          "bf_away": true
+        },
+        {
+          "home": "Hurling D",
+          "away": "San Luis E",
+          "played": true,
+          "hs": 12,
+          "as": 68,
+          "bp_away": true
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Pueyrredon D",
+          "played": true,
+          "hs": 21,
+          "as": 17,
+          "bf_away": true
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Deportiva Francesa E",
+          "played": true,
+          "hs": 55,
+          "as": 14,
+          "bp_home": true
+        },
+        {
+          "home": "San Luis D",
+          "away": "Deportiva Francesa D",
+          "played": true,
+          "hs": 19,
+          "as": 39,
+          "bp_away": true
+        },
+        {
+          "home": "Olivos D",
+          "away": "San Cirano D",
+          "played": true,
+          "hs": 22,
+          "as": 8,
+          "bp_home": true
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "San Cirano E",
+          "played": true,
+          "hs": 8,
+          "as": 0
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Pucara D",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Olivos D",
+          "played": true,
+          "hs": 17,
+          "as": 29
+        },
+        {
+          "home": "San Cirano D",
+          "away": "San Luis D",
+          "played": true,
+          "hs": 29,
+          "as": 36,
+          "bf_home": true
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Curupayti D",
+          "played": true,
+          "hs": 17,
+          "as": 40
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Curupayti E",
+          "played": true,
+          "hs": 43,
+          "as": 29
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Hurling D",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "San Luis E",
+          "away": "Pucara E",
+          "played": true,
+          "hs": 36,
+          "as": 7,
+          "bp_home": true
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Olivos D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "San Luis E",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Olivos D",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Pueyrredon D",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "San Luis D",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Curupayti D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Curupayti D",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Curupayti E",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Curupayti E",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Hurling D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "San Cirano D",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Hurling D",
+          "played": false
+        }
+      ]
+    },
+    "14": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara E",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        }
+      ]
+    },
+    "15": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "San Luis E",
+          "played": false
+        }
+      ]
+    },
+    "16": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis E",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Olivos D",
+          "played": false
+        }
+      ]
+    },
+    "17": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Pueyrredon D",
+          "played": false
+        }
+      ]
+    },
+    "18": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pueyrredon D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "San Luis D",
+          "played": false
+        }
+      ]
+    },
+    "19": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        }
+      ]
+    },
+    "20": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Curupayti D",
+          "played": false
+        }
+      ]
+    },
+    "21": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Deportiva Francesa D",
+          "played": false
+        }
+      ]
+    },
+    "22": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Curupayti E",
+          "played": false
+        }
+      ]
+    },
+    "23": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "San Cirano E",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "San Cirano D",
+          "played": false
+        }
+      ]
+    },
+    "24": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Cirano D",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "San Cirano E",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Pucara E",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "Hurling D",
+          "played": false
+        }
+      ]
+    },
+    "25": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pucara D",
+          "away": "Hurling D",
+          "played": false
+        },
+        {
+          "home": "Pucara E",
+          "away": "Curupayti E",
+          "played": false
+        },
+        {
+          "home": "San Luis E",
+          "away": "Curupayti D",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon D",
+          "away": "San Luis D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa E",
+          "away": "Olivos D",
+          "played": false
+        },
+        {
+          "home": "Deportiva Francesa D",
+          "away": "Gimnasia y Esgrima D",
+          "played": false
+        },
+        {
+          "home": "San Cirano D",
+          "away": "San Cirano E",
+          "played": false
+        }
+      ]
+    },
+    "26": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Cirano E",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Gimnasia y Esgrima D",
+          "away": "San Cirano D",
+          "played": false
+        },
+        {
+          "home": "Olivos D",
+          "away": "Deportiva Francesa D",
+          "played": false
+        },
+        {
+          "home": "San Luis D",
+          "away": "Deportiva Francesa E",
+          "played": false
+        },
+        {
+          "home": "Curupayti D",
+          "away": "Pueyrredon D",
+          "played": false
+        },
+        {
+          "home": "Curupayti E",
+          "away": "San Luis E",
+          "played": false
+        },
+        {
+          "home": "Hurling D",
+          "away": "Pucara E",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-03-23T23:17:33.329830+00:00",
+  "matchesScraped": 14,
+  "championshipId": "2025203",
+  "nombre": "1A Pre-Inter D"
+}

@@ -1,0 +1,1314 @@
+{
+  "teams": [
+    {
+      "name": "Liceo Naval B",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 96,
+      "pc": 5,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "C.U. de Quilmes B",
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 34,
+      "pc": 22,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Argentino B",
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 32,
+      "pc": 19,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Don Bosco B",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 14,
+      "pc": 74,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "San Martin B",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 95,
+      "pc": 39,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Monte Grande B",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 75,
+      "pc": 24,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Mariano Moreno B",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 34,
+      "pc": 71,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Manuel Belgrano B",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 53,
+      "pc": 50,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Delta B",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 64,
+      "pc": 38,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Vicentinos B",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 0,
+      "pc": 16,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Liceo Militar B",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 27,
+      "pc": 62,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "San Patricio B",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 17,
+      "pc": 79,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Italiano B",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 73,
+      "pc": 41,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Banco Nacion B",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 29,
+      "pc": 103,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Italiano B",
+          "played": true,
+          "hs": 24,
+          "as": 54,
+          "bp_away": true
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "San Patricio B",
+          "played": true,
+          "hs": 60,
+          "as": 0,
+          "bp_home": true
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Liceo Militar B",
+          "played": true,
+          "hs": 26,
+          "as": 22,
+          "bf_away": true
+        },
+        {
+          "home": "Argentino B",
+          "away": "Vicentinos B",
+          "played": true,
+          "hs": 8,
+          "as": 0
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Delta B",
+          "played": true,
+          "hs": 14,
+          "as": 45,
+          "bp_away": true
+        },
+        {
+          "home": "San Martin B",
+          "away": "Manuel Belgrano B",
+          "played": true,
+          "hs": 50,
+          "as": 24,
+          "bp_home": true
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Mariano Moreno B",
+          "played": true,
+          "hs": 26,
+          "as": 19,
+          "bf_away": true
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Monte Grande B",
+          "away": "Banco Nacion B",
+          "played": true,
+          "hs": 49,
+          "as": 5,
+          "bp_home": true
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "San Martin B",
+          "played": true,
+          "hs": 15,
+          "as": 45,
+          "bp_away": true
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Don Bosco B",
+          "played": true,
+          "hs": 29,
+          "as": 0,
+          "bp_home": true
+        },
+        {
+          "home": "Delta B",
+          "away": "Argentino B",
+          "played": true,
+          "hs": 19,
+          "as": 24,
+          "bf_home": true
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "C.U. de Quilmes B",
+          "played": true,
+          "hs": 0,
+          "as": 8
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Liceo Naval B",
+          "played": true,
+          "hs": 5,
+          "as": 36,
+          "bp_away": true
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Italiano B",
+          "played": true,
+          "hs": 17,
+          "as": 19,
+          "bf_home": true
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Monte Grande B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Martin B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "San Patricio B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "San Martin B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Don Bosco B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Liceo Militar B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Don Bosco B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Argentino B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Vicentinos B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Argentino B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Delta B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Liceo Naval B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Liceo Naval B",
+          "played": false
+        }
+      ]
+    },
+    "14": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Italiano B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Monte Grande B",
+          "played": false
+        }
+      ]
+    },
+    "15": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "San Patricio B",
+          "played": false
+        }
+      ]
+    },
+    "16": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Patricio B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "San Martin B",
+          "played": false
+        }
+      ]
+    },
+    "17": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Liceo Militar B",
+          "played": false
+        }
+      ]
+    },
+    "18": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Liceo Militar B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Don Bosco B",
+          "played": false
+        }
+      ]
+    },
+    "19": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Vicentinos B",
+          "played": false
+        }
+      ]
+    },
+    "20": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Vicentinos B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Argentino B",
+          "played": false
+        }
+      ]
+    },
+    "21": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Delta B",
+          "played": false
+        }
+      ]
+    },
+    "22": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Delta B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        }
+      ]
+    },
+    "23": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        }
+      ]
+    },
+    "24": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Liceo Naval B",
+          "played": false
+        }
+      ]
+    },
+    "25": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar B",
+          "away": "Don Bosco B",
+          "played": false
+        },
+        {
+          "home": "Vicentinos B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Mariano Moreno B",
+          "played": false
+        }
+      ]
+    },
+    "26": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Mariano Moreno B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Don Bosco B",
+          "away": "Vicentinos B",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Liceo Militar B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Italiano B",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-03-23T23:17:37.440484+00:00",
+  "matchesScraped": 14,
+  "championshipId": "2025192",
+  "nombre": "1B Pre-Inter B"
+}

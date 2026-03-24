@@ -1,0 +1,1307 @@
+{
+  "teams": [
+    {
+      "name": "La Plata F",
+      "pts": 2,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 12,
+      "pc": 62,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "d"
+      ]
+    },
+    {
+      "name": "Newman G",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 38,
+      "pc": 29,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Champagnat F",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 37,
+      "pc": 43,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Alumni F",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 8,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "d"
+      ]
+    },
+    {
+      "name": "Newman F",
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
+      "e": 1,
+      "p": 0,
+      "pf": 83,
+      "pc": 21,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "d",
+        "w"
+      ]
+    },
+    {
+      "name": "SIC F",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 81,
+      "pc": 7,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Belgrano Athletic F",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 28,
+      "pc": 156,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
+      "g": 0,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "CUBA G",
+      "pts": 1,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 7,
+      "pc": 20,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "CASI F",
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 44,
+      "pc": 25,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Los Tilos F",
+      "pts": 2,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 21,
+      "pc": 38,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "d"
+      ]
+    },
+    {
+      "name": "Los Tilos G",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 82,
+      "pc": 19,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "SIC G",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 15,
+      "pc": 20,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Newman H",
+      "pts": 0,
+      "pj": 2,
+      "g": 0,
+      "e": 0,
+      "p": 2,
+      "pf": 0,
+      "pc": 16,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "SIC G",
+          "played": true,
+          "hs": 0,
+          "as": 8
+        },
+        {
+          "home": "La Plata F",
+          "away": "Los Tilos G",
+          "played": true,
+          "hs": 12,
+          "as": 62,
+          "bp_away": true
+        },
+        {
+          "home": "Newman G",
+          "away": "Los Tilos F",
+          "played": true,
+          "hs": 38,
+          "as": 21
+        },
+        {
+          "home": "Champagnat F",
+          "away": "CASI F",
+          "played": true,
+          "hs": 25,
+          "as": 36
+        },
+        {
+          "home": "Alumni F",
+          "away": "CUBA G",
+          "played": true,
+          "hs": 8,
+          "as": 0
+        },
+        {
+          "home": "Newman F",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "SIC F",
+          "away": "Belgrano Athletic F",
+          "played": true,
+          "hs": 73,
+          "as": 7,
+          "bp_home": true
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "Newman H",
+          "played": true,
+          "hs": 8,
+          "as": 0
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Newman F",
+          "played": true,
+          "hs": 21,
+          "as": 83,
+          "bp_away": true
+        },
+        {
+          "home": "Bye",
+          "away": "Alumni F",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "CUBA G",
+          "away": "Champagnat F",
+          "played": true,
+          "hs": 7,
+          "as": 12,
+          "bf_home": true
+        },
+        {
+          "home": "CASI F",
+          "away": "Newman G",
+          "played": true,
+          "hs": 8,
+          "as": 0
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "La Plata F",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "SIC G",
+          "played": true,
+          "hs": 20,
+          "as": 7,
+          "bp_home": true
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "SIC F",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Los Tilos G",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Newman F",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Alumni F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Los Tilos F",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Alumni F",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Champagnat F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "CASI F",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Champagnat F",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman G",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CUBA G",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Newman G",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "",
+      "ms": [
+        {
+          "home": "La Plata F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "La Plata F",
+          "played": false
+        }
+      ]
+    },
+    "14": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC G",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "SIC F",
+          "played": false
+        }
+      ]
+    },
+    "15": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Los Tilos G",
+          "played": false
+        }
+      ]
+    },
+    "16": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Tilos G",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Newman F",
+          "played": false
+        }
+      ]
+    },
+    "17": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Los Tilos F",
+          "played": false
+        }
+      ]
+    },
+    "18": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Tilos F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Alumni F",
+          "played": false
+        }
+      ]
+    },
+    "19": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "CASI F",
+          "played": false
+        }
+      ]
+    },
+    "20": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Champagnat F",
+          "played": false
+        }
+      ]
+    },
+    "21": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "CUBA G",
+          "played": false
+        }
+      ]
+    },
+    "22": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CUBA G",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Newman G",
+          "played": false
+        }
+      ]
+    },
+    "23": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Belgrano Athletic F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "24": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athletic F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "SIC G",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "La Plata F",
+          "played": false
+        }
+      ]
+    },
+    "25": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman H",
+          "away": "La Plata F",
+          "played": false
+        },
+        {
+          "home": "SIC G",
+          "away": "Newman G",
+          "played": false
+        },
+        {
+          "home": "Los Tilos G",
+          "away": "Champagnat F",
+          "played": false
+        },
+        {
+          "home": "Los Tilos F",
+          "away": "Alumni F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Newman F",
+          "played": false
+        },
+        {
+          "home": "CUBA G",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Belgrano Athletic F",
+          "played": false
+        }
+      ]
+    },
+    "26": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athletic F",
+          "away": "Newman H",
+          "played": false
+        },
+        {
+          "home": "SIC F",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Newman F",
+          "away": "CUBA G",
+          "played": false
+        },
+        {
+          "home": "Alumni F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Champagnat F",
+          "away": "Los Tilos F",
+          "played": false
+        },
+        {
+          "home": "Newman G",
+          "away": "Los Tilos G",
+          "played": false
+        },
+        {
+          "home": "La Plata F",
+          "away": "SIC G",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-03-23T23:17:26.230366+00:00",
+  "matchesScraped": 14,
+  "championshipId": "2025201",
+  "nombre": "Pre-Inter F"
+}
