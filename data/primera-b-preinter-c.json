@@ -1,193 +1,270 @@
 {
   "teams": [
     {
-      "name": "San Martin C",
-      "pts": 0,
-      "pj": 0,
+      "name": "Bye",
+      "pts": 24,
+      "pj": 12,
       "g": 0,
-      "e": 0,
+      "e": 12,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
-    },
-    {
-      "name": "San Martin D",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Delta C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
+      "form": [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ]
     },
     {
       "name": "Argentino C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 40,
+      "pc": 37,
       "bp": 0,
       "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Mariano Moreno C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Manuel Belgrano C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
+      "form": [
+        "w",
+        "l"
+      ]
     },
     {
       "name": "Don Bosco C",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 2,
+      "pf": 27,
+      "pc": 78,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l",
+        "l"
+      ]
     },
     {
-      "name": "G Y E De Ituzaingo",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "San Martin C",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 70,
+      "pc": 36,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "San Martin D",
+      "pts": 3,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 21,
+      "pc": 28,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "d"
+      ]
+    },
+    {
+      "name": "Mariano Moreno C",
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 42,
+      "pc": 43,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Manuel Belgrano C",
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 81,
+      "pc": 63,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Delta C",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 41,
+      "pc": 21,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "G y E de Ituzaingo",
+      "pts": 2,
+      "pj": 2,
+      "g": 0,
+      "e": 1,
+      "p": 1,
+      "pf": 15,
+      "pc": 31,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "d"
+      ]
     }
   ],
   "matches": {
     "1": {
-      "date": "14/03/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Argentino C",
-          "away": "G Y E De Ituzaingo",
-          "played": false
+          "away": "G y E de Ituzaingo",
+          "played": true,
+          "hs": 31,
+          "as": 15
         },
         {
           "home": "Don Bosco C",
           "away": "Delta C",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 19,
+          "bf_home": true
         },
         {
           "home": "San Martin C",
           "away": "Manuel Belgrano C",
-          "played": false
+          "played": true,
+          "hs": 48,
+          "as": 22,
+          "bp_home": true
         },
         {
           "home": "San Martin D",
           "away": "Mariano Moreno C",
-          "played": false
+          "played": true,
+          "hs": 21,
+          "as": 28,
+          "bf_home": true
         }
       ]
     },
     "2": {
-      "date": "21/03/2026",
+      "date": "",
       "ms": [
         {
           "home": "San Martin D",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Mariano Moreno C",
           "away": "San Martin C",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 22,
+          "bp_away": true
         },
         {
           "home": "Manuel Belgrano C",
           "away": "Don Bosco C",
-          "played": false
+          "played": true,
+          "hs": 59,
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "Delta C",
           "away": "Argentino C",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 9,
+          "bp_home": true
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
     "3": {
-      "date": "28/03/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -201,7 +278,7 @@
         },
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -227,7 +304,7 @@
       ]
     },
     "4": {
-      "date": "11/04/2026",
+      "date": "",
       "ms": [
         {
           "home": "San Martin C",
@@ -255,7 +332,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Bye",
           "played": false
         },
@@ -267,7 +344,7 @@
       ]
     },
     "5": {
-      "date": "18/04/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -276,7 +353,7 @@
         },
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -307,7 +384,7 @@
       ]
     },
     "6": {
-      "date": "25/04/2026",
+      "date": "",
       "ms": [
         {
           "home": "Don Bosco C",
@@ -340,18 +417,18 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Bye",
           "played": false
         }
       ]
     },
     "7": {
-      "date": "09/05/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -387,7 +464,7 @@
       ]
     },
     "8": {
-      "date": "16/05/2026",
+      "date": "",
       "ms": [
         {
           "home": "Argentino C",
@@ -421,13 +498,13 @@
         },
         {
           "home": "Delta C",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         }
       ]
     },
     "9": {
-      "date": "23/05/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -435,7 +512,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Manuel Belgrano C",
           "played": false
         },
@@ -467,7 +544,7 @@
       ]
     },
     "10": {
-      "date": "06/06/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -496,7 +573,7 @@
         },
         {
           "home": "Mariano Moreno C",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -507,7 +584,7 @@
       ]
     },
     "11": {
-      "date": "13/06/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -520,7 +597,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "San Martin D",
           "played": false
         },
@@ -547,7 +624,7 @@
       ]
     },
     "12": {
-      "date": "20/06/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -571,7 +648,7 @@
         },
         {
           "home": "San Martin C",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -587,7 +664,7 @@
       ]
     },
     "13": {
-      "date": "04/07/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -605,12 +682,7 @@
           "played": false
         },
         {
-          "home": "San Martin C",
-          "away": "G Y E De Ituzaingo",
-          "played": false
-        },
-        {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Don Bosco C",
           "played": false
         },
@@ -623,11 +695,16 @@
           "home": "Bye",
           "away": "Bye",
           "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
         }
       ]
     },
     "14": {
-      "date": "11/07/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -645,7 +722,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Argentino C",
           "played": false
         },
@@ -656,18 +733,18 @@
         },
         {
           "home": "Manuel Belgrano C",
-          "away": "Bye",
+          "away": "San Martin C",
           "played": false
         },
         {
-          "home": "San Martin C",
-          "away": "Mariano Moreno C",
+          "home": "Mariano Moreno C",
+          "away": "San Martin D",
           "played": false
         }
       ]
     },
     "15": {
-      "date": "18/07/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -691,7 +768,7 @@
         },
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -707,7 +784,7 @@
       ]
     },
     "16": {
-      "date": "01/08/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -720,34 +797,34 @@
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Delta C",
+          "home": "Delta C",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Manuel Belgrano C",
+          "home": "Manuel Belgrano C",
+          "away": "Argentino C",
           "played": false
         },
         {
-          "home": "Argentino C",
-          "away": "Mariano Moreno C",
+          "home": "Mariano Moreno C",
+          "away": "Don Bosco C",
           "played": false
         },
         {
-          "home": "Don Bosco C",
-          "away": "San Martin D",
+          "home": "San Martin D",
+          "away": "San Martin C",
           "played": false
         }
       ]
     },
     "17": {
-      "date": "15/08/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -776,7 +853,7 @@
         },
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -787,7 +864,7 @@
       ]
     },
     "18": {
-      "date": "22/08/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -795,7 +872,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Bye",
           "played": false
         },
@@ -827,7 +904,7 @@
       ]
     },
     "19": {
-      "date": "29/08/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -861,53 +938,53 @@
         },
         {
           "home": "Bye",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         }
       ]
     },
     "20": {
-      "date": "05/09/2026",
+      "date": "",
       "ms": [
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Delta C",
+          "home": "Delta C",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Manuel Belgrano C",
+          "home": "Manuel Belgrano C",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Mariano Moreno C",
+          "home": "Mariano Moreno C",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "San Martin D",
+          "home": "San Martin D",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "San Martin C",
+          "home": "San Martin C",
+          "away": "Bye",
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Don Bosco C",
+          "home": "Don Bosco C",
+          "away": "Argentino C",
           "played": false
         }
       ]
     },
     "21": {
-      "date": "12/09/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -940,14 +1017,14 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Delta C",
           "played": false
         }
       ]
     },
     "22": {
-      "date": "26/09/2026",
+      "date": "",
       "ms": [
         {
           "home": "Delta C",
@@ -956,7 +1033,7 @@
         },
         {
           "home": "Manuel Belgrano C",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -980,14 +1057,14 @@
           "played": false
         },
         {
-          "home": "Bye",
-          "away": "Argentino C",
+          "home": "Argentino C",
+          "away": "Bye",
           "played": false
         }
       ]
     },
     "23": {
-      "date": "03/10/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -1015,7 +1092,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "Mariano Moreno C",
           "played": false
         },
@@ -1027,7 +1104,7 @@
       ]
     },
     "24": {
-      "date": "10/10/2026",
+      "date": "",
       "ms": [
         {
           "home": "Manuel Belgrano C",
@@ -1041,7 +1118,7 @@
         },
         {
           "home": "San Martin D",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -1067,7 +1144,7 @@
       ]
     },
     "25": {
-      "date": "17/10/2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -1090,7 +1167,7 @@
           "played": false
         },
         {
-          "home": "G Y E De Ituzaingo",
+          "home": "G y E de Ituzaingo",
           "away": "San Martin C",
           "played": false
         },
@@ -1107,7 +1184,7 @@
       ]
     },
     "26": {
-      "date": "24/10/2026",
+      "date": "",
       "ms": [
         {
           "home": "Mariano Moreno C",
@@ -1126,7 +1203,7 @@
         },
         {
           "home": "Don Bosco C",
-          "away": "G Y E De Ituzaingo",
+          "away": "G y E de Ituzaingo",
           "played": false
         },
         {
@@ -1147,5 +1224,8 @@
       ]
     }
   },
-  "lastUpdate": "manual"
+  "lastUpdate": "2026-03-24T16:40:03.587079+00:00",
+  "matchesScraped": 14,
+  "championshipId": "2025204",
+  "nombre": "1B Pre-Inter C"
 }
