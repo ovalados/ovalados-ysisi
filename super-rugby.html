@@ -63,14 +63,14 @@
     <div>
       <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--gold);margin-bottom:0.75rem;text-transform:uppercase">🏠 De Local</div>
       <div class="table-wrap"><table>
-        <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+        <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>BP</th><th>BF</th><th>PTS</th></tr></thead>
         <tbody id="loc-body"></tbody>
       </table></div>
     </div>
     <div>
       <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--green);margin-bottom:0.75rem;text-transform:uppercase">✈️ De Visitante</div>
       <div class="table-wrap"><table>
-        <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+        <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>BP</th><th>BF</th><th>PTS</th></tr></thead>
         <tbody id="vis-body"></tbody>
       </table></div>
     </div>
@@ -191,8 +191,8 @@ function renderMatches(r){
 function renderLocVis(){
   const loc={},vis={};
   teams.forEach(t=>{
-    loc[t.name]={pj:0,g:0,p:0,pf:0,pc:0,pts:0};
-    vis[t.name]={pj:0,g:0,p:0,pf:0,pc:0,pts:0};
+    loc[t.name]={pj:0,g:0,p:0,pf:0,pc:0,bp:0,bf:0,pts:0};
+    vis[t.name]={pj:0,g:0,p:0,pf:0,pc:0,bp:0,bf:0,pts:0};
   });
   Object.values(matches).forEach(rd=>rd.ms.filter(m=>m.played).forEach(m=>{
     loc[m.home].pj++;vis[m.away].pj++;
@@ -201,16 +201,18 @@ function renderLocVis(){
     if(m.hs>m.as){loc[m.home].g++;loc[m.home].pts+=4;vis[m.away].p++;}
     else if(m.hs<m.as){vis[m.away].g++;vis[m.away].pts+=4;loc[m.home].p++;}
     else{loc[m.home].pts+=2;vis[m.away].pts+=2;}
-    if(m.bp_home){loc[m.home].pts++;}
-    if(m.bp_away){vis[m.away].pts++;}
-    if(m.bf_home){loc[m.home].pts++;}
-    if(m.bf_away){vis[m.away].pts++;}
+    if(m.bp_home){loc[m.home].bp++;loc[m.home].pts++;}
+    if(m.bp_away){vis[m.away].bp++;vis[m.away].pts++;}
+    if(m.bf_home){loc[m.home].bf++;loc[m.home].pts++;}
+    if(m.bf_away){vis[m.away].bf++;vis[m.away].pts++;}
   }));
   const rows=d=>[...teams].sort((a,b)=>(d[b.name]?.pts||0)-(d[a.name]?.pts||0))
     .map(t=>{const v=d[t.name]||{};return`<tr>
       <td style="text-align:left;padding-left:12px;font-weight:600">${t.name}</td>
       <td>${v.pj||0}</td><td>${v.g||0}</td><td>${v.p||0}</td>
       <td>${v.pf||0}</td><td>${v.pc||0}</td>
+      <td style="color:var(--gold)">${v.bp||0}</td>
+      <td>${v.bf||0}</td>
       <td style="color:var(--gold);font-weight:700">${v.pts||0}</td></tr>`;}).join('');
   document.getElementById('loc-body').innerHTML=rows(loc);
   document.getElementById('vis-body').innerHTML=rows(vis);

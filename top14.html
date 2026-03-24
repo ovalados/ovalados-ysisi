@@ -233,14 +233,14 @@
       <div>
         <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--green);margin-bottom:0.75rem;text-transform:uppercase">🏠 De Local</div>
         <div class="table-wrap"><table>
-          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>BP</th><th>BF</th><th>PTS</th></tr></thead>
           <tbody id="loc-body"></tbody>
         </table></div>
       </div>
       <div>
         <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--gold);margin-bottom:0.75rem;text-transform:uppercase">✈️ De Visitante</div>
         <div class="table-wrap"><table>
-          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>BP</th><th>BF</th><th>PTS</th></tr></thead>
           <tbody id="vis-body"></tbody>
         </table></div>
       </div>
@@ -475,8 +475,8 @@ function matchCard(m, dateStr) {
 function renderLocVis() {
   const homeStats = {}, awayStats = {};
   teams.forEach(t => {
-    homeStats[t.name] = {pj:0,g:0,e:0,p:0,pf:0,pc:0,pts:0};
-    awayStats[t.name] = {pj:0,g:0,e:0,p:0,pf:0,pc:0,pts:0};
+    homeStats[t.name] = {pj:0,g:0,e:0,p:0,pf:0,pc:0,bp:0,bf:0,pts:0};
+    awayStats[t.name] = {pj:0,g:0,e:0,p:0,pf:0,pc:0,bp:0,bf:0,pts:0};
   });
   Object.values(matches).forEach(rd => (rd.ms||[]).filter(m=>m.played).forEach(m => {
     if (!homeStats[m.home] || !awayStats[m.away]) return;
@@ -485,8 +485,8 @@ function renderLocVis() {
     if(m.hs>m.as){h.g++;h.pts+=4;a.p++;}
     else if(m.hs<m.as){a.g++;a.pts+=4;h.p++;}
     else{h.e++;a.e++;h.pts+=2;a.pts+=2;}
-    if(m.bp_home)h.pts++; if(m.bp_away)a.pts++;
-    if(m.bf_home)h.pts++; if(m.bf_away)a.pts++;
+    if(m.bp_home){h.bp++;h.pts++;} if(m.bp_away){a.bp++;a.pts++;}
+    if(m.bf_home){h.bf++;h.pts++;} if(m.bf_away){a.bf++;a.pts++;}
   }));
   const makeRows = (stats, tbodyId) => {
     const sorted = [...teams].sort((a,b)=>(stats[b.name]?.pts||0)-(stats[a.name]?.pts||0));
@@ -497,6 +497,8 @@ function renderLocVis() {
         <td style="text-align:left;padding-left:12px;font-weight:600">${t.name}</td>
         <td>${d.pj||0}</td><td>${d.g||0}</td><td>${d.p||0}</td>
         <td>${d.pf||0}</td><td>${d.pc||0}</td>
+        <td style="color:var(--gold)">${d.bp||0}</td>
+        <td>${d.bf||0}</td>
         <td style="color:var(--green);font-weight:700">${d.pts||0}</td>
       </tr>`;
     }).join('');
