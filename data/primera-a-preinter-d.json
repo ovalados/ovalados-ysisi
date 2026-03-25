@@ -34,14 +34,14 @@
     },
     {
       "name": "Curupayti D",
-      "pts": 9,
+      "pts": 10,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 95,
       "pc": 31,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -316,7 +316,8 @@
           "away": "Curupayti D",
           "played": true,
           "hs": 17,
-          "as": 40
+          "as": 40,
+          "bp_away": true
         },
         {
           "home": "Deportiva Francesa E",
@@ -1303,7 +1304,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-25T14:44:07.942276+00:00",
+  "lastUpdate": "2026-03-25T18:09:35.231880+00:00",
   "matchesScraped": 14,
   "championshipId": "2025203",
   "nombre": "1A Pre-Inter D"
