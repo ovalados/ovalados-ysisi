@@ -178,14 +178,14 @@
     },
     {
       "name": "Los Molinos",
-      "pts": 9,
+      "pts": 10,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 82,
       "pc": 7,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -342,7 +342,8 @@
           "away": "Lujan",
           "played": true,
           "hs": 20,
-          "as": 0
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
@@ -1307,7 +1308,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-25T14:44:18.251003+00:00",
+  "lastUpdate": "2026-03-25T18:09:44.108226+00:00",
   "matchesScraped": 14,
   "championshipId": "2025193",
   "nombre": "1C Intermedia"
