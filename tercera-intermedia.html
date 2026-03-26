@@ -175,8 +175,8 @@ function go(id, btn) {
 }
 
 function renderStandings() {
-  const allZero = teams.every(t => t.pts === 0 && t.pj === 0);
-  const sorted = [...teams].sort((a,b) => {
+  const allZero = teams.filter(t=>t.name!=='Bye').every(t => t.pts === 0 && t.pj === 0);
+  const sorted = [...teams].filter(t => t.name !== 'Bye').sort((a,b) => {
     if (allZero) return a.name.localeCompare(b.name, 'es');
     return b.pts - a.pts || (b.pf-b.pc) - (a.pf-a.pc);
   });
@@ -215,6 +215,17 @@ function renderMatches(round) {
 }
 
 function matchCard(m, dateStr, torneo) {
+  if (m.home === 'Bye' || m.away === 'Bye') {
+    const team = m.home === 'Bye' ? m.away : m.home;
+    return `<div class="match-card" style="opacity:0.55">
+      <div class="match-meta"><span>Fecha libre</span></div>
+      <div class="match-teams">
+        <div class="match-team home"><div class="name">${team}</div></div>
+        <div class="match-score-pending" style="font-size:0.75rem;letter-spacing:1px">BYE</div>
+        <div class="match-team"><div class="name">—</div></div>
+      </div>
+    </div>`;
+  }
   const isPlayed = m.played;
   const isLive = m.live || false;
   const scoreBlock = isPlayed
@@ -263,6 +274,7 @@ function renderLocVis() {
     awayStats[t.name] = {pj:0,g:0,p:0,pf:0,pc:0,bp:0,bf:0,pts:0};
   });
   Object.values(matches).forEach(rd => (rd.ms||[]).filter(m=>m.played).forEach(m => {
+    if (m.home === 'Bye' || m.away === 'Bye') return;
     if (!homeStats[m.home] || !awayStats[m.away]) return;
     const h=homeStats[m.home], a=awayStats[m.away];
     h.pj++; a.pj++; h.pf+=m.hs; h.pc+=m.as; a.pf+=m.as; a.pc+=m.hs;
@@ -275,7 +287,7 @@ function renderLocVis() {
     if(m.bf_away){a.bf++;a.pts++;}
   }));
   const makeRows = (stats, tbodyId) => {
-    const sorted = [...teams].sort((a,b)=>(stats[b.name]?.pts||0)-(stats[a.name]?.pts||0));
+    const sorted = [...teams].filter(t => t.name !== 'Bye').sort((a,b)=>(stats[b.name]?.pts||0)-(stats[a.name]?.pts||0));
     const el = document.getElementById(tbodyId);
     if (!el) return;
     el.innerHTML = sorted.map(t => {

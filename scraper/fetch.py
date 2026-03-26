@@ -218,6 +218,8 @@ def recalc_standings(teams, matches):
         for m in rd.get(ms_key, []):
             if not m.get("played"):
                 continue
+            if m.get("home") == "Bye" or m.get("away") == "Bye":
+                continue
             h, a = ti.get(m["home"]), ti.get(m["away"])
             if not h or not a:
                 continue
