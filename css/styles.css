@@ -1,23 +1,23 @@
 /* =========================================================
-   OVALADOS — styles.css  v21 (locvis + calculator fixes)
+   OVALADOS — styles.css  v22 (paleta carbón + verde salvia)
    CSS compartido para todas las páginas
    ========================================================= */
 
 /* ── VARIABLES ─────────────────────────────────────────── */
 :root {
-  --green:        #00b85c;
-  --green-dark:   #008c45;
-  --green-light:  #00e87a;
-  --gold:         #f5c518;
-  --dark:         #0a0f0d;
-  --dark2:        #111a14;
-  --dark3:        #192219;
-  --card:         #162018;
-  --border:       rgba(0,184,92,0.2);
-  --border-gold:  rgba(245,197,24,0.25);
-  --text:         #e8f5ee;
-  --muted:        #7a9e84;
-  --red:          #c0392b;
+  --green:        #4ade80;
+  --green-dark:   #22c55e;
+  --green-light:  #86efac;
+  --gold:         #f59e0b;
+  --dark:         #111312;
+  --dark2:        #181d19;
+  --dark3:        #1e2620;
+  --card:         #181d19;
+  --border:       rgba(74,222,128,0.15);
+  --border-gold:  rgba(245,158,11,0.2);
+  --text:         #dde8de;
+  --muted:        #5e7a61;
+  --red:          #f87171;
 }
 
 /* ── RESET ─────────────────────────────────────────────── */
@@ -50,7 +50,7 @@ header.gold-accent { border-bottom-color: var(--gold); }
   font-size: 2rem;
   letter-spacing: 3px;
   color: var(--green);
-  text-shadow: 0 0 20px rgba(0,184,92,0.4);
+  text-shadow: 0 0 20px rgba(74,222,128,0.3);
   text-decoration: none;
 }
 .logo:hover { color: var(--green-light); }
@@ -139,11 +139,11 @@ thead th {
 thead th:first-child { text-align: left; padding-left: 16px; }
 
 tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
-tbody tr:hover { background: rgba(0,184,92,0.06); }
+tbody tr:hover { background: rgba(74,222,128,0.05); }
 tbody tr.qualify  { border-left: 3px solid var(--green); }
 tbody tr.semifinal{ border-left: 3px solid var(--gold); }
-tbody tr.descent  { border-left: 3px solid var(--red); background: rgba(192,57,43,0.05); }
-tbody tr.descent .team-name { color: #e57373; }
+tbody tr.descent  { border-left: 3px solid var(--red); background: rgba(248,113,113,0.05); }
+tbody tr.descent .team-name { color: #f87171; }
 tbody tr.descent .pos-num { background: var(--red); color: white; }
 
 tbody td { padding: 11px 10px; text-align: center; font-size: 0.95rem; }
@@ -212,7 +212,7 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   transition: border-color 0.2s, transform 0.2s;
 }
 .match-card:hover { border-color: var(--green); transform: translateY(-2px); }
-.match-card.live { border-color: var(--green); box-shadow: 0 0 16px rgba(0,184,92,0.2); }
+.match-card.live { border-color: var(--green); box-shadow: 0 0 16px rgba(74,222,128,0.15); }
 .match-card.gold-border:hover { border-color: var(--gold); }
 
 .match-meta { display: flex; justify-content: space-between; margin-bottom: 1rem; font-size: 0.78rem; color: var(--muted); }
@@ -292,7 +292,7 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
 }
 .calc-btn:hover { background: var(--green-light); }
 .calc-btn.gold { background: var(--gold); }
-.calc-btn.gold:hover { background: #ffd740; }
+.calc-btn.gold:hover { background: #fcd34d; }
 
 .reset-btn {
   width: 100%; padding: 10px;
@@ -311,8 +311,8 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   padding: 11px 14px; cursor: pointer;
   background: var(--dark3); transition: background 0.15s; user-select: none;
 }
-.accord-header:hover { background: rgba(0,184,92,0.08); }
-.accord-header.open { background: rgba(0,184,92,0.1); border-bottom: 1px solid var(--border); }
+.accord-header:hover { background: rgba(74,222,128,0.06); }
+.accord-header.open { background: rgba(74,222,128,0.08); border-bottom: 1px solid var(--border); }
 .accord-header-left { display: flex; align-items: center; gap: 10px; }
 .accord-rnd { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--green); }
 .accord-rnd.gold { color: var(--gold); }
@@ -381,10 +381,10 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   font-family: 'Barlow Condensed', sans-serif;
 }
 .proj-row.changed { animation: highlight 1s ease; }
-@keyframes highlight { 0%{background:rgba(0,184,92,0.2)} 100%{background:var(--dark3)} }
+@keyframes highlight { 0%{background:rgba(74,222,128,0.15)} 100%{background:var(--dark3)} }
 .proj-row.q1,.proj-row.q2 { border-left-color: var(--green); }
 .proj-row.q3,.proj-row.q4 { border-left-color: var(--gold); }
-.proj-row.descent { border-left-color: var(--red); background: rgba(192,57,43,0.06); }
+.proj-row.descent { border-left-color: var(--red); background: rgba(248,113,113,0.05); }
 .proj-pos { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--muted); min-width: 22px; }
 .proj-name { flex: 1; font-weight: 600; font-size: 0.95rem; }
 .proj-pts-current { color: var(--muted); font-size: 0.85rem; }
@@ -433,7 +433,7 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   color: var(--dark); font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem; letter-spacing: 2px; border-radius: 6px; transition: background 0.2s;
 }
-.admin-save-btn:hover { background: #ffd740; }
+.admin-save-btn:hover { background: #fcd34d; }
 .admin-status { font-size: 0.82rem; text-align: center; min-height: 1.2rem; }
 .admin-login-box {
   max-width: 360px; margin: 3rem auto; background: var(--card);
@@ -473,9 +473,9 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
 .chat-bubble-wrap { max-width: 72%; }
 .chat-msg.own .chat-bubble-wrap { align-items: flex-end; display: flex; flex-direction: column; }
 .chat-nick { font-family: 'Barlow Condensed', sans-serif; font-size: 0.75rem; font-weight: 700; margin-bottom: 3px; color: var(--muted); }
-.chat-nick .team-tag { font-size: 0.68rem; color: var(--green); margin-left: 5px; background: rgba(0,184,92,0.12); padding: 1px 5px; border-radius: 3px; }
+.chat-nick .team-tag { font-size: 0.68rem; color: var(--green); margin-left: 5px; background: rgba(74,222,128,0.1); padding: 1px 5px; border-radius: 3px; }
 .chat-bubble { background: var(--dark3); border: 1px solid var(--border); border-radius: 0 10px 10px 10px; padding: 7px 11px; font-size: 0.88rem; line-height: 1.4; word-break: break-word; }
-.chat-msg.own .chat-bubble { background: rgba(0,184,92,0.15); border-color: rgba(0,184,92,0.3); border-radius: 10px 0 10px 10px; }
+.chat-msg.own .chat-bubble { background: rgba(74,222,128,0.12); border-color: rgba(74,222,128,0.25); border-radius: 10px 0 10px 10px; }
 .chat-time { font-size: 0.65rem; color: var(--muted); margin-top: 3px; }
 .chat-input-area { padding: 10px; border-top: 1px solid var(--border); background: var(--dark3); display: flex; gap: 8px; }
 .chat-input { flex: 1; background: var(--dark); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 8px 12px; font-family: 'Barlow', sans-serif; font-size: 0.9rem; outline: none; transition: border-color 0.2s; resize: none; max-height: 80px; }
@@ -526,18 +526,15 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   .admin-layout { grid-template-columns: 1fr; }
   .chat-layout { grid-template-columns: 1fr; height: auto; }
   nav button { padding: 8px 10px; font-size: 0.88rem; }
-  /* Calculadora sim buttons más grandes en tablet */
   .sim-row-btn { padding: 8px 12px; font-size: 0.85rem; }
   .sim-row-btns { gap: 6px; }
   .sim-btn { padding: 8px 14px; font-size: 0.85rem; }
   .sim-btns { gap: 6px; }
-  /* back-btn más fácil de tocar */
   .back-btn { padding: 8px 12px; }
   .sub-header { height: auto; padding: 6px 1rem; }
 }
 
 @media (max-width: 600px) {
-  /* Header: logo arriba, nav abajo scrollable */
   header {
     flex-direction: column;
     height: auto;
@@ -560,50 +557,42 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
   nav::-webkit-scrollbar { display: none; }
   nav button { flex-shrink: 0; padding: 7px 12px; font-size: 0.85rem; }
 
-  /* Compensa el header más alto en sticky */
   .sub-header { top: auto; }
 
   .page-title { font-size: 2.2rem; }
   .matches-grid { grid-template-columns: 1fr; }
 
-  /* Round selector: fila única scrollable */
   .round-selector { flex-wrap: nowrap; gap: 4px; }
   .round-btn { flex-shrink: 0; padding: 7px 11px; font-size: 0.8rem; }
 
-  /* Tablas: padding reducido */
   thead th, tbody td { padding: 8px 6px; font-size: 0.82rem; }
   thead th:first-child, tbody td:first-child { padding-left: 10px; }
   .team-name { font-size: 0.88rem; }
 
-  /* Sticky columnas en tabla mobile */
   .table-wrap { position: relative; }
   tbody td:first-child, thead th:first-child {
     position: sticky; left: 0;
     background: var(--dark3); z-index: 1;
   }
-  tbody tr:hover td:first-child { background: rgba(0,184,92,0.06); }
+  tbody tr:hover td:first-child { background: rgba(74,222,128,0.05); }
   tbody td:nth-child(2), thead th:nth-child(2) {
     position: sticky; left: 36px;
     background: var(--dark3); z-index: 1;
   }
-  tbody tr:hover td:nth-child(2) { background: rgba(0,184,92,0.06); }
+  tbody tr:hover td:nth-child(2) { background: rgba(74,222,128,0.05); }
 
-  /* Hero menos margen */
   .hero { margin-bottom: 1.5rem; }
   .hero-brand { font-size: 3rem; }
 
-  /* Homepage links tap target */
   .home-section-link { padding: 7px 12px; }
 }
 
 @media (max-width: 480px) {
-  /* Sim rows top14: botones van abajo del partido */
   .sim-row { flex-wrap: wrap; gap: 6px; }
   .sim-row-team { min-width: 0; font-size: 0.82rem; }
   .sim-row-team.right { order: 1; }
   .sim-row-team:not(.right) { order: 2; }
   .sim-row-btns { order: 3; width: 100%; justify-content: center; }
-  /* Sim rows super-rugby: grid keeps 3 columns, just shrink text */
   .sim-team { font-size: 0.8rem; }
   .sim-btn { padding: 7px 10px; font-size: 0.78rem; min-width: 30px; }
 }
@@ -645,8 +634,9 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
 .match-status.lost     { color: var(--red); }
 .match-status.upcoming { color: var(--muted); }
 
-.match-card.pumas-win  { border-color: rgba(0,184,92,0.5); }
-.match-card.pumas-loss { border-color: rgba(192,57,43,0.4); }
+.match-card.pumas-win  { border-color: rgba(74,222,128,0.4); }
+.match-card.pumas-loss { border-color: rgba(248,113,113,0.3); }
+
 /* ── Formaciones link en match card ── */
 .match-formacion {
   text-align: center;
