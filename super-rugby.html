@@ -109,14 +109,14 @@
 </main>
 <script>
 const teams=[
-  {name:"Tarucas",pts:16,pj:5,g:4,e:0,p:1,pf:159,pc:110,bp:0,bf:0,form:['w','w','w','l','w']},
-  {name:"Dogos XV",pts:16,pj:5,g:4,e:0,p:1,pf:183,pc:100,bp:0,bf:0,form:['w','w','w','w','w']},
-  {name:"Pampas",pts:16,pj:5,g:4,e:0,p:1,pf:190,pc:120,bp:0,bf:0,form:['w','l','w','w','w']},
-  {name:"Capibaras XV",pts:12,pj:5,g:3,e:0,p:2,pf:155,pc:97,bp:0,bf:0,form:['w','w','l','w','l']},
-  {name:"Selknam",pts:8,pj:5,g:2,e:0,p:3,pf:151,pc:208,bp:0,bf:0,form:['l','w','w','l','w']},
-  {name:"Peñarol",pts:8,pj:5,g:2,e:0,p:3,pf:123,pc:164,bp:0,bf:0,form:['l','l','w','w','l']},
-  {name:"Cobras BR",pts:4,pj:5,g:1,e:0,p:4,pf:83,pc:183,bp:0,bf:0,form:['l','l','w','l','l']},
-  {name:"Yacare XV",pts:0,pj:5,g:0,e:0,p:5,pf:102,pc:164,bp:0,bf:0,form:['l','l','l','l','l']},
+  {name:"Dogos XV",pts:17,pj:5,g:4,e:0,p:1,pf:183,pc:104,bp:0,bf:1,form:['w','w','l','w','w']},
+  {name:"Pampas",pts:17,pj:5,g:4,e:0,p:1,pf:181,pc:114,bp:0,bf:1,form:['w','l','w','w','w']},
+  {name:"Tarucas",pts:16,pj:5,g:4,e:0,p:1,pf:148,pc:122,bp:0,bf:0,form:['w','w','w','l','w']},
+  {name:"Capibaras XV",pts:13,pj:5,g:3,e:0,p:2,pf:138,pc:83,bp:0,bf:1,form:['w','w','l','w','l']},
+  {name:"Selknam",pts:8,pj:5,g:2,e:0,p:3,pf:101,pc:198,bp:0,bf:0,form:['l','w','l','l','w']},
+  {name:"Peñarol",pts:8,pj:5,g:2,e:0,p:3,pf:125,pc:141,bp:0,bf:0,form:['l','l','w','w','l']},
+  {name:"Cobras BR",pts:5,pj:5,g:1,e:0,p:4,pf:91,pc:181,bp:0,bf:1,form:['l','l','w','l','l']},
+  {name:"Yacare XV",pts:4,pj:5,g:0,e:0,p:5,pf:102,pc:126,bp:0,bf:4,form:['l','l','l','l','l']},
 ];
 const matches={
   1:{date:"20-23/02/2026",ms:[{home:"Tarucas",away:"Selknam",hs:41,as:13,played:true},{home:"Yacare XV",away:"Pampas",hs:17,as:30,played:true},{home:"Capibaras XV",away:"Peñarol",hs:34,as:7,played:true},{home:"Dogos XV",away:"Cobras BR",hs:21,as:19,played:true}]},
@@ -358,20 +358,21 @@ function recalcStandings() {
       home.pj++; away.pj++;
       home.pf += m.hs; home.pc += m.as;
       away.pf += m.as; away.pc += m.hs;
-      if (m.hs > m.as) {
+      const diff = m.hs - m.as;
+      if (diff > 0) {
         home.g++; home.pts += 4; away.p++;
         home.form.push('w'); away.form.push('l');
-      } else if (m.hs < m.as) {
+        if (diff <= 7) { away.pts++; away.bf++; }
+      } else if (diff < 0) {
         away.g++; away.pts += 4; home.p++;
         away.form.push('w'); home.form.push('l');
+        if (Math.abs(diff) <= 7) { home.pts++; home.bf++; }
       } else {
         home.e++; away.e++; home.pts += 2; away.pts += 2;
         home.form.push('d'); away.form.push('d');
       }
       if (m.bp_home) { home.pts++; home.bp++; }
       if (m.bp_away) { away.pts++; away.bp++; }
-      if (m.bf_home) { home.pts++; home.bf++; }
-      if (m.bf_away) { away.pts++; away.bf++; }
     });
   });
   teams.forEach(t => { t.form = t.form.slice(-5); });

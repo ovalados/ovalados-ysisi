@@ -225,17 +225,18 @@ def recalc_standings(teams, matches):
                 continue
             hs, as_ = m["hs"], m["as"]
             h["pj"]+=1; a["pj"]+=1; h["pf"]+=hs; h["pc"]+=as_; a["pf"]+=as_; a["pc"]+=hs
-            if hs > as_:
+            diff = hs - as_
+            if diff > 0:
                 h["pts"]+=4; h["g"]+=1; a["p"]+=1; h["form"].append("w"); a["form"].append("l")
-            elif hs < as_:
+                if diff <= 7: a["pts"]+=1; a["bf"]+=1
+            elif diff < 0:
                 a["pts"]+=4; a["g"]+=1; h["p"]+=1; a["form"].append("w"); h["form"].append("l")
+                if abs(diff) <= 7: h["pts"]+=1; h["bf"]+=1
             else:
                 h["pts"]+=2; h["e"]+=1; a["pts"]+=2; a["e"]+=1
                 h["form"].append("d"); a["form"].append("d")
             if m.get("bp_home"): h["pts"]+=1; h["bp"]+=1
             if m.get("bp_away"): a["pts"]+=1; a["bp"]+=1
-            if m.get("bf_home"): h["pts"]+=1; h["bf"]+=1
-            if m.get("bf_away"): a["pts"]+=1; a["bf"]+=1
             h["form"]=h["form"][-5:]; a["form"]=a["form"][-5:]
     return teams
 
