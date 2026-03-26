@@ -2,16 +2,22 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 0,
-      "pj": 0,
+      "pts": 24,
+      "pj": 12,
       "g": 0,
-      "e": 0,
+      "e": 12,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ]
     },
     {
       "name": "Argentino C",
@@ -63,17 +69,18 @@
     },
     {
       "name": "San Martin D",
-      "pts": 1,
-      "pj": 1,
+      "pts": 3,
+      "pj": 2,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 21,
       "pc": 28,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -126,17 +133,18 @@
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 0,
-      "pj": 1,
+      "pts": 2,
+      "pj": 2,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 15,
       "pc": 31,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "d"
       ]
     }
   ],
@@ -1216,7 +1224,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-25T23:54:16.968404+00:00",
+  "lastUpdate": "2026-03-26T05:52:26.634870+00:00",
   "matchesScraped": 14,
   "championshipId": "2025204",
   "nombre": "1B Pre-Inter C"
