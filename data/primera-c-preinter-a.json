@@ -178,14 +178,14 @@
     },
     {
       "name": "Los Molinos",
-      "pts": 5,
+      "pts": 6,
       "pj": 2,
       "g": 1,
       "e": 0,
       "p": 1,
       "pf": 48,
       "pc": 35,
-      "bp": 0,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
@@ -339,7 +339,8 @@
           "away": "Lujan",
           "played": true,
           "hs": 31,
-          "as": 14
+          "as": 14,
+          "bp_home": true
         }
       ]
     },
@@ -1304,7 +1305,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-27T19:52:36.640741+00:00",
+  "lastUpdate": "2026-03-27T21:53:15.442683+00:00",
   "matchesScraped": 14,
   "championshipId": "2025195",
   "nombre": "1C Pre-Inter A"
