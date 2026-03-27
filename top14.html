@@ -155,6 +155,7 @@
     <button class="active" onclick="go('posiciones',this)">Posiciones</button>
     <button onclick="go('partidos',this)">Partidos</button>
     <button onclick="go('locvis',this)">Local/Visit.</button>
+    <button onclick="go('goleadores',this)">Goleadores</button>
     <button onclick="go('calculadora',this)">Calculadora</button>
   </nav>
 </header>
@@ -245,6 +246,24 @@
         </table></div>
       </div>
     </div>
+  </section>
+
+  <section id="goleadores" class="section">
+    <div class="page-title">GOLEADORES</div>
+    <div class="page-subtitle">URBA Top 14 · División Superior 2026</div>
+    <div class="table-wrap"><table>
+      <thead><tr>
+        <th style="width:32px">#</th>
+        <th style="text-align:left">Jugador</th>
+        <th style="text-align:left">Club</th>
+        <th title="Puntos totales">PT</th>
+        <th title="Ensayos">E</th>
+        <th title="Conversiones">C</th>
+        <th title="Penales">PG</th>
+        <th title="Drops">DG</th>
+      </tr></thead>
+      <tbody id="goleadores-body"></tbody>
+    </table></div>
   </section>
 
   <section id="calculadora" class="section">
@@ -381,6 +400,34 @@ function closeFormacionModal(event) {
   document.body.style.overflow = '';
 }
 
+const scorers = [
+  {name:"Manuel Nogués",          club:"Atlético del Rosario", pt:33, e:0, c:3,  pg:7, dg:2},
+  {name:"Gonzalo Gutiérrez Taboada", club:"Newman",            pt:29, e:0, c:7,  pg:5, dg:0},
+  {name:"Gonzalo Costaguta",      club:"Champagnat",           pt:25, e:1, c:4,  pg:4, dg:0},
+  {name:"Rafael Benedit",         club:"CUBA",                 pt:23, e:0, c:1,  pg:7, dg:0},
+  {name:"Juan F. Akemeier",       club:"CASI",                 pt:22, e:0, c:5,  pg:4, dg:0},
+  {name:"Santino Di Lucca",       club:"La Plata",             pt:22, e:0, c:2,  pg:6, dg:0},
+  {name:"Agustín Sascaro",        club:"SIC",                  pt:21, e:0, c:6,  pg:3, dg:0},
+  {name:"Juan I. Landó",          club:"Belgrano Athletic",    pt:20, e:1, c:3,  pg:3, dg:0},
+  {name:"Fermín Ormaechea",       club:"Hindu",                pt:20, e:0, c:7,  pg:2, dg:0},
+  {name:"Beltrán Landívar",       club:"Regatas Bella Vista",  pt:20, e:4, c:0,  pg:0, dg:0},
+  {name:"Bautista Santamarina",   club:"Los Tilos",            pt:18, e:0, c:0,  pg:6, dg:0},
+  {name:"Bautista Canzani",       club:"Alumni",               pt:17, e:0, c:4,  pg:3, dg:0},
+];
+
+function renderScorers() {
+  document.getElementById('goleadores-body').innerHTML = scorers.map((s, i) => `<tr>
+    <td><span class="pos-num">${i+1}</span></td>
+    <td style="text-align:left;font-weight:600;padding-left:4px">${s.name}</td>
+    <td style="text-align:left;color:var(--muted);font-size:0.85rem;padding-left:4px">${s.club}</td>
+    <td style="color:var(--green);font-weight:700">${s.pt}</td>
+    <td>${s.e}</td>
+    <td>${s.c}</td>
+    <td>${s.pg}</td>
+    <td>${s.dg}</td>
+  </tr>`).join('');
+}
+
 function go(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('#main-nav button').forEach(b => b.classList.remove('active'));
@@ -389,6 +436,7 @@ function go(id, btn) {
   if (id === 'partidos')    renderMatches(currentRound);
   if (id === 'calculadora') renderCalc();
   if (id === 'locvis')      renderLocVis();
+  if (id === 'goleadores')  renderScorers();
 }
 
 function renderStandings() {
