@@ -951,7 +951,7 @@ const PARTIDOS = {
     },
 
     // ── FECHA 3 ────────────────────────────────────────────────
-        alumni_belgrano: {
+        alumni_belgrano_athletic: {
       local: {
         nombre: "Alumni",
         jugadores: [
@@ -1037,7 +1037,7 @@ const PARTIDOS = {
       }
     },
 
-    regatas_los_tilos: {
+    regatas_bella_vista_los_tilos: {
       local: {
         nombre: "Regatas",
         jugadores: [
@@ -1166,7 +1166,7 @@ const PARTIDOS = {
       }
     },
 
-    champagnat_buenos_aires: {
+    champagnat_buenos_aires_c_rc: {
       local: {
         nombre: "Champagnat",
         jugadores: [
@@ -1287,7 +1287,7 @@ const PARTIDOS = {
     },
 
     // ── FECHA 3 ────────────────────────────────────────────────
-        alumni_belgrano: {
+        alumni_belgrano_athletic: {
       local: {
         nombre: "Alumni",
         jugadores: [
@@ -1373,7 +1373,7 @@ const PARTIDOS = {
       }
     },
 
-    regatas_los_tilos: {
+    regatas_bella_vista_los_tilos: {
       local: {
         nombre: "Regatas",
         jugadores: [
@@ -1502,7 +1502,7 @@ const PARTIDOS = {
       }
     },
 
-    champagnat_buenos_aires: {
+    champagnat_buenos_aires_c_rc: {
       local: {
         nombre: "Champagnat",
         jugadores: [
@@ -1623,7 +1623,7 @@ const PARTIDOS = {
     },
 
     // ── FECHA 3 ────────────────────────────────────────────────
-        alumni_b_belgrano_b: {
+        alumni_b_belgrano_athletic_b: {
       local: {
         nombre: "Alumni",
         jugadores: [
@@ -1709,7 +1709,7 @@ const PARTIDOS = {
       }
     },
 
-    regatas_b_los_tilos_b: {
+    regatas_bella_vista_b_los_tilos_b: {
       local: {
         nombre: "Regatas",
         jugadores: [
@@ -1838,7 +1838,7 @@ const PARTIDOS = {
       }
     },
 
-    champagnat_b_buenos_aires_b: {
+    champagnat_b_buenos_aires_c_rc_b: {
       local: {
         nombre: "Champagnat",
         jugadores: [
@@ -1959,7 +1959,7 @@ const PARTIDOS = {
     },
 
     // ── FECHA 3 ────────────────────────────────────────────────
-        alumni_c_belgrano_c: {
+        alumni_c_belgrano_athletic_c: {
       local: {
         nombre: "Alumni",
         jugadores: [
@@ -2045,7 +2045,7 @@ const PARTIDOS = {
       }
     },
 
-    regatas_c_los_tilos_c: {
+    regatas_bella_vista_c_los_tilos_c: {
       local: {
         nombre: "Regatas",
         jugadores: [
@@ -2174,7 +2174,7 @@ const PARTIDOS = {
       }
     },
 
-    champagnat_c_buenos_aires_c: {
+    champagnat_c_buenos_aires_c_rc_c: {
       local: {
         nombre: "Champagnat",
         jugadores: [
