@@ -21,42 +21,44 @@
     },
     {
       "name": "Argentino C",
-      "pts": 4,
-      "pj": 2,
+      "pts": 5,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 40,
-      "pc": 37,
+      "p": 2,
+      "pf": 55,
+      "pc": 55,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Don Bosco C",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 27,
-      "pc": 78,
+      "p": 3,
+      "pf": 39,
+      "pc": 107,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "San Martin C",
-      "pts": 10,
-      "pj": 2,
+      "pts": 12,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 70,
       "pc": 36,
@@ -64,15 +66,16 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "San Martin D",
-      "pts": 3,
-      "pj": 2,
+      "pts": 5,
+      "pj": 3,
       "g": 0,
-      "e": 1,
+      "e": 2,
       "p": 1,
       "pf": 21,
       "pc": 28,
@@ -80,38 +83,41 @@
       "bf": 1,
       "form": [
         "l",
+        "d",
         "d"
       ]
     },
     {
       "name": "Mariano Moreno C",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 42,
-      "pc": 43,
+      "pf": 71,
+      "pc": 55,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Manuel Belgrano C",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 81,
-      "pc": 63,
+      "pf": 99,
+      "pc": 78,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
@@ -299,17 +305,24 @@
         {
           "home": "Argentino C",
           "away": "Manuel Belgrano C",
-          "played": false
+          "played": true,
+          "hs": 15,
+          "as": 18,
+          "bf_home": true
         },
         {
           "home": "Don Bosco C",
           "away": "Mariano Moreno C",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 29
         },
         {
           "home": "San Martin C",
           "away": "San Martin D",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -1234,8 +1247,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T21:57:30.653105+00:00",
-  "matchesScraped": 18,
+  "lastUpdate": "2026-03-28T23:02:53.789870+00:00",
+  "matchesScraped": 21,
   "championshipId": "2025204",
   "nombre": "1B Pre-Inter C"
 }
