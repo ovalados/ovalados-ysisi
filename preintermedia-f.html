@@ -175,6 +175,32 @@ let teams = [];
 let matches = {};
 let currentRound = 1;
 
+
+function openFormacionModal(torneo, partidoId, home, away, score) {
+  if (typeof PARTIDOS === 'undefined' || !PARTIDOS[torneo] || !PARTIDOS[torneo][partidoId]) return;
+  const p = PARTIDOS[torneo][partidoId];
+  document.getElementById('formacion-modal-title').textContent = home + ' vs ' + away;
+  document.getElementById('formacion-modal-score').textContent = score || '';
+  const mkTeam = (t) => {
+    const jug = (t.jugadores||[]).map(j => `<div class="formacion-jugador">${j}</div>`).join('');
+    const cam = (t.cambios||[]).length
+      ? `<div style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid var(--border)">
+           <div style="font-size:0.7rem;letter-spacing:1px;color:var(--muted);margin-bottom:0.4rem">CAMBIOS</div>
+           ${t.cambios.map(c=>`<div class="formacion-jugador" style="color:var(--muted);font-size:0.82rem">↔ ${c}</div>`).join('')}
+         </div>` : '';
+    return `<div><div class="formacion-team-title">${t.nombre}</div>${jug}${cam}</div>`;
+  };
+  document.getElementById('formacion-modal-body').innerHTML = mkTeam(p.local) + mkTeam(p.visitante);
+  document.getElementById('formacion-modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeFormacionModal(event) {
+  if (event && event.target !== document.getElementById('formacion-modal-overlay')) return;
+  document.getElementById('formacion-modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 function go(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('#main-nav button').forEach(b => b.classList.remove('active'));
