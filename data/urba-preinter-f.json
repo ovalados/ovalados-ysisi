@@ -34,10 +34,10 @@
     },
     {
       "name": "Champagnat F",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 37,
       "pc": 43,
@@ -45,7 +45,8 @@
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -114,16 +115,17 @@
     },
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 2,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d"
       ]
@@ -365,7 +367,9 @@
         {
           "home": "Champagnat F",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Alumni F",
@@ -1300,8 +1304,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T14:03:52.092695+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-03-28T15:53:33.850004+00:00",
+  "matchesScraped": 15,
   "championshipId": "2025201",
   "nombre": "Pre-Inter F"
 }
