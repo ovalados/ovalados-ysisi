@@ -325,12 +325,16 @@
         {
           "home": "Tarucas",
           "away": "Cobras BR",
-          "played": false
+          "played": true,
+          "hs": 52,
+          "as": 22
         },
         {
           "home": "Peñarol",
           "away": "Yacare XV",
-          "played": false
+          "played": true,
+          "hs": 25,
+          "as": 24
         },
         {
           "home": "Selknam",
@@ -545,6 +549,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-27T23:46:44.145257+00:00",
-  "matchesScraped": 20
+  "lastUpdate": "2026-03-28T05:14:09.110965+00:00",
+  "matchesScraped": 22
 }
