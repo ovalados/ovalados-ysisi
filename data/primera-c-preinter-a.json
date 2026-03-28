@@ -66,14 +66,14 @@
     },
     {
       "name": "Lanus",
-      "pts": 9,
+      "pts": 10,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 82,
       "pc": 29,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -301,7 +301,8 @@
           "away": "Lanus",
           "played": true,
           "hs": 17,
-          "as": 30
+          "as": 30,
+          "bp_away": true
         },
         {
           "home": "Daom",
@@ -1305,7 +1306,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T14:04:08.000340+00:00",
+  "lastUpdate": "2026-03-28T15:53:50.461832+00:00",
   "matchesScraped": 14,
   "championshipId": "2025195",
   "nombre": "1C Pre-Inter A"
