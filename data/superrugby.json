@@ -339,7 +339,9 @@
         {
           "home": "Selknam",
           "away": "Pampas",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 34
         },
         {
           "home": "Dogos XV",
@@ -549,6 +551,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T19:46:59.106219+00:00",
-  "matchesScraped": 22
+  "lastUpdate": "2026-03-28T21:00:01.292855+00:00",
+  "matchesScraped": 23
 }
