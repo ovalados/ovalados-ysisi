@@ -162,10 +162,10 @@
     },
     {
       "name": "Los Tilos E",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 47,
       "pc": 14,
@@ -173,15 +173,16 @@
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d"
       ]
     },
     {
       "name": "CUBA F",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 72,
       "pc": 7,
@@ -189,21 +190,23 @@
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d"
       ]
     },
     {
       "name": "Bye",
-      "pts": 8,
-      "pj": 4,
+      "pts": 12,
+      "pj": 6,
       "g": 0,
-      "e": 4,
+      "e": 6,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d",
         "d",
@@ -334,12 +337,16 @@
         {
           "home": "Bye",
           "away": "CUBA F",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Los Tilos E",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "La Plata E",
@@ -1289,8 +1296,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T14:03:51.122174+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-03-28T15:53:32.760859+00:00",
+  "matchesScraped": 16,
   "championshipId": "2025200",
   "nombre": "Pre-Inter E"
 }
