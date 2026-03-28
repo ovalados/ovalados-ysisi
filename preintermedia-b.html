@@ -432,6 +432,27 @@ function calcularProyeccion() { renderProjected(); }
 function resetCalc() { Object.keys(simState).forEach(k=>delete simState[k]); renderCalc(); }
 
 
+function recalcFromMatches() {
+  const ti = {};
+  teams.forEach(t => {
+    if (t.name === 'Bye') return;
+    t.pts=0; t.pj=0; t.g=0; t.e=0; t.p=0; t.pf=0; t.pc=0; t.bp=0; t.bf=0; t.form=[];
+    ti[t.name] = t;
+  });
+  Object.values(matches).forEach(rd => (rd.ms||[]).forEach(m => {
+    if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
+    const h = ti[m.home], a = ti[m.away];
+    if (!h || !a) return;
+    h.pj++; a.pj++; h.pf+=m.hs; h.pc+=m.as; a.pf+=m.as; a.pc+=m.hs;
+    const d = m.hs - m.as;
+    if (d > 0)      { h.pts+=4; h.g++; a.p++; h.form.push('w'); a.form.push('l'); if(d<=7){a.pts++;a.bf++;} }
+    else if (d < 0) { a.pts+=4; a.g++; h.p++; a.form.push('w'); h.form.push('l'); if(-d<=7){h.pts++;h.bf++;} }
+    else            { h.pts+=2; h.e++; a.pts+=2; a.e++; h.form.push('d'); a.form.push('d'); }
+    if(m.bp_home){h.pts++;h.bp++;} if(m.bp_away){a.pts++;a.bp++;}
+  }));
+  teams.forEach(t => { if(t.form) t.form = t.form.slice(-5); });
+}
+
 function syncData() {
   fetch('data/urba-preinter-b.json?v=' + Date.now())
     .then(r => r.json())
@@ -439,6 +460,7 @@ function syncData() {
       if (!data) return;
       if (data.teams && data.teams.length) teams = data.teams;
       if (data.matches) matches = data.matches;
+      recalcFromMatches();
       renderStandings();
       if (document.getElementById('partidos')?.classList.contains('active')) renderMatches(currentRound);
       if (data.lastUpdate) {
