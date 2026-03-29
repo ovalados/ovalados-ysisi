@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Torneo de Planteles URBA 2026 — Ovalados</title>
+<meta name="description" content="Tabla del Torneo de Planteles URBA 2026. Puntos acumulados por club en Superior, Intermedia, Pre-A, Pre-B, Pre-C y Pre-D.">
+<link rel="canonical" href="https://ovalados.com/planteles.html">
+<meta property="og:title" content="Torneo de Planteles URBA 2026 — Ovalados">
+<meta property="og:description" content="Puntos acumulados por club en Superior, Intermedia, Pre-A, Pre-B, Pre-C y Pre-D.">
+<meta property="og:url" content="https://ovalados.com/planteles.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=21">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">OVALADOS</a>
+</header>
+
+<div class="sub-header" style="display:flex">
+  <a href="index.html" class="back-btn">← Torneos</a>
+  <span class="sub-label"><strong>TORNEO DE PLANTELES</strong> · URBA Top 14 · 2026</span>
+</div>
+
+<main>
+  <div class="page-title">TORNEO DE PLANTELES</div>
+  <div class="page-subtitle">Puntos acumulados por club · Superior + Intermedia + Pre-A + Pre-B + Pre-C + Pre-D · 2026</div>
+  <div class="table-wrap">
+    <table id="planteles-table">
+      <thead>
+        <tr>
+          <th style="width:40px">#</th>
+          <th style="text-align:left">CLUB</th>
+          <th>TOTAL</th>
+          <th>SUP</th>
+          <th>INT</th>
+          <th>PRE A</th>
+          <th>PRE B</th>
+          <th>PRE C</th>
+          <th>PRE D</th>
+        </tr>
+      </thead>
+      <tbody id="planteles-body">
+        <tr><td colspan="9" style="text-align:center;color:var(--muted);padding:2rem">Cargando...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<script>
+function loadPlanteles() {
+  const tbody = document.getElementById('planteles-body');
+  const divs = [
+    { key:'sup',  url:'data/urba.json',             sfx:null },
+    { key:'int',  url:'data/urba-intermedia.json',   sfx:null },
+    { key:'prea', url:'data/urba-preinter-a.json',   sfx:null },
+    { key:'preb', url:'data/urba-preinter-b.json',   sfx:' B' },
+    { key:'prec', url:'data/urba-preinter-c.json',   sfx:' C' },
+    { key:'pred', url:'data/urba-preinter-d.json',   sfx:' D' },
+  ];
+  Promise.all(divs.map(d =>
+    fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
+  )).then(results => {
+    const supTeams = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
+    const tally = {};
+    supTeams.forEach(c => tally[c] = { sup:0, int:0, prea:0, preb:0, prec:0, pred:0 });
+    divs.forEach((d, i) => {
+      const data = results[i];
+      const pts = {};
+      (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
+      Object.values(data.matches || {}).forEach(rd => {
+        (rd.ms || []).forEach(m => {
+          if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
+          if (!(m.home in pts) || !(m.away in pts)) return;
+          const diff = m.hs - m.as;
+          if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
+          else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
+          else               { pts[m.home] += 2; pts[m.away] += 2; }
+          if (m.bp_home) pts[m.home]++;
+          if (m.bp_away) pts[m.away]++;
+        });
+      });
+      Object.entries(pts).forEach(([name, p]) => {
+        const base = d.sfx && name.endsWith(d.sfx) ? name.slice(0, -d.sfx.length).trim() : name;
+        if (tally[base]) tally[base][d.key] += p;
+      });
+    });
+    const rows = supTeams.map(c => {
+      const t = tally[c];
+      return { club:c, sup:t.sup, int:t.int, prea:t.prea, preb:t.preb, prec:t.prec, pred:t.pred,
+               total: t.sup+t.int+t.prea+t.preb+t.prec+t.pred };
+    }).sort((a,b) => b.total - a.total);
+    tbody.innerHTML = rows.map((r,i) => `<tr>
+      <td><span class="pos-num">${i+1}</span></td>
+      <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
+      <td style="color:var(--green);font-weight:700">${r.total}</td>
+      <td>${r.sup}</td><td>${r.int}</td><td>${r.prea}</td>
+      <td>${r.preb}</td><td>${r.prec}</td><td>${r.pred}</td>
+    </tr>`).join('');
+  }).catch(() => {
+    tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:var(--muted)">Error al cargar datos</td></tr>';
+  });
+}
+
+loadPlanteles();
+</script>
+
+</body>
+</html>
