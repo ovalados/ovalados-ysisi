@@ -157,7 +157,6 @@
     <button onclick="go('locvis',this)">Local/Visit.</button>
     <button onclick="go('goleadores',this)">Goleadores</button>
     <button onclick="go('calculadora',this)">Calculadora</button>
-    <button onclick="go('planteles',this)">Planteles</button>
   </nav>
 </header>
 
@@ -166,6 +165,9 @@
   <span class="sub-label"><strong>URBA TOP 14</strong> · División Superior 2026
     <span id="last-update" style="font-size:0.75rem;color:var(--muted);margin-left:12px"></span>
   </span>
+</div>
+<div style="padding:0 1rem 0.5rem;background:var(--dark2)">
+  <button id="btn-planteles" onclick="go('planteles',this)" style="width:100%;padding:0.6rem 1rem;background:rgba(0,184,92,0.08);border:1px solid rgba(0,184,92,0.25);border-radius:6px;color:var(--green);font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;font-weight:600;letter-spacing:1px;cursor:pointer;transition:background 0.15s;text-transform:uppercase">🏆 Torneo de Planteles</button>
 </div>
 
 <!-- MODAL PERFIL DE CLUB -->
@@ -453,8 +455,14 @@ function renderScorers() {
 function go(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('#main-nav button').forEach(b => b.classList.remove('active'));
+  const pb = document.getElementById('btn-planteles');
+  if (pb) { pb.style.background = ''; pb.style.borderColor = ''; }
   document.getElementById(id).classList.add('active');
-  if (btn) btn.classList.add('active');
+  if (id === 'planteles' && pb) {
+    pb.style.background = 'rgba(0,184,92,0.22)';
+    pb.style.borderColor = 'rgba(0,184,92,0.6)';
+  }
+  if (btn && btn !== pb) btn.classList.add('active');
   if (id === 'partidos')    renderMatches(currentRound);
   if (id === 'calculadora') renderCalc();
   if (id === 'locvis')      renderLocVis();
