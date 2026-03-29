@@ -53,19 +53,19 @@
     },
     {
       "name": "Don Bosco",
-      "pts": 5,
+      "pts": 0,
       "pj": 3,
-      "g": 1,
+      "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 70,
-      "pc": 70,
-      "bp": 1,
+      "p": 3,
+      "pf": 39,
+      "pc": 101,
+      "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "l",
-        "w"
+        "l"
       ]
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "name": "Mariano Moreno",
-      "pts": 4,
+      "pts": 9,
       "pj": 3,
-      "g": 1,
+      "g": 2,
       "e": 0,
-      "p": 2,
-      "pf": 57,
-      "pc": 93,
-      "bp": 0,
+      "p": 1,
+      "pf": 88,
+      "pc": 62,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "l",
-        "l"
+        "w"
       ]
     },
     {
@@ -401,9 +401,9 @@
           "home": "Don Bosco",
           "away": "Mariano Moreno",
           "played": true,
-          "hs": 48,
-          "as": 17,
-          "bp_home": true
+          "hs": 17,
+          "as": 48,
+          "bp_away": true
         },
         {
           "home": "San Martin",
@@ -1335,7 +1335,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-28T23:02:49.961064+00:00",
+  "lastUpdate": "2026-03-29T00:02:24.268539+00:00",
   "matchesScraped": 21,
   "championshipId": "2025190",
   "nombre": "1B Intermedia"
