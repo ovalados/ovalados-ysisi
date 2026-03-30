@@ -53,14 +53,14 @@
     },
     {
       "name": "Alumni B",
-      "pts": 9,
+      "pts": 10,
       "pj": 3,
       "g": 2,
       "e": 0,
       "p": 1,
       "pf": 80,
       "pc": 54,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "l",
@@ -405,7 +405,8 @@
           "away": "Belgrano Athletic B",
           "played": true,
           "hs": 27,
-          "as": 15
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "Newman B",
@@ -1338,7 +1339,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-30T14:53:22.616061+00:00",
+  "lastUpdate": "2026-03-30T18:06:57.274494+00:00",
   "matchesScraped": 21,
   "championshipId": "2025186",
   "nombre": "Pre-Inter B"
