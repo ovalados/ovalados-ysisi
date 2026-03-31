@@ -346,7 +346,9 @@
         {
           "home": "Dogos XV",
           "away": "Capibaras XV",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 24
         }
       ]
     },
@@ -551,6 +553,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-30T23:54:37.271027+00:00",
-  "matchesScraped": 23
+  "lastUpdate": "2026-03-31T05:56:56.401338+00:00",
+  "matchesScraped": 24
 }
