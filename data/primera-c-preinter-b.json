@@ -38,19 +38,19 @@
     },
     {
       "name": "Tigre",
-      "pts": 6,
+      "pts": 4,
       "pj": 3,
       "g": 0,
-      "e": 3,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "e": 2,
+      "p": 1,
+      "pf": 14,
+      "pc": 35,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
         "d",
-        "d"
+        "l"
       ]
     },
     {
@@ -89,19 +89,19 @@
     },
     {
       "name": "San Carlos B",
-      "pts": 11,
+      "pts": 14,
       "pj": 3,
-      "g": 2,
-      "e": 1,
+      "g": 3,
+      "e": 0,
       "p": 0,
-      "pf": 76,
-      "pc": 35,
-      "bp": 1,
+      "pf": 111,
+      "pc": 49,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "w",
-        "d"
+        "w"
       ]
     },
     {
@@ -350,8 +350,9 @@
           "home": "Tigre",
           "away": "San Carlos B",
           "played": true,
-          "hs": 0,
-          "as": 0
+          "hs": 14,
+          "as": 35,
+          "bp_away": true
         },
         {
           "home": "Lanus B",
@@ -1284,7 +1285,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-03-31T23:51:59.041022+00:00",
+  "lastUpdate": "2026-04-01T06:14:34.302116+00:00",
   "matchesScraped": 21,
   "championshipId": "2025205",
   "nombre": "1C Pre-Inter B"
