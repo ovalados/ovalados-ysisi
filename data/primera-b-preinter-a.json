@@ -59,7 +59,7 @@
       "e": 0,
       "p": 3,
       "pf": 28,
-      "pc": 113,
+      "pc": 108,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -109,7 +109,7 @@
       "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 107,
+      "pf": 102,
       "pc": 65,
       "bp": 1,
       "bf": 0,
@@ -407,7 +407,7 @@
           "away": "Mariano Moreno",
           "played": true,
           "hs": 12,
-          "as": 59,
+          "as": 54,
           "bp_away": true
         },
         {
@@ -1341,7 +1341,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-01T23:52:42.758584+00:00",
+  "lastUpdate": "2026-04-02T05:52:21.025230+00:00",
   "matchesScraped": 21,
   "championshipId": "2025191",
   "nombre": "1B Pre-Inter A"
