@@ -91,7 +91,6 @@
 .team-name-clickable { cursor: pointer; transition: color 0.15s; }
 .team-name-clickable:hover { color: var(--green); }
 .plantel-block { margin-bottom: 0.5rem; }
-.plantel-group-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin: 0.75rem 0 0.3rem; padding-bottom: 3px; border-bottom: 1px solid var(--border); }
 .plantel-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
 .plantel-num { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--green); min-width: 22px; text-align: center; }
 .plantel-name { font-family: 'Barlow Condensed', sans-serif; font-size: 0.92rem; color: var(--text); }
@@ -377,39 +376,28 @@ function openClubModal(teamName) {
   }
   document.getElementById('modal-club-partidos').innerHTML = html;
 
-  // Plantel from formation data
+  // Plantel: todos los que jugaron (titulares + cambios), de todas las fechas
   const makeId = str => str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
   const teamId = makeId(teamName);
   let plantelHtml = '';
   if (typeof PARTIDOS !== 'undefined' && PARTIDOS['top14']) {
-    const byPos = {}, noPos = new Set();
+    const byPos = {};
     Object.values(PARTIDOS['top14']).forEach(partido => {
       ['local','visitante'].forEach(side => {
         const team = partido[side];
         if (!team || makeId(team.nombre) !== teamId) return;
-        (team.jugadores||[]).concat(team.cambios||[]).forEach(j => {
+        [...(team.jugadores||[]), ...(team.cambios||[])].forEach(j => {
           const m = j.match(/^(\d+)\.\s*(.+)/);
-          if (m) byPos[parseInt(m[1])] = m[2].trim(); else noPos.add(j);
+          if (m) byPos[parseInt(m[1])] = m[2].trim();
         });
       });
     });
     const posKeys = Object.keys(byPos).map(Number).sort((a,b)=>a-b);
-    if (posKeys.length || noPos.size) {
-      const GRUPOS = [
-        { label:'Delanteros', range:[1,8] },
-        { label:'Medios scrum', range:[9,10] },
-        { label:'Backs', range:[11,15] },
-        { label:'Banco', range:[16,99] },
-      ];
-      let rows = '';
-      GRUPOS.forEach(g => {
-        const inG = posKeys.filter(p=>p>=g.range[0]&&p<=g.range[1]);
-        if (!inG.length) return;
-        rows += `<div class="plantel-group-label">${g.label}</div>`;
-        inG.forEach(p => { rows += `<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${byPos[p]}</span></div>`; });
-      });
-      if (noPos.size) { rows += `<div class="plantel-group-label">Otros</div>`; [...noPos].forEach(j=>{rows+=`<div class="plantel-row"><span class="plantel-name">${j}</span></div>`;}); }
-      plantelHtml = `<div class="club-section-title">👥 Plantel</div><div class="plantel-block">${rows}</div>`;
+    if (posKeys.length) {
+      const rows = posKeys.map(p =>
+        `<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${byPos[p]}</span></div>`
+      ).join('');
+      plantelHtml = `<div class="club-section-title">👥 Plantel ${new Date().getFullYear()}</div><div class="plantel-block">${rows}</div>`;
     }
   }
   document.getElementById('modal-club-plantel').innerHTML = plantelHtml;
