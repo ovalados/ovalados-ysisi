@@ -90,6 +90,8 @@
 .club-result-d { color: var(--gold); font-weight: 700; }
 .team-name-clickable { cursor: pointer; transition: color 0.15s; }
 .team-name-clickable:hover { color: var(--green); }
+.plantel-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem; margin-bottom: 0.5rem; }
+.plantel-jugador { font-family: 'Barlow Condensed', sans-serif; font-size: 0.88rem; padding: 0.2rem 0; color: var(--text); border-bottom: 1px solid rgba(255,255,255,0.04); }
 
 /* ── MODAL FORMACIONES ────────────────────────────────── */
 .formacion-modal-overlay {
@@ -175,6 +177,7 @@
       <button class="club-modal-close" onclick="closeClubModal()">✕</button>
     </div>
     <div class="club-info-grid" id="modal-club-info"></div>
+    <div id="modal-club-plantel"></div>
     <div id="modal-club-partidos"></div>
   </div>
 </div>
@@ -370,6 +373,30 @@ function openClubModal(teamName) {
       <div class="club-match-row"><div class="club-match-teams">${p.condicion} vs <strong>${p.rival}</strong></div><div class="club-match-score upcoming">VS</div><div class="club-match-fecha">F${p.rnd}</div></div>`).join('');
   }
   document.getElementById('modal-club-partidos').innerHTML = html;
+
+  // Plantel from formation data
+  const makeId = str => str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+  const teamId = makeId(teamName);
+  let plantelHtml = '';
+  if (typeof PARTIDOS !== 'undefined' && PARTIDOS['top14']) {
+    const players = new Set();
+    Object.values(PARTIDOS['top14']).forEach(partido => {
+      if (partido.local && makeId(partido.local.nombre) === teamId) {
+        (partido.local.jugadores || []).forEach(j => players.add(j));
+        (partido.local.cambios || []).forEach(j => players.add(j));
+      }
+      if (partido.visitante && makeId(partido.visitante.nombre) === teamId) {
+        (partido.visitante.jugadores || []).forEach(j => players.add(j));
+        (partido.visitante.cambios || []).forEach(j => players.add(j));
+      }
+    });
+    if (players.size) {
+      const sorted = [...players].sort((a,b) => { const na=parseInt(a),nb=parseInt(b); return (!isNaN(na)&&!isNaN(nb))?na-nb:a.localeCompare(b,'es'); });
+      plantelHtml = `<div class="club-section-title">👥 Plantel</div><div class="plantel-list">${sorted.map(p=>`<div class="plantel-jugador">${p}</div>`).join('')}</div>`;
+    }
+  }
+  document.getElementById('modal-club-plantel').innerHTML = plantelHtml;
+
   document.getElementById('club-modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }

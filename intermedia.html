@@ -18,6 +18,60 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css?v=21">
 <style>
+/* ── MODAL PERFIL DE CLUB ─────────────────────────────── */
+.club-modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75); z-index: 1000;
+  align-items: flex-end; justify-content: center;
+}
+.club-modal-overlay.open { display: flex; }
+.club-modal {
+  background: var(--dark2, #1a1a2e); border-radius: 16px 16px 0 0;
+  width: 100%; max-width: 600px; max-height: 85vh;
+  overflow-y: auto; padding: 1.5rem;
+  animation: slideUp 0.25s ease;
+}
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.club-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.club-modal-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem; letter-spacing: 3px; color: var(--green);
+}
+.club-modal-close {
+  background: none; border: none; color: var(--muted);
+  font-size: 1.5rem; cursor: pointer; padding: 4px 8px;
+}
+.club-modal-close:hover { color: var(--text); }
+.club-section-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700; font-size: 0.85rem; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--green);
+  margin: 1.25rem 0 0.75rem; padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.club-match-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.5rem 0; border-bottom: 1px solid var(--border);
+  font-family: 'Barlow Condensed', sans-serif; font-size: 0.9rem;
+}
+.club-match-row:last-child { border-bottom: none; }
+.club-match-teams { flex: 1; }
+.club-match-score {
+  font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem;
+  color: var(--green); min-width: 60px; text-align: center;
+}
+.club-match-score.upcoming { color: var(--muted); font-family: 'Barlow Condensed', sans-serif; font-size: 0.85rem; }
+.club-match-fecha { font-size: 0.75rem; color: var(--muted); min-width: 50px; text-align: right; }
+.club-result-w { color: var(--green); font-weight: 700; }
+.club-result-l { color: #c0392b; font-weight: 700; }
+.club-result-d { color: var(--gold); font-weight: 700; }
+.team-name-clickable { cursor: pointer; transition: color 0.15s; }
+.team-name-clickable:hover { color: var(--green); }
+.plantel-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem; margin-bottom: 0.5rem; }
+.plantel-jugador { font-family: 'Barlow Condensed', sans-serif; font-size: 0.88rem; padding: 0.2rem 0; color: var(--text); border-bottom: 1px solid rgba(255,255,255,0.04); }
 /* ── MODAL FORMACIONES ────────────────────────────────── */
 .formacion-modal-overlay {
   display: none; position: fixed; inset: 0;
@@ -66,6 +120,16 @@
   </span>
 </div>
 
+<!-- MODAL PERFIL DE CLUB -->
+<div class="club-modal-overlay" id="club-modal-overlay" onclick="closeClubModal(event)">
+  <div class="club-modal" id="club-modal">
+    <div class="club-modal-header">
+      <div class="club-modal-name" id="modal-club-name"></div>
+      <button class="club-modal-close" onclick="closeClubModal()">✕</button>
+    </div>
+    <div id="modal-club-content"></div>
+  </div>
+</div>
 <!-- MODAL FORMACIONES -->
 <div class="formacion-modal-overlay" id="formacion-modal-overlay" onclick="closeFormacionModal(event)">
   <div class="formacion-modal" id="formacion-modal">
@@ -199,7 +263,7 @@ function renderStandings() {
     const formDots = (t.form||[]).map(f => `<div class="dot ${f==='w'?'w':f==='l'?'l':'d'}"></div>`).join('');
     return `<tr class="pos-${pos}">
       <td><span class="pos-num">${allZero ? '—' : pos}</span></td>
-      <td><span class="team-name">${t.name}</span></td>
+      <td><span class="team-name team-name-clickable" onclick="openClubModal('${t.name}')">${t.name}</span></td>
       <td class="pts">${t.pts}</td><td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
       <td>${t.pf}</td><td>${t.pc}</td>
       <td style="color:${diff>0?'var(--green)':diff<0?'#c0392b':'var(--muted)'}">${diff>0?'+':''}${diff||0}</td>
@@ -460,7 +524,66 @@ function recalcFromMatches() {
   teams.forEach(t => { if(t.form) t.form = t.form.slice(-5); });
 }
 
-  function syncData() {
+  function openClubModal(teamName) {
+  const makeId = str => str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+  const teamId = makeId(teamName);
+  document.getElementById('modal-club-name').textContent = teamName;
+  let plantelHtml = '';
+  if (typeof PARTIDOS !== 'undefined' && PARTIDOS[PAGE_TORNEO]) {
+    const players = new Set();
+    Object.values(PARTIDOS[PAGE_TORNEO]).forEach(partido => {
+      if (partido.local && makeId(partido.local.nombre) === teamId) {
+        (partido.local.jugadores || []).forEach(j => players.add(j));
+        (partido.local.cambios || []).forEach(j => players.add(j));
+      }
+      if (partido.visitante && makeId(partido.visitante.nombre) === teamId) {
+        (partido.visitante.jugadores || []).forEach(j => players.add(j));
+        (partido.visitante.cambios || []).forEach(j => players.add(j));
+      }
+    });
+    if (players.size) {
+      const sorted = [...players].sort((a,b) => { const na=parseInt(a),nb=parseInt(b); return (!isNaN(na)&&!isNaN(nb)) ? na-nb : a.localeCompare(b,'es'); });
+      plantelHtml = `<div class="club-section-title">👥 Plantel</div><div class="plantel-list">${sorted.map(p=>`<div class="plantel-jugador">${p}</div>`).join('')}</div>`;
+    }
+  }
+  const jugados = [], proximos = [];
+  Object.entries(matches).forEach(([rnd, rd]) => {
+    (rd.ms||[]).forEach(m => {
+      if (m.home !== teamName && m.away !== teamName) return;
+      const rival = m.home === teamName ? m.away : m.home;
+      const condicion = m.home === teamName ? 'Local' : 'Visitante';
+      if (m.played) {
+        const pp = m.home===teamName?m.hs:m.as, pr = m.home===teamName?m.as:m.hs;
+        jugados.push({ rnd, rival, condicion, pp, pr, res: pp>pr?'w':pp<pr?'l':'d' });
+      } else {
+        proximos.push({ rnd, rival, condicion });
+      }
+    });
+  });
+  let html = plantelHtml;
+  if (jugados.length) {
+    html += `<div class="club-section-title">⚽ Partidos Jugados</div>`;
+    html += jugados.slice(-5).reverse().map(p => {
+      const r = p.res==='w'?`<span class="club-result-w">G</span>`:p.res==='l'?`<span class="club-result-l">P</span>`:`<span class="club-result-d">E</span>`;
+      return `<div class="club-match-row"><div class="club-match-teams">${r} ${p.condicion} vs <strong>${p.rival}</strong></div><div class="club-match-score">${p.pp} — ${p.pr}</div><div class="club-match-fecha">F${p.rnd}</div></div>`;
+    }).join('');
+  }
+  if (proximos.length) {
+    html += `<div class="club-section-title">📅 Próximos</div>`;
+    html += proximos.slice(0,5).map(p=>`<div class="club-match-row"><div class="club-match-teams">${p.condicion} vs <strong>${p.rival}</strong></div><div class="club-match-score upcoming">VS</div><div class="club-match-fecha">F${p.rnd}</div></div>`).join('');
+  }
+  document.getElementById('modal-club-content').innerHTML = html;
+  document.getElementById('club-modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeClubModal(event) {
+  if (event && event.target !== document.getElementById('club-modal-overlay')) return;
+  document.getElementById('club-modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function syncData() {
   fetch('data/urba-intermedia.json?v=' + Date.now())
     .then(r => r.json())
     .then(data => {
