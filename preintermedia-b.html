@@ -71,8 +71,12 @@
 .club-result-d { color: var(--gold); font-weight: 700; }
 .team-name-clickable { cursor: pointer; transition: color 0.15s; }
 .team-name-clickable:hover { color: var(--green); }
-.plantel-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem; margin-bottom: 0.5rem; }
-.plantel-jugador { font-family: 'Barlow Condensed', sans-serif; font-size: 0.88rem; padding: 0.2rem 0; color: var(--text); border-bottom: 1px solid rgba(255,255,255,0.04); }
+.plantel-block { margin-bottom: 0.5rem; }
+.plantel-group-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin: 0.75rem 0 0.3rem; padding-bottom: 3px; border-bottom: 1px solid var(--border); }
+.plantel-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.plantel-num { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--green); min-width: 22px; text-align: center; }
+.plantel-name { font-family: 'Barlow Condensed', sans-serif; font-size: 0.92rem; color: var(--text); }
+
 /* ── MODAL FORMACIONES ────────────────────────────────── */
 .formacion-modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.75); z-index:1001; align-items:flex-end; justify-content:center; }
 .formacion-modal-overlay.open { display:flex; }
@@ -226,6 +230,7 @@
 
 <script>
 // Datos cargados dinámicamente desde el JSON
+const PAGE_TORNEO = 'preinter_b';
 let teams = [];
 let matches = {};
 let currentRound = 1;
@@ -521,24 +526,53 @@ function openClubModal(teamName) {
   const makeId = str => str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
   const teamId = makeId(teamName);
   document.getElementById('modal-club-name').textContent = teamName;
+
+  // Build plantel from all formation data for this team
   let plantelHtml = '';
   if (typeof PARTIDOS !== 'undefined' && PARTIDOS[PAGE_TORNEO]) {
-    const players = new Set();
+    const byPos = {}; // pos number -> player name (last seen)
+    const noPos = new Set();
     Object.values(PARTIDOS[PAGE_TORNEO]).forEach(partido => {
-      if (partido.local && makeId(partido.local.nombre) === teamId) {
-        (partido.local.jugadores || []).forEach(j => players.add(j));
-        (partido.local.cambios || []).forEach(j => players.add(j));
-      }
-      if (partido.visitante && makeId(partido.visitante.nombre) === teamId) {
-        (partido.visitante.jugadores || []).forEach(j => players.add(j));
-        (partido.visitante.cambios || []).forEach(j => players.add(j));
-      }
+      ['local','visitante'].forEach(side => {
+        const team = partido[side];
+        if (!team || makeId(team.nombre) !== teamId) return;
+        (team.jugadores || []).forEach(j => {
+          const m = j.match(/^(\d+)\.\s*(.+)/);
+          if (m) byPos[parseInt(m[1])] = m[2].trim();
+          else noPos.add(j);
+        });
+        (team.cambios || []).forEach(j => {
+          const m = j.match(/^(\d+)\.\s*(.+)/);
+          if (m) byPos[parseInt(m[1])] = m[2].trim();
+          else noPos.add(j);
+        });
+      });
     });
-    if (players.size) {
-      const sorted = [...players].sort((a,b) => { const na=parseInt(a),nb=parseInt(b); return (!isNaN(na)&&!isNaN(nb)) ? na-nb : a.localeCompare(b,'es'); });
-      plantelHtml = `<div class="club-section-title">👥 Plantel</div><div class="plantel-list">${sorted.map(p=>`<div class="plantel-jugador">${p}</div>`).join('')}</div>`;
+    const posKeys = Object.keys(byPos).map(Number).sort((a,b)=>a-b);
+    if (posKeys.length || noPos.size) {
+      const GRUPOS = [
+        { label: 'Delanteros', range: [1,8] },
+        { label: 'Medios scrum', range: [9,10] },
+        { label: 'Backs', range: [11,15] },
+        { label: 'Banco', range: [16,99] },
+      ];
+      let rows = '';
+      GRUPOS.forEach(g => {
+        const inGroup = posKeys.filter(p => p >= g.range[0] && p <= g.range[1]);
+        if (!inGroup.length) return;
+        rows += `<div class="plantel-group-label">${g.label}</div>`;
+        inGroup.forEach(p => {
+          rows += `<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${byPos[p]}</span></div>`;
+        });
+      });
+      if (noPos.size) {
+        rows += `<div class="plantel-group-label">Otros</div>`;
+        [...noPos].forEach(j => { rows += `<div class="plantel-row"><span class="plantel-name">${j}</span></div>`; });
+      }
+      plantelHtml = `<div class="club-section-title">👥 Plantel</div><div class="plantel-block">${rows}</div>`;
     }
   }
+
   const jugados = [], proximos = [];
   Object.entries(matches).forEach(([rnd, rd]) => {
     (rd.ms||[]).forEach(m => {
@@ -569,6 +603,7 @@ function openClubModal(teamName) {
   document.getElementById('club-modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
+
 
 function closeClubModal(event) {
   if (event && event.target !== document.getElementById('club-modal-overlay')) return;
