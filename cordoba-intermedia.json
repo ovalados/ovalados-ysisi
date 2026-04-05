@@ -1,0 +1,678 @@
+{
+  "teams": [
+    {
+      "name": "San Martin Villa Maria",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Córdoba Athletic Club",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Carlos Paz R.C.",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Palermo Bajo",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Universitario",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Tablada",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Uru Cure RC",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Jockey Villa María",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Tala R.C.",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Jockey Club Cba",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "14/03/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Universitario",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "21/03/2026",
+      "ms": [
+        {
+          "home": "Palermo Bajo",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Tala R.C.",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "11/04/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Palermo Bajo",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "18/04/2026",
+      "ms": [
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Jockey Villa María",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "09/05/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "16/05/2026",
+      "ms": [
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Uru Cure RC",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "06/06/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "13/06/2026",
+      "ms": [
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "La Tablada",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "20/06/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "San Martin Villa Maria",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "11/07/2026",
+      "ms": [
+        {
+          "home": "Tala R.C.",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Palermo Bajo",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "18/07/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Jockey Villa María",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "08/08/2026",
+      "ms": [
+        {
+          "home": "Jockey Villa María",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "22/08/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Uru Cure RC",
+          "played": false
+        }
+      ]
+    },
+    "14": {
+      "date": "29/08/2026",
+      "ms": [
+        {
+          "home": "Uru Cure RC",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        }
+      ]
+    },
+    "15": {
+      "date": "19/09/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Universitario",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "La Tablada",
+          "played": false
+        }
+      ]
+    },
+    "16": {
+      "date": "10/10/2026",
+      "ms": [
+        {
+          "home": "La Tablada",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Universitario",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Tala R.C.",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "San Martin Villa Maria",
+          "played": false
+        }
+      ]
+    },
+    "17": {
+      "date": "17/10/2026",
+      "ms": [
+        {
+          "home": "Jockey Club Cba",
+          "away": "San Martin Villa Maria",
+          "played": false
+        },
+        {
+          "home": "Tala R.C.",
+          "away": "Córdoba Athletic Club",
+          "played": false
+        },
+        {
+          "home": "Jockey Villa María",
+          "away": "Carlos Paz R.C.",
+          "played": false
+        },
+        {
+          "home": "Uru Cure RC",
+          "away": "Palermo Bajo",
+          "played": false
+        },
+        {
+          "home": "La Tablada",
+          "away": "Universitario",
+          "played": false
+        }
+      ]
+    },
+    "18": {
+      "date": "26/09/2026",
+      "ms": [
+        {
+          "home": "Universitario",
+          "away": "Jockey Club Cba",
+          "played": false
+        },
+        {
+          "home": "Palermo Bajo",
+          "away": "La Tablada",
+          "played": false
+        },
+        {
+          "home": "Carlos Paz R.C.",
+          "away": "Uru Cure RC",
+          "played": false
+        },
+        {
+          "home": "Córdoba Athletic Club",
+          "away": "Jockey Villa María",
+          "played": false
+        },
+        {
+          "home": "San Martin Villa Maria",
+          "away": "Tala R.C.",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": null,
+  "matchesScraped": 0
+}

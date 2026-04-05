@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Córdoba Pre-A 2026 — Fixture y Resultados | Ovalados</title>
+<meta name="description" content="Tabla de posiciones, fixture y resultados del Torneo Córdoba Pre-A 2026. Unión Cordobesa de Rugby.">
+<link rel="canonical" href="https://ovalados.com/cordoba-pre-a.html">
+<meta property="og:title" content="Córdoba Pre-A 2026 — Ovalados">
+<meta property="og:description" content="Posiciones y fixture del Córdoba Pre-A 2026.">
+<meta property="og:url" content="https://ovalados.com/cordoba-pre-a.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=21">
+<style>
+.formacion-modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75); z-index: 1001;
+  align-items: flex-end; justify-content: center;
+}
+.formacion-modal-overlay.open { display: flex; }
+.formacion-modal {
+  background: var(--dark2, #1a1a2e); border-radius: 16px 16px 0 0;
+  width: 100%; max-width: 700px; max-height: 88vh;
+  overflow-y: auto; padding: 1.5rem;
+  animation: slideUpF 0.25s ease;
+}
+@keyframes slideUpF { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.formacion-modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; }
+.formacion-modal-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 2px; color: var(--green); }
+.formacion-modal-close { background: none; border: none; color: var(--muted); font-size: 1.5rem; cursor: pointer; padding: 4px 8px; }
+.formacion-modal-close:hover { color: var(--text); }
+.formacion-modal-score { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: var(--text); text-align: center; margin-bottom: 1.25rem; }
+.formacion-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.formacion-equipo-titulo { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; color: var(--muted); text-transform: uppercase; margin-bottom: 0.5rem; }
+.formacion-jugador { font-family: 'Barlow', sans-serif; font-size: 0.9rem; color: var(--text); padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; }
+.formacion-num { color: var(--gold); font-weight: 700; min-width: 20px; }
+.match-formacion-btn { margin-top: 8px; width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text); font-family: 'Barlow Condensed', sans-serif; font-size: 0.85rem; letter-spacing: 1px; padding: 6px 12px; border-radius: 6px; cursor: pointer; }
+.match-formacion-btn:hover { background: rgba(255,255,255,0.1); }
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html" class="logo">OVALADOS</a>
+  <nav>
+    <button class="active" onclick="go('posiciones',this)">Posiciones</button>
+    <button onclick="go('partidos',this)">Partidos</button>
+    <button onclick="go('locvis',this)">Local/Vis</button>
+  </nav>
+</header>
+<div class="sub-header">
+  <a href="index.html" class="back-btn">← Torneos</a>
+  <span class="sub-label">🏉 CÓRDOBA PRE-A 2026</span>
+  <span id="last-update" style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;color:var(--muted);margin-left:auto"></span>
+</div>
+
+<div class="formacion-modal-overlay" id="formacionOverlay" onclick="closeFormacionModal()">
+  <div class="formacion-modal" onclick="event.stopPropagation()">
+    <div class="formacion-modal-header">
+      <div class="formacion-modal-title" id="formacion-modal-title"></div>
+      <button class="formacion-modal-close" onclick="closeFormacionModal()">✕</button>
+    </div>
+    <div class="formacion-modal-score" id="formacion-modal-score"></div>
+    <div class="formacion-grid" id="formacion-modal-body"></div>
+  </div>
+</div>
+
+<div id="tournament-urba" style="display:block">
+<main>
+
+  <section id="posiciones" class="section active">
+    <div class="page-title">TABLA DE POSICIONES</div>
+    <div class="page-subtitle">Córdoba Pre-A · Unión Cordobesa de Rugby · 2026</div>
+    <div class="table-wrap">
+      <table id="standings-table">
+        <thead>
+          <tr>
+            <th style="width:40px">#</th>
+            <th style="text-align:left">EQUIPO</th>
+            <th>PTS</th><th>PJ</th><th>G</th><th>E</th><th>P</th>
+            <th>PF</th><th>PC</th><th>+/-</th>
+            <th>BP</th><th>BF</th>
+            <th>FORMA</th>
+          </tr>
+        </thead>
+        <tbody id="standings-body"></tbody>
+      </table>
+    </div>
+    <div class="legend">
+      <div class="legend-item">BP = Bonus por 4+ tries</div>
+      <div class="legend-item">BF = Bonus perdiendo por ≤7</div>
+    </div>
+  </section>
+
+  <section id="partidos" class="section">
+    <div class="page-title">PARTIDOS</div>
+    <div class="page-subtitle">Fixture completo · Córdoba Pre-A 2026</div>
+    <div class="round-selector" id="round-selector"></div>
+    <div id="matches-container"></div>
+  </section>
+
+  <section id="locvis" class="section">
+    <div class="page-title">LOCAL / VISITANTE</div>
+    <div class="page-subtitle">Rendimiento según condición de juego · Córdoba Pre-A 2026</div>
+    <div class="locvis-grid">
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--green);margin-bottom:0.75rem;text-transform:uppercase">🏠 De Local</div>
+        <div class="table-wrap"><table>
+          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+          <tbody id="loc-body"></tbody>
+        </table></div>
+      </div>
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1rem;letter-spacing:2px;color:var(--gold);margin-bottom:0.75rem;text-transform:uppercase">✈️ De Visitante</div>
+        <div class="table-wrap"><table>
+          <thead><tr><th style="text-align:left;padding-left:12px">Equipo</th><th>PJ</th><th>G</th><th>P</th><th>PF</th><th>PC</th><th>PTS</th></tr></thead>
+          <tbody id="vis-body"></tbody>
+        </table></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<script>
+let teams = [];
+let matches = {};
+let currentRound = 1;
+
+const FIREBASE_URL = 'https://ovalados-6c645-default-rtdb.firebaseio.com/cordobaPreA';
+const DATA_FILE    = 'data/cordoba-pre-a.json';
+const TORNEO_KEY   = 'cordoba-pre-a';
+
+function go(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  if (btn) btn.classList.add('active');
+  if (id === 'partidos') renderMatches(currentRound);
+  if (id === 'locvis')   renderLocVis();
+}
+
+function renderStandings() {
+  const sorted = [...teams].sort((a, b) =>
+    (b.pts - a.pts) || (b.g - a.g) || ((b.pf - b.pc) - (a.pf - a.pc))
+  );
+  document.getElementById('standings-body').innerHTML = sorted.map((t, i) => {
+    const diff = t.pf - t.pc;
+    const formDots = (t.form || []).slice(-5).map(r =>
+      `<span class="dot ${r === 'W' ? 'win' : r === 'L' ? 'loss' : 'draw'}"></span>`
+    ).join('');
+    return `<tr>
+      <td style="color:var(--muted)">${i + 1}</td>
+      <td style="text-align:left;padding-left:8px;font-weight:600">${t.name}</td>
+      <td style="color:var(--gold);font-weight:700">${t.pts}</td>
+      <td>${t.pj}</td><td>${t.g}</td><td>${t.e||0}</td><td>${t.p}</td>
+      <td>${t.pf}</td><td>${t.pc}</td>
+      <td style="color:${diff>=0?'var(--green)':'var(--red)'}">${diff >= 0 ? '+' : ''}${diff}</td>
+      <td style="color:var(--gold)">${t.bp || 0}</td><td>${t.bf || 0}</td>
+      <td><div class="form-dots">${formDots}</div></td>
+    </tr>`;
+  }).join('');
+}
+
+function renderMatches(round) {
+  if (!round) round = currentRound;
+  currentRound = round;
+  const keys = Object.keys(matches).sort((a, b) => +a - +b);
+  const sel = document.getElementById('round-selector');
+  if (sel) sel.innerHTML = keys.map(r =>
+    `<button class="round-btn ${+r === round ? 'active' : ''}" onclick="renderMatches(${r})">F${r}</button>`
+  ).join('');
+  const roundData = matches[round];
+  if (!roundData) return;
+  const container = document.getElementById('matches-container');
+  if (!container) return;
+  const dateStr = roundData.date;
+  const allMs = roundData.ms.filter(m => m.home !== 'Bye' && m.away !== 'Bye');
+  const played = allMs.filter(m => m.played);
+  const upcoming = allMs.filter(m => !m.played);
+  let html = '';
+  if (played.length) {
+    html += `<div class="round-title">Fecha ${round} · ${dateStr} · Resultados</div><div class="matches-grid">`;
+    html += played.map(m => matchCard(m, dateStr)).join('');
+    html += '</div>';
+  }
+  if (upcoming.length) {
+    html += `<div class="round-title">Fecha ${round} · ${dateStr} · Próximos</div><div class="matches-grid">`;
+    html += upcoming.map(m => matchCard(m, dateStr)).join('');
+    html += '</div>';
+  }
+  container.innerHTML = html;
+}
+
+function makeId(str) {
+  return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+}
+
+function matchCard(m, dateStr) {
+  const isPlayed = m.played && !m.live;
+  const isLive   = !!m.live;
+  const scoreBlock = isPlayed || isLive
+    ? `<div class="match-score">${m.hs} — ${m.as}</div>`
+    : `<div class="match-score upcoming">VS</div>`;
+  const partidoId = makeId(m.home) + '_' + makeId(m.away);
+  const tieneFormacion = typeof PARTIDOS !== 'undefined' && PARTIDOS[TORNEO_KEY] && PARTIDOS[TORNEO_KEY][partidoId];
+  const score = (isPlayed || isLive) ? `${m.hs} - ${m.as}` : '';
+  const formacionBtn = tieneFormacion
+    ? `<button class="match-formacion-btn" onclick="openFormacionModal('${TORNEO_KEY}','${partidoId}','${m.home}','${m.away}','${score}')">👥 Ver formaciones</button>`
+    : '';
+  return `<div class="match-card${isLive ? ' live' : ''}">
+    <div class="match-meta">
+      <span>${isLive ? '🔴 EN VIVO' : isPlayed ? '✓ Jugado' : '📅 ' + dateStr}</span>
+    </div>
+    <div class="match-teams">
+      <span class="team-name home">${m.home}</span>
+      ${scoreBlock}
+      <span class="team-name away">${m.away}</span>
+    </div>
+    ${formacionBtn}
+  </div>`;
+}
+
+function renderLocVis() {
+  const locMap = {}, visMap = {};
+  teams.forEach(t => {
+    locMap[t.name] = {name:t.name,pj:0,g:0,p:0,pf:0,pc:0,pts:0};
+    visMap[t.name] = {name:t.name,pj:0,g:0,p:0,pf:0,pc:0,pts:0};
+  });
+  Object.values(matches).forEach(rd => {
+    rd.ms.filter(m => m.played && m.home !== 'Bye' && m.away !== 'Bye').forEach(m => {
+      if (!locMap[m.home] || !visMap[m.away]) return;
+      locMap[m.home].pj++; visMap[m.away].pj++;
+      locMap[m.home].pf += m.hs; locMap[m.home].pc += m.as;
+      visMap[m.away].pf += m.as; visMap[m.away].pc += m.hs;
+      if (m.hs > m.as) { locMap[m.home].g++; locMap[m.home].pts += 4; visMap[m.away].p++; }
+      else if (m.hs < m.as) { visMap[m.away].g++; visMap[m.away].pts += 4; locMap[m.home].p++; }
+      else { locMap[m.home].pts += 2; visMap[m.away].pts += 2; }
+    });
+  });
+  const row = t => `<tr>
+    <td style="text-align:left;padding-left:8px">${t.name}</td>
+    <td>${t.pj}</td><td>${t.g}</td><td>${t.p}</td>
+    <td>${t.pf}</td><td>${t.pc}</td>
+    <td style="color:var(--gold);font-weight:700">${t.pts}</td>
+  </tr>`;
+  const sortFn = (a,b) => b.pts - a.pts || (b.pf-b.pc) - (a.pf-a.pc);
+  document.getElementById('loc-body').innerHTML = Object.values(locMap).sort(sortFn).map(row).join('');
+  document.getElementById('vis-body').innerHTML = Object.values(visMap).sort(sortFn).map(row).join('');
+}
+
+function openFormacionModal(torneo, partidoId, home, away, score) {
+  if (typeof PARTIDOS === 'undefined' || !PARTIDOS[torneo] || !PARTIDOS[torneo][partidoId]) return;
+  const p = PARTIDOS[torneo][partidoId];
+  document.getElementById('formacion-modal-title').textContent = home + ' vs ' + away;
+  document.getElementById('formacion-modal-score').textContent = score || '';
+  const grid = document.getElementById('formacion-modal-body');
+  const makeList = (jugadores) => jugadores.map((j, i) =>
+    `<div class="formacion-jugador"><span class="formacion-num">${i+1}</span><span>${j}</span></div>`
+  ).join('');
+  grid.innerHTML = `
+    <div><div class="formacion-equipo-titulo">${home}</div>${makeList(p.local.jugadores)}</div>
+    <div><div class="formacion-equipo-titulo">${away}</div>${makeList(p.visitante.jugadores)}</div>
+  `;
+  document.getElementById('formacionOverlay').classList.add('open');
+}
+
+function closeFormacionModal() {
+  document.getElementById('formacionOverlay').classList.remove('open');
+}
+
+function syncFromJSON() {
+  fetch(DATA_FILE + '?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      if (!data) return;
+      teams = data.teams || [];
+      if (data.matches) {
+        Object.entries(data.matches).forEach(([rnd, rd]) => {
+          if (!matches[rnd]) matches[rnd] = rd;
+          else {
+            rd.ms.forEach(m => {
+              if (!m.played) return;
+              const local = matches[rnd].ms.find(lm => lm.home === m.home && lm.away === m.away);
+              if (local) { local.hs = m.hs; local.as = m.as; local.played = true; }
+            });
+          }
+        });
+      }
+      recalcStandings();
+      renderStandings();
+      renderMatches(currentRound);
+      if (data.lastUpdate) {
+        const d = new Date(data.lastUpdate);
+        const label = d.toLocaleString('es-AR', {day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+        const el = document.getElementById('last-update');
+        if (el) el.textContent = '✓ Actualizado: ' + label;
+      }
+    })
+    .catch(e => console.log('Error cargando JSON:', e));
+}
+
+function recalcStandings() {
+  teams.forEach(t => { t.pts=0;t.pj=0;t.g=0;t.e=0;t.p=0;t.pf=0;t.pc=0;t.bp=0;t.bf=0;t.form=[]; });
+  Object.values(matches).forEach(rd => {
+    rd.ms.filter(m => m.played && m.home !== 'Bye' && m.away !== 'Bye').forEach(m => {
+      const home = teams.find(t => t.name === m.home);
+      const away = teams.find(t => t.name === m.away);
+      if (!home || !away) return;
+      home.pj++; away.pj++;
+      home.pf += m.hs; home.pc += m.as;
+      away.pf += m.as; away.pc += m.hs;
+      if (m.hs > m.as) {
+        home.g++; home.pts += 4; away.p++;
+        home.form.push('W'); away.form.push('L');
+      } else if (m.hs < m.as) {
+        away.g++; away.pts += 4; home.p++;
+        home.form.push('L'); away.form.push('W');
+      } else {
+        home.e++; away.e++; home.pts += 2; away.pts += 2;
+        home.form.push('D'); away.form.push('D');
+      }
+      if (m.hbt >= 4) { home.bp++; home.pts++; }
+      if (m.abt >= 4) { away.bp++; away.pts++; }
+      if (m.hs < m.as && (m.as - m.hs) <= 7) { home.bf++; home.pts++; }
+      if (m.as < m.hs && (m.hs - m.as) <= 7) { away.bf++; away.pts++; }
+    });
+  });
+  teams.forEach(t => { t.form = t.form.slice(-5); });
+}
+
+syncFromJSON();
+setInterval(syncFromJSON, 10 * 60 * 1000);
+</script>
+</body>
+</html>
