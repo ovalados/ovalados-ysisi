@@ -88,26 +88,36 @@
     color: var(--muted);
   }
 
-  /* Collapsible juveniles */
-  .group-header.collapsible { cursor: pointer; user-select: none; }
-  .group-toggle {
-    margin-left: auto; font-size: 0.7rem; color: var(--muted);
+  /* Juveniles acordeón */
+  .juv-age {
+    border: 1px solid var(--border); border-radius: 8px;
+    margin-bottom: 6px; overflow: hidden;
+  }
+  .juv-age-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.7rem 1rem; cursor: pointer; user-select: none;
+    background: var(--dark2); transition: background 0.15s;
+  }
+  .juv-age-header:hover { background: var(--dark3); }
+  .juv-age-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15rem; letter-spacing: 2px; color: var(--green);
+  }
+  .juv-age-sub {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.78rem; letter-spacing: 1px; color: var(--muted);
+  }
+  .juv-age-arrow {
+    font-size: 0.7rem; color: var(--muted);
     transition: transform 0.25s ease; flex-shrink: 0;
   }
-  .group-header.collapsible.open .group-toggle { transform: rotate(180deg); }
-  .collapsible-body {
+  .juv-age.open .juv-age-arrow { transform: rotate(180deg); }
+  .juv-age-body {
     display: grid; grid-template-rows: 0fr;
     transition: grid-template-rows 0.3s ease;
   }
-  .collapsible-body.open { grid-template-rows: 1fr; }
-  .collapsible-body > div { overflow: hidden; }
-  .juv-subgroup { margin-bottom: 1.5rem; }
-  .juv-subgroup-label {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase;
-    color: var(--muted); margin-bottom: 0.5rem;
-    padding-bottom: 4px; border-bottom: 1px solid var(--border);
-  }
+  .juv-age.open .juv-age-body { grid-template-rows: 1fr; }
+  .juv-age-body > div { overflow: hidden; padding: 0 0.5rem 0.5rem; }
 
   /* Category cards */
   .categories { display: flex; flex-direction: column; gap: 6px; }
@@ -575,20 +585,25 @@
 
 
   <!-- ═══════════════════════════════════════════
-       GRUPO: JUVENILES URBA (colapsable)
+       GRUPO: JUVENILES URBA
   ═══════════════════════════════════════════ -->
   <div class="group">
-    <div class="group-header collapsible" onclick="toggleJuveniles(this)">
+    <div class="group-header">
       <span class="group-label">JUVENILES URBA</span>
       <span class="group-sub">M15 · M16 · M17 · M19 · Grupo II · 2026</span>
-      <span class="group-toggle">▼</span>
     </div>
-    <div class="collapsible-body" id="juv-body">
-    <div>
 
-    <div class="juv-subgroup">
-      <div class="juv-subgroup-label">Juveniles M19 — Menores de 19</div>
-      <div class="categories">
+    <!-- M19 -->
+    <div class="juv-age" id="juv-m19">
+      <div class="juv-age-header" onclick="toggleJuvAge('juv-m19')">
+        <div>
+          <div class="juv-age-title">M19 — Menores de 19</div>
+          <div class="juv-age-sub">Grupo II · URBA 2026</div>
+        </div>
+        <span class="juv-age-arrow">▼</span>
+      </div>
+      <div class="juv-age-body"><div>
+      <div class="categories" style="padding-top:0.5rem">
       <a href="juvenil-m19-n1-g2-za-eqa.html" class="cat-card">
         <div class="cat-card-left">
           <div class="cat-name">M19 Nivel 1 · Zona A Eq A</div>
@@ -695,11 +710,20 @@
         <div class="cat-arrow">→</div>
       </a>
       </div>
-    </div>
+      </div></div><!-- /juv-age-body -->
+    </div><!-- /juv-m19 -->
 
-    <div class="juv-subgroup">
-      <div class="juv-subgroup-label">Juveniles M17 — Menores de 17</div>
-      <div class="categories">
+    <!-- M17 -->
+    <div class="juv-age" id="juv-m17">
+      <div class="juv-age-header" onclick="toggleJuvAge('juv-m17')">
+        <div>
+          <div class="juv-age-title">M17 — Menores de 17</div>
+          <div class="juv-age-sub">Grupo II · URBA 2026</div>
+        </div>
+        <span class="juv-age-arrow">▼</span>
+      </div>
+      <div class="juv-age-body"><div>
+      <div class="categories" style="padding-top:0.5rem">
       <a href="juvenil-m17-n1-g2-za-eqa.html" class="cat-card">
         <div class="cat-card-left">
           <div class="cat-name">M17 Nivel 1 · Zona A Eq A</div>
@@ -785,11 +809,20 @@
         <div class="cat-arrow">→</div>
       </a>
       </div>
-    </div>
+      </div></div><!-- /juv-age-body -->
+    </div><!-- /juv-m17 -->
 
-    <div class="juv-subgroup">
-      <div class="juv-subgroup-label">Juveniles M16 — Menores de 16</div>
-      <div class="categories">
+    <!-- M16 -->
+    <div class="juv-age" id="juv-m16">
+      <div class="juv-age-header" onclick="toggleJuvAge('juv-m16')">
+        <div>
+          <div class="juv-age-title">M16 — Menores de 16</div>
+          <div class="juv-age-sub">Grupo II · URBA 2026</div>
+        </div>
+        <span class="juv-age-arrow">▼</span>
+      </div>
+      <div class="juv-age-body"><div>
+      <div class="categories" style="padding-top:0.5rem">
       <a href="juvenil-m16-n1-g2-za-eqa.html" class="cat-card">
         <div class="cat-card-left">
           <div class="cat-name">M16 Nivel 1 · Zona A Eq A</div>
@@ -875,11 +908,20 @@
         <div class="cat-arrow">→</div>
       </a>
       </div>
-    </div>
+      </div></div><!-- /juv-age-body -->
+    </div><!-- /juv-m16 -->
 
-    <div class="juv-subgroup">
-      <div class="juv-subgroup-label">Juveniles M15 — Menores de 15</div>
-      <div class="categories">
+    <!-- M15 -->
+    <div class="juv-age" id="juv-m15">
+      <div class="juv-age-header" onclick="toggleJuvAge('juv-m15')">
+        <div>
+          <div class="juv-age-title">M15 — Menores de 15</div>
+          <div class="juv-age-sub">Grupo II · URBA 2026</div>
+        </div>
+        <span class="juv-age-arrow">▼</span>
+      </div>
+      <div class="juv-age-body"><div>
+      <div class="categories" style="padding-top:0.5rem">
       <a href="juvenil-m15-n1-g2-za-eqa.html" class="cat-card">
         <div class="cat-card-left">
           <div class="cat-name">M15 Nivel 1 · Zona A Eq A</div>
@@ -953,8 +995,10 @@
       </div>
     </div>
 
-    </div><!-- /collapsible-body inner -->
-    </div><!-- /collapsible-body -->
+      </div>
+      </div></div><!-- /juv-age-body -->
+    </div><!-- /juv-m15 -->
+
   </div><!-- /group juveniles -->
 
   <!-- ═══════════════════════════════════════════
@@ -1024,9 +1068,8 @@ function loadUrbaUltimos() {
 
 document.addEventListener('DOMContentLoaded', loadUrbaUltimos);
 
-function toggleJuveniles(header) {
-  header.classList.toggle('open');
-  document.getElementById('juv-body').classList.toggle('open');
+function toggleJuvAge(id) {
+  document.getElementById(id).classList.toggle('open');
 }
 </script>
 
