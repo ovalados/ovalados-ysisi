@@ -87,18 +87,18 @@
     },
     {
       "name": "Gimnasia y Esgrima",
-      "pts": 10,
+      "pts": 8,
       "pj": 3,
       "g": 2,
-      "e": 1,
-      "p": 0,
+      "e": 0,
+      "p": 1,
       "pf": 67,
-      "pc": 51,
+      "pc": 59,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "d",
+        "l",
         "w"
       ]
     },
@@ -223,18 +223,18 @@
     },
     {
       "name": "Pucara",
-      "pts": 12,
+      "pts": 14,
       "pj": 3,
-      "g": 2,
-      "e": 1,
+      "g": 3,
+      "e": 0,
       "p": 0,
-      "pf": 128,
+      "pf": 136,
       "pc": 31,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "d",
+        "w",
         "w"
       ]
     }
@@ -303,13 +303,6 @@
       "date": "",
       "ms": [
         {
-          "home": "Gimnasia y Esgrima",
-          "away": "Pucara",
-          "played": true,
-          "hs": 0,
-          "as": 0
-        },
-        {
           "home": "San Albano",
           "away": "Olivos",
           "played": true,
@@ -353,6 +346,13 @@
           "played": true,
           "hs": 18,
           "as": 18
+        },
+        {
+          "home": "Gimnasia y Esgrima",
+          "away": "Pucara",
+          "played": true,
+          "hs": 0,
+          "as": 8
         }
       ]
     },
@@ -1336,7 +1336,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-08T18:44:04.693166+00:00",
+  "lastUpdate": "2026-04-08T19:51:01.741886+00:00",
   "matchesScraped": 21,
   "championshipId": "2025188",
   "nombre": "1A Pre-Inter A"
