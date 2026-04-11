@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 24,
-      "pj": 12,
+      "pts": 32,
+      "pj": 16,
       "g": 0,
-      "e": 12,
+      "e": 16,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -21,10 +21,10 @@
     },
     {
       "name": "SITAS B",
-      "pts": 11,
-      "pj": 3,
+      "pts": 13,
+      "pj": 4,
       "g": 2,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 65,
       "pc": 24,
@@ -33,6 +33,7 @@
       "form": [
         "w",
         "w",
+        "d",
         "d"
       ]
     },
@@ -89,10 +90,10 @@
     },
     {
       "name": "San Carlos B",
-      "pts": 14,
-      "pj": 3,
+      "pts": 16,
+      "pj": 4,
       "g": 3,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 111,
       "pc": 49,
@@ -101,7 +102,8 @@
       "form": [
         "w",
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -380,17 +382,23 @@
         {
           "home": "San Carlos B",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "SITAS B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CASA de Padua B",
@@ -1285,8 +1293,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T19:52:54.725236+00:00",
-  "matchesScraped": 21,
+  "lastUpdate": "2026-04-11T20:41:15.017892+00:00",
+  "matchesScraped": 24,
   "championshipId": "2025205",
   "nombre": "1C Pre-Inter B"
 }
