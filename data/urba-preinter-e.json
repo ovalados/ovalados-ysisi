@@ -3,69 +3,73 @@
     {
       "name": "La Plata E",
       "pts": 2,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 1,
-      "p": 2,
+      "p": 3,
       "pf": 19,
-      "pc": 101,
+      "pc": 183,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "d",
+        "l",
         "l"
       ]
     },
     {
       "name": "Hindu E",
-      "pts": 0,
-      "pj": 3,
-      "g": 0,
+      "pts": 4,
+      "pj": 4,
+      "g": 1,
       "e": 0,
       "p": 3,
-      "pf": 33,
-      "pc": 163,
+      "pf": 59,
+      "pc": 187,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Champagnat E",
-      "pts": 8,
-      "pj": 3,
-      "g": 2,
+      "pts": 12,
+      "pj": 4,
+      "g": 3,
       "e": 0,
       "p": 1,
-      "pf": 53,
-      "pc": 67,
+      "pf": 88,
+      "pc": 89,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Alumni E",
       "pts": 8,
-      "pj": 3,
+      "pj": 4,
       "g": 2,
       "e": 0,
-      "p": 1,
-      "pf": 95,
-      "pc": 92,
+      "p": 2,
+      "pf": 121,
+      "pc": 145,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -88,67 +92,71 @@
     },
     {
       "name": "SIC E",
-      "pts": 7,
-      "pj": 3,
-      "g": 1,
+      "pts": 12,
+      "pj": 4,
+      "g": 2,
       "e": 1,
       "p": 1,
-      "pf": 69,
-      "pc": 69,
-      "bp": 1,
+      "pf": 122,
+      "pc": 95,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "d",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Belgrano Athletic E",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 85,
-      "pc": 97,
+      "p": 3,
+      "pf": 107,
+      "pc": 132,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Buenos Aires C&RC E",
-      "pts": 5,
-      "pj": 3,
+      "pts": 6,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 77,
-      "pc": 91,
+      "p": 3,
+      "pf": 101,
+      "pc": 117,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "w",
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "CUBA E",
-      "pts": 14,
-      "pj": 3,
-      "g": 3,
+      "pts": 19,
+      "pj": 4,
+      "g": 4,
       "e": 0,
       "p": 0,
-      "pf": 137,
+      "pf": 219,
       "pc": 31,
-      "bp": 2,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w"
@@ -174,34 +182,36 @@
     },
     {
       "name": "Los Tilos E",
-      "pts": 9,
-      "pj": 3,
+      "pts": 11,
+      "pj": 4,
       "g": 1,
-      "e": 2,
+      "e": 3,
       "p": 0,
-      "pf": 47,
-      "pc": 14,
+      "pf": 69,
+      "pc": 36,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d",
         "d"
       ]
     },
     {
       "name": "CUBA F",
-      "pts": 9,
-      "pj": 3,
+      "pts": 11,
+      "pj": 4,
       "g": 1,
-      "e": 2,
+      "e": 3,
       "p": 0,
-      "pf": 72,
-      "pc": 7,
+      "pf": 94,
+      "pc": 29,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d",
         "d"
       ]
@@ -415,22 +425,33 @@
         {
           "home": "SIC E",
           "away": "Alumni E",
-          "played": false
+          "played": true,
+          "hs": 53,
+          "as": 26,
+          "bp_home": true
         },
         {
           "home": "Belgrano Athletic E",
           "away": "Champagnat E",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 35
         },
         {
           "home": "Buenos Aires C&RC E",
           "away": "Hindu E",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 26,
+          "bf_home": true
         },
         {
           "home": "CUBA E",
           "away": "La Plata E",
-          "played": false
+          "played": true,
+          "hs": 82,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "CASI E",
@@ -442,7 +463,9 @@
         {
           "home": "Los Tilos E",
           "away": "CUBA F",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 22
         }
       ]
     },
@@ -1327,8 +1350,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T21:53:22.166832+00:00",
-  "matchesScraped": 23,
+  "lastUpdate": "2026-04-11T22:38:42.511633+00:00",
+  "matchesScraped": 28,
   "championshipId": "2025200",
   "nombre": "Pre-Inter E"
 }
