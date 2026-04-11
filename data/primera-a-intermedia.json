@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "Hurling",
-      "pts": 14,
-      "pj": 3,
-      "g": 3,
+      "pts": 19,
+      "pj": 4,
+      "g": 4,
       "e": 0,
       "p": 0,
-      "pf": 100,
-      "pc": 33,
-      "bp": 2,
+      "pf": 133,
+      "pc": 41,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w"
@@ -19,135 +20,143 @@
     },
     {
       "name": "Lomas Athletic",
-      "pts": 11,
-      "pj": 3,
-      "g": 2,
+      "pts": 15,
+      "pj": 4,
+      "g": 3,
       "e": 1,
       "p": 0,
-      "pf": 99,
-      "pc": 64,
+      "pf": 109,
+      "pc": 71,
       "bp": 1,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Curupayti",
-      "pts": 13,
-      "pj": 3,
+      "pts": 14,
+      "pj": 4,
       "g": 3,
       "e": 0,
-      "p": 0,
-      "pf": 103,
-      "pc": 54,
+      "p": 1,
+      "pf": 134,
+      "pc": 88,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Luis",
-      "pts": 9,
-      "pj": 3,
-      "g": 2,
+      "pts": 14,
+      "pj": 4,
+      "g": 3,
       "e": 0,
       "p": 1,
-      "pf": 68,
-      "pc": 63,
-      "bp": 0,
+      "pf": 122,
+      "pc": 96,
+      "bp": 1,
       "bf": 1,
       "form": [
         "w",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Olivos",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 67,
-      "pc": 77,
+      "p": 3,
+      "pf": 79,
+      "pc": 174,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Gimnasia y Esgrima",
       "pts": 10,
-      "pj": 3,
+      "pj": 4,
       "g": 2,
       "e": 0,
-      "p": 1,
-      "pf": 85,
-      "pc": 71,
+      "p": 2,
+      "pf": 118,
+      "pc": 125,
       "bp": 1,
       "bf": 1,
       "form": [
         "w",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Albano",
-      "pts": 2,
-      "pj": 3,
-      "g": 0,
+      "pts": 6,
+      "pj": 4,
+      "g": 1,
       "e": 0,
       "p": 3,
-      "pf": 78,
-      "pc": 103,
+      "pf": 112,
+      "pc": 134,
       "bp": 0,
       "bf": 2,
       "form": [
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Cirano",
-      "pts": 9,
-      "pj": 3,
+      "pts": 10,
+      "pj": 4,
       "g": 2,
       "e": 0,
-      "p": 1,
-      "pf": 57,
-      "pc": 63,
+      "p": 2,
+      "pf": 64,
+      "pc": 73,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Deportiva Francesa",
       "pts": 1,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 0,
-      "p": 3,
-      "pf": 54,
-      "pc": 82,
+      "p": 4,
+      "pf": 62,
+      "pc": 115,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l",
         "l"
@@ -156,15 +165,16 @@
     {
       "name": "San Fernando",
       "pts": 0,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 0,
-      "p": 3,
-      "pf": 57,
-      "pc": 134,
+      "p": 4,
+      "pf": 79,
+      "pc": 169,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l",
         "l"
@@ -172,67 +182,71 @@
     },
     {
       "name": "Pueyrredon",
-      "pts": 4,
-      "pj": 3,
-      "g": 0,
+      "pts": 9,
+      "pj": 4,
+      "g": 1,
       "e": 1,
       "p": 2,
-      "pf": 40,
+      "pf": 97,
       "pc": 52,
-      "bp": 0,
+      "bp": 1,
       "bf": 2,
       "form": [
         "d",
-        "l",
-        "l"
-      ]
-    },
-    {
-      "name": "Universitario de la Plata",
-      "pts": 5,
-      "pj": 3,
-      "g": 1,
-      "e": 0,
-      "p": 2,
-      "pf": 72,
-      "pc": 109,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "l",
-        "w",
-        "l"
-      ]
-    },
-    {
-      "name": "San Andres",
-      "pts": 4,
-      "pj": 3,
-      "g": 1,
-      "e": 0,
-      "p": 2,
-      "pf": 41,
-      "pc": 92,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "l",
         "l",
         "w"
       ]
     },
     {
-      "name": "Pucara",
-      "pts": 14,
-      "pj": 3,
-      "g": 3,
+      "name": "Universitario de la Plata",
+      "pts": 5,
+      "pj": 4,
+      "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 123,
-      "pc": 47,
-      "bp": 2,
+      "p": 3,
+      "pf": 72,
+      "pc": 166,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "l",
+        "w",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "San Andres",
+      "pts": 8,
+      "pj": 4,
+      "g": 2,
+      "e": 0,
+      "p": 2,
+      "pf": 76,
+      "pc": 114,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Pucara",
+      "pts": 19,
+      "pj": 4,
+      "g": 4,
+      "e": 0,
+      "p": 0,
+      "pf": 220,
+      "pc": 59,
+      "bp": 3,
+      "bf": 0,
+      "form": [
+        "w",
         "w",
         "w",
         "w"
@@ -425,37 +439,57 @@
         {
           "home": "Olivos",
           "away": "Pucara",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 97,
+          "bp_away": true
         },
         {
           "home": "Gimnasia y Esgrima",
           "away": "San Luis",
-          "played": false
+          "played": true,
+          "hs": 33,
+          "as": 54,
+          "bp_away": true
         },
         {
           "home": "San Albano",
           "away": "Curupayti",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 31,
+          "bf_away": true
         },
         {
           "home": "San Cirano",
           "away": "Lomas Athletic",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 10,
+          "bf_home": true
         },
         {
           "home": "Deportiva Francesa",
           "away": "Hurling",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 33,
+          "bp_away": true
         },
         {
           "home": "San Fernando",
           "away": "San Andres",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 35
         },
         {
           "home": "Pueyrredon",
           "away": "Universitario de la Plata",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
@@ -1340,8 +1374,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T21:53:26.387859+00:00",
-  "matchesScraped": 21,
+  "lastUpdate": "2026-04-11T22:38:46.978925+00:00",
+  "matchesScraped": 28,
   "championshipId": "2025187",
   "nombre": "1A Intermedia"
 }
