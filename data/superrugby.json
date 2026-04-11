@@ -358,7 +358,9 @@
         {
           "home": "Pampas",
           "away": "Peñarol",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 3
         },
         {
           "home": "Yacare XV",
@@ -553,6 +555,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-10T23:51:02.064581+00:00",
-  "matchesScraped": 24
+  "lastUpdate": "2026-04-11T02:46:24.685786+00:00",
+  "matchesScraped": 25
 }
