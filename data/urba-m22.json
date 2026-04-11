@@ -3,32 +3,34 @@
     {
       "name": "La Plata",
       "pts": 11,
-      "pj": 3,
+      "pj": 4,
       "g": 2,
       "e": 1,
-      "p": 0,
-      "pf": 110,
-      "pc": 45,
+      "p": 1,
+      "pf": 127,
+      "pc": 85,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "d",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Hindu",
-      "pts": 14,
-      "pj": 3,
-      "g": 3,
+      "pts": 19,
+      "pj": 4,
+      "g": 4,
       "e": 0,
       "p": 0,
-      "pf": 116,
-      "pc": 56,
-      "bp": 2,
+      "pf": 165,
+      "pc": 80,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w"
@@ -36,84 +38,89 @@
     },
     {
       "name": "Champagnat",
-      "pts": 9,
-      "pj": 3,
-      "g": 2,
+      "pts": 14,
+      "pj": 4,
+      "g": 3,
       "e": 0,
       "p": 1,
-      "pf": 67,
-      "pc": 35,
-      "bp": 1,
+      "pf": 106,
+      "pc": 55,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Alumni",
       "pts": 12,
-      "pj": 3,
+      "pj": 4,
       "g": 3,
       "e": 0,
-      "p": 0,
-      "pf": 69,
-      "pc": 63,
+      "p": 1,
+      "pf": 86,
+      "pc": 104,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Newman",
-      "pts": 9,
-      "pj": 3,
-      "g": 2,
-      "e": 0,
-      "p": 1,
-      "pf": 81,
-      "pc": 58,
-      "bp": 0,
-      "bf": 1,
-      "form": [
-        "l",
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "SIC",
-      "pts": 9,
-      "pj": 3,
-      "g": 2,
-      "e": 0,
-      "p": 1,
-      "pf": 56,
-      "pc": 54,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "w",
         "w",
         "l"
       ]
     },
     {
+      "name": "Newman",
+      "pts": 14,
+      "pj": 4,
+      "g": 3,
+      "e": 0,
+      "p": 1,
+      "pf": 130,
+      "pc": 87,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "SIC",
+      "pts": 14,
+      "pj": 4,
+      "g": 3,
+      "e": 0,
+      "p": 1,
+      "pf": 97,
+      "pc": 71,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "Belgrano Athletic",
       "pts": 2,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 0,
-      "p": 3,
-      "pf": 57,
-      "pc": 79,
+      "p": 4,
+      "pf": 77,
+      "pc": 118,
       "bp": 0,
       "bf": 2,
       "form": [
+        "l",
         "l",
         "l",
         "l"
@@ -122,49 +129,52 @@
     {
       "name": "Buenos Aires C&RC",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 43,
-      "pc": 61,
+      "p": 3,
+      "pf": 67,
+      "pc": 110,
       "bp": 0,
       "bf": 1,
       "form": [
         "w",
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "CUBA",
-      "pts": 5,
-      "pj": 3,
-      "g": 1,
+      "pts": 10,
+      "pj": 4,
+      "g": 2,
       "e": 0,
       "p": 2,
-      "pf": 81,
-      "pc": 85,
-      "bp": 0,
+      "pf": 121,
+      "pc": 102,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "CASI",
-      "pts": 1,
-      "pj": 3,
+      "pts": 2,
+      "pj": 4,
       "g": 0,
       "e": 0,
-      "p": 3,
-      "pf": 55,
-      "pc": 109,
+      "p": 4,
+      "pf": 79,
+      "pc": 135,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
+        "l",
         "l",
         "l",
         "l"
@@ -172,70 +182,74 @@
     },
     {
       "name": "Los Tilos",
-      "pts": 2,
-      "pj": 3,
-      "g": 0,
+      "pts": 7,
+      "pj": 4,
+      "g": 1,
       "e": 1,
       "p": 2,
-      "pf": 24,
-      "pc": 52,
-      "bp": 0,
+      "pf": 90,
+      "pc": 87,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
         "d",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Belgrano Athletic B",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 41,
-      "pc": 105,
+      "p": 3,
+      "pf": 76,
+      "pc": 171,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Regatas Bella Vista",
-      "pts": 6,
-      "pj": 3,
-      "g": 1,
+      "pts": 10,
+      "pj": 4,
+      "g": 2,
       "e": 0,
       "p": 2,
-      "pf": 44,
-      "pc": 41,
+      "pf": 70,
+      "pc": 65,
       "bp": 0,
       "bf": 2,
       "form": [
         "l",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "SIC B",
       "pts": 8,
-      "pj": 3,
+      "pj": 4,
       "g": 2,
       "e": 0,
-      "p": 1,
-      "pf": 53,
-      "pc": 54,
+      "p": 2,
+      "pf": 82,
+      "pc": 103,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     }
   ],
@@ -422,37 +436,58 @@
         {
           "home": "Newman",
           "away": "SIC B",
-          "played": false
+          "played": true,
+          "hs": 49,
+          "as": 29,
+          "bp_home": true
         },
         {
           "home": "SIC",
           "away": "Alumni",
-          "played": false
+          "played": true,
+          "hs": 41,
+          "as": 17,
+          "bp_home": true
         },
         {
           "home": "Belgrano Athletic",
           "away": "Champagnat",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 39,
+          "bp_away": true
         },
         {
           "home": "Buenos Aires C&RC",
           "away": "Hindu",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 49,
+          "bp_away": true
         },
         {
           "home": "CUBA",
           "away": "La Plata",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 17,
+          "bp_home": true
         },
         {
           "home": "CASI",
           "away": "Regatas Bella Vista",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 26,
+          "bf_home": true
         },
         {
           "home": "Los Tilos",
           "away": "Belgrano Athletic B",
-          "played": false
+          "played": true,
+          "hs": 66,
+          "as": 35,
+          "bp_home": true
         }
       ]
     },
@@ -1337,8 +1372,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T21:53:24.201636+00:00",
-  "matchesScraped": 21,
+  "lastUpdate": "2026-04-11T22:38:44.629567+00:00",
+  "matchesScraped": 28,
   "championshipId": "2025206",
   "nombre": "M22"
 }
