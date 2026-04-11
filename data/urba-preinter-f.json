@@ -19,10 +19,10 @@
     },
     {
       "name": "Newman G",
-      "pts": 4,
-      "pj": 3,
+      "pts": 6,
+      "pj": 4,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 38,
       "pc": 37,
@@ -31,7 +31,8 @@
       "form": [
         "w",
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -121,16 +122,17 @@
     },
     {
       "name": "Bye",
-      "pts": 6,
-      "pj": 3,
+      "pts": 8,
+      "pj": 4,
       "g": 0,
-      "e": 3,
+      "e": 4,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d",
         "d"
@@ -430,7 +432,9 @@
         {
           "home": "Bye",
           "away": "Newman G",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CUBA G",
@@ -1330,8 +1334,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T19:52:34.073228+00:00",
-  "matchesScraped": 21,
+  "lastUpdate": "2026-04-11T20:40:56.835649+00:00",
+  "matchesScraped": 22,
   "championshipId": "2025201",
   "nombre": "Pre-Inter F"
 }
