@@ -164,20 +164,20 @@
     },
     {
       "name": "Deportiva Francesa E",
-      "pts": 11,
+      "pts": 9,
       "pj": 4,
       "g": 2,
-      "e": 1,
-      "p": 1,
-      "pf": 106,
-      "pc": 105,
+      "e": 0,
+      "p": 2,
+      "pf": 118,
+      "pc": 136,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
         "w",
         "w",
-        "d"
+        "l"
       ]
     },
     {
@@ -218,20 +218,20 @@
     },
     {
       "name": "Pucara E",
-      "pts": 7,
+      "pts": 9,
       "pj": 4,
-      "g": 1,
-      "e": 1,
+      "g": 2,
+      "e": 0,
       "p": 2,
-      "pf": 59,
-      "pc": 84,
+      "pf": 90,
+      "pc": 96,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "l",
         "w",
-        "d"
+        "w"
       ]
     },
     {
@@ -473,8 +473,8 @@
           "home": "Deportiva Francesa E",
           "away": "Pucara E",
           "played": true,
-          "hs": 0,
-          "as": 0
+          "hs": 12,
+          "as": 31
         },
         {
           "home": "Pueyrredon D",
@@ -1367,7 +1367,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T22:38:51.757415+00:00",
+  "lastUpdate": "2026-04-11T23:05:39.898994+00:00",
   "matchesScraped": 28,
   "championshipId": "2025203",
   "nombre": "1A Pre-Inter D"
