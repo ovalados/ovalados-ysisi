@@ -40,52 +40,55 @@
     {
       "name": "Tigre",
       "pts": 4,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 2,
-      "p": 1,
-      "pf": 14,
-      "pc": 35,
+      "p": 2,
+      "pf": 31,
+      "pc": 94,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
         "d",
+        "l",
         "l"
       ]
     },
     {
       "name": "Lanus B",
-      "pts": 8,
-      "pj": 3,
-      "g": 1,
+      "pts": 13,
+      "pj": 4,
+      "g": 2,
       "e": 1,
       "p": 1,
-      "pf": 106,
-      "pc": 40,
-      "bp": 1,
+      "pf": 173,
+      "pc": 59,
+      "bp": 2,
       "bf": 1,
       "form": [
         "d",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Virreyes B",
-      "pts": 1,
-      "pj": 3,
-      "g": 0,
+      "pts": 6,
+      "pj": 4,
+      "g": 1,
       "e": 0,
       "p": 3,
-      "pf": 40,
-      "pc": 154,
-      "bp": 0,
+      "pf": 99,
+      "pc": 171,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -109,85 +112,90 @@
     {
       "name": "CASA de Padua B",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 2,
-      "p": 1,
+      "p": 2,
       "pf": 17,
-      "pc": 20,
+      "pc": 28,
       "bp": 0,
       "bf": 1,
       "form": [
         "d",
-        "l",
-        "d"
-      ]
-    },
-    {
-      "name": "Centro Naval B",
-      "pts": 3,
-      "pj": 3,
-      "g": 0,
-      "e": 1,
-      "p": 2,
-      "pf": 29,
-      "pc": 69,
-      "bp": 0,
-      "bf": 1,
-      "form": [
         "l",
         "d",
         "l"
       ]
     },
     {
+      "name": "Centro Naval B",
+      "pts": 3,
+      "pj": 4,
+      "g": 0,
+      "e": 1,
+      "p": 3,
+      "pf": 43,
+      "pc": 121,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "d",
+        "l",
+        "l"
+      ]
+    },
+    {
       "name": "Los Molinos B",
-      "pts": 11,
-      "pj": 3,
-      "g": 2,
+      "pts": 16,
+      "pj": 4,
+      "g": 3,
       "e": 1,
       "p": 0,
-      "pf": 63,
-      "pc": 26,
-      "bp": 1,
+      "pf": 115,
+      "pc": 40,
+      "bp": 2,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Lujan B",
-      "pts": 4,
-      "pj": 3,
-      "g": 1,
+      "pts": 8,
+      "pj": 4,
+      "g": 2,
       "e": 0,
       "p": 2,
-      "pf": 45,
+      "pf": 53,
       "pc": 100,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Ciudad de Bs.As. B",
       "pts": 10,
-      "pj": 3,
+      "pj": 4,
       "g": 2,
       "e": 0,
-      "p": 1,
-      "pf": 65,
-      "pc": 38,
+      "p": 2,
+      "pf": 84,
+      "pc": 105,
       "bp": 1,
       "bf": 1,
       "form": [
         "w",
         "w",
+        "l",
         "l"
       ]
     }
@@ -372,12 +380,18 @@
         {
           "home": "Lanus B",
           "away": "Ciudad de Bs.As. B",
-          "played": false
+          "played": true,
+          "hs": 67,
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "Virreyes B",
           "away": "Tigre",
-          "played": false
+          "played": true,
+          "hs": 59,
+          "as": 17,
+          "bp_home": true
         },
         {
           "home": "San Carlos B",
@@ -403,12 +417,17 @@
         {
           "home": "CASA de Padua B",
           "away": "Lujan B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Centro Naval B",
           "away": "Los Molinos B",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 52,
+          "bp_away": true
         }
       ]
     },
@@ -1293,8 +1312,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T22:39:02.636776+00:00",
-  "matchesScraped": 24,
+  "lastUpdate": "2026-04-11T23:05:52.895096+00:00",
+  "matchesScraped": 28,
   "championshipId": "2025205",
   "nombre": "1C Pre-Inter B"
 }
