@@ -22,16 +22,17 @@
     {
       "name": "Argentino C",
       "pts": 5,
-      "pj": 3,
+      "pj": 4,
       "g": 1,
       "e": 0,
-      "p": 2,
-      "pf": 55,
-      "pc": 55,
+      "p": 3,
+      "pf": 82,
+      "pc": 93,
       "bp": 0,
       "bf": 1,
       "form": [
         "w",
+        "l",
         "l",
         "l"
       ]
@@ -39,15 +40,16 @@
     {
       "name": "Don Bosco C",
       "pts": 1,
-      "pj": 3,
+      "pj": 4,
       "g": 0,
       "e": 0,
-      "p": 3,
+      "p": 4,
       "pf": 39,
-      "pc": 107,
+      "pc": 115,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l",
         "l"
@@ -73,35 +75,37 @@
     },
     {
       "name": "San Martin D",
-      "pts": 5,
-      "pj": 3,
-      "g": 0,
+      "pts": 9,
+      "pj": 4,
+      "g": 1,
       "e": 2,
       "p": 1,
-      "pf": 21,
+      "pf": 29,
       "pc": 28,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "d",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Mariano Moreno C",
-      "pts": 8,
-      "pj": 3,
-      "g": 2,
+      "pts": 12,
+      "pj": 4,
+      "g": 3,
       "e": 0,
       "p": 1,
-      "pf": 71,
-      "pc": 55,
+      "pf": 109,
+      "pc": 82,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
         "l",
+        "w",
         "w"
       ]
     },
@@ -343,12 +347,16 @@
         {
           "home": "San Martin D",
           "away": "Don Bosco C",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
           "home": "Mariano Moreno C",
           "away": "Argentino C",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 27
         },
         {
           "home": "Manuel Belgrano C",
@@ -1261,8 +1269,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T22:38:58.176142+00:00",
-  "matchesScraped": 26,
+  "lastUpdate": "2026-04-11T23:05:47.098580+00:00",
+  "matchesScraped": 28,
   "championshipId": "2025204",
   "nombre": "1B Pre-Inter C"
 }
