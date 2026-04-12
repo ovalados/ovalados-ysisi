@@ -38,7 +38,7 @@
       "e": 0,
       "p": 1,
       "pf": 7,
-      "pc": 25,
+      "pc": 27,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -137,14 +137,14 @@
     },
     {
       "name": "CASI C",
-      "pts": 5,
+      "pts": 4,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 25,
+      "pf": 27,
       "pc": 7,
-      "bp": 1,
+      "bp": 0,
       "bf": 0,
       "form": [
         "w"
@@ -244,8 +244,7 @@
           "away": "CASI C",
           "played": true,
           "hs": 7,
-          "as": 25,
-          "bp_away": true
+          "as": 27
         },
         {
           "home": "Alumni C",
@@ -673,7 +672,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:51:02.059590+00:00",
+  "lastUpdate": "2026-04-12T23:42:30.984804+00:00",
   "matchesScraped": 7,
   "championshipId": "2025227",
   "nombre": "M19 G2 NIVEL 2 Desarrollo"
