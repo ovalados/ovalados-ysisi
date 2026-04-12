@@ -1,0 +1,557 @@
+{
+  "teams": [
+    {
+      "name": "San Albano B",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Hurling B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Univ. De la Plata B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Martin B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Manuel Belgrano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lujan B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Curupayti B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Olivos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Mariano Moreno B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Virreyes B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Molinos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Hurling B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Lujan B",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Lujan B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "Hurling B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Virreyes B",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "Hurling B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Martin B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Lujan B",
+          "away": "Hurling B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Hurling B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "San Martin B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Hurling B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Lujan B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "Mariano Moreno B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Hurling B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Hurling B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Lujan B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Olivos B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Hurling B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Albano B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Hurling B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "Lujan B",
+          "away": "Curupayti B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Hurling B",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "San Albano B",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:59:09.273662+00:00",
+  "matchesScraped": 1,
+  "championshipId": "2025236",
+  "nombre": "M17 H"
+}
