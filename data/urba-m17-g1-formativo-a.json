@@ -1,0 +1,557 @@
+{
+  "teams": [
+    {
+      "name": "Buenos Aires C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Plata C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B. Vista C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Las Cañas",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Marcos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CUBA D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Vicente Lopez",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Berisso",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Buenos Aires C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "San Marcos",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC D",
+          "away": "Berisso",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Buenos Aires C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "SIC D",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Las Cañas",
+          "away": "Berisso",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Buenos Aires C",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Los Tilos C",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Las Cañas",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Berisso",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Buenos Aires C",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Alumni C",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Regatas B. Vista C",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "La Plata C",
+          "away": "Berisso",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Buenos Aires C",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Vicente Lopez",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires C",
+          "away": "La Plata C",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Buenos Aires C",
+          "away": "Berisso",
+          "played": false
+        },
+        {
+          "home": "La Plata C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Los Tilos C",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Alumni C",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "CUBA D",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Berisso",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Alumni C",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "Los Tilos C",
+          "away": "La Plata C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Buenos Aires C",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:30.793303+00:00",
+  "matchesScraped": 1,
+  "championshipId": "2025240",
+  "nombre": "M17 G1 Formativo A"
+}
