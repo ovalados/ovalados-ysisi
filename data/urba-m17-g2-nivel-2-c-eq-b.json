@@ -47,17 +47,17 @@
     },
     {
       "name": "San Martin B",
-      "pts": 0,
+      "pts": 5,
       "pj": 1,
-      "g": 0,
+      "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 12,
-      "pc": 40,
-      "bp": 0,
+      "p": 0,
+      "pf": 40,
+      "pc": 12,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "w"
       ]
     },
     {
@@ -92,17 +92,17 @@
     },
     {
       "name": "Curupayti B",
-      "pts": 5,
+      "pts": 0,
       "pj": 1,
-      "g": 1,
+      "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 40,
-      "pc": 12,
-      "bp": 1,
+      "p": 1,
+      "pf": 12,
+      "pc": 40,
+      "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "l"
       ]
     },
     {
@@ -219,9 +219,9 @@
           "home": "San Martin B",
           "away": "Curupayti B",
           "played": true,
-          "hs": 12,
-          "as": 40,
-          "bp_away": true
+          "hs": 40,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Manuel Belgrano B",
@@ -584,7 +584,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:51:10.440344+00:00",
+  "lastUpdate": "2026-04-12T23:42:46.348474+00:00",
   "matchesScraped": 6,
   "championshipId": "2025236",
   "nombre": "M17 G2 NIVEL 2 C Eq B"
