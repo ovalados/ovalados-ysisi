@@ -2,16 +2,18 @@
   "teams": [
     {
       "name": "La Plata C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 45,
+      "pc": 26,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Bye",
@@ -35,15 +37,17 @@
     {
       "name": "San Andres C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 31,
+      "pc": 51,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Pucara C",
@@ -62,16 +66,18 @@
     },
     {
       "name": "Liceo Naval C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 51,
+      "pc": 31,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Pueyrredon C",
@@ -91,15 +97,17 @@
     {
       "name": "Los Tilos C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 26,
+      "pc": 45,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "A.D. Francesa C",
@@ -131,7 +139,10 @@
         {
           "home": "La Plata C",
           "away": "Los Tilos C",
-          "played": false
+          "played": true,
+          "hs": 45,
+          "as": 26,
+          "bp_home": true
         },
         {
           "home": "Bye",
@@ -150,7 +161,10 @@
         {
           "home": "San Andres C",
           "away": "Liceo Naval C",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 51,
+          "bp_away": true
         },
         {
           "home": "Bye",
@@ -512,8 +526,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T19:08:36.821176+00:00",
-  "matchesScraped": 4,
+  "lastUpdate": "2026-04-12T19:53:05.048318+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025253",
   "nombre": "M16 G1 Formativa A"
 }
