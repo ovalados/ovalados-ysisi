@@ -365,7 +365,9 @@
         {
           "home": "Yacare XV",
           "away": "Dogos XV",
-          "played": false
+          "played": true,
+          "hs": 41,
+          "as": 20
         },
         {
           "home": "Cobras BR",
@@ -555,6 +557,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-11T23:49:39.319773+00:00",
-  "matchesScraped": 25
+  "lastUpdate": "2026-04-12T01:43:18.013994+00:00",
+  "matchesScraped": 26
 }
