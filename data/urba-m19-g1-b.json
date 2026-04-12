@@ -1,0 +1,549 @@
+{
+  "teams": [
+    {
+      "name": "Ciudad de Campana",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Arsenal Zarate",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Militar",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
+      "g": 0,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Vicentinos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Virreyes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Cedros",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "CASA de Padua",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "T. F. de San Pedro",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC E",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Daom",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "SIC E",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "T. F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Cedros",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Virreyes",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Vicentinos",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Virreyes",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "T. F. de San Pedro",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC E",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SIC E",
+          "away": "T. F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Virreyes",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "SIC E",
+          "played": false
+        },
+        {
+          "home": "T. F. de San Pedro",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "T. F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "SIC E",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Liceo Militar",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Virreyes",
+          "away": "SIC E",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "T. F. de San Pedro",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "T. F. de San Pedro",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "SIC E",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Liceo Militar",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Arsenal Zarate",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC E",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Virreyes",
+          "away": "T. F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "CASA de Padua",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "T. F. de San Pedro",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SIC E",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Arsenal Zarate",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Campana",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "SIC E",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "T. F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Virreyes",
+          "away": "Los Cedros",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "T. F. de San Pedro",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "SIC E",
+          "away": "Ciudad de Campana",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:11.594543+00:00",
+  "matchesScraped": 2,
+  "championshipId": "2025225",
+  "nombre": "M19 G1 B"
+}
