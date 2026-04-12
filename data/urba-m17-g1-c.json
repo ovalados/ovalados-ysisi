@@ -1,0 +1,535 @@
+{
+  "teams": [
+    {
+      "name": "Bye",
+      "pts": 6,
+      "pj": 3,
+      "g": 0,
+      "e": 3,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Munic. De Berazategui",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "C.U de Quilmes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Beromama",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Atl. Chascomus",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ciudad de Bs.As.",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Cedros",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Del Sur",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Militar",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Daom",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Atl. Chascomus",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "C.U de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Munic. De Berazategui",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Atl. Chascomus",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Beromama",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "C.U de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Munic. De Berazategui",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Beromama",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "C.U de Quilmes",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Munic. De Berazategui",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Liceo Militar",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "C.U de Quilmes",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Del Sur",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "C.U de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Munic. De Berazategui",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Los Cedros",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "C.U de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Munic. De Berazategui",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:29.517685+00:00",
+  "matchesScraped": 2,
+  "championshipId": "2025239",
+  "nombre": "M17 G1 C"
+}
