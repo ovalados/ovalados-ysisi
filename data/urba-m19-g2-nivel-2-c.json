@@ -3,158 +3,182 @@
     {
       "name": "Tigre A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 8,
+      "pc": 38,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "SITAS A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 3,
+      "pc": 13,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Italiano A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 7,
+      "pc": 66,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Las Cañas A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 7,
+      "pc": 71,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Old Georgian A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 21,
+      "pc": 10,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Los Molinos A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 21,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "San Albano A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 71,
+      "pc": 7,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Fernando A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 66,
+      "pc": 7,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Univ. De la Plata A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 13,
+      "pc": 3,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Patricio A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 38,
+      "pc": 8,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Manuel Belgrano A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 40,
+      "pc": 14,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Lujan A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 14,
+      "pc": 40,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     }
   ],
   "matches": {
@@ -164,32 +188,48 @@
         {
           "home": "Lujan A",
           "away": "Manuel Belgrano A",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 40,
+          "bp_away": true
         },
         {
           "home": "Tigre A",
           "away": "San Patricio A",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 38,
+          "bp_away": true
         },
         {
           "home": "SITAS A",
           "away": "Univ. De la Plata A",
-          "played": false
+          "played": true,
+          "hs": 3,
+          "as": 13
         },
         {
           "home": "Italiano A",
           "away": "San Fernando A",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 66,
+          "bp_away": true
         },
         {
           "home": "Las Cañas A",
           "away": "San Albano A",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 71,
+          "bp_away": true
         },
         {
           "home": "Old Georgian A",
           "away": "Los Molinos A",
-          "played": false
+          "played": true,
+          "hs": 21,
+          "as": 10
         }
       ]
     },
@@ -544,8 +584,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:35.193919+00:00",
-  "matchesScraped": 0,
+  "lastUpdate": "2026-04-12T22:50:55.460164+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025217",
   "nombre": "M19 G2 NIVEL 2 C"
 }
