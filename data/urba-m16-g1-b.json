@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Tigre",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Arsenal Zarate",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Don Bosco",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Carlos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Almafuerte",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ciudad de Bs.As.",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Militar",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SITAS",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "T.F. de San Pedro",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Varela Jr",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pac Gral Rodriguez",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lujan",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Almafuerte",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "San Carlos",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "Almafuerte",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Carlos",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Varela Jr",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "San Carlos",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Don Bosco",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "T.F. de San Pedro",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "San Carlos",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Don Bosco",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Arsenal Zarate",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "SITAS",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "San Carlos",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Arsenal Zarate",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Tigre",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Liceo Militar",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "San Carlos",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "Tigre",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:45.346629+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025252",
+  "nombre": "M16 G1 B"
+}
