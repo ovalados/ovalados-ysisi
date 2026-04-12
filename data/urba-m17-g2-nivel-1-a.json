@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Buenos Aires A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASA de Padua A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B. Vista A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lomas Athl. A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Hindu A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CUBA A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SITAS A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Matreros A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Luis A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Hindu A",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "CASA de Padua A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Los Matreros A",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "SIC A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lomas Athl. A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "CASA de Padua A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "Los Tilos A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Lomas Athl. A",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Regatas B. Vista A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "CASA de Padua A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Alumni A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASA de Padua A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "SITAS A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "CASA de Padua A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Buenos Aires A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "CUBA A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Luis A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "CASA de Padua A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Buenos Aires A",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:18.944451+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025231",
+  "nombre": "M17 G2 NIVEL 1 A"
+}
