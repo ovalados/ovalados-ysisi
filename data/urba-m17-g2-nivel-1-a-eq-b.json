@@ -2,159 +2,183 @@
   "teams": [
     {
       "name": "Buenos Aires B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 41,
+      "pc": 15,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "CASA de Padua B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 129,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Regatas B. Vista B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 80,
+      "pc": 12,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Lomas Athl. B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 90,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "SIC B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 64,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Hindu B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 64,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "CUBA B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 90,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "SITAS B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 12,
+      "pc": 80,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Alumni B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 129,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Los Tilos B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 15,
+      "pc": 41,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Los Matreros B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 24,
+      "pc": 63,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "San Luis B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 63,
+      "pc": 24,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -164,32 +188,50 @@
         {
           "home": "San Luis B",
           "away": "Los Matreros B",
-          "played": false
+          "played": true,
+          "hs": 63,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "Buenos Aires B",
           "away": "Los Tilos B",
-          "played": false
+          "played": true,
+          "hs": 41,
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "CASA de Padua B",
           "away": "Alumni B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 129,
+          "bp_away": true
         },
         {
           "home": "Regatas B. Vista B",
           "away": "SITAS B",
-          "played": false
+          "played": true,
+          "hs": 80,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Lomas Athl. B",
           "away": "CUBA B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 90,
+          "bp_away": true
         },
         {
           "home": "SIC B",
           "away": "Hindu B",
-          "played": false
+          "played": true,
+          "hs": 64,
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
@@ -544,8 +586,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:46.254631+00:00",
-  "matchesScraped": 0,
+  "lastUpdate": "2026-04-12T22:51:06.838518+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025232",
   "nombre": "M17 G2 NIVEL 1 A Eq B"
 }
