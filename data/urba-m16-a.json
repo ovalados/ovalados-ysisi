@@ -1,0 +1,557 @@
+{
+  "teams": [
+    {
+      "name": "Tiro F de Baradero",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "San Miguel",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "A.D. Francesa C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Naval C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Pinos",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "San Andres C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Tiro F de Baradero",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Pinos",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "San Miguel",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "A.D. Francesa C",
+          "away": "Belgrano Athl. C",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Tiro F de Baradero",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Champagnat C",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Tiro F de Baradero",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "A.D. Francesa C",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI C",
+          "away": "Belgrano Athl. C",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "Tiro F de Baradero",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "San Andres C",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "Tiro F de Baradero",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "CASI C",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Miguel",
+          "away": "Belgrano Athl. C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Tiro F de Baradero",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Los Pinos",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Tiro F de Baradero",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Miguel",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Belgrano Athl. C",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Tiro F de Baradero",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "Newman C",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Tiro F de Baradero",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Tiro F de Baradero",
+          "away": "Belgrano Athl. C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Champagnat C",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Newman C",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Liceo Naval C",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. C",
+          "away": "Pucara D",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Newman C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Champagnat C",
+          "away": "Tiro F de Baradero",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:59:15.297454+00:00",
+  "matchesScraped": 1,
+  "championshipId": "2025241",
+  "nombre": "M16 A"
+}
