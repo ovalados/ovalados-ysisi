@@ -2,133 +2,153 @@
   "teams": [
     {
       "name": "Buenos Aires C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 50,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "La Plata C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 24,
+      "pc": 35,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Regatas B. Vista C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 8,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Las Cañas",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 47,
+      "pc": 10,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "SIC D",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 85,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Marcos",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 85,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "CUBA D",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 47,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Vicente Lopez",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 8,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Alumni C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 35,
+      "pc": 24,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Los Tilos C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 50,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Bye",
@@ -175,27 +195,40 @@
         {
           "home": "Buenos Aires C",
           "away": "Los Tilos C",
-          "played": false
+          "played": true,
+          "hs": 50,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "La Plata C",
           "away": "Alumni C",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 35
         },
         {
           "home": "Regatas B. Vista C",
           "away": "Vicente Lopez",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
           "home": "Las Cañas",
           "away": "CUBA D",
-          "played": false
+          "played": true,
+          "hs": 47,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "SIC D",
           "away": "San Marcos",
-          "played": false
+          "played": true,
+          "hs": 85,
+          "as": 5,
+          "bp_home": true
         }
       ]
     },
@@ -550,8 +583,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:53.856591+00:00",
-  "matchesScraped": 1,
+  "lastUpdate": "2026-04-12T22:51:14.170350+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025240",
   "nombre": "M17 G1 Formativo A"
 }
