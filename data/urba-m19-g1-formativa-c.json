@@ -1,0 +1,549 @@
+{
+  "teams": [
+    {
+      "name": "Porteño",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Munc de Berazategui",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Miguel",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "T.F. de Baradero",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
+      "g": 0,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Los Molinos C",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Ezeiza",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Salle",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Atletico y Progreso",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Floresta",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Almafuerte",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Almafuerte",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Porteño",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Munc de Berazategui",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "T.F. de Baradero",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Los Molinos C",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Los Molinos C",
+          "away": "T.F. de Baradero",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Munc de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Almafuerte",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Munc de Berazategui",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "T.F. de Baradero",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "T.F. de Baradero",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Los Molinos C",
+          "away": "Munc de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Floresta",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Munc de Berazategui",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "T.F. de Baradero",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Miguel",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "T.F. de Baradero",
+          "away": "Munc de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "Los Molinos C",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Atletico y Progreso",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "T.F. de Baradero",
+          "played": false
+        },
+        {
+          "home": "Munc de Berazategui",
+          "away": "San Miguel",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Munc de Berazategui",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "T.F. de Baradero",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Los Molinos C",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "La Salle",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "T.F. de Baradero",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "Munc de Berazategui",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Porteño",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Munc de Berazategui",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "T.F. de Baradero",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Los Molinos C",
+          "away": "Ezeiza",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "T.F. de Baradero",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Munc de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Porteño",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:17.681947+00:00",
+  "matchesScraped": 2,
+  "championshipId": "2025230",
+  "nombre": "M19 G1 Formativa C"
+}
