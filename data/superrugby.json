@@ -372,7 +372,9 @@
         {
           "home": "Cobras BR",
           "away": "Selknam",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 27
         },
         {
           "home": "Capibaras XV",
@@ -557,6 +559,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T19:52:00.143597+00:00",
-  "matchesScraped": 26
+  "lastUpdate": "2026-04-12T20:43:08.175042+00:00",
+  "matchesScraped": 27
 }
