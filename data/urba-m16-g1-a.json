@@ -17,133 +17,153 @@
     },
     {
       "name": "San Patricio",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 40,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Albatros",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 72,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Beromama",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 13,
+      "pc": 45,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Lomas Athl. C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 36,
+      "pc": 33,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Banco Nacion",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 38,
+      "pc": 24,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Atl. Chascomus",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 24,
+      "pc": 38,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Delta",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 33,
+      "pc": 36,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Areco",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 45,
+      "pc": 13,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Lanus",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 72,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Atletico y Progreso",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 40,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Italiano",
@@ -163,28 +183,32 @@
     {
       "name": "Monte Grande",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 22,
+      "pc": 33,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Vicentinos",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 33,
+      "pc": 22,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -194,7 +218,9 @@
         {
           "home": "Vicentinos",
           "away": "Monte Grande",
-          "played": false
+          "played": true,
+          "hs": 33,
+          "as": 22
         },
         {
           "home": "Bye",
@@ -206,27 +232,41 @@
         {
           "home": "San Patricio",
           "away": "Atletico y Progreso",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Albatros",
           "away": "Lanus",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 72,
+          "bp_away": true
         },
         {
           "home": "Beromama",
           "away": "Areco",
-          "played": false
+          "played": true,
+          "hs": 13,
+          "as": 45,
+          "bp_away": true
         },
         {
           "home": "Lomas Athl. C",
           "away": "Delta",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 33,
+          "bf_away": true
         },
         {
           "home": "Banco Nacion",
           "away": "Atl. Chascomus",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 24
         }
       ]
     },
@@ -631,8 +671,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T18:04:21.396785+00:00",
-  "matchesScraped": 1,
+  "lastUpdate": "2026-04-12T19:08:34.363991+00:00",
+  "matchesScraped": 7,
   "championshipId": "2025251",
   "nombre": "M16 G1 A"
 }
