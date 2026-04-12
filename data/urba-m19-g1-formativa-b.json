@@ -2,16 +2,18 @@
   "teams": [
     {
       "name": "CUBA E",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 43,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Bye",
@@ -31,80 +33,92 @@
     {
       "name": "Alumni E",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 29,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "San Luis C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 57,
+      "pc": 12,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Los Matreros C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 22,
+      "pc": 35,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Buenos Aires E",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 35,
+      "pc": 22,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Cirano C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 12,
+      "pc": 57,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "CASI E",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 29,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "G y Esgrima C",
@@ -124,41 +138,47 @@
     {
       "name": "Manuel Belgrano C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 43,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "SIC G",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 45,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "CUBA F",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 45,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -168,12 +188,18 @@
         {
           "home": "CUBA F",
           "away": "SIC G",
-          "played": false
+          "played": true,
+          "hs": 45,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "CUBA E",
           "away": "Manuel Belgrano C",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "Bye",
@@ -185,17 +211,24 @@
         {
           "home": "Alumni E",
           "away": "CASI E",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 29
         },
         {
           "home": "San Luis C",
           "away": "San Cirano C",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Los Matreros C",
           "away": "Buenos Aires E",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 35
         }
       ]
     },
@@ -550,8 +583,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:43.505450+00:00",
-  "matchesScraped": 1,
+  "lastUpdate": "2026-04-12T22:51:03.904832+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025229",
   "nombre": "M19 G1 Formativa B"
 }
