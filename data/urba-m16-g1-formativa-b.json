@@ -1,0 +1,549 @@
+{
+  "teams": [
+    {
+      "name": "Porteño",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
+      "g": 0,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Bco Hipotecario",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Las Cañas",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Dorrego Rugby",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Marcos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ezeiza",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Vicente Lopez",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Centro Naval",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "G y E de Ituzaingo",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Daom",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Porteño",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Centro Naval",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Dorrego Rugby",
+          "away": "San Marcos",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Dorrego Rugby",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Dorrego Rugby",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Las Cañas",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Dorrego Rugby",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Dorrego Rugby",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Las Cañas",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bco Hipotecario",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Dorrego Rugby",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Centro Naval",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Dorrego Rugby",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bco Hipotecario",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Porteño",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Dorrego Rugby",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Vicente Lopez",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Dorrego Rugby",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Porteño",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Porteño",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Dorrego Rugby",
+          "away": "Vicente Lopez",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "Ezeiza",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Dorrego Rugby",
+          "played": false
+        },
+        {
+          "home": "Vicente Lopez",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Porteño",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:47.661816+00:00",
+  "matchesScraped": 2,
+  "championshipId": "2025254",
+  "nombre": "M16 G1 Formativa B"
+}
