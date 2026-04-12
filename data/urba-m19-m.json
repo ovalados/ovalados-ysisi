@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Liceo Naval C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman E",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pueyrredon C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Andres C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat E",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. E",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B Vista F",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI F",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B Vista E",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lomas Athl. C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "A.D. Francesa C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC F",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Newman E",
+          "away": "Regatas B Vista E",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon C",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Regatas B Vista F",
+          "played": false
+        },
+        {
+          "home": "Champagnat E",
+          "away": "Belgrano Athl. E",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Champagnat E",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. E",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista F",
+          "away": "Pueyrredon C",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Newman E",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista E",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "A.D. Francesa C",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Regatas B Vista E",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Newman E",
+          "away": "Regatas B Vista F",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon C",
+          "away": "Belgrano Athl. E",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Champagnat E",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Andres C",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Champagnat E",
+          "away": "Pueyrredon C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. E",
+          "away": "Newman E",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista F",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista E",
+          "away": "Lomas Athl. C",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "Regatas B Vista E",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Regatas B Vista F",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "Belgrano Athl. E",
+          "played": false
+        },
+        {
+          "home": "Newman E",
+          "away": "Champagnat E",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon C",
+          "away": "San Andres C",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Pueyrredon C",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Newman E",
+          "played": false
+        },
+        {
+          "home": "Champagnat E",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. E",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista F",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Regatas B Vista E",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista E",
+          "away": "Regatas B Vista F",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Belgrano Athl. E",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Champagnat E",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Newman E",
+          "away": "Pueyrredon C",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman E",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon C",
+          "away": "Liceo Naval C",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Champagnat E",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. E",
+          "away": "Regatas B Vista E",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista F",
+          "away": "CASI F",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "Regatas B Vista F",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "Belgrano Athl. E",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista E",
+          "away": "Champagnat E",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Pueyrredon C",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval C",
+          "away": "Newman E",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Liceo Naval C",
+          "away": "SIC F",
+          "played": false
+        },
+        {
+          "home": "Newman E",
+          "away": "A.D. Francesa C",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon C",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "San Andres C",
+          "away": "Regatas B Vista E",
+          "played": false
+        },
+        {
+          "home": "Champagnat E",
+          "away": "CASI F",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. E",
+          "away": "Regatas B Vista F",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC F",
+          "away": "Belgrano Athl. E",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista F",
+          "away": "Champagnat E",
+          "played": false
+        },
+        {
+          "home": "CASI F",
+          "away": "San Andres C",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista E",
+          "away": "Pueyrredon C",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Newman E",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa C",
+          "away": "Liceo Naval C",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:58:56.787824+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025226",
+  "nombre": "M19 M"
+}
