@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Tigre A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SITAS A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Italiano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Las Cañas A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Old Georgian A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Molinos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Albano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Fernando A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Univ. De la Plata A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Patricio A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Manuel Belgrano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lujan A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        },
+        {
+          "home": "Tigre A",
+          "away": "San Patricio A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        },
+        {
+          "home": "Italiano A",
+          "away": "San Fernando A",
+          "played": false
+        },
+        {
+          "home": "Las Cañas A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Old Georgian A",
+          "away": "Los Molinos A",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Old Georgian A",
+          "away": "Lujan A",
+          "played": false
+        },
+        {
+          "home": "Los Molinos A",
+          "away": "Las Cañas A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Italiano A",
+          "played": false
+        },
+        {
+          "home": "San Fernando A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata A",
+          "away": "Tigre A",
+          "played": false
+        },
+        {
+          "home": "San Patricio A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "San Patricio A",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        },
+        {
+          "home": "Tigre A",
+          "away": "San Fernando A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Italiano A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Las Cañas A",
+          "away": "Old Georgian A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Las Cañas A",
+          "away": "Lujan A",
+          "played": false
+        },
+        {
+          "home": "Old Georgian A",
+          "away": "Italiano A",
+          "played": false
+        },
+        {
+          "home": "Los Molinos A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Tigre A",
+          "played": false
+        },
+        {
+          "home": "San Fernando A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata A",
+          "away": "San Patricio A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        },
+        {
+          "home": "San Patricio A",
+          "away": "San Fernando A",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Tigre A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Old Georgian A",
+          "played": false
+        },
+        {
+          "home": "Italiano A",
+          "away": "Las Cañas A",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Italiano A",
+          "away": "Lujan A",
+          "played": false
+        },
+        {
+          "home": "Las Cañas A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Old Georgian A",
+          "away": "Tigre A",
+          "played": false
+        },
+        {
+          "home": "Los Molinos A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "San Patricio A",
+          "played": false
+        },
+        {
+          "home": "San Fernando A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "San Fernando A",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "San Patricio A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano A",
+          "away": "Old Georgian A",
+          "played": false
+        },
+        {
+          "home": "Tigre A",
+          "away": "Las Cañas A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Italiano A",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SITAS A",
+          "away": "Lujan A",
+          "played": false
+        },
+        {
+          "home": "Italiano A",
+          "away": "Tigre A",
+          "played": false
+        },
+        {
+          "home": "Las Cañas A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        },
+        {
+          "home": "Old Georgian A",
+          "away": "San Patricio A",
+          "played": false
+        },
+        {
+          "home": "Los Molinos A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "San Fernando A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "San Fernando A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata A",
+          "away": "Old Georgian A",
+          "played": false
+        },
+        {
+          "home": "San Patricio A",
+          "away": "Las Cañas A",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano A",
+          "away": "Italiano A",
+          "played": false
+        },
+        {
+          "home": "Tigre A",
+          "away": "SITAS A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Tigre A",
+          "away": "Lujan A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Manuel Belgrano A",
+          "played": false
+        },
+        {
+          "home": "Italiano A",
+          "away": "San Patricio A",
+          "played": false
+        },
+        {
+          "home": "Las Cañas A",
+          "away": "Univ. De la Plata A",
+          "played": false
+        },
+        {
+          "home": "Old Georgian A",
+          "away": "San Fernando A",
+          "played": false
+        },
+        {
+          "home": "Los Molinos A",
+          "away": "San Albano A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Old Georgian A",
+          "played": false
+        },
+        {
+          "home": "San Fernando A",
+          "away": "Las Cañas A",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata A",
+          "away": "Italiano A",
+          "played": false
+        },
+        {
+          "home": "San Patricio A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano A",
+          "away": "Tigre A",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:05.711201+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025217",
+  "nombre": "M19 G2 NIVEL 2 C"
+}
