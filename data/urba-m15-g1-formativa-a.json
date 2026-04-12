@@ -2,29 +2,33 @@
   "teams": [
     {
       "name": "Newman C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 67,
+      "pc": 10,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Buenos Aires C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 27,
+      "pc": 71,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Bye",
@@ -44,29 +48,33 @@
     },
     {
       "name": "Champagnat C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 26,
+      "pc": 22,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Belgrano Athl. C",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 22,
+      "pc": 26,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "La Plata C",
@@ -100,55 +108,63 @@
     },
     {
       "name": "Alumni C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 71,
+      "pc": 27,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Andres C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 67,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "SIC C",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 34,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Pucara C",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 34,
+      "pc": 10,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -158,17 +174,26 @@
         {
           "home": "Pucara C",
           "away": "SIC C",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "Newman C",
           "away": "San Andres C",
-          "played": false
+          "played": true,
+          "hs": 67,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "Buenos Aires C",
           "away": "Alumni C",
-          "played": false
+          "played": true,
+          "hs": 27,
+          "as": 71,
+          "bp_away": true
         },
         {
           "home": "Bye",
@@ -187,7 +212,10 @@
         {
           "home": "Champagnat C",
           "away": "Belgrano Athl. C",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 22,
+          "bf_away": true
         }
       ]
     },
@@ -542,8 +570,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T19:08:50.066658+00:00",
-  "matchesScraped": 2,
+  "lastUpdate": "2026-04-12T19:53:14.317976+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025263",
   "nombre": "M15 G1 Formativa A"
 }
