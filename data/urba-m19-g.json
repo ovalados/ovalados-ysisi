@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Curupayti B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Centro Naval B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Mariano Moreno B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Argentno B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Matreros B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Monte Grande B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Areco B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Delta B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "C.U. de Quilmes B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Carlos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Banco Nacion B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ciudad de Bs.As. B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "San Carlos B",
+          "played": false
+        },
+        {
+          "home": "Centro Naval B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Argentno B",
+          "away": "Areco B",
+          "played": false
+        },
+        {
+          "home": "Los Matreros B",
+          "away": "Monte Grande B",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Matreros B",
+          "away": "Ciudad de Bs.As. B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Argentno B",
+          "played": false
+        },
+        {
+          "home": "Areco B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Centro Naval B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "San Carlos B",
+          "away": "Banco Nacion B",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "San Carlos B",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Centro Naval B",
+          "away": "Areco B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Argentno B",
+          "away": "Los Matreros B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Argentno B",
+          "away": "Ciudad de Bs.As. B",
+          "played": false
+        },
+        {
+          "home": "Los Matreros B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Centro Naval B",
+          "played": false
+        },
+        {
+          "home": "Areco B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "San Carlos B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "San Carlos B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion B",
+          "away": "Areco B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Centro Naval B",
+          "away": "Los Matreros B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Argentno B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Mariano Moreno B",
+          "away": "Ciudad de Bs.As. B",
+          "played": false
+        },
+        {
+          "home": "Argentno B",
+          "away": "Centro Naval B",
+          "played": false
+        },
+        {
+          "home": "Los Matreros B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Areco B",
+          "away": "San Carlos B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Areco B",
+          "played": false
+        },
+        {
+          "home": "San Carlos B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion B",
+          "away": "Los Matreros B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Argentno B",
+          "played": false
+        },
+        {
+          "home": "Centro Naval B",
+          "away": "Mariano Moreno B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Centro Naval B",
+          "away": "Ciudad de Bs.As. B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "Curupayti B",
+          "played": false
+        },
+        {
+          "home": "Argentno B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Los Matreros B",
+          "away": "San Carlos B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Areco B",
+          "away": "Delta B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "Areco B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Los Matreros B",
+          "played": false
+        },
+        {
+          "home": "San Carlos B",
+          "away": "Argentno B",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "Curupayti B",
+          "away": "Centro Naval B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Curupayti B",
+          "away": "Ciudad de Bs.As. B",
+          "played": false
+        },
+        {
+          "home": "Centro Naval B",
+          "away": "Banco Nacion B",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno B",
+          "away": "San Carlos B",
+          "played": false
+        },
+        {
+          "home": "Argentno B",
+          "away": "C.U. de Quilmes B",
+          "played": false
+        },
+        {
+          "home": "Los Matreros B",
+          "away": "Delta B",
+          "played": false
+        },
+        {
+          "home": "Monte Grande B",
+          "away": "Areco B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. B",
+          "away": "Monte Grande B",
+          "played": false
+        },
+        {
+          "home": "Areco B",
+          "away": "Los Matreros B",
+          "played": false
+        },
+        {
+          "home": "Delta B",
+          "away": "Argentno B",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes B",
+          "away": "Mariano Moreno B",
+          "played": false
+        },
+        {
+          "home": "San Carlos B",
+          "away": "Centro Naval B",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion B",
+          "away": "Curupayti B",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:58:52.885030+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025220",
+  "nombre": "M19 G"
+}
