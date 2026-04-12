@@ -1,0 +1,549 @@
+{
+  "teams": [
+    {
+      "name": "CUBA C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SITAS A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B. Vista C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
+      "g": 0,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Monte Grande A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Cirano A",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "San Albano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "G y Esgrima A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Carlos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ciudad de Bs.As. A",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "CUBA C",
+          "away": "San Carlos A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Cirano A",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Monte Grande A",
+          "away": "CASI C",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Monte Grande A",
+          "away": "Ciudad de Bs.As. A",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "San Carlos A",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "San Carlos A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Monte Grande A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Ciudad de Bs.As. A",
+          "played": false
+        },
+        {
+          "home": "Monte Grande A",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "San Carlos A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "San Carlos A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Monte Grande A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Regatas B. Vista C",
+          "away": "Ciudad de Bs.As. A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Monte Grande A",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "San Carlos A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "G y Esgrima A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "San Carlos A",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Monte Grande A",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Regatas B. Vista C",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SITAS A",
+          "away": "Ciudad de Bs.As. A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "CUBA C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Monte Grande A",
+          "away": "San Carlos A",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "San Albano A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "Monte Grande A",
+          "played": false
+        },
+        {
+          "home": "San Carlos A",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "CUBA C",
+          "away": "SITAS A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CUBA C",
+          "away": "Ciudad de Bs.As. A",
+          "played": false
+        },
+        {
+          "home": "SITAS A",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista C",
+          "away": "San Carlos A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "Monte Grande A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "CASI C",
+          "away": "San Cirano A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Bs.As. A",
+          "away": "CASI C",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "Monte Grande A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "Regatas B. Vista C",
+          "played": false
+        },
+        {
+          "home": "San Carlos A",
+          "away": "SITAS A",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CUBA C",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:59:37.033524+00:00",
+  "matchesScraped": 2,
+  "championshipId": "2025259",
+  "nombre": "M15 G"
+}
