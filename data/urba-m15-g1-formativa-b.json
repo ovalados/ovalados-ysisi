@@ -1,0 +1,557 @@
+{
+  "teams": [
+    {
+      "name": "Ciudad de Campana",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Munic de Berazategui",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Miguel",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Las Cañas",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Marcos Paz",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Los Cedros",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Salle",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Pinos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Almafuerte",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "C.U. de Quilmes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Molinos C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "C.U. de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Munic de Berazategui",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Marcos Paz",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Munic de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "C.U. de Quilmes",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Munic de Berazategui",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Las Cañas",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Munic de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "C.U. de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Almafuerte",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Munic de Berazategui",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Las Cañas",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Miguel",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Munic de Berazategui",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "C.U. de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Los Pinos",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Munic de Berazategui",
+          "away": "San Miguel",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Munic de Berazategui",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "C.U. de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "La Salle",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "Los Cedros",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Munic de Berazategui",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Campana",
+          "away": "Los Molinos C",
+          "played": false
+        },
+        {
+          "home": "Munic de Berazategui",
+          "away": "C.U. de Quilmes",
+          "played": false
+        },
+        {
+          "home": "San Miguel",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Las Cañas",
+          "away": "Los Pinos",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Los Cedros",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos C",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Las Cañas",
+          "played": false
+        },
+        {
+          "home": "Los Pinos",
+          "away": "San Miguel",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Munic de Berazategui",
+          "played": false
+        },
+        {
+          "home": "C.U. de Quilmes",
+          "away": "Ciudad de Campana",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:27:00.099577+00:00",
+  "matchesScraped": 1,
+  "championshipId": "2025264",
+  "nombre": "M15 G1 Formativa B"
+}
