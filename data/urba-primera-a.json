@@ -43,7 +43,7 @@
       "g": 3,
       "e": 0,
       "p": 1,
-      "pf": 153,
+      "pf": 156,
       "pc": 128,
       "bp": 0,
       "bf": 1,
@@ -110,15 +110,15 @@
     },
     {
       "name": "San Albano",
-      "pts": 2,
+      "pts": 1,
       "pj": 4,
       "g": 0,
       "e": 0,
       "p": 4,
       "pf": 74,
-      "pc": 142,
+      "pc": 145,
       "bp": 0,
-      "bf": 2,
+      "bf": 1,
       "form": [
         "l",
         "l",
@@ -453,8 +453,7 @@
           "away": "Curupayti",
           "played": true,
           "hs": 31,
-          "as": 36,
-          "bf_home": true
+          "as": 39
         },
         {
           "home": "San Cirano",
@@ -1371,7 +1370,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T01:43:34.329188+00:00",
+  "lastUpdate": "2026-04-12T04:35:04.598363+00:00",
   "matchesScraped": 28,
   "championshipId": "2025177",
   "nombre": "Primera A"
