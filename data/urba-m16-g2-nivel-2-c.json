@@ -18,106 +18,122 @@
     {
       "name": "Hurling A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 7,
+      "pc": 40,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Univ. De la Plata A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 22,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Lomas Athl. A",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 19,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "C.U de Quilmes A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 31,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Los Molinos A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 31,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Curupayti A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 19,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Del Sur A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 22,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "El Retiro A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 40,
+      "pc": 7,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Bye",
@@ -137,28 +153,32 @@
     {
       "name": "A.D. Francesa A",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 28,
+      "pc": 38,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "San Fernando A",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 38,
+      "pc": 28,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -168,7 +188,9 @@
         {
           "home": "San Fernando A",
           "away": "A.D. Francesa A",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 28
         },
         {
           "home": "San Luis A",
@@ -180,22 +202,33 @@
         {
           "home": "Hurling A",
           "away": "El Retiro A",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 40,
+          "bp_away": true
         },
         {
           "home": "Univ. De la Plata A",
           "away": "Del Sur A",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 22,
+          "bp_away": true
         },
         {
           "home": "Lomas Athl. A",
           "away": "Curupayti A",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 19,
+          "bf_home": true
         },
         {
           "home": "C.U de Quilmes A",
           "away": "Los Molinos A",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 31
         }
       ]
     },
@@ -550,8 +583,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T19:08:29.147269+00:00",
-  "matchesScraped": 1,
+  "lastUpdate": "2026-04-12T19:52:59.570044+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025247",
   "nombre": "M16 G2 NIVEL 2 C"
 }
