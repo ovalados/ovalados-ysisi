@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "San Cirano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Albano A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "G y Esgrima A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Martin A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Naval A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Buenos Aires A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pueyrredon A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Mariano Moreno A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Mariano Moreno A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Pucara A",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "SIC A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "Pucara A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Mariano Moreno A",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "SIC A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Martin A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "Pucara A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Mariano Moreno A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "Los Tilos A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "San Martin A",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "G y Esgrima A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "Pucara A",
+          "away": "Mariano Moreno A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Pueyrredon A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "G y Esgrima A",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Albano A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "San Cirano A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Mariano Moreno A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Pucara A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Buenos Aires A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "San Cirano A",
+          "away": "San Albano A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Cirano A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "San Albano A",
+          "away": "Mariano Moreno A",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Pucara A",
+          "away": "Liceo Naval A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "G y Esgrima A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "San Albano A",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno A",
+          "away": "San Cirano A",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:34.327491+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025243",
+  "nombre": "M16 G2 NIVEL 1 A"
+}
