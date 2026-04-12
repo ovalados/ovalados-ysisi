@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Ciudad de Campana",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Arsenal Zarate",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bco Hipotecario",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "St. Brendans",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Almafuerte",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Marcos Paz",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Ezeiza",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Salle",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Atl. San Andres",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Rivadavia de Lobos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Floresta",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Jose",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Marcos Paz",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Almafuerte",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "St. Brendans",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "Floresta",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Almafuerte",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "St. Brendans",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "St. Brendans",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bco Hipotecario",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Atl. San Andres",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "St. Brendans",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Bco Hipotecario",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Arsenal Zarate",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Ciudad de Campana",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "La Salle",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Ezeiza",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "St. Brendans",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Campana",
+          "away": "Arsenal Zarate",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Campana",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Ezeiza",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "St. Brendans",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Ciudad de Campana",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:33.158309+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025242",
+  "nombre": "M17 G1 Formativo C"
+}
