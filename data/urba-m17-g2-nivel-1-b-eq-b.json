@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "San Cirano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Plata B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "G y Esgrima B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "A.D. Francesa B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Naval B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pueyrredon B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Andres B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "Champagnat B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "San Andres B",
+          "played": false
+        },
+        {
+          "home": "La Plata B",
+          "away": "Pueyrredon B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "Newman B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa B",
+          "away": "Pucara B",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "A.D. Francesa B",
+          "away": "Belgrano Athl. B",
+          "played": false
+        },
+        {
+          "home": "Pucara B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "Newman B",
+          "away": "La Plata B",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "San Andres B",
+          "away": "Champagnat B",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "San Andres B",
+          "played": false
+        },
+        {
+          "home": "Champagnat B",
+          "away": "Pueyrredon B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "Newman B",
+          "played": false
+        },
+        {
+          "home": "La Plata B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "Pucara B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "A.D. Francesa B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "CASI B",
+          "away": "Belgrano Athl. B",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "Pucara B",
+          "away": "La Plata B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "Newman B",
+          "away": "Champagnat B",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon B",
+          "away": "San Andres B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "Pueyrredon B",
+          "played": false
+        },
+        {
+          "home": "San Andres B",
+          "away": "Newman B",
+          "played": false
+        },
+        {
+          "home": "Champagnat B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "Pucara B",
+          "played": false
+        },
+        {
+          "home": "La Plata B",
+          "away": "A.D. Francesa B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "CASI B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "G y Esgrima B",
+          "away": "Belgrano Athl. B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "La Plata B",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "Pucara B",
+          "away": "Champagnat B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "San Andres B",
+          "played": false
+        },
+        {
+          "home": "Newman B",
+          "away": "Pueyrredon B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "Newman B",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "San Andres B",
+          "away": "Pucara B",
+          "played": false
+        },
+        {
+          "home": "Champagnat B",
+          "away": "A.D. Francesa B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "La Plata B",
+          "away": "G y Esgrima B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "La Plata B",
+          "away": "Belgrano Athl. B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Champagnat B",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa B",
+          "away": "San Andres B",
+          "played": false
+        },
+        {
+          "home": "Pucara B",
+          "away": "Pueyrredon B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "Newman B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "Liceo Naval B",
+          "played": false
+        },
+        {
+          "home": "Newman B",
+          "away": "Pucara B",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon B",
+          "away": "A.D. Francesa B",
+          "played": false
+        },
+        {
+          "home": "San Andres B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Champagnat B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "La Plata B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Cirano B",
+          "away": "Belgrano Athl. B",
+          "played": false
+        },
+        {
+          "home": "La Plata B",
+          "away": "Champagnat B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "San Andres B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Pueyrredon B",
+          "played": false
+        },
+        {
+          "home": "A.D. Francesa B",
+          "away": "Newman B",
+          "played": false
+        },
+        {
+          "home": "Pucara B",
+          "away": "Liceo Naval B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Belgrano Athl. B",
+          "away": "Pucara B",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval B",
+          "away": "A.D. Francesa B",
+          "played": false
+        },
+        {
+          "home": "Newman B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "San Andres B",
+          "away": "La Plata B",
+          "played": false
+        },
+        {
+          "home": "Champagnat B",
+          "away": "San Cirano B",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:23.390833+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025234",
+  "nombre": "M17 G2 NIVEL 1 B Eq B"
+}
