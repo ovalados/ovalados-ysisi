@@ -1,0 +1,638 @@
+{
+  "teams": [
+    {
+      "name": "Tigre",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Lanus",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Delta",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Don Bosco",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Italiano",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Mariano Moreno",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Albatros",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lujan",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Fernando",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASA de Padua",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "T.F. de San Pedro",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 2,
+      "pj": 1,
+      "g": 0,
+      "e": 1,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "d"
+      ]
+    },
+    {
+      "name": "Manuel Belgrano",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Banco Nacion",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "Manuel Belgrano",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Lanus",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno",
+          "away": "Albatros",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Mariano Moreno",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Lujan",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "San Fernando",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Manuel Belgrano",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Mariano Moreno",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Italiano",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Lujan",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "San Fernando",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Manuel Belgrano",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Mariano Moreno",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Italiano",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Don Bosco",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Lujan",
+          "away": "Manuel Belgrano",
+          "played": false
+        },
+        {
+          "home": "San Fernando",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "T.F. de San Pedro",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Mariano Moreno",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Don Bosco",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Delta",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno",
+          "away": "Manuel Belgrano",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Lujan",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "San Fernando",
+          "away": "CASA de Padua",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Mariano Moreno",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Delta",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lanus",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Manuel Belgrano",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Mariano Moreno",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "CASA de Padua",
+          "played": false
+        },
+        {
+          "home": "Lujan",
+          "away": "San Fernando",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "San Fernando",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua",
+          "away": "Mariano Moreno",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Lanus",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T13:59:39.744557+00:00",
+  "matchesScraped": 1,
+  "championshipId": "2025261",
+  "nombre": "M15 I"
+}
