@@ -1,0 +1,551 @@
+{
+  "teams": [
+    {
+      "name": "Liceo Naval A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B. Vista A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Luis A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Olivos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Martin A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lomas Athl. A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Molinos A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Newman A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Olivos A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Champagnat A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Champagnat A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "San Luis A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Olivos A",
+          "away": "Newman A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "SIC A",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Olivos A",
+          "played": false
+        },
+        {
+          "home": "Newman A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Champagnat A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Tilos A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Champagnat A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. A",
+          "away": "Newman A",
+          "played": false
+        },
+        {
+          "home": "San Luis A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Olivos A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Lomas Athl. A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Olivos A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        },
+        {
+          "home": "Newman A",
+          "away": "Champagnat A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Los Tilos A",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "Newman A",
+          "played": false
+        },
+        {
+          "home": "Champagnat A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "San Luis A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Olivos A",
+          "away": "San Martin A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "Olivos A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Champagnat A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "Newman A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Newman A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Liceo Naval A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Champagnat A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "San Luis A",
+          "away": "Olivos A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "San Luis A",
+          "played": false
+        },
+        {
+          "home": "Olivos A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Champagnat A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Liceo Naval A",
+          "away": "Newman A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Liceo Naval A",
+          "away": "Los Molinos A",
+          "played": false
+        },
+        {
+          "home": "Newman A",
+          "away": "SIC A",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista A",
+          "away": "Lomas Athl. A",
+          "played": false
+        },
+        {
+          "home": "Los Tilos A",
+          "away": "San Martin A",
+          "played": false
+        },
+        {
+          "home": "Champagnat A",
+          "away": "Olivos A",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. A",
+          "away": "San Luis A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Los Molinos A",
+          "away": "Belgrano Athl. A",
+          "played": false
+        },
+        {
+          "home": "San Luis A",
+          "away": "Champagnat A",
+          "played": false
+        },
+        {
+          "home": "Olivos A",
+          "away": "Los Tilos A",
+          "played": false
+        },
+        {
+          "home": "San Martin A",
+          "away": "Regatas B. Vista A",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. A",
+          "away": "Newman A",
+          "played": false
+        },
+        {
+          "home": "SIC A",
+          "away": "Liceo Naval A",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:51.322026+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025257",
+  "nombre": "M15 G2 NIVEL 1 B"
+}
