@@ -18,106 +18,122 @@
     {
       "name": "Hurling B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 28,
+      "pc": 39,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Univ. De la Plata B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 24,
+      "pc": 35,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "San Martin B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 12,
+      "pc": 40,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Manuel Belgrano B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 42,
+      "pc": 10,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Lujan B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 42,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Curupayti B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 40,
+      "pc": 12,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Olivos B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 35,
+      "pc": 24,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Mariano Moreno B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 39,
+      "pc": 28,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Bye",
@@ -137,28 +153,32 @@
     {
       "name": "Virreyes B",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 7,
+      "pc": 63,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Los Molinos B",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 63,
+      "pc": 7,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
@@ -168,7 +188,10 @@
         {
           "home": "Los Molinos B",
           "away": "Virreyes B",
-          "played": false
+          "played": true,
+          "hs": 63,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "San Albano B",
@@ -180,22 +203,33 @@
         {
           "home": "Hurling B",
           "away": "Mariano Moreno B",
-          "played": false
+          "played": true,
+          "hs": 28,
+          "as": 39,
+          "bp_away": true
         },
         {
           "home": "Univ. De la Plata B",
           "away": "Olivos B",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 35
         },
         {
           "home": "San Martin B",
           "away": "Curupayti B",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 40,
+          "bp_away": true
         },
         {
           "home": "Manuel Belgrano B",
           "away": "Lujan B",
-          "played": false
+          "played": true,
+          "hs": 42,
+          "as": 10,
+          "bp_home": true
         }
       ]
     },
@@ -550,8 +584,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:49.907291+00:00",
-  "matchesScraped": 1,
+  "lastUpdate": "2026-04-12T22:51:10.440344+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025236",
   "nombre": "M17 G2 NIVEL 2 C Eq B"
 }
