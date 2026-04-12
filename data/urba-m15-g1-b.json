@@ -1,0 +1,632 @@
+{
+  "teams": [
+    {
+      "name": "Areco",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Curupayti",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Del Sur",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Centro Naval",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Argentino",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Mercedes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Vicentinos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Old Georgian",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Patricio",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Hurling",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Liceo Militar",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "G y E de Ituzaingo",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Daom",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Virreyes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Curupayti",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Hurling",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Argentino",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Mercedes",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Argentino",
+          "played": false
+        },
+        {
+          "home": "Old Georgian",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Hurling",
+          "away": "Curupayti",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Daom",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Daom",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Hurling",
+          "played": false
+        },
+        {
+          "home": "Curupayti",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Argentino",
+          "away": "Mercedes",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Argentino",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Old Georgian",
+          "away": "Curupayti",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Hurling",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Hurling",
+          "played": false
+        },
+        {
+          "home": "Daom",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "Curupayti",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Argentino",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Centro Naval",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Argentino",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Curupayti",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Old Georgian",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Hurling",
+          "away": "Liceo Militar",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "Hurling",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "Daom",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Curupayti",
+          "away": "Argentino",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Centro Naval",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Del Sur",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Curupayti",
+          "played": false
+        },
+        {
+          "home": "Argentino",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Old Georgian",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Hurling",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Hurling",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Daom",
+          "away": "Argentino",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Curupayti",
+          "away": "Del Sur",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Curupayti",
+          "away": "Virreyes",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Argentino",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Hurling",
+          "played": false
+        },
+        {
+          "home": "Old Georgian",
+          "away": "San Patricio",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Virreyes",
+          "away": "Old Georgian",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Vicentinos",
+          "played": false
+        },
+        {
+          "home": "Hurling",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "Argentino",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Daom",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Curupayti",
+          "played": false
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-04-12T17:26:57.439875+00:00",
+  "matchesScraped": 0,
+  "championshipId": "2025262",
+  "nombre": "M15 G1 B"
+}
