@@ -2,17 +2,17 @@
   "teams": [
     {
       "name": "Ciudad de Campana",
-      "pts": 2,
+      "pts": 0,
       "pj": 1,
       "g": 0,
-      "e": 1,
-      "p": 0,
+      "e": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 8,
       "bp": 0,
       "bf": 0,
       "form": [
-        "d"
+        "l"
       ]
     },
     {
@@ -137,17 +137,17 @@
     },
     {
       "name": "Almafuerte",
-      "pts": 2,
+      "pts": 4,
       "pj": 1,
-      "g": 0,
-      "e": 1,
+      "g": 1,
+      "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 8,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
-        "d"
+        "w"
       ]
     },
     {
@@ -197,7 +197,7 @@
           "away": "Almafuerte",
           "played": true,
           "hs": 0,
-          "as": 0
+          "as": 8
         },
         {
           "home": "Munic de Berazategui",
@@ -582,7 +582,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T19:53:15.294479+00:00",
+  "lastUpdate": "2026-04-12T20:44:33.929176+00:00",
   "matchesScraped": 6,
   "championshipId": "2025264",
   "nombre": "M15 G1 Formativa B"
