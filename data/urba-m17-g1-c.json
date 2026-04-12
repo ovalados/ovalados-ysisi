@@ -20,106 +20,122 @@
     {
       "name": "Munic. De Berazategui",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 62,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "C.U de Quilmes",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 83,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Beromama",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 31,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Atl. Chascomus",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 87,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Ciudad de Bs.As.",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 87,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Los Cedros",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 31,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Del Sur",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 83,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Liceo Militar",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 62,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Daom",
@@ -158,22 +174,34 @@
         {
           "home": "Munic. De Berazategui",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 62,
+          "bp_away": true
         },
         {
           "home": "C.U de Quilmes",
           "away": "Del Sur",
-          "played": false
+          "played": true,
+          "hs": 83,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "Beromama",
           "away": "Los Cedros",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 31,
+          "bp_away": true
         },
         {
           "home": "Atl. Chascomus",
           "away": "Ciudad de Bs.As.",
-          "played": false
+          "played": true,
+          "hs": 87,
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
@@ -528,8 +556,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T22:00:52.944202+00:00",
-  "matchesScraped": 2,
+  "lastUpdate": "2026-04-12T22:51:13.297753+00:00",
+  "matchesScraped": 6,
   "championshipId": "2025239",
   "nombre": "M17 G1 C"
 }
