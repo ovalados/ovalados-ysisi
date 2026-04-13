@@ -17,14 +17,14 @@
     },
     {
       "name": "Centro Naval B",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 22,
       "pc": 5,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -206,7 +206,8 @@
           "away": "C.U. de Quilmes B",
           "played": true,
           "hs": 22,
-          "as": 5
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "Mariano Moreno B",
@@ -583,7 +584,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:26.091373+00:00",
+  "lastUpdate": "2026-04-13T01:12:29.845312+00:00",
   "matchesScraped": 6,
   "championshipId": "2025220",
   "nombre": "M19 G2 NIVEL 2 D Eq B"
