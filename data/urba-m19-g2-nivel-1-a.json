@@ -32,14 +32,14 @@
     },
     {
       "name": "Pueyrredon A",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 29,
       "pc": 13,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -77,14 +77,14 @@
     },
     {
       "name": "Belgrano Athl. A",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 29,
       "pc": 13,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -213,7 +213,8 @@
           "away": "Hurling A",
           "played": true,
           "hs": 29,
-          "as": 13
+          "as": 13,
+          "bp_home": true
         },
         {
           "home": "San Andres A",
@@ -228,7 +229,8 @@
           "away": "Belgrano Athl. A",
           "played": true,
           "hs": 13,
-          "as": 29
+          "as": 29,
+          "bp_away": true
         }
       ]
     },
@@ -583,7 +585,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:17.379318+00:00",
+  "lastUpdate": "2026-04-13T01:12:20.320563+00:00",
   "matchesScraped": 6,
   "championshipId": "2025213",
   "nombre": "M19 G2 NIVEL 1 A"
