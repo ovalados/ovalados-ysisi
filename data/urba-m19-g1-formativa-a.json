@@ -77,14 +77,14 @@
     },
     {
       "name": "Belgrano Athl. E",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 22,
       "pc": 12,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -230,7 +230,8 @@
           "away": "Belgrano Athl. E",
           "played": true,
           "hs": 12,
-          "as": 22
+          "as": 22,
+          "bp_away": true
         }
       ]
     },
@@ -585,7 +586,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:29.746110+00:00",
+  "lastUpdate": "2026-04-13T01:12:33.865632+00:00",
   "matchesScraped": 6,
   "championshipId": "2025226",
   "nombre": "M19 G1 Formativa A"
