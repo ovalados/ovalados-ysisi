@@ -2,14 +2,14 @@
   "teams": [
     {
       "name": "Buenos Aires A",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 31,
       "pc": 21,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -198,7 +198,8 @@
           "away": "Los Tilos A",
           "played": true,
           "hs": 31,
-          "as": 21
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "CASA de Padua A",
@@ -585,7 +586,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:35.955346+00:00",
+  "lastUpdate": "2026-04-13T01:12:40.561993+00:00",
   "matchesScraped": 6,
   "championshipId": "2025231",
   "nombre": "M17 G2 NIVEL 1 A"
