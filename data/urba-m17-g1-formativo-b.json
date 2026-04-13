@@ -167,14 +167,14 @@
     },
     {
       "name": "Belgrano Athl. C",
-      "pts": 5,
+      "pts": 4,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 40,
       "pc": 22,
-      "bp": 1,
+      "bp": 0,
       "bf": 0,
       "form": [
         "w"
@@ -190,8 +190,7 @@
           "away": "Champagnat C",
           "played": true,
           "hs": 40,
-          "as": 22,
-          "bp_home": true
+          "as": 22
         },
         {
           "home": "Tiro F de Baradero",
@@ -584,7 +583,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:53.152923+00:00",
+  "lastUpdate": "2026-04-13T01:12:53.895786+00:00",
   "matchesScraped": 6,
   "championshipId": "2025241",
   "nombre": "M17 G1 Formativo B"
