@@ -167,14 +167,14 @@
     },
     {
       "name": "Belgrano Athl. A",
-      "pts": 4,
+      "pts": 5,
       "pj": 1,
       "g": 1,
       "e": 0,
       "p": 0,
       "pf": 28,
       "pc": 14,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w"
@@ -190,7 +190,8 @@
           "away": "Champagnat A",
           "played": true,
           "hs": 28,
-          "as": 14
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "San Cirano A",
@@ -583,7 +584,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:38.387610+00:00",
+  "lastUpdate": "2026-04-13T01:12:43.110335+00:00",
   "matchesScraped": 6,
   "championshipId": "2025233",
   "nombre": "M17 G2 NIVEL 1 B"
