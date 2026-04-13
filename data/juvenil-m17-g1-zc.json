@@ -2,269 +2,211 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 0,
-      "pj": 0,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "d",
+        "d",
+        "d"
+      ]
     },
     {
       "name": "Munic. De Berazategui",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 62,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "C.U de Quilmes",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 83,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Beromama",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 31,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Atl. Chascomus",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 87,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Ciudad de Bs.As.",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 87,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Los Cedros",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 31,
+      "pc": 5,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Del Sur",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 5,
+      "pc": 83,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Liceo Militar",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 62,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Italiano",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Bye",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Daom",
-      "pts": 0,
-      "pj": 0,
+      "pts": 2,
+      "pj": 1,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "d"
+      ]
     }
   ],
   "matches": {
     "1": {
-      "date": "abril 12, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Daom",
           "away": "Bye",
-          "played": false
-        },
-        {
-          "home": "Bye",
-          "away": "Italiano",
-          "played": false
-        },
-        {
-          "home": "Munic. De Berazategui",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "C.U de Quilmes",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Beromama",
-          "away": "Los Cedros",
-          "played": false
-        },
-        {
-          "home": "Atl. Chascomus",
-          "away": "Ciudad de Bs.As.",
-          "played": false
-        }
-      ]
-    },
-    "10": {
-      "date": "julio 5, 2026",
-      "ms": [
-        {
-          "home": "Bye",
-          "away": "Daom",
-          "played": false
-        },
-        {
-          "home": "Munic. De Berazategui",
-          "away": "Bye",
-          "played": false
-        },
-        {
-          "home": "C.U de Quilmes",
-          "away": "Italiano",
-          "played": false
-        },
-        {
-          "home": "Beromama",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "Atl. Chascomus",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Ciudad de Bs.As.",
-          "away": "Los Cedros",
-          "played": false
-        }
-      ]
-    },
-    "11": {
-      "date": "julio 12, 2026",
-      "ms": [
-        {
-          "home": "Daom",
-          "away": "Ciudad de Bs.As.",
-          "played": false
-        },
-        {
-          "home": "Los Cedros",
-          "away": "Atl. Chascomus",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "Beromama",
-          "played": false
-        },
-        {
-          "home": "Liceo Militar",
-          "away": "C.U de Quilmes",
-          "played": false
-        },
-        {
-          "home": "Italiano",
-          "away": "Munic. De Berazategui",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Liceo Militar",
+          "played": true,
+          "hs": 0,
+          "as": 62,
+          "bp_away": true
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Del Sur",
+          "played": true,
+          "hs": 83,
+          "as": 5,
+          "bp_home": true
+        },
+        {
+          "home": "Beromama",
+          "away": "Los Cedros",
+          "played": true,
+          "hs": 5,
+          "as": 31,
+          "bp_away": true
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Ciudad de Bs.As.",
+          "played": true,
+          "hs": 87,
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
     "2": {
-      "date": "abril 19, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Atl. Chascomus",
@@ -292,18 +234,18 @@
           "played": false
         },
         {
-          "home": "Italiano",
+          "home": "Bye",
           "away": "Bye",
           "played": false
         }
       ]
     },
     "3": {
-      "date": "abril 26, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Daom",
-          "away": "Italiano",
+          "away": "Bye",
           "played": false
         },
         {
@@ -334,7 +276,7 @@
       ]
     },
     "4": {
-      "date": "mayo 10, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Beromama",
@@ -363,13 +305,13 @@
         },
         {
           "home": "Liceo Militar",
-          "away": "Italiano",
+          "away": "Bye",
           "played": false
         }
       ]
     },
     "5": {
-      "date": "mayo 17, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Daom",
@@ -377,7 +319,7 @@
           "played": false
         },
         {
-          "home": "Italiano",
+          "home": "Bye",
           "away": "Del Sur",
           "played": false
         },
@@ -404,7 +346,7 @@
       ]
     },
     "6": {
-      "date": "mayo 24, 2026",
+      "date": "",
       "ms": [
         {
           "home": "C.U de Quilmes",
@@ -428,7 +370,7 @@
         },
         {
           "home": "Los Cedros",
-          "away": "Italiano",
+          "away": "Bye",
           "played": false
         },
         {
@@ -439,7 +381,7 @@
       ]
     },
     "7": {
-      "date": "junio 7, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Daom",
@@ -452,7 +394,7 @@
           "played": false
         },
         {
-          "home": "Italiano",
+          "home": "Bye",
           "away": "Ciudad de Bs.As.",
           "played": false
         },
@@ -474,7 +416,7 @@
       ]
     },
     "8": {
-      "date": "junio 21, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Munic. De Berazategui",
@@ -493,7 +435,7 @@
         },
         {
           "home": "Atl. Chascomus",
-          "away": "Italiano",
+          "away": "Bye",
           "played": false
         },
         {
@@ -509,7 +451,7 @@
       ]
     },
     "9": {
-      "date": "junio 28, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Daom",
@@ -527,7 +469,7 @@
           "played": false
         },
         {
-          "home": "Italiano",
+          "home": "Bye",
           "away": "Beromama",
           "played": false
         },
@@ -542,6 +484,80 @@
           "played": false
         }
       ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Daom",
+          "played": false
+        },
+        {
+          "home": "Munic. De Berazategui",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "C.U de Quilmes",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Los Cedros",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Daom",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Los Cedros",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Liceo Militar",
+          "away": "C.U de Quilmes",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Munic. De Berazategui",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Bye",
+          "played": false
+        }
+      ]
     }
-  }
+  },
+  "lastUpdate": "2026-04-13T13:37:17.031057+00:00",
+  "matchesScraped": 6,
+  "championshipId": "2025239",
+  "nombre": "M17 G1-ZC"
 }
