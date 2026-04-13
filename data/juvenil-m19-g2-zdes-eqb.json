@@ -1,0 +1,708 @@
+{
+  "teams": [
+    {
+      "name": "Hindu D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CUBA D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Buenos Aires D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Plata D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B. Vista D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Martin D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Hindu D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "SIC D",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "Newman D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "La Plata D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "San Martin D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Buenos Aires D",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "NO SE JUEGA",
+      "ms": [
+        {
+          "home": "CUBA D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "NO SE JUEGA",
+      "ms": [
+        {
+          "home": "Buenos Aires D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "La Plata D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "San Martin D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "La Plata D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "San Martin D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "SIC D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "San Martin D",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Champagnat D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "La Plata D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "San Martin D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Los Tilos D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "La Plata D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Regatas B. Vista D",
+          "away": "La Plata D",
+          "played": false
+        },
+        {
+          "home": "San Martin D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "CASI D",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "Alumni D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Los Tilos D",
+          "away": "Hindu D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Belgrano Athl. D",
+          "away": "San Martin D",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires D",
+          "away": "Regatas B. Vista D",
+          "played": false
+        },
+        {
+          "home": "La Plata D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Pucara D",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "CASI D",
+          "away": "Buenos Aires D",
+          "played": false
+        },
+        {
+          "home": "Regatas B. Vista D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "San Martin D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Los Tilos D",
+          "played": false
+        },
+        {
+          "home": "Hindu D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Pucara D",
+          "away": "La Plata D",
+          "played": false
+        }
+      ]
+    }
+  }
+}

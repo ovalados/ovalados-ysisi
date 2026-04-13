@@ -1,0 +1,547 @@
+{
+  "teams": [
+    {
+      "name": "Tigre B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SITAS B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Italiano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Las Cañas B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Old Georgian B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Molinos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Albano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Fernando B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Univ. De la Plata B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Patricio B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Manuel Belgrano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lujan B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Tigre B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "SITAS B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "San Fernando B",
+          "played": false
+        },
+        {
+          "home": "Las Cañas B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Old Georgian B",
+          "away": "Los Molinos B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "Tigre B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "SITAS B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Las Cañas B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Old Georgian B",
+          "away": "San Fernando B",
+          "played": false
+        },
+        {
+          "home": "Los Molinos B",
+          "away": "San Albano B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Old Georgian B",
+          "played": false
+        },
+        {
+          "home": "San Fernando B",
+          "away": "Las Cañas B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "SITAS B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Tigre B",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "Old Georgian B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Los Molinos B",
+          "away": "Las Cañas B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "San Fernando B",
+          "away": "SITAS B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Tigre B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "Tigre B",
+          "away": "San Fernando B",
+          "played": false
+        },
+        {
+          "home": "SITAS B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Las Cañas B",
+          "away": "Old Georgian B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Las Cañas B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Old Georgian B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Los Molinos B",
+          "away": "SITAS B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "Tigre B",
+          "played": false
+        },
+        {
+          "home": "San Fernando B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "San Patricio B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "San Fernando B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "Tigre B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "SITAS B",
+          "away": "Old Georgian B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Las Cañas B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Italiano B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Las Cañas B",
+          "away": "SITAS B",
+          "played": false
+        },
+        {
+          "home": "Old Georgian B",
+          "away": "Tigre B",
+          "played": false
+        },
+        {
+          "home": "Los Molinos B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "San Fernando B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "San Fernando B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Old Georgian B",
+          "played": false
+        },
+        {
+          "home": "Tigre B",
+          "away": "Las Cañas B",
+          "played": false
+        },
+        {
+          "home": "SITAS B",
+          "away": "Italiano B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "SITAS B",
+          "away": "Lujan B",
+          "played": false
+        },
+        {
+          "home": "Italiano B",
+          "away": "Tigre B",
+          "played": false
+        },
+        {
+          "home": "Las Cañas B",
+          "away": "Manuel Belgrano B",
+          "played": false
+        },
+        {
+          "home": "Old Georgian B",
+          "away": "San Patricio B",
+          "played": false
+        },
+        {
+          "home": "Los Molinos B",
+          "away": "Univ. De la Plata B",
+          "played": false
+        },
+        {
+          "home": "San Albano B",
+          "away": "San Fernando B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "Lujan B",
+          "away": "San Albano B",
+          "played": false
+        },
+        {
+          "home": "San Fernando B",
+          "away": "Los Molinos B",
+          "played": false
+        },
+        {
+          "home": "Univ. De la Plata B",
+          "away": "Old Georgian B",
+          "played": false
+        },
+        {
+          "home": "San Patricio B",
+          "away": "Las Cañas B",
+          "played": false
+        },
+        {
+          "home": "Manuel Belgrano B",
+          "away": "Italiano B",
+          "played": false
+        },
+        {
+          "home": "Tigre B",
+          "away": "SITAS B",
+          "played": false
+        }
+      ]
+    }
+  }
+}

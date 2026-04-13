@@ -1,0 +1,708 @@
+{
+  "teams": [
+    {
+      "name": "Bye",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Patricio",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Albatros",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Beromama",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lomas Athl. C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Banco Nacion",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Atl. Chascomus",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Delta",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Areco",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lanus",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Atletico y Progreso",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Italiano",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Monte Grande",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Vicentinos",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Monte Grande",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "Albatros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "Areco",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Delta",
+          "played": false
+        }
+      ]
+    },
+    "12": {
+      "date": "NO SE JUEGA",
+      "ms": [
+        {
+          "home": "San Patricio",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "13": {
+      "date": "NO SE JUEGA",
+      "ms": [
+        {
+          "home": "Delta",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Atl. Chascomus",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "Atl. Chascomus",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "Monte Grande",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Italiano",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Banco Nacion",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "Italiano",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Atletico y Progreso",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Lomas Athl. C",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Atletico y Progreso",
+          "away": "Areco",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Lanus",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "Beromama",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Lomas Athl. C",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Banco Nacion",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Atl. Chascomus",
+          "away": "Italiano",
+          "played": false
+        },
+        {
+          "home": "Delta",
+          "away": "Atletico y Progreso",
+          "played": false
+        },
+        {
+          "home": "Areco",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Vicentinos",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "Lanus",
+          "away": "Delta",
+          "played": false
+        },
+        {
+          "home": "Atletico y Progreso",
+          "away": "Atl. Chascomus",
+          "played": false
+        },
+        {
+          "home": "Italiano",
+          "away": "Banco Nacion",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Lomas Athl. C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Vicentinos",
+          "away": "Areco",
+          "played": false
+        }
+      ]
+    }
+  }
+}

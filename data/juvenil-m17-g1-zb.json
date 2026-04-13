@@ -1,0 +1,547 @@
+{
+  "teams": [
+    {
+      "name": "Mercedes",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Albatros",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Don Bosco",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Patricio",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara C",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Lanus",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Centro Naval",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Varela Jr.",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Monte Grande",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Fernando",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Varela Jr.",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Pucara C",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "Mercedes",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Varela Jr.",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Pucara C",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Pucara C",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Varela Jr.",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Mercedes",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "SIC C",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Pucara C",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Varela Jr.",
+          "away": "Monte Grande",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Varela Jr.",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Pucara C",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "SIC C",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "San Patricio",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Pucara C",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Varela Jr.",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Varela Jr.",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Pucara C",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "San Patricio",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Don Bosco",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "Pucara C",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Varela Jr.",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Centro Naval",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Lanus",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Varela Jr.",
+          "away": "Pucara C",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Don Bosco",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "Albatros",
+          "away": "San Fernando",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Mercedes",
+          "played": false
+        },
+        {
+          "home": "San Patricio",
+          "away": "Monte Grande",
+          "played": false
+        },
+        {
+          "home": "SIC C",
+          "away": "Varela Jr.",
+          "played": false
+        },
+        {
+          "home": "Pucara C",
+          "away": "Centro Naval",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Lanus",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "San Fernando",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Lanus",
+          "away": "Pucara C",
+          "played": false
+        },
+        {
+          "home": "Centro Naval",
+          "away": "SIC C",
+          "played": false
+        },
+        {
+          "home": "Varela Jr.",
+          "away": "San Patricio",
+          "played": false
+        },
+        {
+          "home": "Monte Grande",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Mercedes",
+          "away": "Albatros",
+          "played": false
+        }
+      ]
+    }
+  }
+}

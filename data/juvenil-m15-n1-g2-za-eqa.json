@@ -1,0 +1,547 @@
+{
+  "teams": [
+    {
+      "name": "CUBA A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Buenos Aires A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pueyrredon A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Matreros A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "A.D Francesa A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "La Plata A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Univ.  de la Plata A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Andres A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Hindu A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Pucara A",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "San Andres A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "La Plata A",
+          "played": false
+        },
+        {
+          "home": "A.D Francesa A",
+          "away": "CASI A",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "CUBA A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "San Andres A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "A.D Francesa A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        },
+        {
+          "home": "CASI A",
+          "away": "La Plata A",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "La Plata A",
+          "away": "A.D Francesa A",
+          "played": false
+        },
+        {
+          "home": "Univ.  de la Plata A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "San Andres A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "CUBA A",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "A.D Francesa A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "CASI A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "La Plata A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "Univ.  de la Plata A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "San Andres A",
+          "away": "Hindu A",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "San Andres A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "La Plata A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "A.D Francesa A",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Los Matreros A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "A.D Francesa A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "CASI A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "La Plata A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "Univ.  de la Plata A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "San Andres A",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "San Andres A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "La Plata A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "A.D Francesa A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "Los Matreros A",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Pueyrredon A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Buenos Aires A",
+          "played": false
+        },
+        {
+          "home": "A.D Francesa A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "CASI A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "La Plata A",
+          "away": "San Andres A",
+          "played": false
+        },
+        {
+          "home": "Univ.  de la Plata A",
+          "away": "Alumni A",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "La Plata A",
+          "played": false
+        },
+        {
+          "home": "San Andres A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "A.D Francesa A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires A",
+          "away": "Pueyrredon A",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "Buenos Aires A",
+          "away": "Pucara A",
+          "played": false
+        },
+        {
+          "home": "Pueyrredon A",
+          "away": "CUBA A",
+          "played": false
+        },
+        {
+          "home": "Los Matreros A",
+          "away": "Hindu A",
+          "played": false
+        },
+        {
+          "home": "A.D Francesa A",
+          "away": "San Andres A",
+          "played": false
+        },
+        {
+          "home": "CASI A",
+          "away": "Alumni A",
+          "played": false
+        },
+        {
+          "home": "La Plata A",
+          "away": "Univ.  de la Plata A",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "Pucara A",
+          "away": "La Plata A",
+          "played": false
+        },
+        {
+          "home": "Univ.  de la Plata A",
+          "away": "CASI A",
+          "played": false
+        },
+        {
+          "home": "Alumni A",
+          "away": "A.D Francesa A",
+          "played": false
+        },
+        {
+          "home": "San Andres A",
+          "away": "Los Matreros A",
+          "played": false
+        },
+        {
+          "home": "Hindu A",
+          "away": "Pueyrredon A",
+          "played": false
+        },
+        {
+          "home": "CUBA A",
+          "away": "Buenos Aires A",
+          "played": false
+        }
+      ]
+    }
+  }
+}

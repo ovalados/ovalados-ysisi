@@ -1,0 +1,547 @@
+{
+  "teams": [
+    {
+      "name": "CASI D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASA de Padua B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Bye",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Virreyes B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CUBA D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Newman D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Regatas B Vista D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Argentino B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Champagnat D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Belgrano Athl. D",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua B",
+          "away": "Regatas B Vista D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Virreyes B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "CASI D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua B",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Regatas B Vista D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "CUBA D",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "CASA de Padua B",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "CASI D",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "SIC D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "CASA de Padua B",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Champagnat D",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "Regatas B Vista D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua B",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "SIC D",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "CASA de Padua B",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista D",
+          "away": "Argentino B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Regatas B Vista D",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua B",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "Bye",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Alumni D",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "CASA de Padua B",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Regatas B Vista D",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "Newman D",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "CASA de Padua B",
+          "away": "Alumni D",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "CASA de Padua B",
+          "away": "Belgrano Athl. D",
+          "played": false
+        },
+        {
+          "home": "Alumni D",
+          "away": "CASI D",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Champagnat D",
+          "played": false
+        },
+        {
+          "home": "SIC D",
+          "away": "Argentino B",
+          "played": false
+        },
+        {
+          "home": "Virreyes B",
+          "away": "Regatas B Vista D",
+          "played": false
+        },
+        {
+          "home": "CUBA D",
+          "away": "Newman D",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "Belgrano Athl. D",
+          "away": "CUBA D",
+          "played": false
+        },
+        {
+          "home": "Newman D",
+          "away": "Virreyes B",
+          "played": false
+        },
+        {
+          "home": "Regatas B Vista D",
+          "away": "SIC D",
+          "played": false
+        },
+        {
+          "home": "Argentino B",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Champagnat D",
+          "away": "Alumni D",
+          "played": false
+        },
+        {
+          "home": "CASI D",
+          "away": "CASA de Padua B",
+          "played": false
+        }
+      ]
+    }
+  }
+}

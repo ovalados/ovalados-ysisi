@@ -1,0 +1,547 @@
+{
+  "teams": [
+    {
+      "name": "CUBA B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Olivos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Alumni B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Los Tilos B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Luis B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Buenos Aires B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Cirano B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "CASI B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "G y Esgrima B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "San Martin B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "SIC B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    },
+    {
+      "name": "Hindu B",
+      "pts": 0,
+      "pj": 0,
+      "g": 0,
+      "e": 0,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
+      "bf": 0,
+      "form": []
+    }
+  ],
+  "matches": {
+    "1": {
+      "date": "abril 12, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "SIC B",
+          "played": false
+        },
+        {
+          "home": "CUBA B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "Alumni B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Los Tilos B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "San Luis B",
+          "away": "Buenos Aires B",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "julio 5, 2026",
+      "ms": [
+        {
+          "home": "CUBA B",
+          "away": "Hindu B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "SIC B",
+          "played": false
+        },
+        {
+          "home": "Alumni B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Los Tilos B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "San Luis B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires B",
+          "away": "San Cirano B",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "julio 12, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "Buenos Aires B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "San Luis B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Los Tilos B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "Alumni B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "SIC B",
+          "away": "CUBA B",
+          "played": false
+        }
+      ]
+    },
+    "2": {
+      "date": "abril 19, 2026",
+      "ms": [
+        {
+          "home": "San Luis B",
+          "away": "Hindu B",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires B",
+          "away": "Los Tilos B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "Alumni B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "CUBA B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "SIC B",
+          "played": false
+        }
+      ]
+    },
+    "3": {
+      "date": "abril 26, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "SIC B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "CUBA B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "Alumni B",
+          "away": "Buenos Aires B",
+          "played": false
+        },
+        {
+          "home": "Los Tilos B",
+          "away": "San Luis B",
+          "played": false
+        }
+      ]
+    },
+    "4": {
+      "date": "mayo 10, 2026",
+      "ms": [
+        {
+          "home": "Los Tilos B",
+          "away": "Hindu B",
+          "played": false
+        },
+        {
+          "home": "San Luis B",
+          "away": "Alumni B",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "CUBA B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "SIC B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "San Martin B",
+          "played": false
+        }
+      ]
+    },
+    "5": {
+      "date": "mayo 17, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "SIC B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "CUBA B",
+          "away": "Buenos Aires B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "San Luis B",
+          "played": false
+        },
+        {
+          "home": "Alumni B",
+          "away": "Los Tilos B",
+          "played": false
+        }
+      ]
+    },
+    "6": {
+      "date": "mayo 24, 2026",
+      "ms": [
+        {
+          "home": "Alumni B",
+          "away": "Hindu B",
+          "played": false
+        },
+        {
+          "home": "Los Tilos B",
+          "away": "Olivos B",
+          "played": false
+        },
+        {
+          "home": "San Luis B",
+          "away": "CUBA B",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires B",
+          "away": "SIC B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "G y Esgrima B",
+          "played": false
+        }
+      ]
+    },
+    "7": {
+      "date": "junio 7, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "CASI B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Buenos Aires B",
+          "played": false
+        },
+        {
+          "home": "SIC B",
+          "away": "San Luis B",
+          "played": false
+        },
+        {
+          "home": "CUBA B",
+          "away": "Los Tilos B",
+          "played": false
+        },
+        {
+          "home": "Olivos B",
+          "away": "Alumni B",
+          "played": false
+        }
+      ]
+    },
+    "8": {
+      "date": "junio 21, 2026",
+      "ms": [
+        {
+          "home": "Olivos B",
+          "away": "Hindu B",
+          "played": false
+        },
+        {
+          "home": "Alumni B",
+          "away": "CUBA B",
+          "played": false
+        },
+        {
+          "home": "Los Tilos B",
+          "away": "SIC B",
+          "played": false
+        },
+        {
+          "home": "San Luis B",
+          "away": "San Martin B",
+          "played": false
+        },
+        {
+          "home": "Buenos Aires B",
+          "away": "G y Esgrima B",
+          "played": false
+        },
+        {
+          "home": "San Cirano B",
+          "away": "CASI B",
+          "played": false
+        }
+      ]
+    },
+    "9": {
+      "date": "junio 28, 2026",
+      "ms": [
+        {
+          "home": "Hindu B",
+          "away": "San Cirano B",
+          "played": false
+        },
+        {
+          "home": "CASI B",
+          "away": "Buenos Aires B",
+          "played": false
+        },
+        {
+          "home": "G y Esgrima B",
+          "away": "San Luis B",
+          "played": false
+        },
+        {
+          "home": "San Martin B",
+          "away": "Los Tilos B",
+          "played": false
+        },
+        {
+          "home": "SIC B",
+          "away": "Alumni B",
+          "played": false
+        },
+        {
+          "home": "CUBA B",
+          "away": "Olivos B",
+          "played": false
+        }
+      ]
+    }
+  }
+}
