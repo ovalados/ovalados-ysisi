@@ -53,7 +53,7 @@
       "e": 0,
       "p": 0,
       "pf": 17,
-      "pc": 7,
+      "pc": 10,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -92,15 +92,15 @@
     },
     {
       "name": "Liceo Naval B",
-      "pts": 0,
+      "pts": 1,
       "pj": 1,
       "g": 0,
       "e": 0,
       "p": 1,
-      "pf": 7,
+      "pf": 10,
       "pc": 17,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l"
       ]
@@ -221,7 +221,8 @@
           "away": "Liceo Naval B",
           "played": true,
           "hs": 17,
-          "as": 7
+          "as": 10,
+          "bf_away": true
         },
         {
           "home": "A.D. Francesa B",
@@ -584,7 +585,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-12T23:42:43.795831+00:00",
+  "lastUpdate": "2026-04-13T01:12:44.924071+00:00",
   "matchesScraped": 6,
   "championshipId": "2025234",
   "nombre": "M17 G2 NIVEL 1 B Eq B"
