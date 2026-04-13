@@ -1,708 +1,591 @@
 {
   "teams": [
     {
-      "name": "Areco",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "Tigre",
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 111,
       "pc": 0,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Curupayti",
-      "pts": 0,
-      "pj": 0,
+      "name": "Arsenal Zarate",
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 19,
+      "pc": 20,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Del Sur",
+      "name": "Don Bosco",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 26,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Centro Naval",
+      "name": "San Carlos",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 7,
+      "pc": 19,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Argentino",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "Almafuerte",
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 33,
+      "pc": 15,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Mercedes",
+      "name": "Ciudad de Bs.As.",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 15,
+      "pc": 33,
       "bp": 0,
       "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Vicentinos",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Old Georgian",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "San Patricio",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Hurling",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Liceo Militar",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 19,
+      "pc": 7,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "G y E de Ituzaingo",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "SITAS",
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 26,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Daom",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "T.F. de San Pedro",
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 20,
+      "pc": 19,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Virreyes",
+      "name": "Varela Jr",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 111,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
+    },
+    {
+      "name": "Pac Gral Rodriguez",
+      "pts": 0,
+      "pj": 1,
+      "g": 0,
+      "e": 0,
+      "p": 1,
+      "pf": 22,
+      "pc": 38,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l"
+      ]
+    },
+    {
+      "name": "Lujan",
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
+      "e": 0,
+      "p": 0,
+      "pf": 38,
+      "pc": 22,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
     "1": {
-      "date": "abril 12, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Areco",
-          "away": "G y E de Ituzaingo",
-          "played": false
+          "home": "Lujan",
+          "away": "Pac Gral Rodriguez",
+          "played": true,
+          "hs": 38,
+          "as": 22,
+          "bp_home": true
         },
         {
-          "home": "Curupayti",
+          "home": "Tigre",
+          "away": "Varela Jr",
+          "played": true,
+          "hs": 111,
+          "as": 0,
+          "bp_home": true
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "T.F. de San Pedro",
+          "played": true,
+          "hs": 19,
+          "as": 20,
+          "bf_home": true
+        },
+        {
+          "home": "Don Bosco",
+          "away": "SITAS",
+          "played": true,
+          "hs": 17,
+          "as": 26
+        },
+        {
+          "home": "San Carlos",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 19
         },
         {
-          "home": "Del Sur",
-          "away": "Hurling",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "San Patricio",
-          "played": false
-        },
-        {
-          "home": "Argentino",
-          "away": "Old Georgian",
-          "played": false
-        },
-        {
-          "home": "Mercedes",
-          "away": "Vicentinos",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "Daom",
-          "played": false
-        }
-      ]
-    },
-    "10": {
-      "date": "julio 5, 2026",
-      "ms": [
-        {
-          "home": "Del Sur",
-          "away": "Areco",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "Daom",
-          "played": false
-        },
-        {
-          "home": "Argentino",
-          "away": "G y E de Ituzaingo",
-          "played": false
-        },
-        {
-          "home": "Mercedes",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "Vicentinos",
-          "away": "Hurling",
-          "played": false
-        },
-        {
-          "home": "Old Georgian",
-          "away": "San Patricio",
-          "played": false
-        },
-        {
-          "home": "Curupayti",
-          "away": "Virreyes",
-          "played": false
-        }
-      ]
-    },
-    "11": {
-      "date": "julio 12, 2026",
-      "ms": [
-        {
-          "home": "San Patricio",
-          "away": "Vicentinos",
-          "played": false
-        },
-        {
-          "home": "Hurling",
-          "away": "Mercedes",
-          "played": false
-        },
-        {
-          "home": "Liceo Militar",
-          "away": "Argentino",
-          "played": false
-        },
-        {
-          "home": "G y E de Ituzaingo",
-          "away": "Centro Naval",
-          "played": false
-        },
-        {
-          "home": "Daom",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Areco",
-          "away": "Curupayti",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "Old Georgian",
-          "played": false
-        }
-      ]
-    },
-    "12": {
-      "date": "NO SE JUEGA",
-      "ms": [
-        {
-          "home": "Curupayti",
-          "away": "Daom",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "G y E de Ituzaingo",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "Argentino",
-          "away": "Hurling",
-          "played": false
-        },
-        {
-          "home": "Mercedes",
-          "away": "San Patricio",
-          "played": false
-        },
-        {
-          "home": "Vicentinos",
-          "away": "Old Georgian",
-          "played": false
-        },
-        {
-          "home": "Areco",
-          "away": "Virreyes",
-          "played": false
-        }
-      ]
-    },
-    "13": {
-      "date": "NO SE JUEGA",
-      "ms": [
-        {
-          "home": "Old Georgian",
-          "away": "Mercedes",
-          "played": false
-        },
-        {
-          "home": "San Patricio",
-          "away": "Argentino",
-          "played": false
-        },
-        {
-          "home": "Hurling",
-          "away": "Centro Naval",
-          "played": false
-        },
-        {
-          "home": "Liceo Militar",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "G y E de Ituzaingo",
-          "away": "Curupayti",
-          "played": false
-        },
-        {
-          "home": "Daom",
-          "away": "Areco",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "Vicentinos",
-          "played": false
+          "home": "Almafuerte",
+          "away": "Ciudad de Bs.As.",
+          "played": true,
+          "hs": 33,
+          "as": 15,
+          "bp_home": true
         }
       ]
     },
     "2": {
-      "date": "abril 19, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Vicentinos",
-          "away": "Argentino",
+          "home": "Almafuerte",
+          "away": "Lujan",
           "played": false
         },
         {
-          "home": "Old Georgian",
-          "away": "Centro Naval",
-          "played": false
-        },
-        {
-          "home": "San Patricio",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Hurling",
-          "away": "Curupayti",
+          "home": "Ciudad de Bs.As.",
+          "away": "San Carlos",
           "played": false
         },
         {
           "home": "Liceo Militar",
-          "away": "Areco",
+          "away": "Don Bosco",
           "played": false
         },
         {
-          "home": "G y E de Ituzaingo",
-          "away": "Daom",
+          "home": "SITAS",
+          "away": "Arsenal Zarate",
           "played": false
         },
         {
-          "home": "Mercedes",
-          "away": "Virreyes",
+          "home": "T.F. de San Pedro",
+          "away": "Tigre",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "Pac Gral Rodriguez",
           "played": false
         }
       ]
     },
     "3": {
-      "date": "abril 26, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Daom",
+          "home": "Lujan",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
           "away": "Liceo Militar",
           "played": false
         },
         {
-          "home": "Areco",
-          "away": "Hurling",
+          "home": "Don Bosco",
+          "away": "Ciudad de Bs.As.",
           "played": false
         },
         {
-          "home": "Curupayti",
-          "away": "San Patricio",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "Old Georgian",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "Vicentinos",
-          "played": false
-        },
-        {
-          "home": "Argentino",
-          "away": "Mercedes",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "G y E de Ituzaingo",
+          "home": "San Carlos",
+          "away": "Almafuerte",
           "played": false
         }
       ]
     },
     "4": {
-      "date": "mayo 10, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Mercedes",
-          "away": "Centro Naval",
+          "home": "San Carlos",
+          "away": "Lujan",
           "played": false
         },
         {
-          "home": "Vicentinos",
-          "away": "Del Sur",
+          "home": "Almafuerte",
+          "away": "Don Bosco",
           "played": false
         },
         {
-          "home": "Old Georgian",
-          "away": "Curupayti",
-          "played": false
-        },
-        {
-          "home": "San Patricio",
-          "away": "Areco",
-          "played": false
-        },
-        {
-          "home": "Hurling",
-          "away": "Daom",
+          "home": "Ciudad de Bs.As.",
+          "away": "Arsenal Zarate",
           "played": false
         },
         {
           "home": "Liceo Militar",
-          "away": "G y E de Ituzaingo",
+          "away": "Tigre",
           "played": false
         },
         {
-          "home": "Argentino",
-          "away": "Virreyes",
+          "home": "SITAS",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Varela Jr",
           "played": false
         }
       ]
     },
     "5": {
-      "date": "mayo 17, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "G y E de Ituzaingo",
-          "away": "Hurling",
+          "home": "Lujan",
+          "away": "T.F. de San Pedro",
           "played": false
         },
         {
-          "home": "Daom",
-          "away": "San Patricio",
+          "home": "Varela Jr",
+          "away": "SITAS",
           "played": false
         },
         {
-          "home": "Areco",
-          "away": "Old Georgian",
-          "played": false
-        },
-        {
-          "home": "Curupayti",
-          "away": "Vicentinos",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "Mercedes",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "Argentino",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
+          "home": "Pac Gral Rodriguez",
           "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "San Carlos",
           "played": false
         }
       ]
     },
     "6": {
-      "date": "mayo 24, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Argentino",
-          "away": "Del Sur",
+          "home": "Don Bosco",
+          "away": "Lujan",
           "played": false
         },
         {
-          "home": "Mercedes",
-          "away": "Curupayti",
+          "home": "San Carlos",
+          "away": "Arsenal Zarate",
           "played": false
         },
         {
-          "home": "Vicentinos",
-          "away": "Areco",
+          "home": "Almafuerte",
+          "away": "Tigre",
           "played": false
         },
         {
-          "home": "Old Georgian",
-          "away": "Daom",
+          "home": "Ciudad de Bs.As.",
+          "away": "Pac Gral Rodriguez",
           "played": false
         },
         {
-          "home": "San Patricio",
-          "away": "G y E de Ituzaingo",
+          "home": "Liceo Militar",
+          "away": "Varela Jr",
           "played": false
         },
         {
-          "home": "Hurling",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "Centro Naval",
-          "away": "Virreyes",
+          "home": "SITAS",
+          "away": "T.F. de San Pedro",
           "played": false
         }
       ]
     },
     "7": {
-      "date": "junio 7, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Liceo Militar",
-          "away": "San Patricio",
+          "home": "Lujan",
+          "away": "SITAS",
           "played": false
         },
         {
-          "home": "G y E de Ituzaingo",
-          "away": "Old Georgian",
+          "home": "T.F. de San Pedro",
+          "away": "Liceo Militar",
           "played": false
         },
         {
-          "home": "Daom",
-          "away": "Vicentinos",
+          "home": "Varela Jr",
+          "away": "Ciudad de Bs.As.",
           "played": false
         },
         {
-          "home": "Areco",
-          "away": "Mercedes",
+          "home": "Pac Gral Rodriguez",
+          "away": "Almafuerte",
           "played": false
         },
         {
-          "home": "Curupayti",
-          "away": "Argentino",
+          "home": "Tigre",
+          "away": "San Carlos",
           "played": false
         },
         {
-          "home": "Del Sur",
-          "away": "Centro Naval",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "Hurling",
+          "home": "Arsenal Zarate",
+          "away": "Don Bosco",
           "played": false
         }
       ]
     },
     "8": {
-      "date": "junio 21, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Centro Naval",
-          "away": "Curupayti",
+          "home": "Arsenal Zarate",
+          "away": "Lujan",
           "played": false
         },
         {
-          "home": "Argentino",
-          "away": "Areco",
+          "home": "Don Bosco",
+          "away": "Tigre",
           "played": false
         },
         {
-          "home": "Mercedes",
-          "away": "Daom",
+          "home": "San Carlos",
+          "away": "Pac Gral Rodriguez",
           "played": false
         },
         {
-          "home": "Vicentinos",
-          "away": "G y E de Ituzaingo",
+          "home": "Almafuerte",
+          "away": "Varela Jr",
           "played": false
         },
         {
-          "home": "Old Georgian",
-          "away": "Liceo Militar",
+          "home": "Ciudad de Bs.As.",
+          "away": "T.F. de San Pedro",
           "played": false
         },
         {
-          "home": "San Patricio",
-          "away": "Hurling",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "Virreyes",
+          "home": "Liceo Militar",
+          "away": "SITAS",
           "played": false
         }
       ]
     },
     "9": {
-      "date": "junio 28, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Hurling",
-          "away": "Old Georgian",
+          "home": "Lujan",
+          "away": "Liceo Militar",
+          "played": false
+        },
+        {
+          "home": "SITAS",
+          "away": "Ciudad de Bs.As.",
+          "played": false
+        },
+        {
+          "home": "T.F. de San Pedro",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "Varela Jr",
+          "away": "San Carlos",
+          "played": false
+        },
+        {
+          "home": "Pac Gral Rodriguez",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Tigre",
+          "away": "Arsenal Zarate",
+          "played": false
+        }
+      ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Tigre",
+          "away": "Lujan",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Pac Gral Rodriguez",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Varela Jr",
+          "played": false
+        },
+        {
+          "home": "San Carlos",
+          "away": "T.F. de San Pedro",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "SITAS",
+          "played": false
+        },
+        {
+          "home": "Ciudad de Bs.As.",
+          "away": "Liceo Militar",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lujan",
+          "away": "Ciudad de Bs.As.",
           "played": false
         },
         {
           "home": "Liceo Militar",
-          "away": "Vicentinos",
+          "away": "Almafuerte",
           "played": false
         },
         {
-          "home": "G y E de Ituzaingo",
-          "away": "Mercedes",
+          "home": "SITAS",
+          "away": "San Carlos",
           "played": false
         },
         {
-          "home": "Daom",
-          "away": "Argentino",
+          "home": "T.F. de San Pedro",
+          "away": "Don Bosco",
           "played": false
         },
         {
-          "home": "Areco",
-          "away": "Centro Naval",
+          "home": "Varela Jr",
+          "away": "Arsenal Zarate",
           "played": false
         },
         {
-          "home": "Curupayti",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Virreyes",
-          "away": "San Patricio",
+          "home": "Pac Gral Rodriguez",
+          "away": "Tigre",
           "played": false
         }
       ]
     }
-  }
+  },
+  "lastUpdate": "2026-04-13T13:37:31.737801+00:00",
+  "matchesScraped": 6,
+  "championshipId": "2025252",
+  "nombre": "M15 G1-ZB"
 }
