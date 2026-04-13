@@ -1,394 +1,362 @@
 {
   "teams": [
     {
-      "name": "Tigre",
+      "name": "Ciudad de Campana",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 8,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Arsenal Zarate",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 8,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Don Bosco",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "Bco Hipotecario",
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 8,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "San Carlos",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "St. Brendans",
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 50,
+      "pc": 19,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Almafuerte",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 29,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Ciudad de Bs.As.",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "Marcos Paz",
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 29,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Liceo Militar",
+      "name": "Ezeiza",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 19,
+      "pc": 50,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "SITAS",
+      "name": "La Salle",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 8,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "T.F. de San Pedro",
+      "name": "Atl. San Andres",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
+      "p": 1,
       "pf": 0,
-      "pc": 0,
+      "pc": 8,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Varela Jr",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "Rivadavia de Lobos",
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
+      "pf": 8,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
-      "name": "Pac Gral Rodriguez",
+      "name": "Floresta",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 14,
+      "pc": 60,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
-      "name": "Lujan",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "name": "San Jose",
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 60,
+      "pc": 14,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     }
   ],
   "matches": {
     "1": {
-      "date": "abril 12, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Lujan",
-          "away": "Pac Gral Rodriguez",
-          "played": false
+          "home": "San Jose",
+          "away": "Floresta",
+          "played": true,
+          "hs": 60,
+          "as": 14,
+          "bp_home": true
         },
         {
-          "home": "Tigre",
-          "away": "Varela Jr",
-          "played": false
+          "home": "Ciudad de Campana",
+          "away": "Rivadavia de Lobos",
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Arsenal Zarate",
-          "away": "T.F. de San Pedro",
-          "played": false
+          "away": "Atl. San Andres",
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
-          "home": "Don Bosco",
-          "away": "SITAS",
-          "played": false
+          "home": "Bco Hipotecario",
+          "away": "La Salle",
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
-          "home": "San Carlos",
-          "away": "Liceo Militar",
-          "played": false
-        },
-        {
-          "home": "Almafuerte",
-          "away": "Ciudad de Bs.As.",
-          "played": false
-        }
-      ]
-    },
-    "10": {
-      "date": "julio 5, 2026",
-      "ms": [
-        {
-          "home": "Tigre",
-          "away": "Lujan",
-          "played": false
-        },
-        {
-          "home": "Arsenal Zarate",
-          "away": "Pac Gral Rodriguez",
-          "played": false
-        },
-        {
-          "home": "Don Bosco",
-          "away": "Varela Jr",
-          "played": false
-        },
-        {
-          "home": "San Carlos",
-          "away": "T.F. de San Pedro",
-          "played": false
+          "home": "St. Brendans",
+          "away": "Ezeiza",
+          "played": true,
+          "hs": 50,
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "Almafuerte",
-          "away": "SITAS",
-          "played": false
-        },
-        {
-          "home": "Ciudad de Bs.As.",
-          "away": "Liceo Militar",
-          "played": false
-        }
-      ]
-    },
-    "11": {
-      "date": "julio 12, 2026",
-      "ms": [
-        {
-          "home": "Lujan",
-          "away": "Ciudad de Bs.As.",
-          "played": false
-        },
-        {
-          "home": "Liceo Militar",
-          "away": "Almafuerte",
-          "played": false
-        },
-        {
-          "home": "SITAS",
-          "away": "San Carlos",
-          "played": false
-        },
-        {
-          "home": "T.F. de San Pedro",
-          "away": "Don Bosco",
-          "played": false
-        },
-        {
-          "home": "Varela Jr",
-          "away": "Arsenal Zarate",
-          "played": false
-        },
-        {
-          "home": "Pac Gral Rodriguez",
-          "away": "Tigre",
-          "played": false
+          "away": "Marcos Paz",
+          "played": true,
+          "hs": 17,
+          "as": 29
         }
       ]
     },
     "2": {
-      "date": "abril 19, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Almafuerte",
-          "away": "Lujan",
+          "away": "San Jose",
           "played": false
         },
         {
-          "home": "Ciudad de Bs.As.",
-          "away": "San Carlos",
+          "home": "Marcos Paz",
+          "away": "St. Brendans",
           "played": false
         },
         {
-          "home": "Liceo Militar",
-          "away": "Don Bosco",
+          "home": "Ezeiza",
+          "away": "Bco Hipotecario",
           "played": false
         },
         {
-          "home": "SITAS",
+          "home": "La Salle",
           "away": "Arsenal Zarate",
           "played": false
         },
         {
-          "home": "T.F. de San Pedro",
-          "away": "Tigre",
+          "home": "Atl. San Andres",
+          "away": "Ciudad de Campana",
           "played": false
         },
         {
-          "home": "Varela Jr",
-          "away": "Pac Gral Rodriguez",
+          "home": "Rivadavia de Lobos",
+          "away": "Floresta",
           "played": false
         }
       ]
     },
     "3": {
-      "date": "abril 26, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Lujan",
-          "away": "Varela Jr",
+          "home": "San Jose",
+          "away": "Rivadavia de Lobos",
           "played": false
         },
         {
-          "home": "Pac Gral Rodriguez",
-          "away": "T.F. de San Pedro",
+          "home": "Floresta",
+          "away": "Atl. San Andres",
           "played": false
         },
         {
-          "home": "Tigre",
-          "away": "SITAS",
+          "home": "Ciudad de Campana",
+          "away": "La Salle",
           "played": false
         },
         {
           "home": "Arsenal Zarate",
-          "away": "Liceo Militar",
+          "away": "Ezeiza",
           "played": false
         },
         {
-          "home": "Don Bosco",
-          "away": "Ciudad de Bs.As.",
+          "home": "Bco Hipotecario",
+          "away": "Marcos Paz",
           "played": false
         },
         {
-          "home": "San Carlos",
+          "home": "St. Brendans",
           "away": "Almafuerte",
           "played": false
         }
       ]
     },
     "4": {
-      "date": "mayo 10, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "San Carlos",
-          "away": "Lujan",
+          "home": "St. Brendans",
+          "away": "San Jose",
           "played": false
         },
         {
           "home": "Almafuerte",
-          "away": "Don Bosco",
+          "away": "Bco Hipotecario",
           "played": false
         },
         {
-          "home": "Ciudad de Bs.As.",
+          "home": "Marcos Paz",
           "away": "Arsenal Zarate",
           "played": false
         },
         {
-          "home": "Liceo Militar",
-          "away": "Tigre",
+          "home": "Ezeiza",
+          "away": "Ciudad de Campana",
           "played": false
         },
         {
-          "home": "SITAS",
-          "away": "Pac Gral Rodriguez",
+          "home": "La Salle",
+          "away": "Floresta",
           "played": false
         },
         {
-          "home": "T.F. de San Pedro",
-          "away": "Varela Jr",
+          "home": "Atl. San Andres",
+          "away": "Rivadavia de Lobos",
           "played": false
         }
       ]
     },
     "5": {
-      "date": "mayo 17, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Lujan",
-          "away": "T.F. de San Pedro",
+          "home": "San Jose",
+          "away": "Atl. San Andres",
           "played": false
         },
         {
-          "home": "Varela Jr",
-          "away": "SITAS",
+          "home": "Rivadavia de Lobos",
+          "away": "La Salle",
           "played": false
         },
         {
-          "home": "Pac Gral Rodriguez",
-          "away": "Liceo Militar",
+          "home": "Floresta",
+          "away": "Ezeiza",
           "played": false
         },
         {
-          "home": "Tigre",
-          "away": "Ciudad de Bs.As.",
+          "home": "Ciudad de Campana",
+          "away": "Marcos Paz",
           "played": false
         },
         {
@@ -397,151 +365,225 @@
           "played": false
         },
         {
-          "home": "Don Bosco",
-          "away": "San Carlos",
+          "home": "Bco Hipotecario",
+          "away": "St. Brendans",
           "played": false
         }
       ]
     },
     "6": {
-      "date": "mayo 24, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Don Bosco",
-          "away": "Lujan",
+          "home": "Bco Hipotecario",
+          "away": "San Jose",
           "played": false
         },
         {
-          "home": "San Carlos",
+          "home": "St. Brendans",
           "away": "Arsenal Zarate",
           "played": false
         },
         {
           "home": "Almafuerte",
-          "away": "Tigre",
+          "away": "Ciudad de Campana",
           "played": false
         },
         {
-          "home": "Ciudad de Bs.As.",
-          "away": "Pac Gral Rodriguez",
+          "home": "Marcos Paz",
+          "away": "Floresta",
           "played": false
         },
         {
-          "home": "Liceo Militar",
-          "away": "Varela Jr",
+          "home": "Ezeiza",
+          "away": "Rivadavia de Lobos",
           "played": false
         },
         {
-          "home": "SITAS",
-          "away": "T.F. de San Pedro",
+          "home": "La Salle",
+          "away": "Atl. San Andres",
           "played": false
         }
       ]
     },
     "7": {
-      "date": "junio 7, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Lujan",
-          "away": "SITAS",
+          "home": "San Jose",
+          "away": "La Salle",
           "played": false
         },
         {
-          "home": "T.F. de San Pedro",
-          "away": "Liceo Militar",
+          "home": "Atl. San Andres",
+          "away": "Ezeiza",
           "played": false
         },
         {
-          "home": "Varela Jr",
-          "away": "Ciudad de Bs.As.",
+          "home": "Rivadavia de Lobos",
+          "away": "Marcos Paz",
           "played": false
         },
         {
-          "home": "Pac Gral Rodriguez",
+          "home": "Floresta",
           "away": "Almafuerte",
           "played": false
         },
         {
-          "home": "Tigre",
-          "away": "San Carlos",
+          "home": "Ciudad de Campana",
+          "away": "St. Brendans",
           "played": false
         },
         {
           "home": "Arsenal Zarate",
-          "away": "Don Bosco",
+          "away": "Bco Hipotecario",
           "played": false
         }
       ]
     },
     "8": {
-      "date": "junio 21, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Arsenal Zarate",
-          "away": "Lujan",
+          "away": "San Jose",
           "played": false
         },
         {
-          "home": "Don Bosco",
-          "away": "Tigre",
+          "home": "Bco Hipotecario",
+          "away": "Ciudad de Campana",
           "played": false
         },
         {
-          "home": "San Carlos",
-          "away": "Pac Gral Rodriguez",
+          "home": "St. Brendans",
+          "away": "Floresta",
           "played": false
         },
         {
           "home": "Almafuerte",
-          "away": "Varela Jr",
+          "away": "Rivadavia de Lobos",
           "played": false
         },
         {
-          "home": "Ciudad de Bs.As.",
-          "away": "T.F. de San Pedro",
+          "home": "Marcos Paz",
+          "away": "Atl. San Andres",
           "played": false
         },
         {
-          "home": "Liceo Militar",
-          "away": "SITAS",
+          "home": "Ezeiza",
+          "away": "La Salle",
           "played": false
         }
       ]
     },
     "9": {
-      "date": "junio 28, 2026",
+      "date": "",
       "ms": [
         {
-          "home": "Lujan",
-          "away": "Liceo Militar",
+          "home": "San Jose",
+          "away": "Ezeiza",
           "played": false
         },
         {
-          "home": "SITAS",
-          "away": "Ciudad de Bs.As.",
+          "home": "La Salle",
+          "away": "Marcos Paz",
           "played": false
         },
         {
-          "home": "T.F. de San Pedro",
+          "home": "Atl. San Andres",
           "away": "Almafuerte",
           "played": false
         },
         {
-          "home": "Varela Jr",
-          "away": "San Carlos",
+          "home": "Rivadavia de Lobos",
+          "away": "St. Brendans",
           "played": false
         },
         {
-          "home": "Pac Gral Rodriguez",
-          "away": "Don Bosco",
+          "home": "Floresta",
+          "away": "Bco Hipotecario",
           "played": false
         },
         {
-          "home": "Tigre",
+          "home": "Ciudad de Campana",
           "away": "Arsenal Zarate",
           "played": false
         }
       ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Ciudad de Campana",
+          "away": "San Jose",
+          "played": false
+        },
+        {
+          "home": "Arsenal Zarate",
+          "away": "Floresta",
+          "played": false
+        },
+        {
+          "home": "Bco Hipotecario",
+          "away": "Rivadavia de Lobos",
+          "played": false
+        },
+        {
+          "home": "St. Brendans",
+          "away": "Atl. San Andres",
+          "played": false
+        },
+        {
+          "home": "Almafuerte",
+          "away": "La Salle",
+          "played": false
+        },
+        {
+          "home": "Marcos Paz",
+          "away": "Ezeiza",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "San Jose",
+          "away": "Marcos Paz",
+          "played": false
+        },
+        {
+          "home": "Ezeiza",
+          "away": "Almafuerte",
+          "played": false
+        },
+        {
+          "home": "La Salle",
+          "away": "St. Brendans",
+          "played": false
+        },
+        {
+          "home": "Atl. San Andres",
+          "away": "Bco Hipotecario",
+          "played": false
+        },
+        {
+          "home": "Rivadavia de Lobos",
+          "away": "Arsenal Zarate",
+          "played": false
+        },
+        {
+          "home": "Floresta",
+          "away": "Ciudad de Campana",
+          "played": false
+        }
+      ]
     }
-  }
+  },
+  "lastUpdate": "2026-04-13T13:37:20.325137+00:00",
+  "matchesScraped": 6,
+  "championshipId": "2025242",
+  "nombre": "M16 G1-ZB"
 }
