@@ -2,269 +2,210 @@
   "teams": [
     {
       "name": "Lanus",
-      "pts": 0,
-      "pj": 0,
+      "pts": 2,
+      "pj": 1,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "d"
+      ]
     },
     {
       "name": "Del Sur",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 21,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Don Bosco",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 26,
+      "pc": 19,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Beromama",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 19,
+      "pc": 52,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Atletico Chascomus",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 4,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 24,
+      "pc": 12,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "San Marcos",
       "pts": 0,
-      "pj": 0,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 12,
+      "pc": 24,
       "bp": 0,
       "bf": 0,
-      "form": []
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
+      "pts": 5,
+      "pj": 1,
+      "g": 1,
       "e": 0,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 52,
+      "pc": 19,
+      "bp": 1,
       "bf": 0,
-      "form": []
+      "form": [
+        "w"
+      ]
     },
     {
       "name": "Albatros",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 19,
+      "pc": 26,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "El Retiro",
-      "pts": 0,
-      "pj": 0,
+      "pts": 1,
+      "pj": 1,
       "g": 0,
       "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 17,
+      "pc": 21,
       "bp": 0,
-      "bf": 0,
-      "form": []
+      "bf": 1,
+      "form": [
+        "l"
+      ]
     },
     {
       "name": "Bye",
-      "pts": 0,
-      "pj": 0,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Bye",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
-    },
-    {
-      "name": "Bye",
-      "pts": 0,
-      "pj": 0,
-      "g": 0,
-      "e": 0,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": []
+      "form": [
+        "d",
+        "d",
+        "d"
+      ]
     }
   ],
   "matches": {
     "1": {
-      "date": "abril 12, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Lanus",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Del Sur",
           "away": "El Retiro",
-          "played": false
+          "played": true,
+          "hs": 21,
+          "as": 17,
+          "bf_away": true
         },
         {
           "home": "Don Bosco",
           "away": "Albatros",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 19,
+          "bf_away": true
         },
         {
           "home": "Beromama",
           "away": "G y E de Ituzaingo",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 52,
+          "bp_away": true
         },
         {
           "home": "Atletico Chascomus",
           "away": "San Marcos",
-          "played": false
-        }
-      ]
-    },
-    "10": {
-      "date": "julio 5, 2026",
-      "ms": [
-        {
-          "home": "Lanus",
-          "away": "Bye",
-          "played": false
-        },
-        {
-          "home": "Del Sur",
-          "away": "Bye",
-          "played": false
-        },
-        {
-          "home": "Don Bosco",
-          "away": "Bye",
-          "played": false
-        },
-        {
-          "home": "Beromama",
-          "away": "El Retiro",
-          "played": false
-        },
-        {
-          "home": "Atletico Chascomus",
-          "away": "Albatros",
-          "played": false
-        },
-        {
-          "home": "San Marcos",
-          "away": "G y E de Ituzaingo",
-          "played": false
-        }
-      ]
-    },
-    "11": {
-      "date": "julio 12, 2026",
-      "ms": [
-        {
-          "home": "Bye",
-          "away": "San Marcos",
-          "played": false
-        },
-        {
-          "home": "G y E de Ituzaingo",
-          "away": "Atletico Chascomus",
-          "played": false
-        },
-        {
-          "home": "Albatros",
-          "away": "Beromama",
-          "played": false
-        },
-        {
-          "home": "El Retiro",
-          "away": "Don Bosco",
-          "played": false
-        },
-        {
-          "home": "Bye",
-          "away": "Del Sur",
-          "played": false
-        },
-        {
-          "home": "Bye",
-          "away": "Lanus",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 12
         }
       ]
     },
     "2": {
-      "date": "abril 19, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Atletico Chascomus",
@@ -299,7 +240,7 @@
       ]
     },
     "3": {
-      "date": "abril 26, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -334,7 +275,7 @@
       ]
     },
     "4": {
-      "date": "mayo 10, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Beromama",
@@ -369,7 +310,7 @@
       ]
     },
     "5": {
-      "date": "mayo 17, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -404,7 +345,7 @@
       ]
     },
     "6": {
-      "date": "mayo 24, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Don Bosco",
@@ -439,7 +380,7 @@
       ]
     },
     "7": {
-      "date": "junio 7, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -474,7 +415,7 @@
       ]
     },
     "8": {
-      "date": "junio 21, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Del Sur",
@@ -509,7 +450,7 @@
       ]
     },
     "9": {
-      "date": "junio 28, 2026",
+      "date": "",
       "ms": [
         {
           "home": "Bye",
@@ -542,6 +483,80 @@
           "played": false
         }
       ]
+    },
+    "10": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Lanus",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Del Sur",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Don Bosco",
+          "away": "Bye",
+          "played": false
+        },
+        {
+          "home": "Beromama",
+          "away": "El Retiro",
+          "played": false
+        },
+        {
+          "home": "Atletico Chascomus",
+          "away": "Albatros",
+          "played": false
+        },
+        {
+          "home": "San Marcos",
+          "away": "G y E de Ituzaingo",
+          "played": false
+        }
+      ]
+    },
+    "11": {
+      "date": "",
+      "ms": [
+        {
+          "home": "Bye",
+          "away": "San Marcos",
+          "played": false
+        },
+        {
+          "home": "G y E de Ituzaingo",
+          "away": "Atletico Chascomus",
+          "played": false
+        },
+        {
+          "home": "Albatros",
+          "away": "Beromama",
+          "played": false
+        },
+        {
+          "home": "El Retiro",
+          "away": "Don Bosco",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Del Sur",
+          "played": false
+        },
+        {
+          "home": "Bye",
+          "away": "Lanus",
+          "played": false
+        }
+      ]
     }
-  }
+  },
+  "lastUpdate": "2026-04-13T13:36:59.352805+00:00",
+  "matchesScraped": 6,
+  "championshipId": "2025224",
+  "nombre": "M19 G1-ZA"
 }
