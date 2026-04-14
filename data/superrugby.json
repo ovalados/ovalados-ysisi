@@ -379,7 +379,9 @@
         {
           "home": "Capibaras XV",
           "away": "Tarucas",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 28
         }
       ]
     },
@@ -559,6 +561,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-13T23:57:41.555521+00:00",
-  "matchesScraped": 27
+  "lastUpdate": "2026-04-14T03:34:33.072928+00:00",
+  "matchesScraped": 28
 }
