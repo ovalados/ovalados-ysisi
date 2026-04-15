@@ -20,110 +20,116 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css?v=23">
 <style>
-  /* ── INDEX-ONLY STYLES ─────────────────────────── */
-  .home { max-width: 1000px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+  /* ══════════════════════════════════════════════════
+     OVALADOS — INDEX REDESIGN
+     ══════════════════════════════════════════════════ */
 
-  /* ── Hero ─────────────────────────────────────── */
-  .hero {
-    text-align: center;
-    margin-bottom: 3.5rem;
-    padding: 3.5rem 0 2rem;
-    position: relative;
-    overflow: hidden;
+  /* ─ Textura diagonal de cancha (solo index) ──────── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background-image: repeating-linear-gradient(
+      -52deg,
+      rgba(0,245,105,0.02) 0px,
+      rgba(0,245,105,0.02) 1px,
+      transparent 1px,
+      transparent 70px
+    );
   }
 
-  /* Campo de rugby: cuadrícula animada */
+  /* ─ Layout: grilla 2 columnas ────────────────────── */
+  .home {
+    max-width: 1120px; margin: 0 auto;
+    padding: 0 1.75rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+  /* Items ancho completo */
+  .home > :nth-child(1),   /* hero */
+  .home > :nth-child(2),   /* resultados recientes */
+  .home > :nth-child(3),   /* URBA TOP 14 */
+  .home > :nth-child(8),   /* TERCERA */
+  .home > :nth-child(9),   /* JUVENILES */
+  .home > :nth-child(10) { /* INTERNACIONALES */
+    grid-column: 1 / -1;
+  }
+
+  /* ─ Hero: izquierdo, dramático ───────────────── */
+  .hero {
+    position: relative; overflow: hidden;
+    margin: 0 -1.75rem;
+    padding: 4rem 1.75rem 3.5rem;
+    min-height: 280px;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    border-bottom: 1px solid rgba(0,245,105,0.1);
+  }
+
+  /* ─ Hero: fondo año fantasma ─────────────────── */
+  .hero-bg-year {
+    position: absolute;
+    right: -0.5rem; bottom: -0.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(110px, 20vw, 200px);
+    line-height: 0.8; letter-spacing: -4px;
+    color: rgba(0,245,105,0.05);
+    user-select: none; pointer-events: none;
+  }
+  /* Línea de campo horizontal */
   .hero::before {
     content: '';
     position: absolute;
-    inset: -40px;
-    background-image:
-      linear-gradient(rgba(0,245,105,0.045) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,245,105,0.045) 1px, transparent 1px);
-    background-size: 44px 44px;
-    mask-image: radial-gradient(ellipse 75% 100% at 50% 50%, black 20%, transparent 100%);
-    -webkit-mask-image: radial-gradient(ellipse 75% 100% at 50% 50%, black 20%, transparent 100%);
-    animation: heroGridDrift 18s linear infinite;
-    pointer-events: none;
-  }
-  @keyframes heroGridDrift {
-    from { transform: translateY(0); }
-    to   { transform: translateY(44px); }
+    left: 0; right: 0; bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, var(--green) 0%, rgba(0,245,105,0.2) 30%, transparent 70%);
+    box-shadow: 0 0 12px rgba(0,245,105,0.3);
   }
 
-  /* Línea decorativa debajo */
-  .hero::after {
-    content: '';
-    display: block;
-    width: 80px; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--green), transparent);
-    box-shadow: 0 0 20px rgba(0,245,105,0.55);
-    margin: 2rem auto 0;
-    border-radius: 1px;
-    animation: heroLineGrow 0.7s 0.55s both ease-out;
+  .hero-kicker {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem; letter-spacing: 6px; text-transform: uppercase;
+    color: var(--green); opacity: 0.75;
+    margin-bottom: 0.6rem;
+    animation: fadeUp 0.4s both;
   }
-  @keyframes heroLineGrow {
-    from { width: 0; opacity: 0; }
-    to   { width: 80px; opacity: 1; }
-  }
-
-  /* Óvalo decorativo (pelota de rugby) */
-  .hero-oval {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%) rotate(-18deg);
-    width: 300px; height: 170px;
-    border-radius: 50%;
-    border: 1px solid rgba(0,245,105,0.07);
-    pointer-events: none;
-    animation: ovalPulse 5s ease-in-out infinite;
-  }
-  .hero-oval::before {
-    content: '';
-    position: absolute;
-    inset: 14px;
-    border-radius: 50%;
-    border: 1px solid rgba(0,245,105,0.04);
-  }
-  @keyframes ovalPulse {
-    0%, 100% { opacity: 0.5; }
-    50%       { opacity: 1; }
-  }
-
   .hero-brand {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 6.5rem; letter-spacing: 14px;
-    color: var(--green);
-    text-shadow:
-      0 0 50px rgba(0,245,105,0.28),
-      0 0 110px rgba(0,245,105,0.1),
-      0 2px 0 rgba(0,0,0,0.6);
-    line-height: 1;
+    font-size: clamp(4.5rem, 11vw, 8rem);
+    letter-spacing: 6px; line-height: 0.9;
+    color: #fff;
+    text-shadow: 0 0 60px rgba(0,245,105,0.12);
+    animation: fadeUp 0.4s 0.08s both;
     position: relative;
-    animation: heroBrandReveal 0.75s both ease-out;
   }
-  @keyframes heroBrandReveal {
-    from { opacity: 0; letter-spacing: 26px; transform: translateY(-6px); }
-    to   { opacity: 1; letter-spacing: 14px; transform: none; }
+  .hero-rule {
+    width: 64px; height: 3px;
+    background: var(--green);
+    box-shadow: 0 0 16px rgba(0,245,105,0.55);
+    margin: 1.2rem 0 1rem;
+    border-radius: 2px;
+    animation: ruleGrow 0.5s 0.2s both ease-out;
   }
-
-  .hero-sub {
+  @keyframes ruleGrow {
+    from { width: 0; opacity: 0; }
+    to   { width: 64px; opacity: 1; }
+  }
+  .hero-meta {
+    display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.82rem; letter-spacing: 5px; text-transform: uppercase;
-    color: var(--muted); margin-top: 0.8rem;
-    position: relative;
-    animation: heroSubReveal 0.55s 0.28s both ease-out;
+    font-size: 0.82rem; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--muted);
+    animation: fadeUp 0.4s 0.18s both;
   }
-  @keyframes heroSubReveal {
-    from { opacity: 0; transform: translateY(5px); }
+  .hero-meta-sep { color: var(--green); opacity: 0.4; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
     to   { opacity: 1; transform: none; }
   }
 
-  /* ── Section headers ──────────────────────────── */
-  .home-section {
-    margin-bottom: 2.5rem;
-    animation: groupReveal 0.5s 0.05s both ease-out;
-  }
+  /* ─ Resultados recientes ──────────────────────── */
+  .home-section { margin: 2.5rem 0 3rem; }
   .home-section-header {
     display: flex; align-items: center; gap: 12px;
     margin-bottom: 1rem; padding-bottom: 10px;
@@ -131,187 +137,175 @@
     position: relative;
   }
   .home-section-header::after {
-    content: '';
-    position: absolute;
-    bottom: -1px; left: 0; height: 1px;
-    transition: width 0.3s ease;
+    content: ''; position: absolute; bottom: -1px; left: 0; height: 2px;
   }
   .home-section-header.green::after {
     background: linear-gradient(90deg, var(--green), transparent);
-    box-shadow: 0 0 10px rgba(0,245,105,0.35);
-    width: 90px;
+    width: 120px; box-shadow: 0 0 8px rgba(0,245,105,0.4);
   }
   .home-section-header.gold::after {
     background: linear-gradient(90deg, var(--gold), transparent);
-    box-shadow: 0 0 10px rgba(245,166,35,0.35);
-    width: 90px;
+    width: 120px;
   }
   .home-section-label {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem; letter-spacing: 3px;
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 3px;
   }
   .home-section-label.green { color: var(--green); }
   .home-section-label.gold  { color: var(--gold); }
   .home-section-sub {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--muted);
+    font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted);
   }
   .home-section-link {
     margin-left: auto;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--muted);
-    border: 1px solid var(--border-soft);
-    padding: 4px 12px; border-radius: var(--r-sm);
+    font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted);
+    border: 1px solid var(--border-soft); padding: 4px 12px; border-radius: var(--r-sm);
     transition: all 0.15s;
   }
   .home-section-link:hover { border-color: var(--border-hover); color: var(--green); }
 
-  /* ── Group headers ────────────────────────────── */
-  .group { margin-bottom: 2.5rem; }
+  /* ─ Scoreboard de resultados ─────────────────── */
+  .result-row {
+    display: grid; grid-template-columns: 1fr auto 1fr;
+    align-items: center; gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    font-family: 'Barlow Condensed', sans-serif;
+    transition: background 0.12s;
+    border-radius: 4px;
+  }
+  .result-row:last-child { border-bottom: none; }
+  .result-row:hover { background: rgba(0,245,105,0.04); }
+  .result-home { text-align: right; font-size: 0.9rem; font-weight: 700; }
+  .result-away { text-align: left; font-size: 0.9rem; font-weight: 700; }
+  .result-score {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem; letter-spacing: 5px; color: var(--green);
+    min-width: 96px; text-align: center;
+    text-shadow: 0 0 22px rgba(0,245,105,0.4);
+    background: rgba(0,245,105,0.06);
+    padding: 3px 10px; border-radius: 3px;
+    border: 1px solid rgba(0,245,105,0.1);
+  }
+  .result-date { display: none; }
+
+  /* ─ Cabecera de grupo: editorial con contador ─── */
+  .home { counter-reset: comp; }
+  .group { margin-bottom: 2.25rem; counter-increment: comp; }
   .group-header {
-    display: flex; align-items: center; gap: 12px;
-    padding: 0.65rem 1rem 0.65rem 1.2rem;
-    border-radius: var(--r-sm);
-    margin-bottom: 0.75rem;
-    background: rgba(0,245,105,0.03);
-    border: 1px solid rgba(0,245,105,0.09);
-    border-left: 3px solid var(--green);
+    display: flex; align-items: flex-end; gap: 1rem;
+    padding: 0 0 0.7rem;
+    margin-bottom: 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
     position: relative;
-    overflow: hidden;
   }
+  /* Número de sección como marca de agua */
   .group-header::before {
+    content: counter(comp, decimal-leading-zero);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem; line-height: 1; letter-spacing: 2px;
+    color: rgba(0,245,105,0.08);
+    flex-shrink: 0;
+    margin-bottom: -0.15em;
+  }
+  /* Línea accent verde bajo el header */
+  .group-header::after {
     content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(90deg, rgba(0,245,105,0.05) 0%, transparent 55%);
-    pointer-events: none;
+    position: absolute; bottom: -1px; left: 0;
+    height: 2px; width: 36px;
+    background: var(--green);
+    box-shadow: 0 0 10px rgba(0,245,105,0.5);
+    border-radius: 1px;
   }
-  .group-header.intl {
-    border-left-color: var(--gold);
-    background: rgba(245,166,35,0.03);
-    border-color: rgba(245,166,35,0.09);
-  }
-  .group-header.intl::before {
-    background: linear-gradient(90deg, rgba(245,166,35,0.05) 0%, transparent 55%);
-  }
+  .group-header.intl::before { color: rgba(245,166,35,0.1); }
+  .group-header.intl::after  { background: var(--gold); box-shadow: 0 0 10px rgba(245,166,35,0.5); }
+
+  /* Texto del grupo */
+  .group-header-text { display: flex; flex-direction: column; gap: 1px; }
   .group-label {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.25rem; letter-spacing: 4px; color: var(--green);
-    position: relative;
+    font-size: 1.55rem; letter-spacing: 4px;
+    color: var(--text); line-height: 1;
   }
-  .group-label.intl { color: var(--gold); }
+  .group-label.intl { color: var(--text); }
   .group-sub {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.72rem; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--muted); position: relative;
+    font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted);
   }
 
-  /* ── Juveniles acordeón ───────────────────────── */
-  .juv-age {
-    border: 1px solid var(--border-soft); border-radius: var(--r-sm);
-    margin-bottom: 5px; overflow: hidden;
-    transition: border-color 0.15s;
-  }
-  .juv-age.open { border-color: rgba(0,245,105,0.18); }
-  .juv-age-header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0.65rem 1rem; cursor: pointer; user-select: none;
-    background: var(--dark2); transition: background 0.15s;
-  }
-  .juv-age-header:hover { background: rgba(0,245,105,0.05); }
-  .juv-age-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.1rem; letter-spacing: 2px; color: var(--green);
-  }
-  .juv-age-sub {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.72rem; letter-spacing: 1px; color: var(--muted);
-  }
-  .juv-age-arrow {
-    font-size: 0.7rem; color: var(--muted);
-    transition: transform 0.25s ease; flex-shrink: 0;
-  }
-  .juv-age.open .juv-age-arrow { transform: rotate(180deg); color: var(--green); }
-  .juv-age-body {
-    display: grid; grid-template-rows: 0fr;
-    transition: grid-template-rows 0.3s ease;
-  }
-  .juv-age.open .juv-age-body { grid-template-rows: 1fr; }
-  .juv-age-body > div { overflow: hidden; padding: 0 0.5rem 0.5rem; }
-
-  /* ── Category cards ───────────────────────────── */
-  .categories { display: flex; flex-direction: column; gap: 5px; }
+  /* ─ Cards de categoría ───────────────────────── */
+  .categories { display: flex; flex-direction: column; gap: 4px; }
   .cat-card {
     display: flex; align-items: center; justify-content: space-between;
-    padding: 0.75rem 1rem;
+    padding: 0.72rem 1rem;
     background: var(--card);
-    border: 1px solid var(--border-soft);
+    border: 1px solid rgba(255,255,255,0.055);
+    border-left: 2px solid transparent;
     border-radius: var(--r-sm);
     text-decoration: none; color: var(--text);
-    transition: border-color 0.18s, background 0.18s, transform 0.18s, box-shadow 0.18s;
+    transition: border-color 0.15s, background 0.15s, transform 0.15s;
   }
   .cat-card:hover {
-    border-color: rgba(0,245,105,0.28);
+    border-color: rgba(0,245,105,0.22);
+    border-left-color: var(--green);
     background: rgba(0,245,105,0.05);
     transform: translateX(3px);
-    box-shadow: -3px 0 0 0 var(--green), 0 4px 18px rgba(0,0,0,0.25);
   }
+  /* Card Superior/Highlight: prominente */
   .cat-card.highlight {
-    border-color: rgba(0,245,105,0.28);
+    border-left-color: var(--green);
     background: rgba(0,245,105,0.07);
-    box-shadow: -3px 0 0 0 rgba(0,245,105,0.6);
+    border-color: rgba(0,245,105,0.22);
+    padding: 1rem;
+  }
+  .cat-card.highlight .cat-name {
+    font-size: 1.05rem; color: var(--green);
   }
   .cat-card.highlight:hover {
-    border-color: rgba(0,245,105,0.45);
-    background: rgba(0,245,105,0.11);
-    box-shadow: -3px 0 0 0 var(--green), 0 4px 24px rgba(0,245,105,0.1);
+    background: rgba(0,245,105,0.12);
+    border-color: rgba(0,245,105,0.38);
   }
   .cat-card.intl:hover {
-    border-color: rgba(245,166,35,0.35);
+    border-left-color: var(--gold);
+    border-color: rgba(245,166,35,0.25);
     background: rgba(245,166,35,0.06);
-    box-shadow: -3px 0 0 0 var(--gold), 0 4px 18px rgba(0,0,0,0.25);
   }
+
   .cat-card-left { display: flex; flex-direction: column; gap: 2px; }
   .cat-name {
     font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700; font-size: 0.98rem; letter-spacing: 0.5px;
+    font-weight: 700; font-size: 0.97rem; letter-spacing: 0.5px;
   }
   .cat-detail {
-    font-family: 'Barlow', sans-serif;
-    font-size: 0.72rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-size: 0.72rem; color: var(--muted);
   }
   .cat-arrow {
-    color: var(--muted); font-size: 1rem;
-    transition: transform 0.18s, color 0.15s;
+    color: var(--muted); font-size: 0.95rem;
+    transition: all 0.15s; flex-shrink: 0;
   }
-  .cat-card:hover .cat-arrow { transform: translateX(4px); color: var(--green); }
+  .cat-card:hover .cat-arrow { color: var(--green); transform: translateX(3px); }
   .cat-card.intl:hover .cat-arrow { color: var(--gold); }
 
-  /* Sub-category (indented) */
+  /* Sub-categorías */
   .subcategories { display: flex; flex-direction: column; gap: 4px; margin-top: 4px; padding-left: 1.25rem; }
   .cat-card.sub {
-    padding: 0.55rem 0.85rem;
-    border-left: 2px solid var(--border-soft);
-    border-radius: var(--r-sm);
-    background: rgba(255,255,255,0.018);
+    padding: 0.5rem 0.85rem;
+    border-left: 2px solid var(--border-soft); border-radius: var(--r-sm);
+    background: rgba(255,255,255,0.015);
   }
-  .cat-card.sub:hover { border-left-color: var(--green); background: rgba(0,245,105,0.04); transform: none; box-shadow: none; }
-  .cat-card.sub .cat-name { font-size: 0.86rem; font-weight: 600; color: var(--muted); }
+  .cat-card.sub:hover { border-left-color: var(--green); background: rgba(0,245,105,0.04); transform: none; }
+  .cat-card.sub .cat-name { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
   .cat-card.sub:hover .cat-name { color: var(--text); }
 
-  /* ── Collapsible group ────────────────────────── */
+  /* ─ Grupos colapsables ───────────────────────── */
   .div-group { margin-bottom: 1rem; }
   .div-group-header {
     display: flex; align-items: center; justify-content: space-between;
     cursor: pointer; padding: 0.75rem 1rem;
-    background: var(--card);
-    border: 1px solid var(--border-soft);
-    border-radius: var(--r-sm);
-    color: var(--text);
-    transition: all 0.15s;
-    user-select: none;
+    background: var(--card); border: 1px solid var(--border-soft);
+    border-radius: var(--r-sm); color: var(--text);
+    transition: all 0.15s; user-select: none;
   }
   .div-group-header:hover { border-color: var(--border-hover); background: rgba(0,245,105,0.04); }
   .div-group-header.open {
@@ -326,23 +320,18 @@
     font-weight: 700; font-size: 0.98rem; letter-spacing: 0.5px;
   }
   .div-group-detail {
-    font-family: 'Barlow', sans-serif;
-    font-size: 0.72rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-size: 0.72rem; color: var(--muted);
   }
   .div-group-right { display: flex; align-items: center; gap: 10px; }
   .div-group-chevron {
-    color: var(--muted); font-size: 0.9rem;
-    transition: transform 0.2s, color 0.15s;
+    color: var(--muted); font-size: 0.9rem; transition: transform 0.2s, color 0.15s;
   }
   .div-group-header.open .div-group-chevron { transform: rotate(90deg); color: var(--green); }
   .div-group-body {
     display: none;
-    border: 1px solid rgba(0,245,105,0.18);
-    border-top: none;
-    border-bottom-left-radius: var(--r-sm);
-    border-bottom-right-radius: var(--r-sm);
-    overflow: hidden;
-    background: var(--card);
+    border: 1px solid rgba(0,245,105,0.18); border-top: none;
+    border-bottom-left-radius: var(--r-sm); border-bottom-right-radius: var(--r-sm);
+    overflow: hidden; background: var(--card);
   }
   .div-group-body.open { display: block; animation: fadeIn 0.2s ease; }
   .div-group-body .cat-card {
@@ -355,48 +344,58 @@
   .div-group-body .cat-card .cat-name { font-size: 0.88rem; }
   .div-group-body .cat-card .cat-detail { font-size: 0.7rem; }
 
-  /* ── Latest results ───────────────────────────── */
-  .result-row {
-    display: grid; grid-template-columns: 1fr auto 1fr;
-    align-items: center; gap: 8px;
-    padding: 10px 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.045);
-    font-family: 'Barlow Condensed', sans-serif;
-    transition: background 0.12s, border-radius 0.12s;
-    border-radius: 4px;
+  /* ─ Acordeón juveniles ───────────────────────── */
+  .juv-age {
+    border: 1px solid var(--border-soft); border-radius: var(--r-sm);
+    margin-bottom: 5px; overflow: hidden; transition: border-color 0.15s;
   }
-  .result-row:last-child { border-bottom: none; }
-  .result-row:hover { background: rgba(0,245,105,0.04); border-radius: 6px; }
-  .result-home { text-align: right; font-size: 0.88rem; font-weight: 700; }
-  .result-away { text-align: left; font-size: 0.88rem; font-weight: 700; }
-  .result-score {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.45rem; letter-spacing: 4px; color: var(--green);
-    min-width: 90px; text-align: center;
-    text-shadow: 0 0 18px rgba(0,245,105,0.35);
+  .juv-age.open { border-color: rgba(0,245,105,0.18); }
+  .juv-age-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.65rem 1rem; cursor: pointer; user-select: none;
+    background: var(--dark2); transition: background 0.15s;
   }
-  .result-date { display: none; }
+  .juv-age-header:hover { background: rgba(0,245,105,0.05); }
+  .juv-age-title {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 2px; color: var(--green);
+  }
+  .juv-age-sub {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 0.72rem; letter-spacing: 1px; color: var(--muted);
+  }
+  .juv-age-arrow {
+    font-size: 0.7rem; color: var(--muted); transition: transform 0.25s ease; flex-shrink: 0;
+  }
+  .juv-age.open .juv-age-arrow { transform: rotate(180deg); color: var(--green); }
+  .juv-age-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.3s ease; }
+  .juv-age.open .juv-age-body { grid-template-rows: 1fr; }
+  .juv-age-body > div { overflow: hidden; padding: 0 0.5rem 0.5rem; }
 
-  /* ── Stagger animations ───────────────────────── */
+  /* ─ Animaciones de entrada escalonadas ──────── */
   @keyframes groupReveal {
-    from { opacity: 0; transform: translateY(12px); }
+    from { opacity: 0; transform: translateY(10px); }
     to   { opacity: 1; transform: none; }
   }
-  .home > .group:nth-child(2)  { animation: groupReveal 0.45s 0.08s both ease-out; }
-  .home > .group:nth-child(3)  { animation: groupReveal 0.45s 0.14s both ease-out; }
-  .home > .group:nth-child(4)  { animation: groupReveal 0.45s 0.20s both ease-out; }
-  .home > .group:nth-child(5)  { animation: groupReveal 0.45s 0.26s both ease-out; }
-  .home > .group:nth-child(6)  { animation: groupReveal 0.45s 0.32s both ease-out; }
-  .home > .group:nth-child(7)  { animation: groupReveal 0.45s 0.38s both ease-out; }
-  .home > .group:nth-child(8)  { animation: groupReveal 0.45s 0.44s both ease-out; }
-  .home > .group:nth-child(9)  { animation: groupReveal 0.45s 0.50s both ease-out; }
-  .home > .group:nth-child(10) { animation: groupReveal 0.45s 0.56s both ease-out; }
+  .home > .home-section         { animation: groupReveal 0.4s 0.06s both ease-out; }
+  .home > :nth-child(3)         { animation: groupReveal 0.4s 0.12s both ease-out; }
+  .home > :nth-child(4)         { animation: groupReveal 0.4s 0.18s both ease-out; }
+  .home > :nth-child(5)         { animation: groupReveal 0.4s 0.24s both ease-out; }
+  .home > :nth-child(6)         { animation: groupReveal 0.4s 0.30s both ease-out; }
+  .home > :nth-child(7)         { animation: groupReveal 0.4s 0.36s both ease-out; }
+  .home > :nth-child(8)         { animation: groupReveal 0.4s 0.42s both ease-out; }
+  .home > :nth-child(9)         { animation: groupReveal 0.4s 0.48s both ease-out; }
+  .home > :nth-child(10)        { animation: groupReveal 0.4s 0.54s both ease-out; }
 
+  /* ─ Responsive ───────────────────────────────── */
+  @media (max-width: 768px) {
+    .home { grid-template-columns: 1fr; }
+    .home > :nth-child(n) { grid-column: 1; }
+  }
   @media (max-width: 600px) {
-    .hero-brand { font-size: 4rem; letter-spacing: 10px; }
-    .hero-oval  { width: 220px; height: 130px; }
-    .home { padding: 2rem 1rem; }
-    .result-score { font-size: 1.25rem; letter-spacing: 3px; min-width: 76px; }
+    .home { padding: 0 1rem 3rem; }
+    .hero { margin: 0 -1rem; padding: 3rem 1rem 2.5rem; }
+    .hero-brand { font-size: 3.8rem; }
+    .result-score { font-size: 1.3rem; }
+    .group-header::before { font-size: 2.5rem; }
   }
 </style>
 </head>
@@ -410,9 +409,15 @@
 
 <div class="home">
   <div class="hero">
-    <div class="hero-oval"></div>
+    <div class="hero-bg-year">2026</div>
+    <div class="hero-kicker">Rugby · Argentina</div>
     <div class="hero-brand">OVALADOS</div>
-    <div class="hero-sub">Rugby Argentina · Temporada 2026</div>
+    <div class="hero-rule"></div>
+    <div class="hero-meta">
+      <span>Temporada 2026</span>
+      <span class="hero-meta-sep">—</span>
+      <span>Resultados · Tablas · Fixture</span>
+    </div>
   </div>
 
   <!-- ÚLTIMOS RESULTADOS URBA TOP 14 -->
@@ -429,8 +434,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">🏆 URBA TOP 14</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">🏆 URBA TOP 14</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -529,8 +536,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">PRIMERA A</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">PRIMERA A</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -594,8 +603,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">PRIMERA B</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">PRIMERA B</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -652,8 +663,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">PRIMERA C</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">PRIMERA C</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -703,8 +716,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">SEGUNDA DIVISIÓN</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">SEGUNDA DIVISIÓN</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -732,8 +747,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">TERCERA DIVISIÓN</span>
-      <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">TERCERA DIVISIÓN</span>
+        <span class="group-sub">Todas las divisiones · Temporada 2026</span>
+      </div>
     </div>
     <div class="categories">
 
@@ -762,8 +779,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header">
-      <span class="group-label">JUVENILES URBA</span>
-      <span class="group-sub">M15 · M16 · M17 · M19 · Grupo II · 2026</span>
+      <div class="group-header-text">
+        <span class="group-label">JUVENILES URBA</span>
+        <span class="group-sub">M15 · M16 · M17 · M19 · Grupo II · 2026</span>
+      </div>
     </div>
 
     <!-- M19 -->
@@ -1176,8 +1195,10 @@
   ═══════════════════════════════════════════ -->
   <div class="group">
     <div class="group-header intl">
-      <span class="group-label intl">🌎 INTERNACIONALES</span>
-      <span class="group-sub">Rugby internacional · 2026</span>
+      <div class="group-header-text">
+        <span class="group-label intl">🌎 INTERNACIONALES</span>
+        <span class="group-sub">Rugby internacional · 2026</span>
+      </div>
     </div>
     <div class="categories">
       <a href="super-rugby.html" class="cat-card intl">
