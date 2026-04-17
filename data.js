@@ -1254,7 +1254,7 @@ const PARTIDOS = {
           "14. Fuentes, Ramón",
           "15. Del Franco, Matías",
         ],
-        cambios: ["Bivort por Lamelas", "Cambareri por Bottoni F.", "Testoni por Tapia", "Sábato por Testoni", "Castanier por Sábato"],
+        cambios: ["Bivort por Lamelas", "Cambareri por Bottoni F.", "Castanier por Tapia"],
       },
       visitante: {
         nombre: "Newman",
@@ -1344,7 +1344,7 @@ const PARTIDOS = {
           "14. Molina Campos, Juan",
           "15. Camerlinckx, Justo",
         ],
-        cambios: ["Barbaccia por Cebrón", "Pisani por Camerlinckx E.", "Klapenbach por Camerlinckx M.", "Moadeb por Pisani"],
+        cambios: ["Barbaccia por Cebrón", "Klapenbach por Camerlinckx E.", "Moadeb por Camerlinckx M."],
       },
       visitante: {
         nombre: "CUBA",
@@ -1410,7 +1410,7 @@ const PARTIDOS = {
           "14. Handley, Benjamín",
           "15. Pizzo, Nicolás",
         ],
-        cambios: ["Gallo por Herrador", "Rosasco por Ruiz", "Zanella por Coria", "Bourdal por Freire T.", "Espina por Bourdal", "Campbell por Mimessi Sosa", "Del Campo por Freire M.", "Prieto Martínez por Costa"],
+        cambios: ["Gallo por Herrador", "Rosasco por Ruiz", "Zanella por Coria", "Espina por Freire T.", "Campbell por Mimessi Sosa", "Del Campo por Freire M.", "Prieto Martínez por Costa"],
       }
     },
 
@@ -1455,7 +1455,7 @@ const PARTIDOS = {
           "14. Arana, Pedro",
           "15. Landó, Juan",
         ],
-        cambios: ["Villegas por De Siena", "Tecca por Duggan", "Duggan por Vaccarino", "Vaccarino por Sorondo", "Fossati por Landó", "Brescia por Arana M.", "Arana P. por Bernabé", "Landó por Arana P."],
+        cambios: ["Villegas por De Siena", "Tecca por Sorondo", "Fossati por Arana M.", "Brescia por Bernabé"],
       }
     },
 
