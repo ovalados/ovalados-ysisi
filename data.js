@@ -2758,6 +2758,7 @@ const PARTIDOS = {
     },
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
     los_matreros_los_tilos: {
       local: {
@@ -2805,7 +2806,7 @@ const PARTIDOS = {
     },
     atletico_del_rosario_casi: {
       local: {
-        nombre: "Atlético del Rosario",
+        nombre: "Atletico del Rosario",
         jugadores: [
           "1. Fernandez, Agustin",
           "2. Malanos, Matias",
@@ -4277,6 +4278,7 @@ const PARTIDOS = {
     },
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
     los_matreros_los_tilos: {
       local: {
@@ -4324,7 +4326,7 @@ const PARTIDOS = {
     },
     atletico_del_rosario_casi: {
       local: {
-        nombre: "Atlético del Rosario",
+        nombre: "Atletico del Rosario",
         jugadores: [
           "1. Carro, José",
           "2. Rubio, Felipe",
@@ -5740,10 +5742,11 @@ const PARTIDOS = {
     },
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
-    los_matreros_los_tilos: {
+    los_matreros_b_los_tilos_b: {
       local: {
-        nombre: "Los Matreros",
+        nombre: "Los Matreros B",
         jugadores: [
           "1. Paz, Tobías",
           "2. Gomez, Santiago",
@@ -5764,7 +5767,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Los Tilos",
+        nombre: "Los Tilos B",
         jugadores: [
           "1. Benito, Felipe",
           "2. Cortopasso, Luca",
@@ -5785,9 +5788,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    atletico_del_rosario_casi: {
+    atletico_del_rosario_b_casi_b: {
       local: {
-        nombre: "Atlético del Rosario",
+        nombre: "Atletico del Rosario B",
         jugadores: [
           "1. Viola, Joaquín",
           "2. Hulgich, Ian",
@@ -5808,7 +5811,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CASI",
+        nombre: "CASI B",
         jugadores: [
           "1. Lorenzo, Matías",
           "2. Gongora, Tomás",
@@ -5829,9 +5832,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    regatas_bella_vista_cuba: {
+    regatas_bella_vista_b_cuba_b: {
       local: {
-        nombre: "Regatas Bella Vista",
+        nombre: "Regatas Bella Vista B",
         jugadores: [
           "1. Vilches, Tomás",
           "2. Castilla, Fernando",
@@ -5852,7 +5855,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CUBA",
+        nombre: "CUBA B",
         jugadores: [
           "1. Carullo",
           "2. Rossi",
@@ -5873,16 +5876,16 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    la_plata_buenos_aires_c_rc: {
+    la_plata_b_buenos_aires_c_rc_b: {
       local: {
-        nombre: "La Plata",
+        nombre: "La Plata B",
         jugadores: [
           "Formación no disponible",
         ],
         cambios: [],
       },
       visitante: {
-        nombre: "Buenos Aires C&RC",
+        nombre: "Buenos Aires C&RC B",
         jugadores: [
           "1. Radakovits, Santiago",
           "2. Marchesi, Guido",
@@ -5903,9 +5906,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    hindu_belgrano_athletic: {
+    hindu_b_belgrano_athletic_b: {
       local: {
-        nombre: "Hindu",
+        nombre: "Hindu B",
         jugadores: [
           "1. Rivolta, C",
           "2. Díaz, de la Vega M.",
@@ -5926,7 +5929,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Belgrano Athletic",
+        nombre: "Belgrano Athletic B",
         jugadores: [
           "1. Perticone, Maxi",
           "2. Garbini, Augusto",
@@ -5947,9 +5950,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    champagnat_sic: {
+    champagnat_b_sic_b: {
       local: {
-        nombre: "Champagnat",
+        nombre: "Champagnat B",
         jugadores: [
           "1. Chiesa, Tadeo",
           "2. Roquette, Tomas",
@@ -5970,7 +5973,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "SIC",
+        nombre: "SIC B",
         jugadores: [
           "1. G. Ketelhon, F.",
           "2. Ayerza Sojo, T",
@@ -5991,9 +5994,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    alumni_newman: {
+    alumni_b_newman_b: {
       local: {
-        nombre: "Alumni",
+        nombre: "Alumni B",
         jugadores: [
           "1. Cuevas, Ramiro",
           "2. Miñana, Ignacio",
@@ -6014,7 +6017,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Newman",
+        nombre: "Newman B",
         jugadores: [
           "1. Brandi, Facundo",
           "2. Iribarne, Gonzalo",
@@ -7189,10 +7192,11 @@ const PARTIDOS = {
     },
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
-    los_matreros_los_tilos: {
+    los_matreros_c_los_tilos_c: {
       local: {
-        nombre: "Los Matreros",
+        nombre: "Los Matreros C",
         jugadores: [
           "1. González, Nicolas",
           "2. Guindin, David",
@@ -7213,7 +7217,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Los Tilos",
+        nombre: "Los Tilos C",
         jugadores: [
           "1. Tejeda, Simon",
           "2. Ibarra, Manuel",
@@ -7234,9 +7238,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    atletico_del_rosario_casi: {
+    atletico_del_rosario_c_casi_c: {
       local: {
-        nombre: "Atlético del Rosario",
+        nombre: "Atletico del Rosario C",
         jugadores: [
           "1. Viola, Mariano",
           "2. Suarez, Tomás",
@@ -7257,7 +7261,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CASI",
+        nombre: "CASI C",
         jugadores: [
           "1. Ladelfa, Santiago",
           "2. Souverbielle, Tomás",
@@ -7278,9 +7282,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    regatas_bella_vista_cuba: {
+    regatas_bella_vista_c_cuba_c: {
       local: {
-        nombre: "Regatas Bella Vista",
+        nombre: "Regatas Bella Vista C",
         jugadores: [
           "1. Goischain, Facundo",
           "2. González, Juan",
@@ -7301,7 +7305,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CUBA",
+        nombre: "CUBA C",
         jugadores: [
           "1. Millberg",
           "2. Rodriguez, Simon",
@@ -7322,16 +7326,16 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    la_plata_buenos_aires_c_rc: {
+    la_plata_c_buenos_aires_c_rc_c: {
       local: {
-        nombre: "La Plata",
+        nombre: "La Plata C",
         jugadores: [
           "Formación no disponible",
         ],
         cambios: [],
       },
       visitante: {
-        nombre: "Buenos Aires C&RC",
+        nombre: "Buenos Aires C&RC C",
         jugadores: [
           "1. Bello, Ramiro",
           "2. Halperín, Pedro",
@@ -7352,9 +7356,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    hindu_belgrano_athletic: {
+    hindu_c_belgrano_athletic_c: {
       local: {
-        nombre: "Hindu",
+        nombre: "Hindu C",
         jugadores: [
           "1. Quiroga, I",
           "2. Barboni, T",
@@ -7375,7 +7379,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Belgrano Athletic",
+        nombre: "Belgrano Athletic C",
         jugadores: [
           "1. Lavigne, Emilio",
           "2. Calaszibetta, Lautaro",
@@ -7396,9 +7400,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    champagnat_sic: {
+    champagnat_c_sic_c: {
       local: {
-        nombre: "Champagnat",
+        nombre: "Champagnat C",
         jugadores: [
           "1. Trujeke, Alejandro",
           "2. Daireaux Delfino, Santos",
@@ -7419,7 +7423,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "SIC",
+        nombre: "SIC C",
         jugadores: [
           "1. Cardillo, G",
           "2. Marples, J",
@@ -7440,9 +7444,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    alumni_newman: {
+    alumni_c_newman_c: {
       local: {
-        nombre: "Alumni",
+        nombre: "Alumni C",
         jugadores: [
           "1. Berreta, Valentin",
           "2. Garcia, Santos",
@@ -7463,7 +7467,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Newman",
+        nombre: "Newman C",
         jugadores: [
           "1. Naveiro, Joaquín",
           "2. Gaviña, Segundo",
@@ -8785,10 +8789,11 @@ const PARTIDOS = {
 
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
-    los_matreros_los_tilos: {
+    los_matreros_d_los_tilos_d: {
       local: {
-        nombre: "Los Matreros",
+        nombre: "Los Matreros D",
         jugadores: [
           "1. Godoy, Carlos",
           "2. Pollicino, Nicolas",
@@ -8809,7 +8814,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Los Tilos",
+        nombre: "Los Tilos D",
         jugadores: [
           "1. Selalle Orona, Ciro",
           "2. Arce, Santiago",
@@ -8830,9 +8835,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    atletico_del_rosario_casi: {
+    atletico_del_rosario_d_casi_d: {
       local: {
-        nombre: "Atlético del Rosario",
+        nombre: "Atletico del Rosario D",
         jugadores: [
           "1. Bismar, Uriel",
           "2. de la Vega, Facundo",
@@ -8853,7 +8858,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CASI",
+        nombre: "CASI D",
         jugadores: [
           "1. di Meola, Franco",
           "2. Mammoliti, Salvador",
@@ -8874,9 +8879,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    regatas_bella_vista_cuba: {
+    regatas_bella_vista_d_cuba_d: {
       local: {
-        nombre: "Regatas Bella Vista",
+        nombre: "Regatas Bella Vista D",
         jugadores: [
           "1. Bourse, Thiago",
           "2. Lemos, Julián García",
@@ -8897,7 +8902,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CUBA",
+        nombre: "CUBA D",
         jugadores: [
           "1. Molina",
           "2. Romero de, Haz",
@@ -8918,16 +8923,16 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    la_plata_buenos_aires_c_rc: {
+    la_plata_d_buenos_aires_c_rc_d: {
       local: {
-        nombre: "La Plata",
+        nombre: "La Plata D",
         jugadores: [
           "Formación no disponible",
         ],
         cambios: [],
       },
       visitante: {
-        nombre: "Buenos Aires C&RC",
+        nombre: "Buenos Aires C&RC D",
         jugadores: [
           "1. Mallo, Gonzalo",
           "2. Arnaldo, Bautista",
@@ -8948,9 +8953,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    hindu_belgrano_athletic: {
+    hindu_d_belgrano_athletic_d: {
       local: {
-        nombre: "Hindu",
+        nombre: "Hindu D",
         jugadores: [
           "1. Peñaloza, S",
           "2. Fernandez, F",
@@ -8971,7 +8976,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Belgrano Athletic",
+        nombre: "Belgrano Athletic D",
         jugadores: [
           "1. Redolatti, Oscar",
           "2. Gomez Voynes, Gonzalo",
@@ -8992,9 +8997,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    champagnat_sic: {
+    champagnat_d_sic_d: {
       local: {
-        nombre: "Champagnat",
+        nombre: "Champagnat D",
         jugadores: [
           "1. Gurruchaga, Gonzalo",
           "2. Carrizo, Mateo",
@@ -9015,7 +9020,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "SIC",
+        nombre: "SIC D",
         jugadores: [
           "1. Pezzenatti, A.",
           "2. Chain, S.",
@@ -9036,9 +9041,9 @@ const PARTIDOS = {
         cambios: [],
       },
     },
-    alumni_newman: {
+    alumni_d_newman_d: {
       local: {
-        nombre: "Alumni",
+        nombre: "Alumni D",
         jugadores: [
           "1. Girini, Pedro",
           "2. Aragon, Marcos",
@@ -9059,7 +9064,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "Newman",
+        nombre: "Newman D",
         jugadores: [
           "1. Aramburu, Bautista",
           "2. Aramburu, Marcos",
@@ -9990,6 +9995,7 @@ const PARTIDOS = {
     },
 
   
+
 
     // ── FECHA 5 ────────────────────────────────────────────────
     cuba_f_casi_e: {
@@ -11172,6 +11178,7 @@ const PARTIDOS = {
 
   
 
+
     // ── FECHA 5 ────────────────────────────────────────────────
     newman_h_los_tilos_f: {
       local: {
@@ -12228,6 +12235,7 @@ const PARTIDOS = {
     },
 
   
+
 
     // ── FECHA 5 ────────────────────────────────────────────────
     sic_b_los_tilos: {
