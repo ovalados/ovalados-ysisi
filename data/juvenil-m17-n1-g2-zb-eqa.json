@@ -2,181 +2,193 @@
   "teams": [
     {
       "name": "San Cirano A",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 30,
-      "pc": 17,
+      "pf": 70,
+      "pc": 48,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "La Plata A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 56,
-      "pc": 21,
+      "pf": 80,
+      "pc": 43,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "G y Esgrima A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 14,
-      "pc": 42,
+      "p": 2,
+      "pf": 19,
+      "pc": 59,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "CASI A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 83,
-      "pc": 0,
+      "pf": 107,
+      "pc": 22,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "A.D. Francesa A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 19,
-      "pc": 29,
+      "p": 2,
+      "pf": 45,
+      "pc": 83,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Pucara A",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 29,
-      "pc": 19,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w"
-      ]
-    },
-    {
-      "name": "Liceo Naval A",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
-      "e": 0,
       "p": 1,
-      "pf": 0,
-      "pc": 83,
+      "pf": 51,
+      "pc": 43,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "w",
         "l"
       ]
     },
     {
-      "name": "Newman A",
-      "pts": 5,
-      "pj": 1,
+      "name": "Liceo Naval A",
+      "pts": 4,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 42,
-      "pc": 14,
-      "bp": 1,
+      "p": 1,
+      "pf": 17,
+      "pc": 88,
+      "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "w"
+      ]
+    },
+    {
+      "name": "Newman A",
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
+      "e": 0,
+      "p": 1,
+      "pf": 64,
+      "pc": 38,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
+        "l"
       ]
     },
     {
       "name": "Pueyrredon A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 21,
-      "pc": 56,
+      "p": 2,
+      "pf": 52,
+      "pc": 96,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "San Andres A",
-      "pts": 0,
-      "pj": 1,
+      "pts": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 17,
-      "pc": 30,
+      "p": 2,
+      "pf": 41,
+      "pc": 61,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Champagnat A",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 14,
-      "pc": 28,
+      "pf": 45,
+      "pc": 52,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Belgrano Athl. A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 28,
-      "pc": 14,
-      "bp": 1,
+      "pf": 82,
+      "pc": 40,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     }
@@ -239,32 +251,48 @@
         {
           "home": "A.D. Francesa A",
           "away": "Belgrano Athl. A",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 54,
+          "bp_away": true
         },
         {
           "home": "Pucara A",
           "away": "CASI A",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 24,
+          "bf_home": true
         },
         {
           "home": "Liceo Naval A",
           "away": "G y Esgrima A",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 5
         },
         {
           "home": "Newman A",
           "away": "La Plata A",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 24,
+          "bf_home": true
         },
         {
           "home": "Pueyrredon A",
           "away": "San Cirano A",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 40
         },
         {
           "home": "San Andres A",
           "away": "Champagnat A",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 31,
+          "bf_home": true
         }
       ]
     },
@@ -584,8 +612,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T21:51:50.374141+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T22:43:30.557034+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025233",
   "nombre": "M17 N1-G2-ZB-EqA"
 }
