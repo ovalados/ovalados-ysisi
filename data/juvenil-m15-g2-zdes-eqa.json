@@ -3,45 +3,48 @@
     {
       "name": "CUBA C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
+      "p": 2,
       "pf": 12,
-      "pc": 64,
+      "pc": 147,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "SITAS A",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 12,
-      "pc": 17,
+      "pf": 52,
+      "pc": 55,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Regatas B. Vista C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 69,
+      "p": 2,
+      "pf": 19,
+      "pc": 97,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -65,17 +68,18 @@
     },
     {
       "name": "Monte Grande A",
-      "pts": 5,
-      "pj": 1,
+      "pts": 6,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 66,
-      "pc": 12,
+      "p": 1,
+      "pf": 83,
+      "pc": 31,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -96,46 +100,49 @@
     },
     {
       "name": "San Cirano A",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 28,
+      "pc": 14,
       "bp": 0,
       "bf": 0,
       "form": [
-        "d"
-      ]
-    },
-    {
-      "name": "San Albano A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
-      "e": 0,
-      "p": 0,
-      "pf": 69,
-      "pc": 5,
-      "bp": 1,
-      "bf": 0,
-      "form": [
+        "d",
         "w"
       ]
     },
     {
-      "name": "G y Esgrima A",
-      "pts": 4,
-      "pj": 1,
+      "name": "San Albano A",
+      "pts": 6,
+      "pj": 2,
       "g": 1,
       "e": 0,
+      "p": 1,
+      "pf": 107,
+      "pc": 45,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "G y Esgrima A",
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
       "p": 0,
-      "pf": 17,
+      "pf": 100,
       "pc": 12,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
@@ -157,17 +164,18 @@
     },
     {
       "name": "Ciudad de Bs.As. A",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "pf": 19,
+      "pc": 17,
       "bp": 0,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     }
   ],
@@ -229,7 +237,10 @@
         {
           "home": "Monte Grande A",
           "away": "Ciudad de Bs.As. A",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 19,
+          "bf_home": true
         },
         {
           "home": "CASI C",
@@ -241,17 +252,25 @@
         {
           "home": "San Cirano A",
           "away": "Regatas B. Vista C",
-          "played": false
+          "played": true,
+          "hs": 28,
+          "as": 14
         },
         {
           "home": "San Albano A",
           "away": "SITAS A",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 40,
+          "bf_home": true
         },
         {
           "home": "G y Esgrima A",
           "away": "CUBA C",
-          "played": false
+          "played": true,
+          "hs": 83,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "San Carlos A",
@@ -578,8 +597,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T19:01:14.117092+00:00",
-  "matchesScraped": 8,
+  "lastUpdate": "2026-04-19T19:50:12.156642+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025259",
   "nombre": "M15 G2-ZDes-EqA"
 }
