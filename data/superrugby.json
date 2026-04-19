@@ -391,7 +391,9 @@
         {
           "home": "Pampas",
           "away": "Yacare XV",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 14
         },
         {
           "home": "Cobras BR",
@@ -561,6 +563,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:46:14.723277+00:00",
+  "lastUpdate": "2026-04-19T13:20:38.459147+00:00",
   "matchesScraped": 28
 }
