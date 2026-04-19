@@ -46,18 +46,19 @@
       ]
     },
     {
-      "name": "Las Cañas B",
-      "pts": 0,
-      "pj": 1,
+      "name": "Bye",
+      "pts": 4,
+      "pj": 2,
       "g": 0,
-      "e": 0,
-      "p": 1,
-      "pf": 26,
-      "pc": 64,
+      "e": 2,
+      "p": 0,
+      "pf": 0,
+      "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "d",
+        "d"
       ]
     },
     {
@@ -67,7 +68,7 @@
       "g": 0,
       "e": 0,
       "p": 1,
-      "pf": 5,
+      "pf": 6,
       "pc": 60,
       "bp": 0,
       "bf": 0,
@@ -77,32 +78,33 @@
     },
     {
       "name": "Los Molinos B",
-      "pts": 5,
-      "pj": 1,
+      "pts": 7,
+      "pj": 2,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 60,
-      "pc": 5,
+      "pc": 6,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "San Albano B",
-      "pts": 5,
+      "pts": 2,
       "pj": 1,
-      "g": 1,
-      "e": 0,
+      "g": 0,
+      "e": 1,
       "p": 0,
-      "pf": 64,
-      "pc": 26,
-      "bp": 1,
+      "pf": 0,
+      "pc": 0,
+      "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "d"
       ]
     },
     {
@@ -218,18 +220,17 @@
           "bp_away": true
         },
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "San Albano B",
           "played": true,
-          "hs": 26,
-          "as": 64,
-          "bp_away": true
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Old Georgian B",
           "away": "Los Molinos B",
           "played": true,
-          "hs": 5,
+          "hs": 6,
           "as": 60,
           "bp_away": true
         }
@@ -245,8 +246,10 @@
         },
         {
           "home": "Los Molinos B",
-          "away": "Las Cañas B",
-          "played": false
+          "away": "Bye",
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "San Albano B",
@@ -299,7 +302,7 @@
           "played": false
         },
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "Old Georgian B",
           "played": false
         }
@@ -309,7 +312,7 @@
       "date": "",
       "ms": [
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "Lujan B",
           "played": false
         },
@@ -370,7 +373,7 @@
         },
         {
           "home": "Italiano B",
-          "away": "Las Cañas B",
+          "away": "Bye",
           "played": false
         }
       ]
@@ -384,7 +387,7 @@
           "played": false
         },
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "SITAS B",
           "played": false
         },
@@ -435,7 +438,7 @@
         },
         {
           "home": "Tigre B",
-          "away": "Las Cañas B",
+          "away": "Bye",
           "played": false
         },
         {
@@ -459,7 +462,7 @@
           "played": false
         },
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "Manuel Belgrano B",
           "played": false
         },
@@ -500,7 +503,7 @@
         },
         {
           "home": "San Patricio B",
-          "away": "Las Cañas B",
+          "away": "Bye",
           "played": false
         },
         {
@@ -534,7 +537,7 @@
           "played": false
         },
         {
-          "home": "Las Cañas B",
+          "home": "Bye",
           "away": "Univ. De la Plata B",
           "played": false
         },
@@ -565,7 +568,7 @@
         },
         {
           "home": "San Fernando B",
-          "away": "Las Cañas B",
+          "away": "Bye",
           "played": false
         },
         {
@@ -586,8 +589,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:47:00.488263+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T13:21:22.327650+00:00",
+  "matchesScraped": 7,
   "championshipId": "2025218",
   "nombre": "M19 N2-G2-ZC-EqB"
 }
