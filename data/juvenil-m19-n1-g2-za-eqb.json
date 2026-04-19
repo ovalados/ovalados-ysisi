@@ -3,181 +3,193 @@
     {
       "name": "Liceo Naval B",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
+      "p": 2,
       "pf": 28,
-      "pc": 29,
+      "pc": 102,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Newman B",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 19,
-      "pc": 0,
-      "bp": 1,
+      "pf": 62,
+      "pc": 7,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Pueyrredon B",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 45,
-      "pc": 5,
+      "p": 1,
+      "pf": 64,
+      "pc": 33,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Andres B",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 24,
-      "pc": 33,
+      "p": 2,
+      "pf": 45,
+      "pc": 80,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Champagnat B",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 24,
-      "pc": 26,
-      "bp": 0,
+      "pf": 76,
+      "pc": 47,
+      "bp": 1,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Belgrano Athl. B",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 26,
-      "pc": 24,
-      "bp": 0,
+      "pf": 73,
+      "pc": 45,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "La Plata B",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 33,
-      "pc": 24,
+      "pf": 61,
+      "pc": 43,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Hurling B",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 45,
+      "p": 2,
+      "pf": 12,
+      "pc": 88,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Regatas B Vista B",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 0,
+      "pf": 73,
       "pc": 19,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Lomas Athl. B",
       "pts": 4,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 29,
-      "pc": 28,
+      "p": 1,
+      "pf": 55,
+      "pc": 66,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "A.D. Francesa B",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 28,
-      "pc": 36,
+      "pf": 66,
+      "pc": 62,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Pucara B",
       "pts": 4,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 36,
-      "pc": 28,
+      "p": 1,
+      "pf": 57,
+      "pc": 80,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     }
   ],
@@ -239,32 +251,48 @@
         {
           "home": "Champagnat B",
           "away": "Pucara B",
-          "played": false
+          "played": true,
+          "hs": 52,
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "Belgrano Athl. B",
           "away": "San Andres B",
-          "played": false
+          "played": true,
+          "hs": 47,
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "La Plata B",
           "away": "Pueyrredon B",
-          "played": false
+          "played": true,
+          "hs": 28,
+          "as": 19
         },
         {
           "home": "Hurling B",
           "away": "Newman B",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 43,
+          "bp_away": true
         },
         {
           "home": "Regatas B Vista B",
           "away": "Liceo Naval B",
-          "played": false
+          "played": true,
+          "hs": 73,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Lomas Athl. B",
           "away": "A.D. Francesa B",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 38
         }
       ]
     },
@@ -584,8 +612,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:43:09.969082+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T23:23:53.609367+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025214",
   "nombre": "M19 N1-G2-ZA-EqB"
 }
