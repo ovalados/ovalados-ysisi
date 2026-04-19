@@ -382,8 +382,9 @@ function renderPlantel() {
         if (m) {
           const pos  = parseInt(m[1], 10);
           const name = m[2].trim();
-          if (!byPos[pos]) byPos[pos] = new Set();
-          byPos[pos].add(name);
+          if (!byPos[pos]) byPos[pos] = new Map();
+          const key = norm(name);
+          if (!byPos[pos].has(key)) byPos[pos].set(key, name);
         }
       });
     });
@@ -395,7 +396,7 @@ function renderPlantel() {
   }
   const rows = [];
   posKeys.forEach(p => {
-    Array.from(byPos[p]).forEach(name => {
+    Array.from(byPos[p].values()).forEach(name => {
       rows.push(`<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${name}</span></div>`);
     });
   });
