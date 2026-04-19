@@ -3,180 +3,192 @@
     {
       "name": "Almafuerte",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 92,
-      "pc": 19,
+      "p": 1,
+      "pf": 121,
+      "pc": 65,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Tiro F de Baradero",
       "pts": 4,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 31,
-      "pc": 29,
+      "p": 1,
+      "pf": 61,
+      "pc": 67,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Cedros",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 49,
-      "pc": 17,
+      "pf": 78,
+      "pc": 32,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Arsenal Zarate",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 31,
-      "pc": 13,
+      "pf": 55,
+      "pc": 33,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Banco Hipotecario",
-      "pts": 4,
-      "pj": 1,
+      "pts": 6,
+      "pj": 2,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 24,
       "pc": 14,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "Pac General Rodriguez",
-      "pts": 0,
-      "pj": 1,
+      "pts": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 14,
-      "pc": 24,
+      "p": 2,
+      "pf": 34,
+      "pc": 48,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "G y E de Ituzaingo",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 13,
-      "pc": 31,
+      "p": 2,
+      "pf": 28,
+      "pc": 60,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Beromama",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 17,
-      "pc": 49,
+      "pf": 55,
+      "pc": 79,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Porteño",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 29,
-      "pc": 31,
+      "pf": 75,
+      "pc": 60,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Berisso",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 19,
-      "pc": 92,
+      "p": 2,
+      "pf": 22,
+      "pc": 144,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Ciudad de Campana",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 52,
+      "pc": 3,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Bye",
-      "pts": 2,
-      "pj": 1,
+      "pts": 4,
+      "pj": 2,
       "g": 0,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d"
       ]
     }
@@ -238,32 +250,46 @@
         {
           "home": "Banco Hipotecario",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Pac General Rodriguez",
           "away": "Arsenal Zarate",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 24,
+          "bf_home": true
         },
         {
           "home": "G y E de Ituzaingo",
           "away": "Los Cedros",
-          "played": false
+          "played": true,
+          "hs": 15,
+          "as": 29
         },
         {
           "home": "Beromama",
           "away": "Tiro F de Baradero",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 30
         },
         {
           "home": "Porteño",
           "away": "Almafuerte",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 29
         },
         {
           "home": "Berisso",
           "away": "Ciudad de Campana",
-          "played": false
+          "played": true,
+          "hs": 3,
+          "as": 52,
+          "bp_away": true
         }
       ]
     },
@@ -968,8 +994,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:46:52.734971+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T13:21:10.928397+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025181",
   "nombre": "Tercera Superior"
 }
