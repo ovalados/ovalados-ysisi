@@ -3,45 +3,48 @@
     {
       "name": "Tigre B",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 14,
-      "pc": 45,
+      "p": 2,
+      "pf": 21,
+      "pc": 81,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "SITAS B",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 17,
-      "pc": 24,
+      "p": 2,
+      "pf": 29,
+      "pc": 64,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Italiano B",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 33,
+      "p": 2,
+      "pf": 20,
+      "pc": 82,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -63,16 +66,17 @@
     },
     {
       "name": "Old Georgian B",
-      "pts": 0,
-      "pj": 1,
+      "pts": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 6,
-      "pc": 60,
+      "p": 2,
+      "pf": 23,
+      "pc": 79,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -94,92 +98,98 @@
     },
     {
       "name": "San Albano B",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 49,
+      "pc": 15,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "San Fernando B",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 33,
-      "pc": 5,
-      "bp": 1,
+      "pf": 73,
+      "pc": 17,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Univ. De la Plata B",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 24,
-      "pc": 17,
-      "bp": 0,
+      "pf": 60,
+      "pc": 24,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "San Patricio B",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 45,
-      "pc": 14,
+      "p": 1,
+      "pf": 52,
+      "pc": 46,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Manuel Belgrano B",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 75,
-      "pc": 7,
-      "bp": 1,
+      "pf": 107,
+      "pc": 14,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Lujan B",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 7,
-      "pc": 75,
+      "pf": 26,
+      "pc": 92,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -242,7 +252,10 @@
         {
           "home": "Old Georgian B",
           "away": "Lujan B",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 19,
+          "bf_home": true
         },
         {
           "home": "Los Molinos B",
@@ -254,22 +267,34 @@
         {
           "home": "San Albano B",
           "away": "Italiano B",
-          "played": false
+          "played": true,
+          "hs": 49,
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "San Fernando B",
           "away": "SITAS B",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Univ. De la Plata B",
           "away": "Tigre B",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "San Patricio B",
           "away": "Manuel Belgrano B",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 32,
+          "bp_away": true
         }
       ]
     },
@@ -589,8 +614,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:43:14.993123+00:00",
-  "matchesScraped": 7,
+  "lastUpdate": "2026-04-19T23:23:57.405367+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025218",
   "nombre": "M19 N2-G2-ZC-EqB"
 }
