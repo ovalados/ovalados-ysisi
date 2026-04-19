@@ -403,7 +403,9 @@
         {
           "home": "Selknam",
           "away": "Tarucas",
-          "played": false
+          "played": true,
+          "hs": 37,
+          "as": 13
         },
         {
           "home": "Peñarol",
@@ -563,6 +565,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T21:04:31.980246+00:00",
+  "lastUpdate": "2026-04-19T21:51:05.217133+00:00",
   "matchesScraped": 28
 }
