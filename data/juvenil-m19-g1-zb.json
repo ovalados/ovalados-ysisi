@@ -2,46 +2,49 @@
   "teams": [
     {
       "name": "Ciudad de Campana",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 52,
+      "pc": 19,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Arsenal Zarate",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 41,
-      "pc": 24,
+      "p": 1,
+      "pf": 58,
+      "pc": 81,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Liceo Militar",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 55,
+      "p": 2,
+      "pf": 19,
+      "pc": 91,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -65,17 +68,18 @@
     },
     {
       "name": "Vicentinos",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 35,
-      "pc": 45,
-      "bp": 0,
+      "pf": 74,
+      "pc": 73,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -96,46 +100,49 @@
     },
     {
       "name": "Los Cedros",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 36,
+      "pc": 14,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "CASA de Padua",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 55,
-      "pc": 5,
-      "bp": 1,
+      "pf": 112,
+      "pc": 22,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "T. F. de San Pedro",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 24,
-      "pc": 41,
+      "p": 2,
+      "pf": 43,
+      "pc": 93,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -158,15 +165,16 @@
     {
       "name": "Daom",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 76,
+      "p": 2,
+      "pf": 33,
+      "pc": 115,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     }
@@ -228,7 +236,10 @@
         {
           "home": "Vicentinos",
           "away": "Daom",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 28,
+          "bp_home": true
         },
         {
           "home": "Virreyes",
@@ -240,17 +251,26 @@
         {
           "home": "Los Cedros",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "CASA de Padua",
           "away": "Arsenal Zarate",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 17,
+          "bp_home": true
         },
         {
           "home": "T. F. de San Pedro",
           "away": "Ciudad de Campana",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 52,
+          "bp_away": true
         },
         {
           "home": "Bye",
@@ -577,8 +597,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:43:20.450764+00:00",
-  "matchesScraped": 8,
+  "lastUpdate": "2026-04-19T23:24:01.773696+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025225",
   "nombre": "M19 G1-ZB"
 }
