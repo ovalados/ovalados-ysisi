@@ -5,17 +5,17 @@
 <meta charset="UTF-8">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SIC Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados</title>
-<meta name="description" content="Posición, fixture, resultados y plantel de SIC en el Torneo URBA Top 14 2026.">
+<title>SIC Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados</title>
+<meta name="description" content="Posición, fixture, resultados y plantel de SIC en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
 <link rel="canonical" href="https://ovalados.com/club-sic.html">
-<meta property="og:title" content="SIC Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados">
-<meta property="og:description" content="Posición, fixture, resultados y plantel de SIC en el Torneo URBA Top 14 2026.">
+<meta property="og:title" content="SIC Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados">
+<meta property="og:description" content="Posición, fixture, resultados y plantel de SIC en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
 <meta property="og:image" content="https://ovalados.com/img/og-top14.jpg">
 <meta property="og:url" content="https://ovalados.com/club-sic.html">
 <meta property="og:site_name" content="Ovalados">
 <meta property="og:type" content="website">
-<meta name="twitter:title" content="SIC Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados">
-<meta name="twitter:description" content="Posición, fixture, resultados y plantel de SIC en el Torneo URBA Top 14 2026.">
+<meta name="twitter:title" content="SIC Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados">
+<meta name="twitter:description" content="Posición, fixture, resultados y plantel de SIC en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
 <meta name="twitter:image" content="https://ovalados.com/img/og-top14.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/favicon.png" type="image/png">
@@ -54,6 +54,31 @@
   margin: 0 0 0.9rem; padding-bottom: 8px;
   border-bottom: 1px solid var(--border);
 }
+.div-tabs {
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+  max-width: 980px; margin: 1rem auto 0; padding: 0 1rem;
+}
+.div-tab {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.82rem; letter-spacing: 2px; text-transform: uppercase;
+  padding: 0.45rem 0.85rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text-sec);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.div-tab:hover { color: var(--text); border-color: var(--border-hover); }
+.div-tab.active {
+  background: rgba(0,245,105,0.1);
+  border-color: rgba(0,245,105,0.35);
+  color: var(--green);
+}
+.div-tab.disabled {
+  opacity: 0.35; cursor: not-allowed;
+}
+.div-tab.disabled:hover { color: var(--text-sec); border-color: var(--border); }
 .pos-card {
   display: flex; flex-wrap: wrap; gap: 0.75rem;
   padding: 1rem 1.1rem; background: var(--card);
@@ -175,11 +200,19 @@
   transition: all 0.15s;
 }
 .see-full:hover { background: rgba(0,245,105,0.18); }
+.active-team-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem; letter-spacing: 1px;
+  color: var(--text-sec);
+  margin: 0 0 0.5rem;
+}
+.active-team-name strong { color: var(--green); }
 @media(max-width:600px) {
   .pos-card { gap: 0.45rem; padding: 0.8rem; }
   .pos-stat { min-width: 54px; padding: 0.25rem 0.35rem; }
   .pos-stat-val { font-size: 1.05rem; }
   .match-rival { font-size: 0.88rem; }
+  .div-tab { font-size: 0.75rem; padding: 0.35rem 0.65rem; letter-spacing: 1px; }
 }
 </style>
 </head>
@@ -203,10 +236,13 @@
     <div class="club-hero-sub">Tabla · Fixture · Plantel · Temporada 2026</div>
   </div>
 
+  <div class="div-tabs" id="div-tabs"></div>
+
   <section class="club-section">
-    <div class="club-section-title">Posición en la tabla</div>
+    <div class="club-section-title" id="pos-title">Posición en la tabla · <span id="pos-tit-div">Top 14</span></div>
+    <div class="active-team-name" id="active-team-name"></div>
     <div id="pos-card"></div>
-    <a href="top14.html" class="see-full">Ver tabla completa →</a>
+    <a href="top14.html" class="see-full" id="see-full-link">Ver tabla completa →</a>
   </section>
 
   <section class="club-section">
@@ -220,7 +256,7 @@
   </section>
 
   <section class="club-section">
-    <div class="club-section-title">Plantel 2026</div>
+    <div class="club-section-title">Plantel 2026 <span style="font-size:0.65rem;color:var(--muted);letter-spacing:1px">· TOP 14</span></div>
     <div id="plantel"></div>
   </section>
 
@@ -228,8 +264,25 @@
 
 <script>
 const CLUB_NAME = "SIC";
+const CLUB_ALIASES = [];
+const DIVISIONS = [{id:"top14",label:"Top 14",url:"data/urba.json"},{id:"intermedia",label:"Intermedia",url:"data/urba-intermedia.json"},{id:"preinter-a",label:"Pre-Inter A",url:"data/urba-preinter-a.json"},{id:"preinter-b",label:"Pre-Inter B",url:"data/urba-preinter-b.json"},{id:"preinter-c",label:"Pre-Inter C",url:"data/urba-preinter-c.json"},{id:"preinter-d",label:"Pre-Inter D",url:"data/urba-preinter-d.json"},{id:"preinter-e",label:"Pre-Inter E",url:"data/urba-preinter-e.json"},{id:"preinter-f",label:"Pre-Inter F",url:"data/urba-preinter-f.json"}];
+// páginas por división (para el botón "Ver tabla completa")
+const DIV_PAGES = {
+  "top14":      "top14.html",
+  "intermedia": "intermedia.html",
+  "preinter-a": "preintermedia-a.html",
+  "preinter-b": "preintermedia-b.html",
+  "preinter-c": "preintermedia-c.html",
+  "preinter-d": "preintermedia-d.html",
+  "preinter-e": "preintermedia-e.html",
+  "preinter-f": "preintermedia-f.html"
+};
 
-// normalización: lowercase, sin tildes, sin símbolos
+// cache de datos por división
+const divData = {};
+let activeDiv = "top14";
+
+// ── NORMALIZACION Y MATCH ───────────────────────────────
 function norm(str) {
   return (str || "")
     .toLowerCase()
@@ -237,46 +290,126 @@ function norm(str) {
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 }
-const CLUB_KEY = norm(CLUB_NAME);
 
-// ── FETCH DATOS TABLA + FIXTURE ─────────────────────────
-function loadData() {
+// matchea exacto, o "<club> <letra>" (Pre-Inter B/C/D/E/F/G/H)
+// considera tanto el nombre principal como los aliases del club
+function matchesClub(teamName) {
+  const tn = norm(teamName);
+  const candidates = [CLUB_NAME, ...CLUB_ALIASES];
+  for (const alias of candidates) {
+    const cn = norm(alias);
+    if (tn === cn) return true;
+    if (tn.startsWith(cn + ' ')) {
+      const suffix = tn.slice(cn.length + 1);
+      if (/^[a-z]$/.test(suffix)) return true;
+    }
+  }
+  return false;
+}
+
+// el nombre del club tal como aparece en la división activa (ej: SIC, SIC B)
+function teamNameInDiv(teams) {
+  const hit = teams.find(t => matchesClub(t.name));
+  return hit ? hit.name : null;
+}
+
+// ── FETCH PARALELO DE TODAS LAS DIVISIONES ──────────────
+function loadAllDivisions() {
+  DIVISIONS.forEach(d => {
+    fetch(d.url + '?v=' + Date.now())
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        divData[d.id] = data || { teams: [], matches: {} };
+        updateTabState(d.id);
+        if (d.id === activeDiv) renderDivision(activeDiv);
+      })
+      .catch(() => {
+        divData[d.id] = { teams: [], matches: {} };
+        updateTabState(d.id);
+      });
+  });
+  // lastUpdate del top14
   fetch('data/urba.json?v=' + Date.now())
     .then(r => r.json())
     .then(data => {
-      const teams   = data.teams   || [];
-      const matches = data.matches || {};
-      renderPosicion(teams);
-      renderPartidos(matches);
-      if (data.lastUpdate) {
-        const d  = new Date(data.lastUpdate);
+      if (data && data.lastUpdate) {
+        const dd = new Date(data.lastUpdate);
         const el = document.getElementById('last-update');
-        if (el) el.textContent = '✓ Actualizado: ' + d.toLocaleString('es-AR',{day:'2-digit',month:'numeric',hour:'2-digit',minute:'2-digit'});
+        if (el) el.textContent = '✓ Actualizado: ' + dd.toLocaleString('es-AR', {day:'2-digit',month:'numeric',hour:'2-digit',minute:'2-digit'});
       }
-    })
-    .catch(e => {
-      console.log('Error al cargar la tabla:', e);
-      document.getElementById('pos-card').innerHTML =
-        '<div class="empty-state">No se pudieron cargar los datos.</div>';
-    });
+    }).catch(() => {});
 }
 
-// ── POSICION EN TABLA ───────────────────────────────────
-function renderPosicion(teams) {
-  if (!teams.length) {
-    document.getElementById('pos-card').innerHTML =
-      '<div class="empty-state">Sin datos de tabla aún.</div>';
+// ── TABS ────────────────────────────────────────────────
+function renderTabs() {
+  const el = document.getElementById('div-tabs');
+  el.innerHTML = DIVISIONS.map(d =>
+    `<button class="div-tab ${d.id===activeDiv?'active':''}" id="tab-${d.id}" onclick="setDivision('${d.id}')">${d.label}</button>`
+  ).join('');
+}
+function updateTabState(id) {
+  const btn = document.getElementById('tab-' + id);
+  if (!btn) return;
+  const data = divData[id];
+  if (!data || !data.teams || !data.teams.length) {
+    btn.classList.add('disabled');
     return;
   }
-  const allZero = teams.every(t => t.pts === 0 && t.pj === 0);
+  const hasTeam = data.teams.some(t => matchesClub(t.name));
+  if (!hasTeam) btn.classList.add('disabled');
+  else          btn.classList.remove('disabled');
+}
+function setDivision(id) {
+  activeDiv = id;
+  document.querySelectorAll('.div-tab').forEach(b => b.classList.remove('active'));
+  const btn = document.getElementById('tab-' + id);
+  if (btn) btn.classList.add('active');
+  renderDivision(id);
+}
+
+// ── RENDER DE UNA DIVISION ──────────────────────────────
+function renderDivision(id) {
+  const div = DIVISIONS.find(d => d.id === id);
+  document.getElementById('pos-tit-div').textContent = div.label;
+  const link = document.getElementById('see-full-link');
+  link.href = DIV_PAGES[id] || 'top14.html';
+  link.textContent = 'Ver tabla completa ' + div.label + ' →';
+
+  const data = divData[id] || { teams: [], matches: {} };
+  const teams   = data.teams   || [];
+  const matches = data.matches || {};
+  const teamName = teamNameInDiv(teams);
+
+  const atn = document.getElementById('active-team-name');
+  if (teamName && norm(teamName) !== norm(CLUB_NAME)) {
+    atn.innerHTML = 'Equipo en esta división: <strong>' + teamName + '</strong>';
+  } else {
+    atn.textContent = '';
+  }
+
+  renderPosicion(teams, teamName);
+  renderPartidos(matches, teamName);
+}
+
+// ── POSICION EN LA TABLA ─────────────────────────────────
+function renderPosicion(teams, teamName) {
+  const el = document.getElementById('pos-card');
+  if (!teams.length) {
+    el.innerHTML = '<div class="empty-state">Sin datos cargados para esta división.</div>';
+    return;
+  }
+  if (!teamName) {
+    el.innerHTML = '<div class="empty-state">' + CLUB_NAME + ' no participa en esta división.</div>';
+    return;
+  }
+  const allZero = teams.every(t => (t.pts||0) === 0 && (t.pj||0) === 0);
   const sorted = [...teams].sort((a, b) => {
     if (allZero) return a.name.localeCompare(b.name, 'es');
-    return b.pts - a.pts || (b.pf - b.pc) - (a.pf - a.pc);
+    return (b.pts||0) - (a.pts||0) || ((b.pf||0)-(b.pc||0)) - ((a.pf||0)-(a.pc||0));
   });
-  const idx = sorted.findIndex(t => norm(t.name) === CLUB_KEY);
+  const idx = sorted.findIndex(t => t.name === teamName);
   if (idx === -1) {
-    document.getElementById('pos-card').innerHTML =
-      '<div class="empty-state">' + CLUB_NAME + ' aún no figura en la tabla.</div>';
+    el.innerHTML = '<div class="empty-state">Sin posición registrada.</div>';
     return;
   }
   const t = sorted[idx];
@@ -287,7 +420,7 @@ function renderPosicion(teams) {
   const formDots  = (t.form || []).map(f =>
     '<div class="dot ' + (f === 'w' ? 'w' : f === 'l' ? 'l' : 'd') + '"></div>').join('');
 
-  document.getElementById('pos-card').innerHTML = `
+  el.innerHTML = `
     <div class="pos-card">
       <div class="pos-pos-big">
         <div class="big">${allZero ? '—' : pos + '°'}</div>
@@ -311,12 +444,19 @@ function renderPosicion(teams) {
 }
 
 // ── PARTIDOS JUGADOS + PROXIMOS ─────────────────────────
-function renderPartidos(matches) {
+function renderPartidos(matches, teamName) {
+  const jugEl  = document.getElementById('partidos-jugados');
+  const proxEl = document.getElementById('proximos-partidos');
+  if (!teamName) {
+    jugEl.innerHTML  = '<div class="empty-state">Sin datos de partidos para esta división.</div>';
+    proxEl.innerHTML = '';
+    return;
+  }
   const jugados = [], proximos = [];
   Object.entries(matches).forEach(([rnd, rd]) => {
     (rd.ms || []).forEach(m => {
-      const homeIsClub = norm(m.home) === CLUB_KEY;
-      const awayIsClub = norm(m.away) === CLUB_KEY;
+      const homeIsClub = m.home === teamName;
+      const awayIsClub = m.away === teamName;
       if (!homeIsClub && !awayIsClub) return;
       const rival     = homeIsClub ? m.away : m.home;
       const condicion = homeIsClub ? 'Local' : 'Visitante';
@@ -333,7 +473,6 @@ function renderPartidos(matches) {
   jugados.sort((a, b) => a.rnd - b.rnd);
   proximos.sort((a, b) => a.rnd - b.rnd);
 
-  const jugEl = document.getElementById('partidos-jugados');
   if (!jugados.length) {
     jugEl.innerHTML = '<div class="empty-state">Sin partidos jugados aún.</div>';
   } else {
@@ -350,7 +489,6 @@ function renderPartidos(matches) {
     }).join('');
   }
 
-  const proxEl = document.getElementById('proximos-partidos');
   if (!proximos.length) {
     proxEl.innerHTML = '<div class="empty-state">No hay próximos partidos cargados.</div>';
   } else {
@@ -376,15 +514,14 @@ function renderPlantel() {
   Object.values(PARTIDOS.top14).forEach(partido => {
     ['local', 'visitante'].forEach(side => {
       const team = partido[side];
-      if (!team || norm(team.nombre) !== CLUB_KEY) return;
+      if (!team || !matchesClub(team.nombre)) return;
       [...(team.jugadores || []), ...(team.cambios || [])].forEach(j => {
         const m = j.match(/^(\d+)\.\s*(.+)/);
         if (m) {
           const pos  = parseInt(m[1], 10);
           const name = m[2].trim();
-          if (!byPos[pos]) byPos[pos] = new Map();
-          const key = norm(name);
-          if (!byPos[pos].has(key)) byPos[pos].set(key, name);
+          if (!byPos[pos]) byPos[pos] = new Set();
+          byPos[pos].add(name);
         }
       });
     });
@@ -396,7 +533,7 @@ function renderPlantel() {
   }
   const rows = [];
   posKeys.forEach(p => {
-    Array.from(byPos[p].values()).forEach(name => {
+    Array.from(byPos[p]).forEach(name => {
       rows.push(`<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${name}</span></div>`);
     });
   });
@@ -404,7 +541,16 @@ function renderPlantel() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadData();
+  // ── Permitir entrada directa a una división via ?div=<id> ──
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const divParam = params.get('div');
+    if (divParam && DIVISIONS.some(d => d.id === divParam)) {
+      activeDiv = divParam;
+    }
+  } catch (e) {}
+  renderTabs();
+  loadAllDivisions();
   renderPlantel();
 });
 </script>

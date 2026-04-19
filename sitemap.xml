@@ -255,5 +255,20 @@
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
+  <url>
+    <loc>https://ovalados.com/club-cuba.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-buenos-aires-crc.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-los-matreros.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
 
 </urlset>

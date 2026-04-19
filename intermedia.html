@@ -541,6 +541,7 @@ function recalcFromMatches() {
 
 
 // ── LINKS A PAGINAS DE CLUB ─────────────────────────────
+const PAGE_DIV_ID = "intermedia";
 const CLUB_PAGES = [
   { keys: ["SIC"],                                           url: "club-sic.html" },
   { keys: ["CASI"],                                          url: "club-casi.html" },
@@ -556,6 +557,9 @@ const CLUB_PAGES = [
   { keys: ["Pucara", "Pucará"],                              url: "club-pucara.html" },
   { keys: ["San Luis"],                                      url: "club-san-luis.html" },
   { keys: ["Liceo", "Liceo Naval", "Liceo Militar"],         url: "club-liceo.html" },
+  { keys: ["CUBA", "Club Universitario de Buenos Aires"],   url: "club-cuba.html" },
+  { keys: ["Buenos Aires C&RC", "Buenos Aires Cricket & RC", "Biei"], url: "club-buenos-aires-crc.html" },
+  { keys: ["Los Matreros"],                                  url: "club-los-matreros.html" },
 ];
 function clubNorm(s) {
   return (s || "").toLowerCase().normalize('NFD')
@@ -566,11 +570,13 @@ function clubPageFor(teamName) {
   for (const entry of CLUB_PAGES) {
     for (const k of entry.keys) {
       const cn = clubNorm(k);
-      if (tn === cn) return entry.url;
-      if (tn.startsWith(cn + ' ')) {
+      let hit = false;
+      if (tn === cn) hit = true;
+      else if (tn.startsWith(cn + ' ')) {
         const suf = tn.slice(cn.length + 1);
-        if (/^[a-z]$/.test(suf)) return entry.url;
+        if (/^[a-z]$/.test(suf)) hit = true;
       }
+      if (hit) return entry.url + (PAGE_DIV_ID ? '?div=' + PAGE_DIV_ID : '');
     }
   }
   return null;
