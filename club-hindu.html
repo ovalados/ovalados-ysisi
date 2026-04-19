@@ -256,7 +256,7 @@
   </section>
 
   <section class="club-section">
-    <div class="club-section-title">Plantel 2026 <span style="font-size:0.65rem;color:var(--muted);letter-spacing:1px">· TOP 14</span></div>
+    <div class="club-section-title">Plantel 2026 <span id="plantel-div-label" style="font-size:0.65rem;color:var(--muted);letter-spacing:1px">· TOP 14</span></div>
     <div id="plantel"></div>
   </section>
 
@@ -276,6 +276,17 @@ const DIV_PAGES = {
   "preinter-d": "preintermedia-d.html",
   "preinter-e": "preintermedia-e.html",
   "preinter-f": "preintermedia-f.html"
+};
+// mapeo de div id (tabs) → clave en PARTIDOS (data.js) para mostrar el plantel correcto
+const DIV_TO_PARTIDOS = {
+  "top14":      "top14",
+  "intermedia": "intermedia",
+  "preinter-a": "preinter_a",
+  "preinter-b": "preinter_b",
+  "preinter-c": "preinter_c",
+  "preinter-d": "preinter_d",
+  "preinter-e": "preinter_e",
+  "preinter-f": "preinter_f"
 };
 
 // cache de datos por división
@@ -365,6 +376,7 @@ function setDivision(id) {
   const btn = document.getElementById('tab-' + id);
   if (btn) btn.classList.add('active');
   renderDivision(id);
+  renderPlantel(id);
 }
 
 // ── RENDER DE UNA DIVISION ──────────────────────────────
@@ -504,14 +516,19 @@ function renderPartidos(matches, teamName) {
 }
 
 // ── PLANTEL (desde data.js PARTIDOS.top14) ──────────────
-function renderPlantel() {
+function renderPlantel(divId) {
+  divId = divId || activeDiv || 'top14';
   const el = document.getElementById('plantel');
-  if (typeof PARTIDOS === 'undefined' || !PARTIDOS.top14) {
-    el.innerHTML = '<div class="empty-state">Sin formaciones cargadas.</div>';
+  const divInfo = DIVISIONS.find(d => d.id === divId) || DIVISIONS[0];
+  const labelEl = document.getElementById('plantel-div-label');
+  if (labelEl) labelEl.textContent = '· ' + divInfo.label.toUpperCase();
+  const partidosKey = DIV_TO_PARTIDOS[divId] || 'top14';
+  if (typeof PARTIDOS === 'undefined' || !PARTIDOS[partidosKey]) {
+    el.innerHTML = '<div class="empty-state">Sin formaciones cargadas para ' + divInfo.label + '.</div>';
     return;
   }
   const byPos = {};
-  Object.values(PARTIDOS.top14).forEach(partido => {
+  Object.values(PARTIDOS[partidosKey]).forEach(partido => {
     ['local', 'visitante'].forEach(side => {
       const team = partido[side];
       if (!team || !matchesClub(team.nombre)) return;
@@ -528,7 +545,7 @@ function renderPlantel() {
   });
   const posKeys = Object.keys(byPos).map(Number).sort((a, b) => a - b);
   if (!posKeys.length) {
-    el.innerHTML = '<div class="empty-state">Sin jugadores registrados para ' + CLUB_NAME + ' este 2026.</div>';
+    el.innerHTML = '<div class="empty-state">Sin jugadores registrados para ' + CLUB_NAME + ' en ' + divInfo.label + ' este 2026.</div>';
     return;
   }
   const rows = [];
@@ -551,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function () {
   } catch (e) {}
   renderTabs();
   loadAllDivisions();
-  renderPlantel();
+  renderPlantel(activeDiv);
 });
 </script>
 
