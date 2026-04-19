@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "La Plata F",
-      "pts": 2,
-      "pj": 4,
+      "pts": 4,
+      "pj": 5,
       "g": 0,
-      "e": 1,
+      "e": 2,
       "p": 3,
       "pf": 44,
       "pc": 191,
@@ -15,57 +15,42 @@
         "l",
         "d",
         "l",
-        "l"
-      ]
-    },
-    {
-      "name": "Newman G",
-      "pts": 6,
-      "pj": 4,
-      "g": 1,
-      "e": 1,
-      "p": 2,
-      "pf": 38,
-      "pc": 37,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w",
-        "l",
         "l",
         "d"
       ]
     },
     {
+      "name": "Newman G",
+      "pts": 6,
+      "pj": 5,
+      "g": 1,
+      "e": 1,
+      "p": 3,
+      "pf": 38,
+      "pc": 45,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "l",
+        "l",
+        "d",
+        "l"
+      ]
+    },
+    {
       "name": "Champagnat F",
       "pts": 10,
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 1,
-      "p": 1,
-      "pf": 82,
-      "pc": 76,
+      "p": 2,
+      "pf": 99,
+      "pc": 126,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "w",
-        "d",
-        "w"
-      ]
-    },
-    {
-      "name": "Alumni F",
-      "pts": 10,
-      "pj": 4,
-      "g": 2,
-      "e": 1,
-      "p": 1,
-      "pf": 49,
-      "pc": 58,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "w",
         "d",
         "w",
@@ -73,35 +58,56 @@
       ]
     },
     {
-      "name": "Newman F",
-      "pts": 11,
-      "pj": 4,
+      "name": "Alumni F",
+      "pts": 10,
+      "pj": 5,
       "g": 2,
       "e": 1,
+      "p": 2,
+      "pf": 66,
+      "pc": 86,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "d",
+        "w",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Newman F",
+      "pts": 15,
+      "pj": 5,
+      "g": 3,
+      "e": 1,
       "p": 1,
-      "pf": 91,
-      "pc": 29,
+      "pf": 119,
+      "pc": 46,
       "bp": 1,
       "bf": 0,
       "form": [
         "d",
         "w",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "SIC F",
-      "pts": 18,
-      "pj": 4,
-      "g": 4,
+      "pts": 23,
+      "pj": 5,
+      "g": 5,
       "e": 0,
       "p": 0,
-      "pf": 133,
-      "pc": 24,
-      "bp": 2,
+      "pf": 183,
+      "pc": 41,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w",
@@ -110,12 +116,12 @@
     },
     {
       "name": "Belgrano Athletic F",
-      "pts": 0,
-      "pj": 4,
-      "g": 0,
+      "pts": 4,
+      "pj": 5,
+      "g": 1,
       "e": 0,
       "p": 4,
-      "pf": 75,
+      "pf": 83,
       "pc": 225,
       "bp": 0,
       "bf": 0,
@@ -123,15 +129,16 @@
         "l",
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Bye",
-      "pts": 8,
-      "pj": 4,
+      "pts": 10,
+      "pj": 5,
       "g": 0,
-      "e": 4,
+      "e": 5,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -141,53 +148,56 @@
         "d",
         "d",
         "d",
+        "d",
         "d"
       ]
     },
     {
       "name": "CUBA G",
       "pts": 10,
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 0,
-      "p": 2,
-      "pf": 56,
-      "pc": 45,
+      "p": 3,
+      "pf": 75,
+      "pc": 98,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
         "l",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "CASI F",
-      "pts": 18,
-      "pj": 4,
+      "pts": 19,
+      "pj": 5,
       "g": 4,
       "e": 0,
-      "p": 0,
-      "pf": 192,
-      "pc": 52,
+      "p": 1,
+      "pf": 216,
+      "pc": 81,
       "bp": 2,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
         "w",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Tilos F",
-      "pts": 11,
-      "pj": 4,
-      "g": 2,
+      "pts": 15,
+      "pj": 5,
+      "g": 3,
       "e": 1,
       "p": 1,
-      "pf": 84,
+      "pf": 92,
       "pc": 76,
       "bp": 1,
       "bf": 0,
@@ -195,57 +205,61 @@
         "l",
         "d",
         "w",
+        "w",
         "w"
       ]
     },
     {
       "name": "Los Tilos G",
-      "pts": 14,
-      "pj": 4,
-      "g": 3,
+      "pts": 18,
+      "pj": 5,
+      "g": 4,
       "e": 0,
       "p": 1,
-      "pf": 100,
-      "pc": 38,
+      "pf": 129,
+      "pc": 62,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "w",
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "SIC G",
-      "pts": 4,
-      "pj": 4,
-      "g": 1,
+      "pts": 9,
+      "pj": 5,
+      "g": 2,
       "e": 0,
       "p": 3,
-      "pf": 63,
-      "pc": 124,
-      "bp": 0,
+      "pf": 116,
+      "pc": 143,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Newman H",
       "pts": 0,
-      "pj": 4,
+      "pj": 5,
       "g": 0,
       "e": 0,
-      "p": 4,
+      "p": 5,
       "pf": 0,
-      "pc": 32,
+      "pc": 40,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l",
         "l",
@@ -486,37 +500,54 @@
         {
           "home": "Newman H",
           "away": "Los Tilos F",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Los Tilos G",
           "away": "CASI F",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 24,
+          "bf_away": true
         },
         {
           "home": "SIC G",
           "away": "CUBA G",
-          "played": false
+          "played": true,
+          "hs": 53,
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "La Plata F",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Newman G",
           "away": "Belgrano Athletic F",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Champagnat F",
           "away": "SIC F",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 50,
+          "bp_away": true
         },
         {
           "home": "Alumni F",
           "away": "Newman F",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 28
         }
       ]
     },
@@ -1361,8 +1392,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:46:27.917180+00:00",
-  "matchesScraped": 28,
+  "lastUpdate": "2026-04-19T13:20:48.925864+00:00",
+  "matchesScraped": 35,
   "championshipId": "2025201",
   "nombre": "Pre-Inter F"
 }
