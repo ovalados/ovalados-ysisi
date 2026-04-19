@@ -82,14 +82,14 @@
     },
     {
       "name": "Pucara A",
-      "pts": 5,
+      "pts": 6,
       "pj": 2,
       "g": 1,
       "e": 0,
       "p": 1,
       "pf": 52,
       "pc": 33,
-      "bp": 0,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
@@ -262,7 +262,8 @@
           "away": "San Martin A",
           "played": true,
           "hs": 40,
-          "as": 19
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "Liceo Naval A",
@@ -613,7 +614,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T19:49:55.947716+00:00",
+  "lastUpdate": "2026-04-19T20:25:45.217265+00:00",
   "matchesScraped": 12,
   "championshipId": "2025243",
   "nombre": "M16 N1-G2-ZA-EqA"
