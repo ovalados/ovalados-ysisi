@@ -2,181 +2,193 @@
   "teams": [
     {
       "name": "Mercedes",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 48,
-      "pc": 7,
-      "bp": 1,
+      "pf": 84,
+      "pc": 12,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Albatros",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 50,
-      "pc": 12,
-      "bp": 1,
+      "pf": 109,
+      "pc": 22,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Don Bosco",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 43,
-      "pc": 22,
+      "p": 1,
+      "pf": 58,
+      "pc": 65,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Patricio",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 5,
-      "pc": 47,
+      "p": 2,
+      "pf": 24,
+      "pc": 78,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "SIC C",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 6,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 19,
-      "pc": 26,
-      "bp": 0,
+      "pf": 78,
+      "pc": 52,
+      "bp": 1,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Pucara C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 26,
-      "pc": 19,
+      "pf": 57,
+      "pc": 38,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Italiano",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 47,
-      "pc": 5,
-      "bp": 1,
+      "pf": 90,
+      "pc": 20,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Lanus",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 22,
-      "pc": 43,
+      "p": 2,
+      "pf": 32,
+      "pc": 102,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Centro Naval",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 12,
-      "pc": 50,
+      "p": 2,
+      "pf": 17,
+      "pc": 86,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Varela Jr.",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 7,
-      "pc": 48,
+      "p": 2,
+      "pf": 15,
+      "pc": 70,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Monte Grande",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 21,
-      "pc": 14,
+      "pf": 43,
+      "pc": 22,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "San Fernando",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 14,
-      "pc": 21,
+      "p": 2,
+      "pf": 40,
+      "pc": 80,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     }
@@ -241,32 +253,48 @@
         {
           "home": "SIC C",
           "away": "San Fernando",
-          "played": false
+          "played": true,
+          "hs": 59,
+          "as": 26,
+          "bp_home": true
         },
         {
           "home": "Pucara C",
           "away": "San Patricio",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 19
         },
         {
           "home": "Italiano",
           "away": "Don Bosco",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "Lanus",
           "away": "Albatros",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 59,
+          "bp_away": true
         },
         {
           "home": "Centro Naval",
           "away": "Mercedes",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 36,
+          "bp_away": true
         },
         {
           "home": "Varela Jr.",
           "away": "Monte Grande",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 22
         }
       ]
     },
@@ -586,8 +614,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T21:51:54.640262+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T22:43:36.643444+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025238",
   "nombre": "M17 G1-ZB"
 }
