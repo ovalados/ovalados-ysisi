@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "Buenos Aires C",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 50,
-      "pc": 5,
+      "pf": 93,
+      "pc": 47,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
@@ -129,17 +130,18 @@
     },
     {
       "name": "Alumni C",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 35,
-      "pc": 24,
+      "p": 1,
+      "pf": 77,
+      "pc": 67,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -280,7 +282,10 @@
         {
           "home": "Alumni C",
           "away": "Buenos Aires C",
-          "played": false
+          "played": true,
+          "hs": 42,
+          "as": 43,
+          "bf_home": true
         },
         {
           "home": "Los Tilos C",
@@ -607,8 +612,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:43:39.151299+00:00",
-  "matchesScraped": 11,
+  "lastUpdate": "2026-04-19T23:24:17.593305+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025240",
   "nombre": "M16 Form-ZB"
 }
