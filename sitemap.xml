@@ -1,53 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- INICIO -->
   <url>
     <loc>https://ovalados.com/</loc>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
+
+  <!-- ══════════════════════════════════════
+       URBA TOP 14
+  ══════════════════════════════════════ -->
   <url>
     <loc>https://ovalados.com/top14.html</loc>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://ovalados.com/intermedia.html</loc>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-a.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-b.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-c.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-d.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-e.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/preintermedia-f.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/m22.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/planteles.html</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/planteles-builder.html</loc>
+    <priority>0.5</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       PRIMERA A
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/primera-a.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/primera-a-intermedia.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/primera-a-preintermedia-a.html</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/primera-a-preintermedia-b.html</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/planteles-primera-a.html</loc>
+    <priority>0.5</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       PRIMERA B
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/primera-b.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/primera-b-intermedia.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/planteles-primera-b.html</loc>
+    <priority>0.5</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       PRIMERA C
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/primera-c.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/primera-c-intermedia.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/planteles-primera-c.html</loc>
+    <priority>0.5</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       SEGUNDA DIVISIÓN
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/segunda.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/segunda-intermedia.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TERCERA DIVISIÓN
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/tercera.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/tercera-intermedia.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       INTERNACIONALES
+  ══════════════════════════════════════ -->
+  <url>
     <loc>https://ovalados.com/super-rugby.html</loc>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://ovalados.com/seis-naciones.html</loc>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://ovalados.com/pumas.html</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ovalados.com/primera-a.html</loc>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
-  <url>
-    <loc>https://ovalados.com/primera-b.html</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ovalados.com/primera-c.html</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ovalados.com/segunda.html</loc>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ovalados.com/tercera.html</loc>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
+
 </urlset>
