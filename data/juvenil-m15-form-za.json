@@ -17,10 +17,10 @@
     },
     {
       "name": "Bye",
-      "pts": 10,
-      "pj": 5,
+      "pts": 20,
+      "pj": 10,
       "g": 0,
-      "e": 5,
+      "e": 10,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -66,17 +66,18 @@
     },
     {
       "name": "Liceo Naval C",
-      "pts": 5,
-      "pj": 1,
+      "pts": 7,
+      "pj": 2,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 51,
       "pc": 31,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -181,7 +182,9 @@
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Pucara C",
@@ -191,12 +194,16 @@
         {
           "home": "Liceo Naval C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Pueyrredon C",
@@ -526,8 +533,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:47:37.837208+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T13:21:58.204425+00:00",
+  "matchesScraped": 9,
   "championshipId": "2025253",
   "nombre": "M15 Form-ZA"
 }
