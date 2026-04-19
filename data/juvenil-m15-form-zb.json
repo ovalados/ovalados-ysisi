@@ -17,16 +17,18 @@
     },
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 8,
+      "pj": 4,
       "g": 0,
-      "e": 2,
+      "e": 4,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
+        "d",
         "d",
         "d"
       ]
@@ -108,17 +110,18 @@
     },
     {
       "name": "Vicente Lopez",
-      "pts": 5,
-      "pj": 1,
+      "pts": 7,
+      "pj": 2,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 57,
       "pc": 0,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -138,17 +141,18 @@
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 5,
-      "pj": 1,
+      "pts": 7,
+      "pj": 2,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 41,
       "pc": 0,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -239,7 +243,9 @@
         {
           "home": "Vicente Lopez",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Centro Naval",
@@ -249,7 +255,9 @@
         {
           "home": "G y E de Ituzaingo",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -569,8 +577,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:47:38.995964+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T13:21:59.210059+00:00",
+  "matchesScraped": 8,
   "championshipId": "2025254",
   "nombre": "M15 Form-ZB"
 }
