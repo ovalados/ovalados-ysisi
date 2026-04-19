@@ -2,53 +2,56 @@
   "teams": [
     {
       "name": "La Plata B",
-      "pts": 7,
-      "pj": 4,
-      "g": 1,
+      "pts": 11,
+      "pj": 5,
+      "g": 2,
       "e": 1,
       "p": 2,
-      "pf": 103,
-      "pc": 139,
+      "pf": 134,
+      "pc": 161,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "d",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Hindu B",
       "pts": 9,
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 0,
-      "p": 2,
-      "pf": 103,
-      "pc": 119,
+      "p": 3,
+      "pf": 110,
+      "pc": 146,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "w",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Champagnat B",
       "pts": 5,
-      "pj": 4,
+      "pj": 5,
       "g": 0,
       "e": 1,
-      "p": 3,
-      "pf": 51,
-      "pc": 61,
+      "p": 4,
+      "pf": 73,
+      "pc": 97,
       "bp": 0,
       "bf": 3,
       "form": [
         "d",
+        "l",
         "l",
         "l",
         "l"
@@ -56,17 +59,18 @@
     },
     {
       "name": "Alumni B",
-      "pts": 14,
-      "pj": 4,
-      "g": 3,
+      "pts": 19,
+      "pj": 5,
+      "g": 4,
       "e": 0,
       "p": 1,
-      "pf": 112,
-      "pc": 79,
-      "bp": 2,
+      "pf": 138,
+      "pc": 89,
+      "bp": 3,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w",
         "w",
         "w"
@@ -75,15 +79,35 @@
     {
       "name": "Newman B",
       "pts": 14,
-      "pj": 4,
+      "pj": 5,
       "g": 3,
       "e": 0,
-      "p": 1,
-      "pf": 141,
-      "pc": 55,
+      "p": 2,
+      "pf": 151,
+      "pc": 81,
       "bp": 1,
       "bf": 1,
       "form": [
+        "w",
+        "w",
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "SIC B",
+      "pts": 18,
+      "pj": 5,
+      "g": 4,
+      "e": 0,
+      "p": 1,
+      "pf": 199,
+      "pc": 112,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
         "w",
         "w",
         "l",
@@ -91,143 +115,132 @@
       ]
     },
     {
-      "name": "SIC B",
-      "pts": 14,
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "pf": 163,
-      "pc": 90,
-      "bp": 1,
-      "bf": 1,
-      "form": [
-        "w",
-        "w",
-        "w",
-        "l"
-      ]
-    },
-    {
       "name": "Belgrano Athletic B",
-      "pts": 5,
-      "pj": 4,
-      "g": 1,
+      "pts": 9,
+      "pj": 5,
+      "g": 2,
       "e": 0,
       "p": 3,
-      "pf": 84,
-      "pc": 106,
+      "pf": 111,
+      "pc": 113,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "l",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Buenos Aires C&RC B",
       "pts": 6,
-      "pj": 4,
+      "pj": 5,
       "g": 1,
       "e": 0,
-      "p": 3,
-      "pf": 52,
-      "pc": 78,
+      "p": 4,
+      "pf": 74,
+      "pc": 109,
       "bp": 0,
       "bf": 2,
       "form": [
         "l",
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "CUBA B",
       "pts": 17,
-      "pj": 4,
+      "pj": 5,
       "g": 4,
       "e": 0,
-      "p": 0,
-      "pf": 118,
-      "pc": 54,
+      "p": 1,
+      "pf": 134,
+      "pc": 79,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "w",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "CASI B",
-      "pts": 8,
-      "pj": 4,
-      "g": 1,
+      "pts": 12,
+      "pj": 5,
+      "g": 2,
       "e": 1,
       "p": 2,
-      "pf": 114,
-      "pc": 97,
+      "pf": 142,
+      "pc": 121,
       "bp": 1,
       "bf": 1,
       "form": [
         "d",
         "l",
         "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Los Tilos B",
-      "pts": 11,
-      "pj": 4,
-      "g": 2,
-      "e": 1,
-      "p": 1,
-      "pf": 109,
-      "pc": 108,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "w",
-        "d",
         "l",
         "w"
       ]
     },
     {
+      "name": "Los Tilos B",
+      "pts": 16,
+      "pj": 5,
+      "g": 3,
+      "e": 1,
+      "p": 1,
+      "pf": 186,
+      "pc": 115,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "d",
+        "l",
+        "w",
+        "w"
+      ]
+    },
+    {
       "name": "Atletico del Rosario B",
-      "pts": 5,
-      "pj": 4,
+      "pts": 6,
+      "pj": 5,
       "g": 1,
       "e": 0,
-      "p": 3,
-      "pf": 88,
-      "pc": 126,
+      "p": 4,
+      "pf": 112,
+      "pc": 154,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Regatas Bella Vista B",
-      "pts": 19,
-      "pj": 4,
-      "g": 4,
+      "pts": 24,
+      "pj": 5,
+      "g": 5,
       "e": 0,
       "p": 0,
-      "pf": 118,
-      "pc": 52,
-      "bp": 3,
+      "pf": 143,
+      "pc": 68,
+      "bp": 4,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w",
@@ -237,15 +250,16 @@
     {
       "name": "Los Matreros B",
       "pts": 0,
-      "pj": 4,
+      "pj": 5,
       "g": 0,
       "e": 0,
-      "p": 4,
-      "pf": 40,
-      "pc": 232,
+      "p": 5,
+      "pf": 47,
+      "pc": 309,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l",
         "l",
@@ -498,37 +512,55 @@
         {
           "home": "Los Matreros B",
           "away": "Los Tilos B",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 77,
+          "bp_away": true
         },
         {
           "home": "Atletico del Rosario B",
           "away": "CASI B",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 28,
+          "bf_home": true
         },
         {
           "home": "Regatas Bella Vista B",
           "away": "CUBA B",
-          "played": false
+          "played": true,
+          "hs": 25,
+          "as": 16,
+          "bp_home": true
         },
         {
           "home": "La Plata B",
           "away": "Buenos Aires C&RC B",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 22
         },
         {
           "home": "Hindu B",
           "away": "Belgrano Athletic B",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 27
         },
         {
           "home": "Champagnat B",
           "away": "SIC B",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 36
         },
         {
           "home": "Alumni B",
           "away": "Newman B",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 10,
+          "bp_home": true
         }
       ]
     },
@@ -1373,8 +1405,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:46:21.919993+00:00",
-  "matchesScraped": 28,
+  "lastUpdate": "2026-04-19T13:20:44.531578+00:00",
+  "matchesScraped": 35,
   "championshipId": "2025186",
   "nombre": "Pre-Inter B"
 }
