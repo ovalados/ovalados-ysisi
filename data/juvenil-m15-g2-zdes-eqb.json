@@ -3,46 +3,49 @@
     {
       "name": "CUBA D",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 24,
-      "pc": 29,
+      "p": 2,
+      "pf": 52,
+      "pc": 82,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "SITAS B",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 0,
-      "pc": 8,
-      "bp": 0,
+      "pf": 58,
+      "pc": 30,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Regatas B. Vista D",
       "pts": 4,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 35,
-      "pc": 28,
+      "p": 1,
+      "pf": 45,
+      "pc": 65,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -65,17 +68,18 @@
     },
     {
       "name": "Monte Grande B",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 22,
-      "pc": 33,
-      "bp": 0,
+      "pf": 56,
+      "pc": 43,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -96,46 +100,49 @@
     },
     {
       "name": "San Cirano B",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 37,
+      "pc": 10,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "San Albano B",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 28,
-      "pc": 35,
+      "p": 2,
+      "pf": 50,
+      "pc": 93,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "G y Esgrima B",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 8,
-      "pc": 0,
-      "bp": 0,
+      "pf": 61,
+      "pc": 28,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
@@ -158,16 +165,17 @@
     {
       "name": "Ciudad de Bs.As. B",
       "pts": 2,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 1,
-      "p": 0,
-      "pf": 0,
-      "pc": 0,
+      "p": 1,
+      "pf": 10,
+      "pc": 34,
       "bp": 0,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "l"
       ]
     }
   ],
@@ -227,7 +235,10 @@
         {
           "home": "Monte Grande B",
           "away": "Ciudad de Bs.As. B",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "CASI D",
@@ -239,17 +250,26 @@
         {
           "home": "San Cirano B",
           "away": "Regatas B. Vista D",
-          "played": false
+          "played": true,
+          "hs": 37,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "San Albano B",
           "away": "SITAS B",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 58,
+          "bp_away": true
         },
         {
           "home": "G y Esgrima B",
           "away": "CUBA D",
-          "played": false
+          "played": true,
+          "hs": 53,
+          "as": 28,
+          "bp_home": true
         },
         {
           "home": "San Carlos B",
@@ -576,8 +596,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T19:01:16.063793+00:00",
-  "matchesScraped": 8,
+  "lastUpdate": "2026-04-19T19:50:13.165931+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025260",
   "nombre": "M15 G2-ZDes-EqB"
 }
