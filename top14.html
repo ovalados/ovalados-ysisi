@@ -339,9 +339,31 @@ const CLUBES = {
   "Los Matreros":         { nombre: "Club de Rugby Los Matreros",  apodo: "El Albirrojo",    fundacion: 1928, estadio: "La Base",            ubicacion: "Castelar/Morón",       colores: "Rojo y Blanco" },
 };
 
+// ── NAV A PAGINA DE CLUB (con fallback al modal) ─────────
+function normClubKey(s) {
+  return (s || "").toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ').trim();
+}
+function findClubEntry(teamName) {
+  const key = normClubKey(teamName);
+  for (const [k, v] of Object.entries(CLUBES)) {
+    if (normClubKey(k) === key) return v;
+  }
+  return null;
+}
+function goToClub(teamName) {
+  const entry = findClubEntry(teamName);
+  if (entry && entry.url) {
+    window.location.href = entry.url;
+    return;
+  }
+  openClubModal(teamName);
+}
+
 // ── MODAL DE CLUB ─────────────────────────────────────────
 function openClubModal(teamName) {
-  const club = CLUBES[teamName];
+  const club = findClubEntry(teamName);
   if (!club) return;
   document.getElementById('modal-club-name').textContent = teamName;
   document.getElementById('modal-club-info').innerHTML = `
@@ -498,7 +520,7 @@ function renderStandings() {
     const formDots = (t.form||[]).map(f => `<div class="dot ${f==='w'?'w':f==='l'?'l':'d'}"></div>`).join('');
     return `<tr class="${rowClass} pos-${pos}">
       <td><span class="pos-num">${allZero ? '—' : pos}</span></td>
-      <td>${CLUBES[t.name]?.url ? `<a class="team-name team-name-clickable" href="${CLUBES[t.name].url}">${t.name}</a>` : `<span class="team-name">${t.name}</span>`}</td>
+      <td>${(() => { const c = findClubEntry(t.name); return c?.url ? `<a class="team-name team-name-clickable" href="${c.url}">${t.name}</a>` : `<span class="team-name team-name-clickable" onclick="goToClub('${t.name.replace(/'/g,"\\'")}')">${t.name}</span>`; })()}</td>
       <td class="pts">${t.pts}</td><td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
       <td>${t.pf}</td><td>${t.pc}</td>
       <td style="color:${diff>0?'var(--green)':diff<0?'#c0392b':'var(--muted)'}">${diff>0?'+':''}${diff||0}</td>
