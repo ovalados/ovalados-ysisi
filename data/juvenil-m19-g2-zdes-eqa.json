@@ -3,210 +3,224 @@
     {
       "name": "Hindu C",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 58,
-      "pc": 19,
+      "p": 1,
+      "pf": 89,
+      "pc": 59,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "CUBA C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 27,
-      "pc": 22,
+      "pf": 50,
+      "pc": 39,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Newman C",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 7,
-      "pc": 27,
-      "bp": 0,
+      "pf": 50,
+      "pc": 46,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Alumni C",
       "pts": 5,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 75,
-      "pc": 35,
+      "p": 1,
+      "pf": 99,
+      "pc": 81,
       "bp": 1,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Tilos C",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 26,
-      "pc": 33,
+      "p": 2,
+      "pf": 40,
+      "pc": 111,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Champagnat C",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 12,
-      "pc": 31,
-      "bp": 0,
+      "pf": 85,
+      "pc": 43,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Belgrano Athl. C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 31,
-      "pc": 12,
-      "bp": 0,
+      "pf": 109,
+      "pc": 26,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Buenos Aires C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 33,
-      "pc": 26,
-      "bp": 0,
+      "pf": 79,
+      "pc": 50,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "La Plata C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 35,
-      "pc": 75,
+      "p": 2,
+      "pf": 54,
+      "pc": 118,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "CASI C",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 27,
-      "pc": 7,
+      "p": 1,
+      "pf": 44,
+      "pc": 30,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Regatas B. Vista C",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 22,
-      "pc": 27,
+      "pf": 62,
+      "pc": 58,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Martin C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 19,
-      "pc": 58,
+      "p": 2,
+      "pf": 24,
+      "pc": 113,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "SIC C",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 71,
-      "pc": 7,
-      "bp": 1,
+      "pf": 126,
+      "pc": 12,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Pucara C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 7,
-      "pc": 71,
+      "p": 2,
+      "pf": 19,
+      "pc": 144,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     }
@@ -277,37 +291,57 @@
         {
           "home": "Champagnat C",
           "away": "Pucara C",
-          "played": false
+          "played": true,
+          "hs": 73,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Belgrano Athl. C",
           "away": "Los Tilos C",
-          "played": false
+          "played": true,
+          "hs": 78,
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "Buenos Aires C",
           "away": "Alumni C",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "La Plata C",
           "away": "Newman C",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 43,
+          "bp_away": true
         },
         {
           "home": "CASI C",
           "away": "CUBA C",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 23,
+          "bf_home": true
         },
         {
           "home": "Regatas B. Vista C",
           "away": "Hindu C",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 31
         },
         {
           "home": "San Martin C",
           "away": "SIC C",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 55,
+          "bp_away": true
         }
       ]
     },
@@ -672,8 +706,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:43:22.842061+00:00",
-  "matchesScraped": 7,
+  "lastUpdate": "2026-04-19T23:24:03.788162+00:00",
+  "matchesScraped": 14,
   "championshipId": "2025227",
   "nombre": "M19 G2-ZDes-EqA"
 }
