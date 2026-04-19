@@ -24,7 +24,7 @@
       "e": 0,
       "p": 0,
       "pf": 95,
-      "pc": 22,
+      "pc": 27,
       "bp": 1,
       "bf": 0,
       "form": [
@@ -119,7 +119,7 @@
       "g": 0,
       "e": 0,
       "p": 2,
-      "pf": 24,
+      "pf": 29,
       "pc": 76,
       "bp": 0,
       "bf": 0,
@@ -276,7 +276,7 @@
           "home": "Olivos B",
           "away": "Newman B",
           "played": true,
-          "hs": 10,
+          "hs": 15,
           "as": 24
         },
         {
@@ -613,7 +613,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T22:44:02.044862+00:00",
+  "lastUpdate": "2026-04-19T23:24:35.478489+00:00",
   "matchesScraped": 12,
   "championshipId": "2025258",
   "nombre": "M15 N1-G2-ZB-EqB"
