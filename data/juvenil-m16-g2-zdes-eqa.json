@@ -47,16 +47,17 @@
     },
     {
       "name": "Bye",
-      "pts": 2,
-      "pj": 1,
+      "pts": 4,
+      "pj": 2,
       "g": 0,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d"
       ]
     },
@@ -77,17 +78,18 @@
     },
     {
       "name": "Virreyes A",
-      "pts": 0,
-      "pj": 1,
+      "pts": 2,
+      "pj": 2,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 15,
       "pc": 29,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -242,7 +244,9 @@
         {
           "home": "Virreyes A",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CUBA C",
@@ -582,8 +586,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:47:33.307215+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T13:21:53.899222+00:00",
+  "matchesScraped": 7,
   "championshipId": "2025249",
   "nombre": "M16 G2-ZDes-EqA"
 }
