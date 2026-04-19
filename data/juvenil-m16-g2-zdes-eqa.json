@@ -2,46 +2,49 @@
   "teams": [
     {
       "name": "CASI C",
-      "pts": 5,
-      "pj": 1,
+      "pts": 6,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 41,
-      "pc": 15,
+      "p": 1,
+      "pf": 82,
+      "pc": 58,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "CASA de Padua A",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 22,
-      "pc": 12,
+      "p": 1,
+      "pf": 42,
+      "pc": 38,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Alumni C",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 14,
-      "pc": 22,
+      "p": 2,
+      "pf": 38,
+      "pc": 68,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -63,16 +66,17 @@
     },
     {
       "name": "SIC C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 29,
-      "pc": 15,
-      "bp": 0,
+      "pf": 86,
+      "pc": 22,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
@@ -94,91 +98,97 @@
     },
     {
       "name": "CUBA C",
-      "pts": 2,
-      "pj": 1,
-      "g": 0,
+      "pts": 7,
+      "pj": 2,
+      "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 0,
-      "pc": 0,
-      "bp": 0,
+      "pf": 46,
+      "pc": 24,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Newman C",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 8,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 22,
-      "pc": 14,
+      "pf": 48,
+      "pc": 34,
       "bp": 0,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Regatas B Vista C",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 12,
-      "pc": 22,
+      "pf": 55,
+      "pc": 63,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Argentino A",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 4,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 15,
-      "pc": 41,
+      "pf": 34,
+      "pc": 55,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Champagnat C",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 31,
-      "pc": 29,
+      "p": 1,
+      "pf": 45,
+      "pc": 48,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Belgrano Athl. C",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 29,
-      "pc": 31,
+      "p": 2,
+      "pf": 36,
+      "pc": 88,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     }
@@ -239,7 +249,10 @@
         {
           "home": "SIC C",
           "away": "Belgrano Athl. C",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "Virreyes A",
@@ -251,22 +264,34 @@
         {
           "home": "CUBA C",
           "away": "Alumni C",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "Newman C",
           "away": "CASA de Padua A",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 20,
+          "bf_away": true
         },
         {
           "home": "Regatas B Vista C",
           "away": "CASI C",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 41,
+          "bf_away": true
         },
         {
           "home": "Argentino A",
           "away": "Champagnat C",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 14,
+          "bf_away": true
         }
       ]
     },
@@ -586,8 +611,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T19:01:02.466442+00:00",
-  "matchesScraped": 7,
+  "lastUpdate": "2026-04-19T19:50:01.960620+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025249",
   "nombre": "M16 G2-ZDes-EqA"
 }
