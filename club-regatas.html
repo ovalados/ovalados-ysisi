@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-8P1PDE6BXY"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-8P1PDE6BXY');</script>
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Regatas Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados</title>
+<meta name="description" content="Posición, fixture, resultados y plantel de Regatas en el Torneo URBA Top 14 2026.">
+<link rel="canonical" href="https://ovalados.com/club-regatas.html">
+<meta property="og:title" content="Regatas Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados">
+<meta property="og:description" content="Posición, fixture, resultados y plantel de Regatas en el Torneo URBA Top 14 2026.">
+<meta property="og:image" content="https://ovalados.com/img/og-top14.jpg">
+<meta property="og:url" content="https://ovalados.com/club-regatas.html">
+<meta property="og:site_name" content="Ovalados">
+<meta property="og:type" content="website">
+<meta name="twitter:title" content="Regatas Rugby — Tabla y Fixture URBA Top 14 2026 | Ovalados">
+<meta name="twitter:description" content="Posición, fixture, resultados y plantel de Regatas en el Torneo URBA Top 14 2026.">
+<meta name="twitter:image" content="https://ovalados.com/img/og-top14.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=23">
+<script src="data.js"></script>
+<style>
+.club-hero {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+.club-hero-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2.4rem, 7vw, 4.2rem);
+  letter-spacing: 6px;
+  color: var(--green);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+  text-shadow: 0 0 30px rgba(0,245,105,0.35);
+}
+.club-hero-sub {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.9rem; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--muted);
+}
+.club-section {
+  margin: 2rem auto; max-width: 980px; padding: 0 1rem;
+}
+.club-section-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700; font-size: 1rem; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--green);
+  margin: 0 0 0.9rem; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.pos-card {
+  display: flex; flex-wrap: wrap; gap: 0.75rem;
+  padding: 1rem 1.1rem; background: var(--card);
+  border: 1px solid var(--border); border-radius: var(--r-lg);
+  margin-bottom: 0.5rem;
+}
+.pos-stat {
+  flex: 1 1 auto; min-width: 62px;
+  text-align: center; padding: 0.35rem 0.55rem;
+  background: var(--dark3); border-radius: var(--r-sm);
+}
+.pos-stat-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 3px;
+}
+.pos-stat-val {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.3rem; color: var(--text);
+}
+.pos-stat-val.green { color: var(--green); }
+.pos-stat-val.gold  { color: var(--gold);  }
+.pos-stat-val.red   { color: #c0392b; }
+.pos-pos-big {
+  flex: 0 0 auto; min-width: 84px;
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 0.4rem 0.8rem;
+  background: linear-gradient(135deg, rgba(0,245,105,0.08), rgba(0,245,105,0.02));
+  border: 1px solid rgba(0,245,105,0.25); border-radius: var(--r-md);
+}
+.pos-pos-big .big {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.4rem; color: var(--green); line-height: 1;
+}
+.pos-pos-big .lbl {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem; letter-spacing: 2px; color: var(--muted);
+  text-transform: uppercase;
+}
+.form-dots { display: inline-flex; gap: 3px; }
+.dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--muted);
+}
+.dot.w { background: var(--green); }
+.dot.l { background: #c0392b; }
+.dot.d { background: var(--gold); }
+.empty-state {
+  padding: 1.1rem; background: var(--card);
+  border: 1px dashed var(--border); border-radius: var(--r-md);
+  color: var(--muted); font-family: 'Barlow Condensed', sans-serif;
+  text-align: center; letter-spacing: 1px;
+}
+.match-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 0.75rem; padding: 0.7rem 0.9rem;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r-md); margin-bottom: 0.4rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.match-row-left {
+  display: flex; align-items: center; gap: 0.7rem; flex: 1; min-width: 0;
+}
+.match-result {
+  font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem;
+  min-width: 22px; text-align: center;
+}
+.match-result.w { color: var(--green); }
+.match-result.l { color: #c0392b; }
+.match-result.d { color: var(--gold); }
+.match-rival {
+  font-size: 0.95rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.match-rival .cond {
+  color: var(--muted); font-size: 0.8rem;
+  margin-right: 0.4rem; text-transform: uppercase; letter-spacing: 1px;
+}
+.match-score {
+  font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem;
+  color: var(--green); min-width: 70px; text-align: center;
+}
+.match-score.upcoming {
+  color: var(--muted); font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem; letter-spacing: 1px;
+}
+.match-fecha {
+  font-size: 0.75rem; color: var(--muted); min-width: 60px; text-align: right;
+  letter-spacing: 1px;
+}
+.plantel-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.45rem;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 0.9rem;
+}
+.plantel-row {
+  display: flex; align-items: center; gap: 0.7rem;
+  padding: 0.3rem 0.2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.plantel-num {
+  font-family: 'Bebas Neue', sans-serif; font-size: 1.05rem;
+  color: var(--green); min-width: 24px; text-align: center;
+}
+.plantel-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.92rem; color: var(--text);
+}
+.see-full {
+  display: inline-block; margin-top: 0.6rem;
+  padding: 0.45rem 0.9rem;
+  background: rgba(0,245,105,0.08);
+  border: 1px solid rgba(0,245,105,0.25);
+  border-radius: var(--r-sm);
+  color: var(--green);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase;
+  transition: all 0.15s;
+}
+.see-full:hover { background: rgba(0,245,105,0.18); }
+@media(max-width:600px) {
+  .pos-card { gap: 0.45rem; padding: 0.8rem; }
+  .pos-stat { min-width: 54px; padding: 0.25rem 0.35rem; }
+  .pos-stat-val { font-size: 1.05rem; }
+  .match-rival { font-size: 0.88rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">OVALADOS</a>
+</header>
+
+<div class="sub-header" style="display:flex">
+  <a href="index.html" class="back-btn">← Torneos</a>
+  <span class="sub-label"><strong>URBA TOP 14</strong> · División Superior 2026
+    <span id="last-update" style="font-size:0.75rem;color:var(--muted);margin-left:12px"></span>
+  </span>
+</div>
+
+<main>
+
+  <div class="club-hero">
+    <div class="club-hero-title" id="club-name">Regatas</div>
+    <div class="club-hero-sub">Tabla · Fixture · Plantel · Temporada 2026</div>
+  </div>
+
+  <section class="club-section">
+    <div class="club-section-title">Posición en la tabla</div>
+    <div id="pos-card"></div>
+    <a href="top14.html" class="see-full">Ver tabla completa →</a>
+  </section>
+
+  <section class="club-section">
+    <div class="club-section-title">Partidos jugados</div>
+    <div id="partidos-jugados"></div>
+  </section>
+
+  <section class="club-section">
+    <div class="club-section-title">Próximos partidos</div>
+    <div id="proximos-partidos"></div>
+  </section>
+
+  <section class="club-section">
+    <div class="club-section-title">Plantel 2026</div>
+    <div id="plantel"></div>
+  </section>
+
+</main>
+
+<script>
+const CLUB_NAME = "Regatas";
+
+// normalización: lowercase, sin tildes, sin símbolos
+function norm(str) {
+  return (str || "")
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+const CLUB_KEY = norm(CLUB_NAME);
+
+// ── FETCH DATOS TABLA + FIXTURE ─────────────────────────
+function loadData() {
+  fetch('data/urba.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const teams   = data.teams   || [];
+      const matches = data.matches || {};
+      renderPosicion(teams);
+      renderPartidos(matches);
+      if (data.lastUpdate) {
+        const d  = new Date(data.lastUpdate);
+        const el = document.getElementById('last-update');
+        if (el) el.textContent = '✓ Actualizado: ' + d.toLocaleString('es-AR',{day:'2-digit',month:'numeric',hour:'2-digit',minute:'2-digit'});
+      }
+    })
+    .catch(e => {
+      console.log('Error al cargar la tabla:', e);
+      document.getElementById('pos-card').innerHTML =
+        '<div class="empty-state">No se pudieron cargar los datos.</div>';
+    });
+}
+
+// ── POSICION EN TABLA ───────────────────────────────────
+function renderPosicion(teams) {
+  if (!teams.length) {
+    document.getElementById('pos-card').innerHTML =
+      '<div class="empty-state">Sin datos de tabla aún.</div>';
+    return;
+  }
+  const allZero = teams.every(t => t.pts === 0 && t.pj === 0);
+  const sorted = [...teams].sort((a, b) => {
+    if (allZero) return a.name.localeCompare(b.name, 'es');
+    return b.pts - a.pts || (b.pf - b.pc) - (a.pf - a.pc);
+  });
+  const idx = sorted.findIndex(t => norm(t.name) === CLUB_KEY);
+  if (idx === -1) {
+    document.getElementById('pos-card').innerHTML =
+      '<div class="empty-state">' + CLUB_NAME + ' aún no figura en la tabla.</div>';
+    return;
+  }
+  const t = sorted[idx];
+  const pos = idx + 1;
+  const diff = (t.pf || 0) - (t.pc || 0);
+  const diffClass = diff > 0 ? 'green' : diff < 0 ? 'red' : '';
+  const diffStr   = (diff > 0 ? '+' : '') + (diff || 0);
+  const formDots  = (t.form || []).map(f =>
+    '<div class="dot ' + (f === 'w' ? 'w' : f === 'l' ? 'l' : 'd') + '"></div>').join('');
+
+  document.getElementById('pos-card').innerHTML = `
+    <div class="pos-card">
+      <div class="pos-pos-big">
+        <div class="big">${allZero ? '—' : pos + '°'}</div>
+        <div class="lbl">Posición</div>
+      </div>
+      <div class="pos-stat"><div class="pos-stat-label">Pts</div><div class="pos-stat-val green">${t.pts || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">PJ</div><div class="pos-stat-val">${t.pj || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">G</div><div class="pos-stat-val">${t.g || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">E</div><div class="pos-stat-val">${t.e || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">P</div><div class="pos-stat-val">${t.p || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">PF</div><div class="pos-stat-val">${t.pf || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">PC</div><div class="pos-stat-val">${t.pc || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">+/-</div><div class="pos-stat-val ${diffClass}">${diffStr}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">BP</div><div class="pos-stat-val gold">${t.bp || 0}</div></div>
+      <div class="pos-stat"><div class="pos-stat-label">BF</div><div class="pos-stat-val">${t.bf || 0}</div></div>
+      <div class="pos-stat" style="min-width:90px">
+        <div class="pos-stat-label">Forma</div>
+        <div class="form-dots" style="justify-content:center;padding-top:4px">${formDots || '<span style="color:var(--muted);font-size:0.75rem">—</span>'}</div>
+      </div>
+    </div>`;
+}
+
+// ── PARTIDOS JUGADOS + PROXIMOS ─────────────────────────
+function renderPartidos(matches) {
+  const jugados = [], proximos = [];
+  Object.entries(matches).forEach(([rnd, rd]) => {
+    (rd.ms || []).forEach(m => {
+      const homeIsClub = norm(m.home) === CLUB_KEY;
+      const awayIsClub = norm(m.away) === CLUB_KEY;
+      if (!homeIsClub && !awayIsClub) return;
+      const rival     = homeIsClub ? m.away : m.home;
+      const condicion = homeIsClub ? 'Local' : 'Visitante';
+      if (m.played) {
+        const ptsPropio = homeIsClub ? m.hs : m.as;
+        const ptsRival  = homeIsClub ? m.as : m.hs;
+        const res = ptsPropio > ptsRival ? 'w' : ptsPropio < ptsRival ? 'l' : 'd';
+        jugados.push({ rnd: +rnd, rival, condicion, ptsPropio, ptsRival, res, date: rd.date });
+      } else {
+        proximos.push({ rnd: +rnd, rival, condicion, date: rd.date });
+      }
+    });
+  });
+  jugados.sort((a, b) => a.rnd - b.rnd);
+  proximos.sort((a, b) => a.rnd - b.rnd);
+
+  const jugEl = document.getElementById('partidos-jugados');
+  if (!jugados.length) {
+    jugEl.innerHTML = '<div class="empty-state">Sin partidos jugados aún.</div>';
+  } else {
+    jugEl.innerHTML = jugados.slice(-5).reverse().map(p => {
+      const resLetter = p.res === 'w' ? 'G' : p.res === 'l' ? 'P' : 'E';
+      return `<div class="match-row">
+        <div class="match-row-left">
+          <div class="match-result ${p.res}">${resLetter}</div>
+          <div class="match-rival"><span class="cond">${p.condicion}</span>vs <strong>${p.rival}</strong></div>
+        </div>
+        <div class="match-score">${p.ptsPropio} — ${p.ptsRival}</div>
+        <div class="match-fecha">F${p.rnd}${p.date ? ' · ' + p.date : ''}</div>
+      </div>`;
+    }).join('');
+  }
+
+  const proxEl = document.getElementById('proximos-partidos');
+  if (!proximos.length) {
+    proxEl.innerHTML = '<div class="empty-state">No hay próximos partidos cargados.</div>';
+  } else {
+    proxEl.innerHTML = proximos.slice(0, 5).map(p => `
+      <div class="match-row">
+        <div class="match-row-left">
+          <div class="match-rival"><span class="cond">${p.condicion}</span>vs <strong>${p.rival}</strong></div>
+        </div>
+        <div class="match-score upcoming">VS</div>
+        <div class="match-fecha">F${p.rnd}${p.date ? ' · ' + p.date : ''}</div>
+      </div>`).join('');
+  }
+}
+
+// ── PLANTEL (desde data.js PARTIDOS.top14) ──────────────
+function renderPlantel() {
+  const el = document.getElementById('plantel');
+  if (typeof PARTIDOS === 'undefined' || !PARTIDOS.top14) {
+    el.innerHTML = '<div class="empty-state">Sin formaciones cargadas.</div>';
+    return;
+  }
+  const byPos = {};
+  Object.values(PARTIDOS.top14).forEach(partido => {
+    ['local', 'visitante'].forEach(side => {
+      const team = partido[side];
+      if (!team || norm(team.nombre) !== CLUB_KEY) return;
+      [...(team.jugadores || []), ...(team.cambios || [])].forEach(j => {
+        const m = j.match(/^(\d+)\.\s*(.+)/);
+        if (m) {
+          const pos  = parseInt(m[1], 10);
+          const name = m[2].trim();
+          if (!byPos[pos]) byPos[pos] = new Set();
+          byPos[pos].add(name);
+        }
+      });
+    });
+  });
+  const posKeys = Object.keys(byPos).map(Number).sort((a, b) => a - b);
+  if (!posKeys.length) {
+    el.innerHTML = '<div class="empty-state">Sin jugadores registrados para ' + CLUB_NAME + ' este 2026.</div>';
+    return;
+  }
+  const rows = [];
+  posKeys.forEach(p => {
+    Array.from(byPos[p]).forEach(name => {
+      rows.push(`<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${name}</span></div>`);
+    });
+  });
+  el.innerHTML = '<div class="plantel-grid">' + rows.join('') + '</div>';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  loadData();
+  renderPlantel();
+});
+</script>
+
+</body>
+</html>
