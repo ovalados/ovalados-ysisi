@@ -300,7 +300,7 @@ function renderStandings() {
     const formDots = (t.form||[]).map(f => `<div class="dot ${f==='w'?'w':f==='l'?'l':'d'}"></div>`).join('');
     return `<tr class="pos-${pos}">
       <td><span class="pos-num">${allZero ? '—' : pos}</span></td>
-      <td><span class="team-name team-name-clickable" onclick="openClubModal('${t.name}')">${t.name}</span></td>
+      <td>${(() => { const u = clubPageFor(t.name); return u ? `<a class="team-name team-name-clickable" href="${u}">${t.name}</a>` : `<span class="team-name team-name-clickable" onclick="openClubModal('${t.name.replace(/'/g,"\\'")}')">${t.name}</span>`; })()}</td>
       <td class="pts">${t.pts}</td><td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
       <td>${t.pf}</td><td>${t.pc}</td>
       <td style="color:${diff>0?'var(--green)':diff<0?'#c0392b':'var(--muted)'}">${diff>0?'+':''}${diff||0}</td>
@@ -553,6 +553,43 @@ function recalcFromMatches() {
     if(m.bp_home){h.pts++;h.bp++;} if(m.bp_away){a.pts++;a.bp++;}
   }));
   teams.forEach(t => { if(t.form) t.form = t.form.slice(-5); });
+}
+
+
+// ── LINKS A PAGINAS DE CLUB ─────────────────────────────
+const CLUB_PAGES = [
+  { keys: ["SIC"],                                           url: "club-sic.html" },
+  { keys: ["CASI"],                                          url: "club-casi.html" },
+  { keys: ["Belgrano Athletic"],                             url: "club-belgrano-athletic.html" },
+  { keys: ["Alumni"],                                        url: "club-alumni.html" },
+  { keys: ["Hindu", "Hindú"],                                url: "club-hindu.html" },
+  { keys: ["Newman"],                                        url: "club-newman.html" },
+  { keys: ["La Plata"],                                      url: "club-la-plata.html" },
+  { keys: ["Champagnat"],                                    url: "club-champagnat.html" },
+  { keys: ["Atletico del Rosario", "Atlético del Rosario"],  url: "club-atletico-del-rosario.html" },
+  { keys: ["Regatas", "Regatas Bella Vista"],                url: "club-regatas.html" },
+  { keys: ["Los Tilos"],                                     url: "club-los-tilos.html" },
+  { keys: ["Pucara", "Pucará"],                              url: "club-pucara.html" },
+  { keys: ["San Luis"],                                      url: "club-san-luis.html" },
+  { keys: ["Liceo", "Liceo Naval", "Liceo Militar"],         url: "club-liceo.html" },
+];
+function clubNorm(s) {
+  return (s || "").toLowerCase().normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+}
+function clubPageFor(teamName) {
+  const tn = clubNorm(teamName);
+  for (const entry of CLUB_PAGES) {
+    for (const k of entry.keys) {
+      const cn = clubNorm(k);
+      if (tn === cn) return entry.url;
+      if (tn.startsWith(cn + ' ')) {
+        const suf = tn.slice(cn.length + 1);
+        if (/^[a-z]$/.test(suf)) return entry.url;
+      }
+    }
+  }
+  return null;
 }
 
 function openClubModal(teamName) {

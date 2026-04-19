@@ -155,6 +155,18 @@
 }
 .match-formacion-btn:hover { background: rgba(0,184,92,0.2); }
 @media(max-width:600px) { .formacion-grid { grid-template-columns: 1fr; } }
+.modal-cta-btn {
+  display: inline-block; width: 100%; text-align: center;
+  padding: 0.6rem 1rem; margin-top: 0.25rem;
+  background: linear-gradient(135deg, rgba(0,184,92,0.18), rgba(0,184,92,0.08));
+  border: 1px solid rgba(0,184,92,0.45); border-radius: 6px;
+  color: var(--green);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.88rem; letter-spacing: 2px; text-transform: uppercase;
+  transition: all 0.15s;
+}
+.modal-cta-btn:hover { background: rgba(0,184,92,0.25); transform: translateY(-1px); }
+
 </style>
 </head>
 <body>
@@ -185,6 +197,7 @@
       <button class="club-modal-close" onclick="closeClubModal()">✕</button>
     </div>
     <div class="club-info-grid" id="modal-club-info"></div>
+    <div id="modal-club-cta" style="margin: 0.25rem 0 0.75rem"></div>
     <div id="modal-club-plantel"></div>
     <div id="modal-club-partidos"></div>
   </div>
@@ -366,6 +379,8 @@ function openClubModal(teamName) {
   const club = findClubEntry(teamName);
   if (!club) return;
   document.getElementById('modal-club-name').textContent = teamName;
+  const _cta = document.getElementById('modal-club-cta');
+  if (_cta) _cta.innerHTML = club.url ? `<a href="${club.url}" class="modal-cta-btn">Ver página completa del club →</a>` : '';
   document.getElementById('modal-club-info').innerHTML = `
     <div class="club-info-item"><div class="club-info-label">Nombre completo</div><div class="club-info-value">${club.nombre}</div></div>
     <div class="club-info-item"><div class="club-info-label">Apodo</div><div class="club-info-value">${club.apodo}</div></div>

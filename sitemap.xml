@@ -181,4 +181,79 @@
     <changefreq>weekly</changefreq>
   </url>
 
+
+  <!-- ══════════════════════════════════════
+       PERFILES DE CLUB · URBA TOP 14
+  ══════════════════════════════════════ -->
+  <url>
+    <loc>https://ovalados.com/club-sic.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-belgrano-athletic.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-hindu.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-la-plata.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-atletico-del-rosario.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-alumni.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-los-tilos.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-pucara.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-san-luis.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-newman.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-liceo.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-casi.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-champagnat.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://ovalados.com/club-regatas.html</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
 </urlset>
