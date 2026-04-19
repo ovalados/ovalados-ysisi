@@ -2,142 +2,150 @@
   "teams": [
     {
       "name": "Mercedes",
-      "pts": 12,
-      "pj": 4,
-      "g": 2,
+      "pts": 16,
+      "pj": 5,
+      "g": 3,
       "e": 1,
       "p": 1,
-      "pf": 111,
-      "pc": 73,
+      "pf": 151,
+      "pc": 99,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "l",
         "w",
-        "d"
-      ]
-    },
-    {
-      "name": "Varela Jr.",
-      "pts": 10,
-      "pj": 4,
-      "g": 2,
-      "e": 0,
-      "p": 2,
-      "pf": 103,
-      "pc": 113,
-      "bp": 1,
-      "bf": 1,
-      "form": [
-        "l",
-        "w",
-        "l",
+        "d",
         "w"
       ]
     },
     {
+      "name": "Varela Jr.",
+      "pts": 11,
+      "pj": 5,
+      "g": 2,
+      "e": 0,
+      "p": 3,
+      "pf": 130,
+      "pc": 141,
+      "bp": 1,
+      "bf": 2,
+      "form": [
+        "l",
+        "w",
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
       "name": "Albatros",
-      "pts": 15,
-      "pj": 4,
-      "g": 3,
+      "pts": 19,
+      "pj": 5,
+      "g": 4,
       "e": 0,
       "p": 1,
-      "pf": 139,
-      "pc": 74,
+      "pf": 174,
+      "pc": 100,
       "bp": 2,
       "bf": 1,
       "form": [
         "w",
         "l",
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Tigre",
-      "pts": 13,
-      "pj": 4,
-      "g": 2,
+      "pts": 18,
+      "pj": 5,
+      "g": 3,
       "e": 1,
       "p": 1,
-      "pf": 133,
-      "pc": 50,
-      "bp": 2,
+      "pf": 169,
+      "pc": 70,
+      "bp": 3,
       "bf": 1,
       "form": [
         "l",
         "w",
         "w",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Atletico Chascomus",
       "pts": 18,
-      "pj": 4,
+      "pj": 5,
       "g": 4,
       "e": 0,
-      "p": 0,
-      "pf": 135,
-      "pc": 97,
+      "p": 1,
+      "pf": 155,
+      "pc": 133,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
         "w",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Pinos",
       "pts": 10,
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 1,
-      "p": 1,
-      "pf": 93,
-      "pc": 78,
+      "p": 2,
+      "pf": 119,
+      "pc": 113,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
         "w",
         "l",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
       "name": "La Salle",
-      "pts": 1,
-      "pj": 4,
-      "g": 0,
+      "pts": 5,
+      "pj": 5,
+      "g": 1,
       "e": 0,
       "p": 4,
-      "pf": 62,
-      "pc": 144,
+      "pf": 90,
+      "pc": 171,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "El Retiro",
       "pts": 1,
-      "pj": 4,
+      "pj": 5,
       "g": 0,
       "e": 0,
-      "p": 4,
-      "pf": 51,
-      "pc": 130,
+      "p": 5,
+      "pf": 77,
+      "pc": 170,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l",
         "l",
@@ -147,33 +155,35 @@
     {
       "name": "San Marcos",
       "pts": 15,
-      "pj": 4,
+      "pj": 5,
       "g": 3,
       "e": 1,
-      "p": 0,
-      "pf": 118,
-      "pc": 86,
+      "p": 1,
+      "pf": 147,
+      "pc": 132,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "w",
         "w",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
       "name": "Tiro F de San Pedro",
-      "pts": 1,
-      "pj": 4,
+      "pts": 2,
+      "pj": 5,
       "g": 0,
       "e": 0,
-      "p": 4,
-      "pf": 66,
-      "pc": 130,
+      "p": 5,
+      "pf": 101,
+      "pc": 171,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
+        "l",
         "l",
         "l",
         "l",
@@ -182,52 +192,55 @@
     },
     {
       "name": "Atletico y Progreso",
-      "pts": 14,
-      "pj": 4,
-      "g": 3,
+      "pts": 19,
+      "pj": 5,
+      "g": 4,
       "e": 0,
       "p": 1,
-      "pf": 132,
-      "pc": 90,
-      "bp": 1,
+      "pf": 183,
+      "pc": 104,
+      "bp": 2,
       "bf": 1,
       "form": [
         "w",
         "w",
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Vicente Lopez",
-      "pts": 0,
-      "pj": 4,
-      "g": 0,
+      "pts": 4,
+      "pj": 5,
+      "g": 1,
       "e": 0,
       "p": 4,
-      "pf": 77,
-      "pc": 167,
+      "pf": 118,
+      "pc": 202,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Old Georgian",
-      "pts": 18,
-      "pj": 4,
-      "g": 4,
+      "pts": 22,
+      "pj": 5,
+      "g": 5,
       "e": 0,
       "p": 0,
-      "pf": 130,
-      "pc": 82,
+      "pf": 176,
+      "pc": 111,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w",
         "w",
@@ -237,18 +250,19 @@
     {
       "name": "Las Cañas",
       "pts": 4,
-      "pj": 4,
+      "pj": 5,
       "g": 1,
       "e": 0,
-      "p": 3,
-      "pf": 107,
-      "pc": 143,
+      "p": 4,
+      "pf": 121,
+      "pc": 194,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
         "l",
         "w",
+        "l",
         "l"
       ]
     }
@@ -496,37 +510,55 @@
         {
           "home": "Las Cañas",
           "away": "Atletico y Progreso",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 51,
+          "bp_away": true
         },
         {
           "home": "Vicente Lopez",
           "away": "Tiro F de San Pedro",
-          "played": false
+          "played": true,
+          "hs": 41,
+          "as": 35,
+          "bf_away": true
         },
         {
           "home": "Old Georgian",
           "away": "San Marcos",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 29
         },
         {
           "home": "Mercedes",
           "away": "El Retiro",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 26
         },
         {
           "home": "Varela Jr.",
           "away": "La Salle",
-          "played": false
+          "played": true,
+          "hs": 27,
+          "as": 28,
+          "bf_home": true
         },
         {
           "home": "Albatros",
           "away": "Los Pinos",
-          "played": false
+          "played": true,
+          "hs": 35,
+          "as": 26
         },
         {
           "home": "Tigre",
           "away": "Atletico Chascomus",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 20,
+          "bp_home": true
         }
       ]
     },
@@ -1371,8 +1403,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-14T12:46:50.343909+00:00",
-  "matchesScraped": 28,
+  "lastUpdate": "2026-04-19T13:21:08.468317+00:00",
+  "matchesScraped": 35,
   "championshipId": "2025180",
   "nombre": "Segunda Superior"
 }
