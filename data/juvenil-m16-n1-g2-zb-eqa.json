@@ -3,180 +3,192 @@
     {
       "name": "La Plata A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 35,
-      "pc": 43,
+      "p": 2,
+      "pf": 49,
+      "pc": 72,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Olivos A",
       "pts": 1,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 24,
-      "pc": 28,
+      "p": 2,
+      "pf": 45,
+      "pc": 64,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Alumni A",
       "pts": 4,
-      "pj": 1,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 27,
-      "pc": 25,
+      "p": 1,
+      "pf": 51,
+      "pc": 60,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Andres A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 7,
-      "pc": 45,
+      "p": 2,
+      "pf": 31,
+      "pc": 99,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Manuel Belgrano A",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 17,
-      "pc": 45,
+      "p": 2,
+      "pf": 36,
+      "pc": 97,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
     {
       "name": "Hindu A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 45,
-      "pc": 17,
-      "bp": 1,
+      "pf": 99,
+      "pc": 41,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "CUBA A",
-      "pts": 5,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 45,
-      "pc": 7,
+      "pf": 80,
+      "pc": 31,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Newman A",
-      "pts": 1,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 25,
-      "pc": 27,
+      "pf": 61,
+      "pc": 48,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Regatas B. Vista A",
-      "pts": 4,
-      "pj": 1,
-      "g": 1,
+      "pts": 9,
+      "pj": 2,
+      "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 28,
-      "pc": 24,
-      "bp": 0,
+      "pf": 57,
+      "pc": 38,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w"
       ]
     },
     {
       "name": "Los Matreros A",
-      "pts": 4,
-      "pj": 1,
+      "pts": 5,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 43,
-      "pc": 35,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w"
-      ]
-    },
-    {
-      "name": "Champagnat A",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
-      "e": 0,
       "p": 1,
-      "pf": 12,
-      "pc": 35,
+      "pf": 62,
+      "pc": 59,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "w",
         "l"
       ]
     },
     {
-      "name": "Belgrano Athl. A",
-      "pts": 5,
-      "pj": 1,
+      "name": "Champagnat A",
+      "pts": 4,
+      "pj": 2,
       "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 35,
-      "pc": 12,
-      "bp": 1,
+      "p": 1,
+      "pf": 36,
+      "pc": 54,
+      "bp": 0,
       "bf": 0,
       "form": [
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Belgrano Athl. A",
+      "pts": 10,
+      "pj": 2,
+      "g": 2,
+      "e": 0,
+      "p": 0,
+      "pf": 87,
+      "pc": 31,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
         "w"
       ]
     }
@@ -240,32 +252,48 @@
         {
           "home": "Manuel Belgrano A",
           "away": "Belgrano Athl. A",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 52,
+          "bp_away": true
         },
         {
           "home": "Hindu A",
           "away": "San Andres A",
-          "played": false
+          "played": true,
+          "hs": 54,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "CUBA A",
           "away": "Alumni A",
-          "played": false
+          "played": true,
+          "hs": 35,
+          "as": 24
         },
         {
           "home": "Newman A",
           "away": "Olivos A",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 21
         },
         {
           "home": "Regatas B. Vista A",
           "away": "La Plata A",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "Los Matreros A",
           "away": "Champagnat A",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 24,
+          "bf_home": true
         }
       ]
     },
@@ -585,8 +613,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T19:00:58.524016+00:00",
-  "matchesScraped": 6,
+  "lastUpdate": "2026-04-19T19:49:58.014007+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025245",
   "nombre": "M16 N1-G2-ZB-EqA"
 }
