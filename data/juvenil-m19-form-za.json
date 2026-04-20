@@ -82,14 +82,14 @@
     },
     {
       "name": "Belgrano Athl. E",
-      "pts": 9,
+      "pts": 10,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 70,
       "pc": 38,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -262,7 +262,8 @@
           "away": "San Andres C",
           "played": true,
           "hs": 48,
-          "as": 26
+          "as": 26,
+          "bp_home": true
         },
         {
           "home": "Regatas B Vista F",
@@ -614,7 +615,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T23:24:02.739078+00:00",
+  "lastUpdate": "2026-04-20T00:04:23.457000+00:00",
   "matchesScraped": 12,
   "championshipId": "2025226",
   "nombre": "M19 Form-ZA"
