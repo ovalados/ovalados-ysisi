@@ -35,15 +35,16 @@
     {
       "name": "San Miguel",
       "pts": 0,
-      "pj": 1,
+      "pj": 2,
       "g": 0,
       "e": 0,
-      "p": 1,
-      "pf": 22,
-      "pc": 39,
+      "p": 2,
+      "pf": 48,
+      "pc": 87,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l"
       ]
     },
@@ -99,17 +100,18 @@
     },
     {
       "name": "Ezeiza",
-      "pts": 0,
-      "pj": 1,
-      "g": 0,
+      "pts": 5,
+      "pj": 2,
+      "g": 1,
       "e": 0,
       "p": 1,
-      "pf": 5,
-      "pc": 59,
-      "bp": 0,
+      "pf": 53,
+      "pc": 85,
+      "bp": 1,
       "bf": 0,
       "form": [
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -249,7 +251,10 @@
         {
           "home": "Ezeiza",
           "away": "San Miguel",
-          "played": false
+          "played": true,
+          "hs": 48,
+          "as": 26,
+          "bp_home": true
         },
         {
           "home": "La Salle",
@@ -590,8 +595,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T23:24:06.782425+00:00",
-  "matchesScraped": 11,
+  "lastUpdate": "2026-04-20T00:04:26.923651+00:00",
+  "matchesScraped": 12,
   "championshipId": "2025230",
   "nombre": "M17 Form-ZC"
 }
