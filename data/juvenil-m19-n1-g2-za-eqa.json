@@ -98,14 +98,14 @@
     },
     {
       "name": "La Plata A",
-      "pts": 5,
+      "pts": 6,
       "pj": 2,
       "g": 1,
       "e": 0,
       "p": 1,
       "pf": 67,
       "pc": 55,
-      "bp": 0,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
@@ -270,7 +270,8 @@
           "away": "Pueyrredon A",
           "played": true,
           "hs": 36,
-          "as": 21
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "Hurling A",
@@ -613,7 +614,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-19T23:23:52.619267+00:00",
+  "lastUpdate": "2026-04-20T00:04:14.084275+00:00",
   "matchesScraped": 12,
   "championshipId": "2025213",
   "nombre": "M19 N1-G2-ZA-EqA"
