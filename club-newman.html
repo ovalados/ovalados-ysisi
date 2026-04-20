@@ -187,6 +187,21 @@
 .plantel-name {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 0.92rem; color: var(--text);
+  flex: 1; min-width: 0;
+}
+.plantel-fechas {
+  display: flex; flex-wrap: wrap; gap: 3px;
+  margin-left: auto;
+}
+.plantel-fecha {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.62rem; letter-spacing: 1px;
+  padding: 1px 5px;
+  background: rgba(0,245,105,0.10);
+  border: 1px solid rgba(0,245,105,0.30);
+  border-radius: 3px;
+  color: var(--green);
+  line-height: 1.3;
 }
 .see-full {
   display: inline-block; margin-top: 0.6rem;
@@ -207,6 +222,33 @@
   margin: 0 0 0.5rem;
 }
 .active-team-name strong { color: var(--green); }
+/* Evolución en la tabla (mini chart) */
+.pos-history-wrap {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 0.9rem 0.9rem 0.6rem;
+}
+.pos-history-wrap svg {
+  display: block; width: 100%; height: auto;
+  color: var(--text);
+}
+.pos-history-wrap .pos-line { stroke: var(--green); stroke-width: 2; fill: none; }
+.pos-history-wrap .pos-dot  { fill: var(--green); }
+.pos-history-wrap .pos-grid { stroke: rgba(255,255,255,0.06); stroke-width: 1; }
+.pos-history-wrap .pos-num-lbl {
+  font-family: 'Bebas Neue', sans-serif; font-size: 12px;
+  fill: var(--text);
+}
+.pos-history-wrap .pos-fecha-lbl {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 11px;
+  letter-spacing: 1px; fill: var(--muted);
+}
+.pos-history-wrap .pos-sub {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); margin-top: 0.4rem;
+  display: flex; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap;
+}
+.pos-history-wrap .pos-sub strong { color: var(--text); font-weight: 600; }
 @media(max-width:600px) {
   .pos-card { gap: 0.45rem; padding: 0.8rem; }
   .pos-stat { min-width: 54px; padding: 0.25rem 0.35rem; }
@@ -243,6 +285,11 @@
     <div class="active-team-name" id="active-team-name"></div>
     <div id="pos-card"></div>
     <a href="top14.html" class="see-full" id="see-full-link">Ver tabla completa →</a>
+  </section>
+
+  <section class="club-section">
+    <div class="club-section-title">Evolución en la tabla</div>
+    <div id="pos-history"></div>
   </section>
 
   <section class="club-section">
@@ -400,6 +447,7 @@ function renderDivision(id) {
   }
 
   renderPosicion(teams, teamName);
+  renderPosHistory(matches, teamName, teams);
   renderPartidos(matches, teamName);
 }
 
@@ -515,7 +563,164 @@ function renderPartidos(matches, teamName) {
   }
 }
 
+// ── EVOLUCIÓN DE POSICIÓN EN LA TABLA ───────────────────
+// Rejuega el fixture fecha por fecha y calcula en qué puesto terminaba
+// el club activo después de cada fecha. Usa el mismo orden que el card
+// de "Posición" (pts desc, luego diff desc).
+function computePosHistory(matches, teamName, seedTeams) {
+  if (!teamName || !matches) return [];
+  const stats = {};
+  const touch = (name) => {
+    if (!stats[name]) stats[name] = { name, pts: 0, pj: 0, pf: 0, pc: 0 };
+    return stats[name];
+  };
+  (seedTeams || []).forEach(t => touch(t.name));
+
+  const fechas = Object.keys(matches).map(Number).filter(n => !isNaN(n)).sort((a, b) => a - b);
+  const history = [];
+  for (const fecha of fechas) {
+    const rd = matches[fecha] || {};
+    let anyPlayed = false;
+    (rd.ms || []).forEach(m => {
+      if (!m.played) return;
+      anyPlayed = true;
+      const h = touch(m.home), a = touch(m.away);
+      const hs = +m.hs || 0, as = +m.as || 0;
+      h.pj++; a.pj++;
+      h.pf += hs; h.pc += as;
+      a.pf += as; a.pc += hs;
+      if (hs > as)      { h.pts += 4; }
+      else if (hs < as) { a.pts += 4; }
+      else              { h.pts += 2; a.pts += 2; }
+      if (m.bp_home) h.pts += 1;
+      if (m.bp_away) a.pts += 1;
+      if (m.bf_home) h.pts += 1;
+      if (m.bf_away) a.pts += 1;
+    });
+    if (!anyPlayed) continue;
+    const list = Object.values(stats).filter(t => t.pj > 0);
+    list.sort((a, b) =>
+      (b.pts - a.pts) ||
+      ((b.pf - b.pc) - (a.pf - a.pc)) ||
+      (b.pf - a.pf)
+    );
+    const idx = list.findIndex(t => t.name === teamName);
+    if (idx >= 0) {
+      history.push({ fecha, pos: idx + 1, total: list.length, pts: list[idx].pts });
+    }
+  }
+  return history;
+}
+
+function renderPosHistory(matches, teamName, seedTeams) {
+  const el = document.getElementById('pos-history');
+  if (!el) return;
+  if (!teamName) {
+    el.innerHTML = '<div class="empty-state">' + CLUB_NAME + ' no participa en esta división.</div>';
+    return;
+  }
+  const hist = computePosHistory(matches, teamName, seedTeams);
+  if (hist.length < 1) {
+    el.innerHTML = '<div class="empty-state">Aún no hay fechas jugadas en esta división.</div>';
+    return;
+  }
+
+  // SVG chart (1° arriba, última posición abajo).
+  const W = 600, H = 160;
+  const padL = 36, padR = 14, padT = 18, padB = 30;
+  const innerW = W - padL - padR;
+  const innerH = H - padT - padB;
+  const totalTeams = Math.max(...hist.map(p => p.total), 2);
+  const maxFecha = Math.max(...hist.map(p => p.fecha));
+  const minFecha = Math.min(...hist.map(p => p.fecha));
+  const spanF = Math.max(1, maxFecha - minFecha);
+  const xAt = f => padL + (hist.length === 1 ? innerW / 2 : (f - minFecha) / spanF * innerW);
+  const yAt = p => padT + (totalTeams <= 1 ? innerH / 2 : (p - 1) / (totalTeams - 1) * innerH);
+
+  // Ejes guía: puestos 1, medio y último.
+  const axisPositions = [1];
+  if (totalTeams >= 4) axisPositions.push(Math.ceil(totalTeams / 2));
+  if (totalTeams >= 2) axisPositions.push(totalTeams);
+  const axis = axisPositions.map(p => `
+      <line class="pos-grid" x1="${padL}" y1="${yAt(p)}" x2="${W - padR}" y2="${yAt(p)}"/>
+      <text class="pos-num-lbl" x="${padL - 6}" y="${yAt(p) + 4}" text-anchor="end">${p}°</text>
+    `).join('');
+
+  const points = hist.map(pt => `${xAt(pt.fecha)},${yAt(pt.pos)}`).join(' ');
+  const dots = hist.map(pt => `
+      <g>
+        <circle class="pos-dot" cx="${xAt(pt.fecha)}" cy="${yAt(pt.pos)}" r="4.5"/>
+        <text class="pos-num-lbl" x="${xAt(pt.fecha)}" y="${yAt(pt.pos) - 9}" text-anchor="middle">${pt.pos}°</text>
+        <text class="pos-fecha-lbl" x="${xAt(pt.fecha)}" y="${H - 10}" text-anchor="middle">F${pt.fecha}</text>
+      </g>
+    `).join('');
+
+  const first = hist[0], last = hist[hist.length - 1];
+  const delta = first.pos - last.pos;     // +: mejoró, -: empeoró
+  const deltaTxt = delta === 0
+    ? 'Se mantuvo en ' + last.pos + '°'
+    : (delta > 0 ? 'Subió ' + delta + ' puesto' + (delta > 1 ? 's' : '')
+                 : 'Bajó ' + (-delta) + ' puesto' + (-delta > 1 ? 's' : ''));
+
+  el.innerHTML = `
+    <div class="pos-history-wrap">
+      <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img"
+           aria-label="Evolución de la posición del club por fecha">
+        ${axis}
+        <polyline class="pos-line" points="${points}"/>
+        ${dots}
+      </svg>
+      <div class="pos-sub">
+        <span>De <strong>${first.pos}°</strong> (F${first.fecha}) a <strong>${last.pos}°</strong> (F${last.fecha})</span>
+        <span>${deltaTxt}</span>
+      </div>
+    </div>
+  `;
+}
+
 // ── PLANTEL (desde data.js PARTIDOS.top14) ──────────────
+// Dedup de nombres similares (tildes, abreviaciones y apellidos compuestos)
+// y muestra las fechas en las que apareció cada jugador en el equipo titular.
+function _plantelNormTxt(s) {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function _plantelParseName(name) {
+  // Devuelve { lastTokens:Set<string>, firstInitial, firstFull }
+  // A partir de "Apellido1 Apellido2, Nombre" o "Apellido, N"
+  const parts = name.split(',');
+  const last  = _plantelNormTxt(parts[0] || '');
+  const first = _plantelNormTxt(parts.slice(1).join(','));
+  const lastTokens = new Set(last.split(/[^a-z0-9]+/).filter(Boolean));
+  return {
+    lastTokens,
+    firstInitial: first.charAt(0) || '',
+    firstFull: first,
+  };
+}
+function _plantelSameGroup(np, g) {
+  // Dos entradas son el mismo jugador si:
+  //  · Comparten la inicial del nombre (y los nombres completos no entran
+  //    en conflicto — uno es prefijo del otro o alguno es una sola letra).
+  //  · El conjunto de tokens del apellido de uno es subconjunto del otro
+  //    (maneja "Fleming" ⊂ "López Fleming", etc.).
+  if (np.firstInitial !== g.firstInitial) return false;
+  if (np.firstFull && g.firstFull && np.firstFull.length > 1 && g.firstFull.length > 1) {
+    if (!np.firstFull.startsWith(g.firstFull) && !g.firstFull.startsWith(np.firstFull)) {
+      return false;
+    }
+  }
+  const a = np.lastTokens, b = g.lastTokensUnion;
+  if (!a.size || !b.size) return false;
+  const aArr = [...a], bArr = [...b];
+  const aSubB = aArr.every(t => b.has(t));
+  const bSubA = bArr.every(t => a.has(t));
+  return aSubB || bSubA;
+}
+
 function renderPlantel(divId) {
   divId = divId || activeDiv || 'top14';
   const el = document.getElementById('plantel');
@@ -527,34 +732,92 @@ function renderPlantel(divId) {
     el.innerHTML = '<div class="empty-state">Sin formaciones cargadas para ' + divInfo.label + '.</div>';
     return;
   }
-  const byPos = {};
+
+  // Lookup partido → fecha, usando el fixture (JSON) ya cargado.
+  // Clave: "normHome||normAway" (y al revés) → número de fecha.
+  const fxData = divData[divId] || {};
+  const fechaLookup = {};
+  Object.entries(fxData.matches || {}).forEach(([rnd, rd]) => {
+    (rd.ms || []).forEach(m => {
+      const k1 = norm(m.home) + '||' + norm(m.away);
+      const k2 = norm(m.away) + '||' + norm(m.home);
+      fechaLookup[k1] = +rnd;
+      fechaLookup[k2] = +rnd;
+    });
+  });
+
+  // Recolecta jugadores deduplicados con el conjunto de fechas en las
+  // que aparecieron en el titular.
+  const groups = [];  // array de grupos (cada uno = un jugador)
   Object.values(PARTIDOS[partidosKey]).forEach(partido => {
+    let fecha = null;
+    if (partido.local && partido.visitante) {
+      const k = norm(partido.local.nombre) + '||' + norm(partido.visitante.nombre);
+      fecha = fechaLookup[k] || null;
+    }
     ['local', 'visitante'].forEach(side => {
       const team = partido[side];
       if (!team || !matchesClub(team.nombre)) return;
-      [...(team.jugadores || []), ...(team.cambios || [])].forEach(j => {
+      (team.jugadores || []).forEach(j => {
         const m = j.match(/^(\d+)\.\s*(.+)/);
-        if (m) {
-          const pos  = parseInt(m[1], 10);
-          const name = m[2].trim();
-          if (!byPos[pos]) byPos[pos] = new Set();
-          byPos[pos].add(name);
+        if (!m) return;
+        const pos  = parseInt(m[1], 10);
+        const name = m[2].trim();
+        const np   = _plantelParseName(name);
+
+        // Buscar un grupo existente compatible.
+        let target = null;
+        for (const g of groups) {
+          if (_plantelSameGroup(np, g)) { target = g; break; }
         }
+        if (!target) {
+          target = {
+            lastTokensUnion: new Set(np.lastTokens),
+            firstInitial: np.firstInitial,
+            firstFull: np.firstFull,
+            pos, display: name,
+            fechas: new Set(),
+            lastFecha: fecha || 0,
+          };
+          groups.push(target);
+        } else {
+          np.lastTokens.forEach(t => target.lastTokensUnion.add(t));
+          if (np.firstFull.length > target.firstFull.length) target.firstFull = np.firstFull;
+          // Preferimos el display más completo (más largo).
+          if (name.length > target.display.length) target.display = name;
+          // Posición mostrada = la de la fecha más reciente.
+          if (fecha && fecha >= target.lastFecha) {
+            target.pos = pos;
+            target.lastFecha = fecha;
+          }
+        }
+        if (fecha) target.fechas.add(fecha);
       });
     });
   });
-  const posKeys = Object.keys(byPos).map(Number).sort((a, b) => a - b);
-  if (!posKeys.length) {
+
+  if (!groups.length) {
     el.innerHTML = '<div class="empty-state">Sin jugadores registrados para ' + CLUB_NAME + ' en ' + divInfo.label + ' este 2026.</div>';
     return;
   }
-  const rows = [];
-  posKeys.forEach(p => {
-    Array.from(byPos[p]).forEach(name => {
-      rows.push(`<div class="plantel-row"><span class="plantel-num">${p}</span><span class="plantel-name">${name}</span></div>`);
-    });
-  });
-  el.innerHTML = '<div class="plantel-grid">' + rows.join('') + '</div>';
+
+  groups.sort((a, b) => (a.pos - b.pos) || a.display.localeCompare(b.display));
+
+  const rows = groups.map(p => {
+    const fechas = Array.from(p.fechas).sort((a, b) => a - b);
+    const fechasHtml = fechas.length
+      ? '<span class="plantel-fechas">' +
+          fechas.map(f => `<span class="plantel-fecha">F${f}</span>`).join('') +
+        '</span>'
+      : '';
+    return `<div class="plantel-row">`
+         + `<span class="plantel-num">${p.pos}</span>`
+         + `<span class="plantel-name">${p.display}</span>`
+         + fechasHtml
+         + `</div>`;
+  }).join('');
+
+  el.innerHTML = '<div class="plantel-grid">' + rows + '</div>';
 }
 
 document.addEventListener('DOMContentLoaded', function () {
