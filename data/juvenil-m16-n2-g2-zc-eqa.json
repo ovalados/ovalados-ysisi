@@ -34,15 +34,15 @@
     },
     {
       "name": "Univ. De la Plata A",
-      "pts": 0,
+      "pts": 1,
       "pj": 2,
       "g": 0,
       "e": 0,
       "p": 2,
-      "pf": 15,
+      "pf": 25,
       "pc": 62,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
         "l"
@@ -114,14 +114,14 @@
     },
     {
       "name": "Del Sur A",
-      "pts": 10,
+      "pts": 9,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 62,
-      "pc": 19,
-      "bp": 2,
+      "pc": 29,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w",
@@ -223,9 +223,9 @@
           "home": "Univ. De la Plata A",
           "away": "Del Sur A",
           "played": true,
-          "hs": 5,
+          "hs": 15,
           "as": 22,
-          "bp_away": true
+          "bf_home": true
         },
         {
           "home": "Lomas Athl. A",
@@ -612,7 +612,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T21:33:09.201528+00:00",
+  "lastUpdate": "2026-04-20T22:28:36.431616+00:00",
   "matchesScraped": 12,
   "championshipId": "2025247",
   "nombre": "M16 N2-G2-ZC-EqA"
