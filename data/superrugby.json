@@ -398,7 +398,9 @@
         {
           "home": "Cobras BR",
           "away": "Dogos XV",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 48
         },
         {
           "home": "Selknam",
@@ -565,6 +567,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T00:03:44.007280+00:00",
+  "lastUpdate": "2026-04-20T03:50:17.207018+00:00",
   "matchesScraped": 28
 }
