@@ -8,7 +8,7 @@
       "e": 0,
       "p": 2,
       "pf": 0,
-      "pc": 75,
+      "pc": 79,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -137,7 +137,7 @@
       "g": 1,
       "e": 1,
       "p": 0,
-      "pf": 34,
+      "pf": 38,
       "pc": 0,
       "bp": 1,
       "bf": 0,
@@ -267,7 +267,7 @@
           "home": "Centro Naval",
           "away": "Porteño",
           "played": true,
-          "hs": 34,
+          "hs": 38,
           "as": 0,
           "bp_home": true
         },
@@ -596,7 +596,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T13:58:26.632662+00:00",
+  "lastUpdate": "2026-04-20T15:24:29.470266+00:00",
   "matchesScraped": 12,
   "championshipId": "2025254",
   "nombre": "M15 Form-ZB"
