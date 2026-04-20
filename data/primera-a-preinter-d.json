@@ -192,15 +192,15 @@
     },
     {
       "name": "Pueyrredon D",
-      "pts": 9,
+      "pts": 8,
       "pj": 5,
       "g": 1,
       "e": 1,
       "p": 3,
       "pf": 114,
-      "pc": 92,
+      "pc": 94,
       "bp": 1,
-      "bf": 2,
+      "bf": 1,
       "form": [
         "l",
         "d",
@@ -254,7 +254,7 @@
       "g": 5,
       "e": 0,
       "p": 0,
-      "pf": 145,
+      "pf": 147,
       "pc": 86,
       "bp": 1,
       "bf": 0,
@@ -508,9 +508,8 @@
           "home": "Pucara D",
           "away": "Pueyrredon D",
           "played": true,
-          "hs": 33,
-          "as": 26,
-          "bf_away": true
+          "hs": 35,
+          "as": 26
         },
         {
           "home": "San Luis E",
@@ -1403,7 +1402,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T17:45:07.576654+00:00",
+  "lastUpdate": "2026-04-20T18:45:18.478093+00:00",
   "matchesScraped": 35,
   "championshipId": "2025203",
   "nombre": "1A Pre-Inter D"
