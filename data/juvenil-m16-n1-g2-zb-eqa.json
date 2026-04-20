@@ -114,14 +114,14 @@
     },
     {
       "name": "Newman A",
-      "pts": 5,
+      "pts": 6,
       "pj": 2,
       "g": 1,
       "e": 0,
       "p": 1,
       "pf": 61,
       "pc": 48,
-      "bp": 0,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
@@ -277,7 +277,8 @@
           "away": "Olivos A",
           "played": true,
           "hs": 36,
-          "as": 21
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "Regatas B. Vista A",
@@ -613,7 +614,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T00:04:40.298136+00:00",
+  "lastUpdate": "2026-04-20T03:51:20.240408+00:00",
   "matchesScraped": 12,
   "championshipId": "2025245",
   "nombre": "M16 N1-G2-ZB-EqA"
