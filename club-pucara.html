@@ -679,46 +679,135 @@ function renderPosHistory(matches, teamName, seedTeams) {
 }
 
 // ── PLANTEL (desde data.js PARTIDOS.top14) ──────────────
-// Dedup de nombres similares (tildes, abreviaciones y apellidos compuestos)
-// y muestra las fechas en las que apareció cada jugador en el equipo titular.
-function _plantelNormTxt(s) {
-  return (s || '')
-    .toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+// Deduplicación robusta: tildes, abreviaciones, apellidos compuestos,
+// mayúsculas como marcador de apellido, detección de inicial al inicio o
+// al final, y distancia de Levenshtein para tolerar tipeos puntuales.
+// Además, por cada jugador se muestran las fechas en que estuvo en el
+// equipo titular (usando el fixture JSON cargado, filtrado por
+// partidos `played === true`).
+const _PLANTEL_STOP = new Set(['de','del','la','las','los','y','san','santa','da','do','le']);
+function _plantelLev(a, b) {
+  if (a === b) return 0;
+  const al = a.length, bl = b.length;
+  if (!al) return bl;
+  if (!bl) return al;
+  const dp = new Array(bl + 1);
+  for (let j = 0; j <= bl; j++) dp[j] = j;
+  for (let i = 1; i <= al; i++) {
+    let prev = dp[0];
+    dp[0] = i;
+    for (let j = 1; j <= bl; j++) {
+      const tmp = dp[j];
+      dp[j] = a[i-1] === b[j-1]
+        ? prev
+        : 1 + Math.min(prev, dp[j], dp[j-1]);
+      prev = tmp;
+    }
+  }
+  return dp[bl];
+}
+function _plantelStripAccents(s) {
+  return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+function _plantelLowerTxt(s) {
+  return _plantelStripAccents(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+function _plantelIsInitialTok(t) {
+  // Una sola letra ("F") o 2-3 letras todas mayúsculas ("JC", "JCM").
+  if (!t) return false;
+  if (t.length === 1) return true;
+  if (t.length >= 2 && t.length <= 3 && /^[A-ZÑ]+$/.test(t)) return true;
+  return false;
+}
+function _plantelExpandInitials(t) {
+  // "JC" → "j c"; "F" → "f"
+  return t.toLowerCase().split('').join(' ');
+}
+function _plantelParseName(raw) {
+  // Limpieza previa (preservamos mayúsculas para detectar formato).
+  let s = _plantelStripAccents(raw || '')
+    .replace(/\(\s*(c|vc|vcap|cap|capitan|capitán|C|VC|Cap|VCap)\s*\)/gi, '')
+    .replace(/[().]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-}
-function _plantelParseName(name) {
-  // Devuelve { lastTokens:Set<string>, firstInitial, firstFull }
-  // A partir de "Apellido1 Apellido2, Nombre" o "Apellido, N"
-  const parts = name.split(',');
-  const last  = _plantelNormTxt(parts[0] || '');
-  const first = _plantelNormTxt(parts.slice(1).join(','));
-  const lastTokens = new Set(last.split(/[^a-z0-9]+/).filter(Boolean));
+  let last = '', first = '';
+  if (s.includes(',')) {
+    const parts = s.split(',');
+    last  = (parts[0] || '').trim();
+    first = (parts.slice(1).join(',') || '').trim();
+  } else {
+    const raw_tokens = s.split(/\s+/).filter(Boolean);
+    if (!raw_tokens.length) {
+      last = ''; first = '';
+    } else if (raw_tokens.length === 1) {
+      last = raw_tokens[0]; first = '';
+    } else if (_plantelIsInitialTok(raw_tokens[raw_tokens.length - 1])) {
+      // "Gomez Cruz F", "Noel I", "G. Chiappe I", "Bergallo JC"
+      // → preferimos trailing-initial (caso más frecuente)
+      first = _plantelExpandInitials(raw_tokens[raw_tokens.length - 1]);
+      last  = raw_tokens.slice(0, -1).join(' ');
+    } else if (_plantelIsInitialTok(raw_tokens[0])) {
+      // "F Gomez Cruz", "JC Bergallo"
+      first = _plantelExpandInitials(raw_tokens[0]);
+      last  = raw_tokens.slice(1).join(' ');
+    } else {
+      // Detectar ALL-CAPS (≥ 4 letras) como apellido explícito.
+      const upperMask    = raw_tokens.map(t => t.length >= 4 && /^[A-ZÑ]+$/.test(t));
+      const upperIdxs    = upperMask.map((v,i) => v ? i : -1).filter(i => i >= 0);
+      const nonUpperIdxs = upperMask.map((v,i) => !v && raw_tokens[i].length >= 2 ? i : -1).filter(i => i >= 0);
+      if (upperIdxs.length && nonUpperIdxs.length) {
+        last  = upperIdxs.map(i => raw_tokens[i]).join(' ');
+        first = nonUpperIdxs.map(i => raw_tokens[i]).join(' ');
+      } else {
+        // Fallback: último token = apellido simple, resto = nombre (cubre
+        // "Ignacio Donmanovich" sin mayúsculas).
+        first = raw_tokens.slice(0, -1).join(' ');
+        last  = raw_tokens[raw_tokens.length - 1];
+      }
+    }
+  }
+  last  = _plantelLowerTxt(last);
+  first = _plantelLowerTxt(first);
+  const allTok = last.split(/[^a-z0-9]+/).filter(Boolean);
+  const distinctive = allTok.filter(t => !_PLANTEL_STOP.has(t));
+  const lastTokens = new Set(distinctive.length ? distinctive : allTok);
   return {
     lastTokens,
     firstInitial: first.charAt(0) || '',
     firstFull: first,
   };
 }
+function _plantelTokensSim(a, b) {
+  if (a === b) return true;
+  if (a.length < 4 || b.length < 4) return false;
+  if (Math.abs(a.length - b.length) > 2) return false;
+  const maxL = Math.max(a.length, b.length);
+  const limit = maxL >= 6 ? 2 : 1;
+  return _plantelLev(a, b) <= limit;
+}
+function _plantelFirstsOk(fa, fb) {
+  if (!fa || !fb) return true;
+  if (fa.length <= 1 || fb.length <= 1) return fa.charAt(0) === fb.charAt(0);
+  if (fa === fb) return true;
+  if (fa.startsWith(fb) || fb.startsWith(fa)) return true;
+  // Igualdad sin espacios: "j c" vs "jc"
+  const sa = fa.replace(/\s+/g, ''), sb = fb.replace(/\s+/g, '');
+  if (sa === sb) return true;
+  if (sa.startsWith(sb) || sb.startsWith(sa)) return true;
+  const L = Math.max(fa.length, fb.length);
+  if (_plantelLev(fa, fb) <= (L >= 7 ? 2 : 1)) return true;
+  const LS = Math.max(sa.length, sb.length);
+  return _plantelLev(sa, sb) <= (LS >= 7 ? 2 : 1);
+}
 function _plantelSameGroup(np, g) {
-  // Dos entradas son el mismo jugador si:
-  //  · Comparten la inicial del nombre (y los nombres completos no entran
-  //    en conflicto — uno es prefijo del otro o alguno es una sola letra).
-  //  · El conjunto de tokens del apellido de uno es subconjunto del otro
-  //    (maneja "Fleming" ⊂ "López Fleming", etc.).
-  if (np.firstInitial !== g.firstInitial) return false;
-  if (np.firstFull && g.firstFull && np.firstFull.length > 1 && g.firstFull.length > 1) {
-    if (!np.firstFull.startsWith(g.firstFull) && !g.firstFull.startsWith(np.firstFull)) {
-      return false;
-    }
+  if (np.firstInitial && g.firstInitial && np.firstInitial !== g.firstInitial) return false;
+  if (!_plantelFirstsOk(np.firstFull, g.firstFull)) return false;
+  const a = [...np.lastTokens], b = [...g.lastTokensUnion];
+  if (!a.length || !b.length) return false;
+  for (const ta of a) for (const tb of b) {
+    if (_plantelTokensSim(ta, tb)) return true;
   }
-  const a = np.lastTokens, b = g.lastTokensUnion;
-  if (!a.size || !b.size) return false;
-  const aArr = [...a], bArr = [...b];
-  const aSubB = aArr.every(t => b.has(t));
-  const bSubA = bArr.every(t => a.has(t));
-  return aSubB || bSubA;
+  return false;
 }
 
 function renderPlantel(divId) {
@@ -733,22 +822,23 @@ function renderPlantel(divId) {
     return;
   }
 
-  // Lookup partido → fecha, usando el fixture (JSON) ya cargado.
-  // Clave: "normHome||normAway" (y al revés) → número de fecha.
+  // Lookup partido → fecha: sólo matches ya jugados (played:true) y si hay
+  // varios (ida+vuelta) preservamos la fecha más temprana.
   const fxData = divData[divId] || {};
   const fechaLookup = {};
   Object.entries(fxData.matches || {}).forEach(([rnd, rd]) => {
     (rd.ms || []).forEach(m => {
+      if (!m.played) return;
+      const r = +rnd;
       const k1 = norm(m.home) + '||' + norm(m.away);
       const k2 = norm(m.away) + '||' + norm(m.home);
-      fechaLookup[k1] = +rnd;
-      fechaLookup[k2] = +rnd;
+      if (!(k1 in fechaLookup) || fechaLookup[k1] > r) fechaLookup[k1] = r;
+      if (!(k2 in fechaLookup) || fechaLookup[k2] > r) fechaLookup[k2] = r;
     });
   });
 
-  // Recolecta jugadores deduplicados con el conjunto de fechas en las
-  // que aparecieron en el titular.
-  const groups = [];  // array de grupos (cada uno = un jugador)
+  // Recolecta jugadores deduplicados con el conjunto de fechas jugadas.
+  const groups = [];
   Object.values(PARTIDOS[partidosKey]).forEach(partido => {
     let fecha = null;
     if (partido.local && partido.visitante) {
@@ -765,7 +855,6 @@ function renderPlantel(divId) {
         const name = m[2].trim();
         const np   = _plantelParseName(name);
 
-        // Buscar un grupo existente compatible.
         let target = null;
         for (const g of groups) {
           if (_plantelSameGroup(np, g)) { target = g; break; }
@@ -783,9 +872,8 @@ function renderPlantel(divId) {
         } else {
           np.lastTokens.forEach(t => target.lastTokensUnion.add(t));
           if (np.firstFull.length > target.firstFull.length) target.firstFull = np.firstFull;
-          // Preferimos el display más completo (más largo).
+          if (!target.firstInitial && np.firstInitial) target.firstInitial = np.firstInitial;
           if (name.length > target.display.length) target.display = name;
-          // Posición mostrada = la de la fecha más reciente.
           if (fecha && fecha >= target.lastFecha) {
             target.pos = pos;
             target.lastFecha = fecha;
