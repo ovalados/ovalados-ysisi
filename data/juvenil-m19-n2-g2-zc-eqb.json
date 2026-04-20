@@ -152,7 +152,7 @@
       "e": 0,
       "p": 1,
       "pf": 52,
-      "pc": 46,
+      "pc": 86,
       "bp": 1,
       "bf": 0,
       "form": [
@@ -167,7 +167,7 @@
       "g": 2,
       "e": 0,
       "p": 0,
-      "pf": 107,
+      "pf": 147,
       "pc": 14,
       "bp": 2,
       "bf": 0,
@@ -293,7 +293,7 @@
           "away": "Manuel Belgrano B",
           "played": true,
           "hs": 7,
-          "as": 32,
+          "as": 72,
           "bp_away": true
         }
       ]
@@ -614,7 +614,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T00:04:18.497902+00:00",
+  "lastUpdate": "2026-04-20T03:50:56.088802+00:00",
   "matchesScraped": 12,
   "championshipId": "2025218",
   "nombre": "M19 N2-G2-ZC-EqB"
