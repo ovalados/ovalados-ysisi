@@ -211,14 +211,14 @@
     },
     {
       "name": "San Patricio",
-      "pts": 9,
+      "pts": 10,
       "pj": 5,
       "g": 2,
       "e": 0,
       "p": 3,
       "pf": 142,
       "pc": 160,
-      "bp": 0,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
@@ -520,7 +520,8 @@
           "away": "Vicentinos",
           "played": true,
           "hs": 36,
-          "as": 24
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "Italiano",
@@ -1402,7 +1403,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T00:04:01.407955+00:00",
+  "lastUpdate": "2026-04-20T03:50:36.735075+00:00",
   "matchesScraped": 35,
   "championshipId": "2025178",
   "nombre": "Primera B"
