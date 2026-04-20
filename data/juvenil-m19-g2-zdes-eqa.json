@@ -98,14 +98,14 @@
     },
     {
       "name": "Belgrano Athl. C",
-      "pts": 9,
+      "pts": 10,
       "pj": 2,
       "g": 2,
       "e": 0,
       "p": 0,
       "pf": 109,
       "pc": 26,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -281,7 +281,8 @@
           "away": "Belgrano Athl. C",
           "played": true,
           "hs": 12,
-          "as": 31
+          "as": 31,
+          "bp_away": true
         }
       ]
     },
@@ -706,7 +707,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-20T13:57:54.802223+00:00",
+  "lastUpdate": "2026-04-20T15:23:50.042315+00:00",
   "matchesScraped": 14,
   "championshipId": "2025227",
   "nombre": "M19 G2-ZDes-EqA"
