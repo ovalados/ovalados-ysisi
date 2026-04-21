@@ -800,11 +800,26 @@ function _plantelFirstsOk(fa, fb) {
   return _plantelLev(sa, sb) <= (LS >= 7 ? 2 : 1);
 }
 function _plantelSameGroup(np, g) {
-  if (np.firstInitial && g.firstInitial && np.firstInitial !== g.firstInitial) return false;
-  if (!_plantelFirstsOk(np.firstFull, g.firstFull)) return false;
   const a = [...np.lastTokens], b = [...g.lastTokensUnion];
   if (!a.length || !b.length) return false;
-  for (const ta of a) for (const tb of b) {
+
+  // 1. Orientación normal: np.last ↔ g.last, np.first ↔ g.first
+  const normInitOk = !(np.firstInitial && g.firstInitial && np.firstInitial !== g.firstInitial);
+  if (normInitOk && _plantelFirstsOk(np.firstFull, g.firstFull)) {
+    for (const ta of a) for (const tb of b) {
+      if (_plantelTokensSim(ta, tb)) return true;
+    }
+  }
+
+  // 2. Orientación invertida: maneja "Apellido Nombre" sin coma (interpretado al revés).
+  // Cuando np fue parseado como last=Nombre, first=Apellido por error de formato.
+  const altLast = np.firstFull.split(/[^a-z0-9]+/).filter(t => t.length >= 2 && !_PLANTEL_STOP.has(t));
+  if (!altLast.length) return false;
+  const altFirst = a.filter(t => !_PLANTEL_STOP.has(t)).join(' ');
+  const altInit  = altFirst.charAt(0) || '';
+  if (altInit && g.firstInitial && altInit !== g.firstInitial) return false;
+  if (!_plantelFirstsOk(altFirst, g.firstFull)) return false;
+  for (const ta of altLast) for (const tb of b) {
     if (_plantelTokensSim(ta, tb)) return true;
   }
   return false;

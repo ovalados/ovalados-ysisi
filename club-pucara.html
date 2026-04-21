@@ -5,17 +5,17 @@
 <meta charset="UTF-8">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pucara Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados</title>
-<meta name="description" content="Posición, fixture, resultados y plantel de Pucara en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
+<title>Pucara Rugby — URBA Primera A, Intermedia y Pre-Intermedia 2026 | Ovalados</title>
+<meta name="description" content="Posición, fixture, resultados y plantel de Pucara en Primera A, Intermedia y Pre-Intermedia A/B/C/D URBA 2026.">
 <link rel="canonical" href="https://ovalados.com/club-pucara.html">
-<meta property="og:title" content="Pucara Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados">
-<meta property="og:description" content="Posición, fixture, resultados y plantel de Pucara en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
+<meta property="og:title" content="Pucara Rugby — URBA Primera A, Intermedia y Pre-Intermedia 2026 | Ovalados">
+<meta property="og:description" content="Posición, fixture, resultados y plantel de Pucara en Primera A, Intermedia y Pre-Intermedia A/B/C/D URBA 2026.">
 <meta property="og:image" content="https://ovalados.com/img/og-top14.jpg">
 <meta property="og:url" content="https://ovalados.com/club-pucara.html">
 <meta property="og:site_name" content="Ovalados">
 <meta property="og:type" content="website">
-<meta name="twitter:title" content="Pucara Rugby — URBA Top 14, Intermedia y Pre-Intermedia 2026 | Ovalados">
-<meta name="twitter:description" content="Posición, fixture, resultados y plantel de Pucara en Top 14, Intermedia y Pre-Intermedia A/B/C/D/E/F URBA 2026.">
+<meta name="twitter:title" content="Pucara Rugby — URBA Primera A, Intermedia y Pre-Intermedia 2026 | Ovalados">
+<meta name="twitter:description" content="Posición, fixture, resultados y plantel de Pucara en Primera A, Intermedia y Pre-Intermedia A/B/C/D URBA 2026.">
 <meta name="twitter:image" content="https://ovalados.com/img/og-top14.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/favicon.png" type="image/png">
@@ -266,7 +266,7 @@
 
 <div class="sub-header" style="display:flex">
   <a href="index.html" class="back-btn">← Torneos</a>
-  <span class="sub-label"><strong>URBA TOP 14</strong> · División Superior 2026
+  <span class="sub-label"><strong>URBA PRIMERA A</strong> · División Primera A 2026
     <span id="last-update" style="font-size:0.75rem;color:var(--muted);margin-left:12px"></span>
   </span>
 </div>
@@ -281,10 +281,10 @@
   <div class="div-tabs" id="div-tabs"></div>
 
   <section class="club-section">
-    <div class="club-section-title" id="pos-title">Posición en la tabla · <span id="pos-tit-div">Top 14</span></div>
+    <div class="club-section-title" id="pos-title">Posición en la tabla · <span id="pos-tit-div">Primera A</span></div>
     <div class="active-team-name" id="active-team-name"></div>
     <div id="pos-card"></div>
-    <a href="top14.html" class="see-full" id="see-full-link">Ver tabla completa →</a>
+    <a href="primera-a.html" class="see-full" id="see-full-link">Ver tabla completa →</a>
   </section>
 
   <section class="club-section">
@@ -303,7 +303,7 @@
   </section>
 
   <section class="club-section">
-    <div class="club-section-title">Plantel 2026 <span id="plantel-div-label" style="font-size:0.65rem;color:var(--muted);letter-spacing:1px">· TOP 14</span></div>
+    <div class="club-section-title">Plantel 2026 <span id="plantel-div-label" style="font-size:0.65rem;color:var(--muted);letter-spacing:1px">· PRIMERA A</span></div>
     <div id="plantel"></div>
   </section>
 
@@ -312,33 +312,29 @@
 <script>
 const CLUB_NAME = "Pucara";
 const CLUB_ALIASES = ["Pucará"];
-const DIVISIONS = [{id:"top14",label:"Top 14",url:"data/urba.json"},{id:"intermedia",label:"Intermedia",url:"data/urba-intermedia.json"},{id:"preinter-a",label:"Pre-Inter A",url:"data/urba-preinter-a.json"},{id:"preinter-b",label:"Pre-Inter B",url:"data/urba-preinter-b.json"},{id:"preinter-c",label:"Pre-Inter C",url:"data/urba-preinter-c.json"},{id:"preinter-d",label:"Pre-Inter D",url:"data/urba-preinter-d.json"},{id:"preinter-e",label:"Pre-Inter E",url:"data/urba-preinter-e.json"},{id:"preinter-f",label:"Pre-Inter F",url:"data/urba-preinter-f.json"}];
+const DIVISIONS = [{id:"primera-a",label:"Primera A",url:"data/urba-primera-a.json"},{id:"intermedia",label:"Intermedia",url:"data/primera-a-intermedia.json"},{id:"preinter-a",label:"Pre-Inter A",url:"data/primera-a-preinter-a.json"},{id:"preinter-b",label:"Pre-Inter B",url:"data/primera-a-preinter-b.json"},{id:"preinter-c",label:"Pre-Inter C",url:"data/primera-a-preinter-c.json"},{id:"preinter-d",label:"Pre-Inter D",url:"data/primera-a-preinter-d.json"}];
 // páginas por división (para el botón "Ver tabla completa")
 const DIV_PAGES = {
-  "top14":      "top14.html",
-  "intermedia": "intermedia.html",
-  "preinter-a": "preintermedia-a.html",
-  "preinter-b": "preintermedia-b.html",
-  "preinter-c": "preintermedia-c.html",
-  "preinter-d": "preintermedia-d.html",
-  "preinter-e": "preintermedia-e.html",
-  "preinter-f": "preintermedia-f.html"
+  "primera-a":  "primera-a.html",
+  "intermedia": "primera-a-intermedia.html",
+  "preinter-a": "primera-a-preintermedia-a.html",
+  "preinter-b": "primera-a-preintermedia-b.html",
+  "preinter-c": "primera-a-preintermedia-c.html",
+  "preinter-d": "primera-a-preintermedia-d.html"
 };
 // mapeo de div id (tabs) → clave en PARTIDOS (data.js) para mostrar el plantel correcto
 const DIV_TO_PARTIDOS = {
-  "top14":      "top14",
-  "intermedia": "intermedia",
-  "preinter-a": "preinter_a",
-  "preinter-b": "preinter_b",
-  "preinter-c": "preinter_c",
-  "preinter-d": "preinter_d",
-  "preinter-e": "preinter_e",
-  "preinter-f": "preinter_f"
+  "primera-a":  "primera_a",
+  "intermedia": "primera_a",
+  "preinter-a": "primera_a",
+  "preinter-b": "primera_a",
+  "preinter-c": "primera_a",
+  "preinter-d": "primera_a"
 };
 
 // cache de datos por división
 const divData = {};
-let activeDiv = "top14";
+let activeDiv = "primera-a";
 
 // ── NORMALIZACION Y MATCH ───────────────────────────────
 function norm(str) {
@@ -387,7 +383,7 @@ function loadAllDivisions() {
       });
   });
   // lastUpdate del top14
-  fetch('data/urba.json?v=' + Date.now())
+  fetch('data/urba-primera-a.json?v=' + Date.now())
     .then(r => r.json())
     .then(data => {
       if (data && data.lastUpdate) {
@@ -800,11 +796,26 @@ function _plantelFirstsOk(fa, fb) {
   return _plantelLev(sa, sb) <= (LS >= 7 ? 2 : 1);
 }
 function _plantelSameGroup(np, g) {
-  if (np.firstInitial && g.firstInitial && np.firstInitial !== g.firstInitial) return false;
-  if (!_plantelFirstsOk(np.firstFull, g.firstFull)) return false;
   const a = [...np.lastTokens], b = [...g.lastTokensUnion];
   if (!a.length || !b.length) return false;
-  for (const ta of a) for (const tb of b) {
+
+  // 1. Orientación normal: np.last ↔ g.last, np.first ↔ g.first
+  const normInitOk = !(np.firstInitial && g.firstInitial && np.firstInitial !== g.firstInitial);
+  if (normInitOk && _plantelFirstsOk(np.firstFull, g.firstFull)) {
+    for (const ta of a) for (const tb of b) {
+      if (_plantelTokensSim(ta, tb)) return true;
+    }
+  }
+
+  // 2. Orientación invertida: maneja "Apellido Nombre" sin coma (interpretado al revés).
+  // Cuando np fue parseado como last=Nombre, first=Apellido por error de formato.
+  const altLast = np.firstFull.split(/[^a-z0-9]+/).filter(t => t.length >= 2 && !_PLANTEL_STOP.has(t));
+  if (!altLast.length) return false;
+  const altFirst = a.filter(t => !_PLANTEL_STOP.has(t)).join(' ');
+  const altInit  = altFirst.charAt(0) || '';
+  if (altInit && g.firstInitial && altInit !== g.firstInitial) return false;
+  if (!_plantelFirstsOk(altFirst, g.firstFull)) return false;
+  for (const ta of altLast) for (const tb of b) {
     if (_plantelTokensSim(ta, tb)) return true;
   }
   return false;
