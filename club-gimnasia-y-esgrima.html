@@ -76,9 +76,8 @@
   color: var(--green);
 }
 .div-tab.disabled {
-  opacity: 0.35; cursor: not-allowed;
+  opacity: 0.35; cursor: not-allowed; pointer-events: none;
 }
-.div-tab.disabled:hover { color: var(--text-sec); border-color: var(--border); }
 .pos-card {
   display: flex; flex-wrap: wrap; gap: 0.75rem;
   padding: 1rem 1.1rem; background: var(--card);
@@ -414,9 +413,10 @@ function updateTabState(id) {
   else          btn.classList.remove('disabled');
 }
 function setDivision(id) {
+  const btn = document.getElementById('tab-' + id);
+  if (btn && btn.classList.contains('disabled')) return;
   activeDiv = id;
   document.querySelectorAll('.div-tab').forEach(b => b.classList.remove('active'));
-  const btn = document.getElementById('tab-' + id);
   if (btn) btn.classList.add('active');
   renderDivision(id);
   renderPlantel(id);
