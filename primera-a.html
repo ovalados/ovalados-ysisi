@@ -49,6 +49,28 @@
 .club-result-d { color:var(--gold); font-weight:700; }
 .team-name-clickable { cursor:pointer; transition:color 0.15s; }
 .team-name-clickable:hover { color:var(--green); }
+/* ── EVOLUCIÓN ─────────────────────────────────────────── */
+.evo-wrap { overflow-x:auto; border:1px solid var(--border); border-radius:8px; background:var(--dark2,#1a1a2e); }
+table.evo-table { border-collapse:separate; border-spacing:0; width:100%; font-family:'Barlow Condensed',sans-serif; font-size:0.85rem; }
+table.evo-table th, table.evo-table td { padding:6px 8px; text-align:center; white-space:nowrap; border-bottom:1px solid rgba(255,255,255,0.06); }
+table.evo-table thead th { position:sticky; top:0; background:var(--dark3,#0f0f1a); color:var(--muted); font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:1.5px; font-size:0.72rem; text-transform:uppercase; z-index:2; }
+table.evo-table th.evo-team-head, table.evo-table td.evo-team-cell { text-align:left; position:sticky; left:0; background:var(--dark2,#1a1a2e); z-index:1; min-width:160px; }
+table.evo-table thead th.evo-team-head { background:var(--dark3,#0f0f1a); z-index:3; }
+table.evo-table tr:hover td { background:rgba(0,184,92,0.05); }
+.evo-pos { display:inline-flex; align-items:center; justify-content:center; min-width:28px; font-weight:700; color:var(--text); }
+.evo-pos.top { color:var(--green); }
+.evo-pos.danger { color:#e67e22; }
+.evo-pos.relegation { color:#c0392b; }
+.evo-move { font-size:0.72rem; margin-left:4px; font-weight:700; }
+.evo-move.up { color:var(--green); }
+.evo-move.down { color:#c0392b; }
+.evo-move.same { color:var(--muted); }
+.evo-team-link { cursor:pointer; color:var(--text); transition:color 0.15s; font-weight:600; }
+.evo-team-link:hover { color:var(--green); }
+.evo-legend { display:flex; flex-wrap:wrap; gap:12px; margin-top:10px; font-family:'Barlow Condensed',sans-serif; font-size:0.8rem; color:var(--muted); }
+.evo-legend-item { display:inline-flex; align-items:center; gap:4px; }
+.evo-swatch { width:10px; height:10px; border-radius:2px; display:inline-block; }
+.evo-empty { padding:24px 16px; color:var(--muted); text-align:center; font-family:'Barlow Condensed',sans-serif; font-size:0.9rem; }
 </style>
 <style>
 /* ── MODAL FORMACIONES ────────────────────────────────── */
@@ -86,6 +108,7 @@
   <a href="index.html" class="logo">OVALADOS</a>
   <nav id="main-nav" style="display:flex">
     <button class="active" onclick="go('posiciones',this)">Posiciones</button>
+    <button onclick="go('evolucion',this)">Evolución</button>
     <button onclick="go('partidos',this)">Partidos</button>
     <button onclick="go('locvis',this)">Local/Visit.</button>
     <button onclick="go('calculadora',this)">Calculadora</button>
@@ -146,6 +169,18 @@
     <div class="legend">
       <div class="legend-item">BP = Bonus por 4+ tries</div>
       <div class="legend-item">BF = Bonus perdiendo por ≤7</div>
+    </div>
+  </section>
+
+  <section id="evolucion" class="section">
+    <div class="page-title">EVOLUCIÓN EN LA TABLA</div>
+    <div class="page-subtitle">Posición de cada club al cierre de cada fecha · URBA Primera A 2026</div>
+    <div id="evo-container"></div>
+    <div class="evo-legend">
+      <span class="evo-legend-item"><span class="evo-swatch" style="background:var(--green)"></span> Top 4</span>
+      <span class="evo-legend-item"><span class="evo-swatch" style="background:#e67e22"></span> Reclasificación</span>
+      <span class="evo-legend-item"><span class="evo-swatch" style="background:#c0392b"></span> Descenso</span>
+      <span class="evo-legend-item">▲ sube puestos &nbsp; ▼ baja puestos &nbsp; — mantiene</span>
     </div>
   </section>
 
@@ -387,6 +422,29 @@ function closeClubModal(event) {
   document.body.style.overflow = '';
 }
 
+// Slugifica el nombre del equipo igual que el generador de páginas de club.
+function slugifyTeam(name) {
+  return (name||'').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,'-')
+    .replace(/^-+|-+$/g,'');
+}
+
+// Overrides: nombres que no siguen la convención default.
+const CLUB_SLUG_OVERRIDES = {
+  "Universitario LP": "universitario-de-la-plata",
+  "Dep. Francesa": "deportiva-francesa"
+};
+
+function goToClub(teamName) {
+  const slug = CLUB_SLUG_OVERRIDES[teamName] || slugifyTeam(teamName);
+  if (slug) {
+    window.location.href = 'club-' + slug + '.html';
+    return;
+  }
+  openClubModal(teamName);
+}
+
 
 function go(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
@@ -396,6 +454,125 @@ function go(id, btn) {
   if (id === 'partidos') renderMatches(currentRound);
   if (id === 'locvis')   renderLocVis();
   if (id === 'calculadora') renderCalc();
+  if (id === 'evolucion') renderEvolucion();
+}
+
+// ── EVOLUCIÓN DE POSICIONES POR FECHA ───────────────────
+// Rejuega el fixture fecha por fecha y calcula el puesto de cada equipo
+// al cierre de cada fecha jugada, usando el mismo criterio que la tabla:
+// pts desc, luego diff (pf-pc) desc, luego pf desc.
+function computeEvolucion(teamsSeed, matchesObj) {
+  const stats = {};
+  const touch = (name) => {
+    if (!stats[name]) stats[name] = { name, pts:0, pj:0, pf:0, pc:0, bp:0, bf:0 };
+    return stats[name];
+  };
+  (teamsSeed||[]).forEach(t => touch(t.name));
+
+  const fechas = Object.keys(matchesObj||{}).map(Number).filter(n => !isNaN(n)).sort((a,b) => a-b);
+  const byTeam = {};
+  Object.keys(stats).forEach(n => byTeam[n] = []);
+  const playedFechas = [];
+
+  for (const fecha of fechas) {
+    const rd = matchesObj[fecha] || {};
+    let anyPlayed = false;
+    (rd.ms||[]).forEach(m => {
+      if (!m.played) return;
+      anyPlayed = true;
+      const h = touch(m.home), a = touch(m.away);
+      const hs = +m.hs||0, as = +m.as||0;
+      h.pj++; a.pj++;
+      h.pf += hs; h.pc += as;
+      a.pf += as; a.pc += hs;
+      if (hs > as)      h.pts += 4;
+      else if (hs < as) a.pts += 4;
+      else              { h.pts += 2; a.pts += 2; }
+      if (m.bp_home) { h.bp++; h.pts += 1; }
+      if (m.bp_away) { a.bp++; a.pts += 1; }
+      if (m.bf_home) { h.bf++; h.pts += 1; }
+      if (m.bf_away) { a.bf++; a.pts += 1; }
+    });
+    if (!anyPlayed) continue;
+    playedFechas.push(fecha);
+    const list = Object.values(stats).slice();
+    list.sort((a,b) =>
+      (b.pts - a.pts) ||
+      ((b.pf - b.pc) - (a.pf - a.pc)) ||
+      (b.pf - a.pf) ||
+      a.name.localeCompare(b.name, 'es')
+    );
+    list.forEach((t, i) => {
+      if (!byTeam[t.name]) byTeam[t.name] = [];
+      byTeam[t.name].push({ fecha, pos: i+1, pts: t.pts });
+    });
+  }
+  return { playedFechas, byTeam };
+}
+
+function renderEvolucion() {
+  const container = document.getElementById('evo-container');
+  if (!container) return;
+  if (!teams || !teams.length) {
+    container.innerHTML = '<div class="evo-empty">Cargando datos…</div>';
+    return;
+  }
+  const { playedFechas, byTeam } = computeEvolucion(teams, matches);
+  if (!playedFechas.length) {
+    container.innerHTML = '<div class="evo-empty">Aún no hay fechas jugadas en el torneo.</div>';
+    return;
+  }
+  const total = teams.length;
+  // Orden actual: por última posición registrada (o alfabético si no tiene).
+  const ordered = teams.slice().sort((a,b) => {
+    const la = (byTeam[a.name]||[]).slice(-1)[0];
+    const lb = (byTeam[b.name]||[]).slice(-1)[0];
+    const pa = la ? la.pos : total+1;
+    const pb = lb ? lb.pos : total+1;
+    return pa - pb || a.name.localeCompare(b.name, 'es');
+  });
+
+  const posClass = (p) => {
+    if (!p) return '';
+    if (p <= 4) return 'top';
+    if (p >= total - 1) return 'relegation';
+    if (p >= total - 3) return 'danger';
+    return '';
+  };
+
+  let html = '<div class="evo-wrap"><table class="evo-table"><thead><tr>';
+  html += '<th class="evo-team-head">Equipo</th>';
+  playedFechas.forEach(f => { html += `<th>F${f}</th>`; });
+  html += '</tr></thead><tbody>';
+
+  ordered.forEach(t => {
+    const hist = byTeam[t.name] || [];
+    const byFecha = {};
+    hist.forEach(h => { byFecha[h.fecha] = h; });
+    const safeName = t.name.replace(/'/g,"\\'");
+    html += `<tr><td class="evo-team-cell"><span class="evo-team-link" onclick="goToClub('${safeName}')">${t.name}</span></td>`;
+    let prev = null;
+    playedFechas.forEach(f => {
+      const cur = byFecha[f];
+      if (!cur) {
+        html += '<td><span class="evo-pos" style="color:var(--muted)">—</span></td>';
+        return;
+      }
+      let move = '';
+      if (prev != null) {
+        const d = prev - cur.pos; // positivo = subió
+        if (d > 0)      move = `<span class="evo-move up">▲${d}</span>`;
+        else if (d < 0) move = `<span class="evo-move down">▼${Math.abs(d)}</span>`;
+        else            move = `<span class="evo-move same">—</span>`;
+      }
+      html += `<td><span class="evo-pos ${posClass(cur.pos)}" title="${cur.pts} pts">${cur.pos}°</span>${move}</td>`;
+      prev = cur.pos;
+    });
+    html += '</tr>';
+  });
+
+  html += '</tbody></table></div>';
+  container.innerHTML = html;
 }
 
 function renderStandings() {
@@ -412,7 +589,7 @@ function renderStandings() {
     const formDots = (t.form||[]).map(f => `<div class="dot ${f==='w'?'w':f==='l'?'l':'d'}"></div>`).join('');
     return `<tr class="pos-${pos}">
       <td><span class="pos-num">${allZero ? '—' : pos}</span></td>
-      <td><span class="team-name team-name-clickable" onclick="openClubModal('${t.name}')">${t.name}</span></td>
+      <td><span class="team-name team-name-clickable" onclick="goToClub('${t.name.replace(/'/g,"\\'")}')">${t.name}</span></td>
       <td class="pts">${t.pts}</td><td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
       <td>${t.pf}</td><td>${t.pc}</td>
       <td style="color:${diff>0?'var(--green)':diff<0?'#c0392b':'var(--muted)'}">${diff>0?'+':''}${diff||0}</td>
