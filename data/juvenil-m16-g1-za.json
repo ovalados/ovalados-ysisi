@@ -34,18 +34,18 @@
     },
     {
       "name": "Albatros",
-      "pts": 2,
+      "pts": 0,
       "pj": 2,
       "g": 0,
-      "e": 1,
-      "p": 1,
+      "e": 0,
+      "p": 2,
       "pf": 0,
-      "pc": 72,
+      "pc": 80,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "d"
+        "l"
       ]
     },
     {
@@ -130,18 +130,18 @@
     },
     {
       "name": "Areco",
-      "pts": 7,
+      "pts": 9,
       "pj": 2,
-      "g": 1,
-      "e": 1,
+      "g": 2,
+      "e": 0,
       "p": 0,
-      "pf": 45,
+      "pf": 53,
       "pc": 13,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "w"
       ]
     },
     {
@@ -314,7 +314,7 @@
           "home": "Areco",
           "away": "Albatros",
           "played": true,
-          "hs": 0,
+          "hs": 8,
           "as": 0
         },
         {
@@ -703,7 +703,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-22T15:45:52.062316+00:00",
+  "lastUpdate": "2026-04-22T16:46:25.158543+00:00",
   "matchesScraped": 14,
   "championshipId": "2025251",
   "nombre": "M16 G1-ZA"
