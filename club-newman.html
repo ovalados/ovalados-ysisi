@@ -459,8 +459,11 @@ function renderDivision(id) {
   const atn = document.getElementById('active-team-name');
   if (matchingTeams.length > 1) {
     atn.innerHTML = matchingTeams.map(t =>
-      `<button class="team-select-btn ${t.name === teamName ? 'active' : ''}" onclick="selectTeam('${id}','${t.name.replace(/'/g,"\\'")}'">${t.name}</button>`
+      `<button class="team-select-btn ${t.name === teamName ? 'active' : ''}">${t.name}</button>`
     ).join('');
+    atn.querySelectorAll('.team-select-btn').forEach((btn, i) => {
+      btn.addEventListener('click', () => selectTeam(id, matchingTeams[i].name));
+    });
   } else if (teamName && norm(teamName) !== norm(CLUB_NAME)) {
     atn.innerHTML = 'Equipo en esta división: <strong>' + teamName + '</strong>';
   } else {
@@ -484,7 +487,7 @@ function renderPosicion(teams, teamName) {
     return;
   }
   const allZero = teams.every(t => (t.pts||0) === 0 && (t.pj||0) === 0);
-  const sorted = [...teams].sort((a, b) => {
+  const sorted = [...teams].filter(t => t.name !== 'Bye').sort((a, b) => {
     if (allZero) return a.name.localeCompare(b.name, 'es');
     return (b.pts||0) - (a.pts||0) || ((b.pf||0)-(b.pc||0)) - ((a.pf||0)-(a.pc||0));
   });
