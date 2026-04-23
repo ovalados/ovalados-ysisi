@@ -195,7 +195,7 @@ function renderStandings() {
     const formDots = (t.form||[]).map(f => `<div class="dot ${f==='w'?'w':f==='l'?'l':'d'}"></div>`).join('');
     return `<tr class="pos-${pos}">
       <td><span class="pos-num">${allZero ? '—' : pos}</span></td>
-      <td><span class="team-name">${t.name}</span></td>
+      <td><span class="team-name team-name-clickable" onclick="goToClub('${t.name.replace(/'/g,"\\'")}')">${t.name}</span></td>
       <td class="pts">${t.pts}</td><td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
       <td>${t.pf}</td><td>${t.pc}</td>
       <td style="color:${diff>0?'var(--green)':diff<0?'#c0392b':'var(--muted)'}">${diff>0?'+':''}${diff||0}</td>
@@ -416,6 +416,20 @@ function renderProjected() {
 function calcularProyeccion() { renderProjected(); }
 function resetCalc() { Object.keys(simState).forEach(k=>delete simState[k]); renderCalc(); }
 
+function slugifyTeam(name) {
+  return (name||'').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,'-')
+    .replace(/^-+|-+$/g,'');
+}
+const CLUB_SLUG_OVERRIDES = {
+  "Universitario LP": "universitario-de-la-plata",
+  "Dep. Francesa": "deportiva-francesa"
+};
+function goToClub(teamName) {
+  const slug = CLUB_SLUG_OVERRIDES[teamName] || slugifyTeam(teamName);
+  if (slug) { window.location.href = 'club-' + slug + '.html'; }
+}
 
 function syncData() {
   fetch('data/primera-a-intermedia.json?v=' + Date.now())

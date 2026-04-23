@@ -221,6 +221,8 @@
   margin: 0 0 0.5rem;
 }
 .active-team-name strong { color: var(--green); }
+.team-select-btn { font-family: 'Barlow Condensed', sans-serif; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.5px; padding: 0.3rem 0.7rem; border-radius: 4px; border: 1px solid var(--border); background: var(--dark3, #111); color: var(--muted); cursor: pointer; transition: all 0.15s; margin-right: 0.4rem; margin-bottom: 0.4rem; }
+.team-select-btn.active { background: rgba(0,184,92,0.15); border-color: rgba(0,184,92,0.5); color: var(--green); }
 /* Evolución en la tabla (mini chart) */
 .pos-history-wrap {
   background: var(--card); border: 1px solid var(--border);
@@ -363,6 +365,9 @@ function teamNameInDiv(teams) {
   const hit = teams.find(t => matchesClub(t.name));
   return hit ? hit.name : null;
 }
+function teamsInDiv(teams) {
+  return teams.filter(t => matchesClub(t.name));
+}
 
 // ── FETCH PARALELO DE TODAS LAS DIVISIONES ──────────────
 function loadAllDivisions() {
@@ -419,6 +424,11 @@ function setDivision(id) {
   renderDivision(id);
   renderPlantel(id);
 }
+function selectTeam(divId, teamName) {
+  selectedTeam[divId] = teamName;
+  renderDivision(divId);
+  renderPlantel(divId);
+}
 
 // ── RENDER DE UNA DIVISION ──────────────────────────────
 function renderDivision(id) {
@@ -431,10 +441,18 @@ function renderDivision(id) {
   const data = divData[id] || { teams: [], matches: {} };
   const teams   = data.teams   || [];
   const matches = data.matches || {};
-  const teamName = teamNameInDiv(teams);
+  const matchingTeams = teamsInDiv(teams);
+  if (!selectedTeam[id] || !matchingTeams.some(t => t.name === selectedTeam[id])) {
+    selectedTeam[id] = matchingTeams.length ? matchingTeams[0].name : null;
+  }
+  const teamName = selectedTeam[id];
 
   const atn = document.getElementById('active-team-name');
-  if (teamName && norm(teamName) !== norm(CLUB_NAME)) {
+  if (matchingTeams.length > 1) {
+    atn.innerHTML = matchingTeams.map(t =>
+      `<button class="team-select-btn ${t.name === teamName ? 'active' : ''}" onclick="selectTeam('${id}','${t.name.replace(/'/g,"\\'")}'">${t.name}</button>`
+    ).join('');
+  } else if (teamName && norm(teamName) !== norm(CLUB_NAME)) {
     atn.innerHTML = 'Equipo en esta división: <strong>' + teamName + '</strong>';
   } else {
     atn.textContent = '';
@@ -512,6 +530,7 @@ function renderPartidos(matches, teamName) {
       const homeIsClub = m.home === teamName;
       const awayIsClub = m.away === teamName;
       if (!homeIsClub && !awayIsClub) return;
+      if (m.home === 'Bye' || m.away === 'Bye') return;
       const rival     = homeIsClub ? m.away : m.home;
       const condicion = homeIsClub ? 'Local' : 'Visitante';
       if (m.played) {
@@ -577,6 +596,7 @@ function computePosHistory(matches, teamName, seedTeams) {
     let anyPlayed = false;
     (rd.ms || []).forEach(m => {
       if (!m.played) return;
+      if (m.home === 'Bye' || m.away === 'Bye') return;
       anyPlayed = true;
       const h = touch(m.home), a = touch(m.away);
       const hs = +m.hs || 0, as = +m.as || 0;

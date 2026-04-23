@@ -5,16 +5,16 @@
 <meta charset="UTF-8">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Torneo de Planteles Primera A URBA 2026 — Ovalados</title>
-<meta name="description" content="Tabla del Torneo de Planteles Primera A URBA 2026. Puntos acumulados por club en Superior, Intermedia, Pre-A y Pre-B.">
+<title>Planteles Custom — Primera A URBA 2026 — Ovalados</title>
+<meta name="description" content="Armá tu propia tabla de planteles Primera A URBA 2026. Elegí clubes y categorías para comparar puntos acumulados.">
 <link rel="canonical" href="https://ovalados.com/planteles-primera-a.html">
-<meta property="og:title" content="Torneo de Planteles Primera A URBA 2026 — Ovalados">
+<meta property="og:title" content="Planteles Custom — Primera A URBA 2026 — Ovalados">
 <meta property="og:description" content="Puntos acumulados por club en Superior, Intermedia, Pre-A y Pre-B — Primera A.">
 <meta property="og:image" content="https://ovalados.com/img/og-default.jpg">
 <meta property="og:url" content="https://ovalados.com/planteles-primera-a.html">
 <meta property="og:site_name" content="Ovalados">
 <meta property="og:type" content="website">
-<meta name="twitter:title" content="Torneo de Planteles Primera A URBA 2026 — Ovalados">
+<meta name="twitter:title" content="Planteles Custom — Primera A URBA 2026 — Ovalados">
 <meta name="twitter:description" content="Puntos acumulados por club en Superior, Intermedia, Pre-A y Pre-B — Primera A.">
 <meta name="twitter:image" content="https://ovalados.com/img/og-default.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -24,6 +24,72 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css?v=23">
+<style>
+.filter-block {
+  background: var(--dark2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.filter-block-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.filter-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--dark3);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn.active {
+  background: rgba(0,184,92,0.15);
+  border-color: rgba(0,184,92,0.5);
+  color: var(--green);
+}
+.filter-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.filter-action-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.filter-action-btn:hover { color: var(--text); border-color: var(--text); }
+.empty-state {
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--muted);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+</style>
 </head>
 <body>
 
@@ -33,85 +99,171 @@
 
 <div class="sub-header" style="display:flex">
   <a href="index.html" class="back-btn">← Torneos</a>
-  <span class="sub-label"><strong>TORNEO DE PLANTELES</strong> · Primera A · 2026</span>
+  <span class="sub-label"><strong>PLANTELES CUSTOM</strong> · Primera A · 2026</span>
 </div>
 
 <main>
-  <div class="page-title">TORNEO DE PLANTELES</div>
-  <div class="page-subtitle">Puntos acumulados por club · Superior + Intermedia + Pre-A + Pre-B · Primera A 2026</div>
+  <div class="page-title">ARMÁ TU TABLA</div>
+  <div class="page-subtitle">Elegí clubes y categorías para comparar puntos acumulados · Primera A 2026</div>
+
+  <div class="filter-block">
+    <div class="filter-block-label">Clubes</div>
+    <div class="filter-buttons" id="club-btns"></div>
+    <div class="filter-actions">
+      <button class="filter-action-btn" onclick="selectAll('clubs')">Todos</button>
+      <button class="filter-action-btn" onclick="clearAll('clubs')">Ninguno</button>
+    </div>
+  </div>
+
+  <div class="filter-block">
+    <div class="filter-block-label">Categorías</div>
+    <div class="filter-buttons" id="div-btns"></div>
+    <div class="filter-actions">
+      <button class="filter-action-btn" onclick="selectAll('divs')">Todas</button>
+      <button class="filter-action-btn" onclick="clearAll('divs')">Ninguna</button>
+    </div>
+  </div>
+
   <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th style="width:40px">#</th>
-          <th style="text-align:left">CLUB</th>
-          <th>TOTAL</th>
-          <th>SUP</th>
-          <th>INT</th>
-          <th>PRE A</th>
-          <th>PRE B</th>
-        </tr>
-      </thead>
-      <tbody id="planteles-body">
-        <tr><td colspan="7" style="text-align:center;color:var(--muted);padding:2rem">Cargando...</td></tr>
-      </tbody>
+    <table id="result-table" style="display:none">
+      <thead id="result-thead"></thead>
+      <tbody id="result-body"></tbody>
     </table>
+    <div class="empty-state" id="empty-state">Seleccioná al menos un club y una categoría</div>
   </div>
 </main>
 
 <script>
-function loadPlanteles() {
-  const tbody = document.getElementById('planteles-body');
-  const divs = [
-    { key:'sup',  url:'data/urba-primera-a.json',        sfx:null },
-    { key:'int',  url:'data/primera-a-intermedia.json',  sfx:null },
-    { key:'prea', url:'data/primera-a-preinter-a.json',  sfx:null },
-    { key:'preb', url:'data/primera-a-preinter-b.json',  sfx:' B' },
-  ];
-  Promise.all(divs.map(d =>
-    fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
-  )).then(results => {
-    const supTeams = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
-    const tally = {};
-    supTeams.forEach(c => tally[c] = { sup:0, int:0, prea:0, preb:0 });
-    divs.forEach((d, i) => {
-      const data = results[i];
-      const pts = {};
-      (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
-      Object.values(data.matches || {}).forEach(rd => {
-        (rd.ms || []).forEach(m => {
-          if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
-          if (!(m.home in pts) || !(m.away in pts)) return;
-          const diff = m.hs - m.as;
-          if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
-          else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
-          else               { pts[m.home] += 2; pts[m.away] += 2; }
-          if (m.bp_home) pts[m.home]++;
-          if (m.bp_away) pts[m.away]++;
-        });
-      });
-      Object.entries(pts).forEach(([name, p]) => {
-        const base = d.sfx && name.endsWith(d.sfx) ? name.slice(0, -d.sfx.length).trim() : name;
-        if (tally[base]) tally[base][d.key] += p;
-      });
+const DIVS = [
+  { key:'sup',  label:'Superior',  url:'data/urba-primera-a.json',       sfx:null },
+  { key:'int',  label:'Intermedia',url:'data/primera-a-intermedia.json',  sfx:null },
+  { key:'prea', label:'Pre-A',     url:'data/primera-a-preinter-a.json',  sfx:null },
+  { key:'preb', label:'Pre-B',     url:'data/primera-a-preinter-b.json',  sfx:' B' },
+];
+
+const tally = {};
+let clubOrder = [];
+
+const selClubs = new Set();
+const selDivs  = new Set(DIVS.map(d => d.key));
+
+function calcPts(data, sfx) {
+  const pts = {};
+  (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
+  Object.values(data.matches || {}).forEach(rd => {
+    (rd.ms || []).forEach(m => {
+      if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
+      if (!(m.home in pts) || !(m.away in pts)) return;
+      const diff = m.hs - m.as;
+      if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
+      else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
+      else               { pts[m.home] += 2; pts[m.away] += 2; }
+      if (m.bp_home) pts[m.home]++;
+      if (m.bp_away) pts[m.away]++;
     });
-    const rows = supTeams.map(c => {
-      const t = tally[c];
-      return { club:c, sup:t.sup, int:t.int, prea:t.prea, preb:t.preb,
-               total: t.sup+t.int+t.prea+t.preb };
-    }).sort((a,b) => b.total - a.total);
-    tbody.innerHTML = rows.map((r,i) => `<tr>
-      <td><span class="pos-num">${i+1}</span></td>
-      <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
-      <td style="color:var(--green);font-weight:700">${r.total}</td>
-      <td>${r.sup}</td><td>${r.int}</td><td>${r.prea}</td><td>${r.preb}</td>
-    </tr>`).join('');
-  }).catch(() => {
-    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--muted)">Error al cargar datos</td></tr>';
   });
+  const base = {};
+  Object.entries(pts).forEach(([name, p]) => {
+    const b = sfx && name.endsWith(sfx) ? name.slice(0, -sfx.length).trim() : name;
+    base[b] = (base[b] || 0) + p;
+  });
+  return base;
 }
 
-loadPlanteles();
+function renderClubBtns() {
+  document.getElementById('club-btns').innerHTML = clubOrder.map(c => `
+    <button class="filter-btn ${selClubs.has(c)?'active':''}" onclick="toggleClub('${c.replace(/'/g,"\\'")}')">
+      ${c}
+    </button>`).join('');
+}
+
+function renderDivBtns() {
+  document.getElementById('div-btns').innerHTML = DIVS.map(d => `
+    <button class="filter-btn ${selDivs.has(d.key)?'active':''}" onclick="toggleDiv('${d.key}')">
+      ${d.label}
+    </button>`).join('');
+}
+
+function renderTable() {
+  const activeDivs = DIVS.filter(d => selDivs.has(d.key));
+  const activeClubs = clubOrder.filter(c => selClubs.has(c));
+  const table = document.getElementById('result-table');
+  const empty = document.getElementById('empty-state');
+
+  if (!activeDivs.length || !activeClubs.length) {
+    table.style.display = 'none';
+    empty.style.display = 'block';
+    empty.textContent = !activeClubs.length ? 'Seleccioná al menos un club' : 'Seleccioná al menos una categoría';
+    return;
+  }
+
+  table.style.display = '';
+  empty.style.display = 'none';
+
+  document.getElementById('result-thead').innerHTML = `<tr>
+    <th style="width:40px">#</th>
+    <th style="text-align:left">CLUB</th>
+    <th>TOTAL</th>
+    ${activeDivs.map(d => `<th>${d.label.toUpperCase()}</th>`).join('')}
+  </tr>`;
+
+  const rows = activeClubs.map(c => {
+    const divPts = {};
+    activeDivs.forEach(d => { divPts[d.key] = tally[c]?.[d.key] || 0; });
+    const total = Object.values(divPts).reduce((s,v)=>s+v,0);
+    return { club:c, total, divPts };
+  }).sort((a,b) => b.total - a.total);
+
+  document.getElementById('result-body').innerHTML = rows.map((r,i) => `<tr>
+    <td><span class="pos-num">${i+1}</span></td>
+    <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
+    <td style="color:var(--green);font-weight:700">${r.total}</td>
+    ${activeDivs.map(d => `<td>${r.divPts[d.key]}</td>`).join('')}
+  </tr>`).join('');
+}
+
+function toggleClub(c) {
+  if (selClubs.has(c)) selClubs.delete(c); else selClubs.add(c);
+  renderClubBtns();
+  renderTable();
+}
+
+function toggleDiv(k) {
+  if (selDivs.has(k)) selDivs.delete(k); else selDivs.add(k);
+  renderDivBtns();
+  renderTable();
+}
+
+function selectAll(type) {
+  if (type === 'clubs') { clubOrder.forEach(c => selClubs.add(c)); renderClubBtns(); }
+  else { DIVS.forEach(d => selDivs.add(d.key)); renderDivBtns(); }
+  renderTable();
+}
+
+function clearAll(type) {
+  if (type === 'clubs') { selClubs.clear(); renderClubBtns(); }
+  else { selDivs.clear(); renderDivBtns(); }
+  renderTable();
+}
+
+Promise.all(DIVS.map(d =>
+  fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
+)).then(results => {
+  clubOrder = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
+  clubOrder.forEach(c => { tally[c] = {}; DIVS.forEach(d => tally[c][d.key] = 0); });
+
+  DIVS.forEach((d, i) => {
+    const pts = calcPts(results[i], d.sfx);
+    Object.entries(pts).forEach(([base, p]) => {
+      if (tally[base]) tally[base][d.key] += p;
+    });
+  });
+
+  clubOrder.forEach(c => selClubs.add(c));
+  renderClubBtns();
+  renderDivBtns();
+  renderTable();
+});
 </script>
 
 </body>
