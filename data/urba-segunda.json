@@ -211,14 +211,14 @@
     },
     {
       "name": "Vicente Lopez",
-      "pts": 4,
+      "pts": 5,
       "pj": 5,
       "g": 1,
       "e": 0,
       "p": 4,
       "pf": 118,
       "pc": 202,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
@@ -521,6 +521,7 @@
           "played": true,
           "hs": 41,
           "as": 35,
+          "bp_home": true,
           "bf_away": true
         },
         {
@@ -1403,7 +1404,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-24T17:40:30.440124+00:00",
+  "lastUpdate": "2026-04-24T18:31:45.408223+00:00",
   "matchesScraped": 35,
   "championshipId": "2025180",
   "nombre": "Segunda Superior"
