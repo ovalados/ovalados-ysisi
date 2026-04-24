@@ -99,6 +99,54 @@ table.evo-table tr:hover td { background:rgba(0,184,92,0.05); }
 .match-formacion-btn { margin-top: 0.5rem; padding: 0.35rem 0.75rem; background: rgba(0,184,92,0.1); border: 1px solid rgba(0,184,92,0.3); border-radius: 4px; color: var(--green); font-family: 'Barlow Condensed', sans-serif; font-size: 0.82rem; cursor: pointer; transition: all 0.15s; width: 100%; }
 .match-formacion-btn:hover { background: rgba(0,184,92,0.2); }
 @media(max-width:600px) { .formacion-grid { grid-template-columns: 1fr; } }
+.filter-block {
+  background: var(--dark2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.filter-block-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.filter-buttons { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.filter-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--dark3);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn.active {
+  background: rgba(0,184,92,0.15);
+  border-color: rgba(0,184,92,0.5);
+  color: var(--green);
+}
+.filter-actions { display: flex; gap: 0.5rem; margin-top: 0.6rem; }
+.filter-action-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.filter-action-btn:hover { color: var(--text); border-color: var(--text); }
 </style>
 <script src="data.js"></script>
 </head>
@@ -112,7 +160,7 @@ table.evo-table tr:hover td { background:rgba(0,184,92,0.05); }
     <button onclick="go('partidos',this)">Partidos</button>
     <button onclick="go('locvis',this)">Local/Visit.</button>
     <button onclick="go('calculadora',this)">Calculadora</button>
-    <button onclick="window.location.href='planteles-primera-b.html'">Planteles</button>
+    <button onclick="go('planteles',this)">Planteles</button>
   </nav>
 </header>
 
@@ -244,6 +292,37 @@ table.evo-table tr:hover td { background:rgba(0,184,92,0.05); }
           <div id="projected-table"></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="planteles" class="section">
+    <div class="page-title">PLANTELES CUSTOM</div>
+    <div class="page-subtitle">Elegí clubes y categorías para comparar puntos acumulados</div>
+
+    <div class="filter-block">
+      <div class="filter-block-label">Clubes</div>
+      <div class="filter-buttons" id="pl-club-btns"></div>
+      <div class="filter-actions">
+        <button class="filter-action-btn" onclick="selectAll('clubs')">Todos</button>
+        <button class="filter-action-btn" onclick="clearAll('clubs')">Ninguno</button>
+      </div>
+    </div>
+
+    <div class="filter-block">
+      <div class="filter-block-label">Categorías</div>
+      <div class="filter-buttons" id="pl-div-btns"></div>
+      <div class="filter-actions">
+        <button class="filter-action-btn" onclick="selectAll('divs')">Todas</button>
+        <button class="filter-action-btn" onclick="clearAll('divs')">Ninguna</button>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="pl-result-table" style="display:none">
+        <thead id="pl-result-thead"></thead>
+        <tbody id="pl-result-body"></tbody>
+      </table>
+      <div class="empty-state" id="pl-empty-state">Seleccioná al menos un club y una categoría</div>
     </div>
   </section>
 
@@ -455,6 +534,7 @@ function go(id, btn) {
   if (id === 'locvis')   renderLocVis();
   if (id === 'calculadora') renderCalc();
   if (id === 'evolucion') renderEvolucion();
+  if (id === 'planteles') initPlanteles();
 }
 
 // ── EVOLUCIÓN DE POSICIONES POR FECHA ───────────────────
@@ -806,6 +886,121 @@ function renderProjected() {
 function calcularProyeccion() { renderProjected(); }
 function resetCalc() { Object.keys(simState).forEach(k=>delete simState[k]); renderCalc(); }
 
+
+// ── PLANTELES CUSTOM ────────────────────────────────────
+const PL_DIVS_A = [  // Primera B
+  { key:'sup',  label:'Superior',  url:'data/urba-primera-b.json',      sfx:null },
+  { key:'int',  label:'Intermedia',url:'data/primera-b-intermedia.json', sfx:null },
+  { key:'prea', label:'Pre-A',     url:'data/primera-b-preinter-a.json', sfx:null },
+  { key:'preb', label:'Pre-B',     url:'data/primera-b-preinter-b.json', sfx:' B' },
+  { key:'prec', label:'Pre-C',     url:'data/primera-b-preinter-c.json', sfx:' C' },
+
+];
+let pl_tally = {}, pl_clubOrder = [], pl_loaded = false;
+const pl_selClubs = new Set(), pl_selDivs = new Set(PL_DIVS_A.map(d => d.key));
+
+function pl_calcPts(data, sfx) {
+  const pts = {};
+  (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
+  Object.values(data.matches || {}).forEach(rd => {
+    (rd.ms || []).forEach(m => {
+      if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
+      if (!(m.home in pts) || !(m.away in pts)) return;
+      const diff = m.hs - m.as;
+      if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
+      else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
+      else               { pts[m.home] += 2; pts[m.away] += 2; }
+      if (m.bp_home) pts[m.home]++;
+      if (m.bp_away) pts[m.away]++;
+    });
+  });
+  const base = {};
+  Object.entries(pts).forEach(([name, p]) => {
+    const b = sfx && name.endsWith(sfx) ? name.slice(0, -sfx.length).trim() : name;
+    base[b] = (base[b] || 0) + p;
+  });
+  return base;
+}
+
+function renderClubBtns() {
+  document.getElementById('pl-club-btns').innerHTML = pl_clubOrder.map(c =>
+    `<button class="filter-btn ${pl_selClubs.has(c)?'active':''}" onclick="toggleClub('${c.replace(/'/g,"\'")}')">${c}</button>`
+  ).join('');
+}
+
+function renderDivBtns() {
+  document.getElementById('pl-div-btns').innerHTML = PL_DIVS_A.map(d =>
+    `<button class="filter-btn ${pl_selDivs.has(d.key)?'active':''}" onclick="toggleDiv('${d.key}')">${d.label}</button>`
+  ).join('');
+}
+
+function renderTable() {
+  const activeDivs  = PL_DIVS_A.filter(d => pl_selDivs.has(d.key));
+  const activeClubs = pl_clubOrder.filter(c => pl_selClubs.has(c));
+  const table = document.getElementById('pl-result-table');
+  const empty = document.getElementById('pl-empty-state');
+  if (!activeDivs.length || !activeClubs.length) {
+    table.style.display = 'none';
+    empty.style.display = 'block';
+    empty.textContent = !activeClubs.length ? 'Seleccioná al menos un club' : 'Seleccioná al menos una categoría';
+    return;
+  }
+  table.style.display = '';
+  empty.style.display = 'none';
+  document.getElementById('pl-result-thead').innerHTML = `<tr>
+    <th style="width:40px">#</th>
+    <th style="text-align:left">CLUB</th>
+    <th>TOTAL</th>
+    ${activeDivs.map(d => `<th>${d.label.toUpperCase()}</th>`).join('')}
+  </tr>`;
+  const rows = activeClubs.map(c => {
+    const divPts = {};
+    activeDivs.forEach(d => { divPts[d.key] = pl_tally[c]?.[d.key] || 0; });
+    const total = Object.values(divPts).reduce((s,v)=>s+v,0);
+    return { club:c, total, divPts };
+  }).sort((a,b) => b.total - a.total);
+  document.getElementById('pl-result-body').innerHTML = rows.map((r,i) => `<tr>
+    <td><span class="pos-num">${i+1}</span></td>
+    <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
+    <td style="color:var(--green);font-weight:700">${r.total}</td>
+    ${activeDivs.map(d => `<td>${r.divPts[d.key]}</td>`).join('')}
+  </tr>`).join('');
+}
+
+function toggleClub(c) {
+  if (pl_selClubs.has(c)) pl_selClubs.delete(c); else pl_selClubs.add(c);
+  renderClubBtns(); renderTable();
+}
+function toggleDiv(k) {
+  if (pl_selDivs.has(k)) pl_selDivs.delete(k); else pl_selDivs.add(k);
+  renderDivBtns(); renderTable();
+}
+function selectAll(type) {
+  if (type === 'clubs') { pl_clubOrder.forEach(c => pl_selClubs.add(c)); renderClubBtns(); }
+  else { PL_DIVS_A.forEach(d => pl_selDivs.add(d.key)); renderDivBtns(); }
+  renderTable();
+}
+function clearAll(type) {
+  if (type === 'clubs') { pl_selClubs.clear(); renderClubBtns(); }
+  else { pl_selDivs.clear(); renderDivBtns(); }
+  renderTable();
+}
+function initPlanteles() {
+  if (pl_loaded) { renderClubBtns(); renderDivBtns(); renderTable(); return; }
+  pl_loaded = true;
+  Promise.all(PL_DIVS_A.map(d =>
+    fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
+  )).then(results => {
+    pl_clubOrder = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
+    pl_clubOrder.forEach(c => { pl_tally[c] = {}; PL_DIVS_A.forEach(d => pl_tally[c][d.key] = 0); });
+    PL_DIVS_A.forEach((d, i) => {
+      const pts = pl_calcPts(results[i], d.sfx);
+      Object.entries(pts).forEach(([base, p]) => { if (pl_tally[base]) pl_tally[base][d.key] += p; });
+    });
+    pl_clubOrder.forEach(c => pl_selClubs.add(c));
+    renderClubBtns(); renderDivBtns(); renderTable();
+  });
+}
 
 function syncData() {
   fetch('data/urba-primera-b.json?v=' + Date.now())
