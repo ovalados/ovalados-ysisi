@@ -22,20 +22,20 @@
     {
       "name": "Argentino C",
       "pts": 9,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 113,
-      "pc": 112,
+      "p": 4,
+      "pf": 140,
+      "pc": 155,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
+        "l",
+        "l",
         "w",
-        "l",
-        "l",
-        "l",
-        "w"
+        "l"
       ]
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "name": "San Martin C",
-      "pts": 19,
-      "pj": 5,
-      "g": 3,
+      "pts": 23,
+      "pj": 6,
+      "g": 4,
       "e": 2,
       "p": 0,
-      "pf": 117,
-      "pc": 55,
+      "pf": 160,
+      "pc": 82,
       "bp": 3,
       "bf": 0,
       "form": [
         "w",
+        "d",
+        "d",
         "w",
-        "d",
-        "d",
         "w"
       ]
     },
@@ -464,7 +464,9 @@
         {
           "home": "San Martin C",
           "away": "Argentino C",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 27
         },
         {
           "home": "San Martin D",
@@ -1304,8 +1306,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T21:46:40.628988+00:00",
-  "matchesScraped": 41,
+  "lastUpdate": "2026-04-25T22:21:22.162381+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025204",
   "nombre": "1B Pre-Inter C"
 }
