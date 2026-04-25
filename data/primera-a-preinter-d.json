@@ -3,17 +3,17 @@
     {
       "name": "Hurling D",
       "pts": 2,
-      "pj": 5,
+      "pj": 6,
       "g": 0,
       "e": 1,
-      "p": 4,
-      "pf": 61,
-      "pc": 210,
+      "p": 5,
+      "pf": 69,
+      "pc": 240,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l",
         "d",
+        "l",
         "l",
         "l",
         "l"
@@ -21,33 +21,33 @@
     },
     {
       "name": "Curupayti E",
-      "pts": 10,
-      "pj": 5,
-      "g": 2,
+      "pts": 14,
+      "pj": 6,
+      "g": 3,
       "e": 0,
       "p": 3,
-      "pf": 133,
-      "pc": 131,
+      "pf": 163,
+      "pc": 150,
       "bp": 1,
       "bf": 1,
       "form": [
+        "l",
+        "l",
+        "l",
         "w",
-        "l",
-        "l",
-        "l",
         "w"
       ]
     },
     {
       "name": "Curupayti D",
-      "pts": 24,
-      "pj": 5,
-      "g": 5,
+      "pts": 29,
+      "pj": 6,
+      "g": 6,
       "e": 0,
       "p": 0,
-      "pf": 214,
+      "pf": 264,
       "pc": 71,
-      "bp": 4,
+      "bp": 5,
       "bf": 0,
       "form": [
         "w",
@@ -59,38 +59,38 @@
     },
     {
       "name": "San Luis D",
-      "pts": 18,
-      "pj": 5,
+      "pts": 19,
+      "pj": 6,
       "g": 4,
       "e": 0,
-      "p": 1,
-      "pf": 182,
-      "pc": 108,
+      "p": 2,
+      "pf": 201,
+      "pc": 130,
       "bp": 2,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "l",
         "w",
         "w",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Olivos D",
       "pts": 11,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 1,
-      "p": 2,
+      "p": 3,
       "pf": 106,
-      "pc": 166,
+      "pc": 216,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "w",
         "d",
+        "l",
         "l",
         "l"
       ]
@@ -98,150 +98,150 @@
     {
       "name": "Gimnasia y Esgrima D",
       "pts": 6,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 1,
-      "p": 3,
-      "pf": 58,
-      "pc": 104,
+      "p": 4,
+      "pf": 77,
+      "pc": 134,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w",
         "l",
         "d",
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "San Cirano E",
-      "pts": 0,
-      "pj": 5,
-      "g": 0,
+      "pts": 5,
+      "pj": 6,
+      "g": 1,
       "e": 0,
       "p": 5,
-      "pf": 45,
-      "pc": 173,
-      "bp": 0,
+      "pf": 75,
+      "pc": 181,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
         "l",
         "l",
         "l",
-        "l"
-      ]
-    },
-    {
-      "name": "San Cirano D",
-      "pts": 11,
-      "pj": 5,
-      "g": 2,
-      "e": 0,
-      "p": 3,
-      "pf": 174,
-      "pc": 121,
-      "bp": 2,
-      "bf": 1,
-      "form": [
-        "l",
-        "l",
-        "l",
-        "w",
         "w"
       ]
     },
     {
-      "name": "Deportiva Francesa D",
-      "pts": 14,
-      "pj": 5,
-      "g": 3,
+      "name": "San Cirano D",
+      "pts": 12,
+      "pj": 6,
+      "g": 2,
       "e": 0,
-      "p": 2,
-      "pf": 128,
-      "pc": 129,
+      "p": 4,
+      "pf": 185,
+      "pc": 134,
       "bp": 2,
-      "bf": 0,
+      "bf": 2,
       "form": [
-        "w",
+        "l",
         "l",
         "w",
         "w",
         "l"
+      ]
+    },
+    {
+      "name": "Deportiva Francesa D",
+      "pts": 18,
+      "pj": 6,
+      "g": 4,
+      "e": 0,
+      "p": 2,
+      "pf": 136,
+      "pc": 129,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "l",
+        "w",
+        "w",
+        "l",
+        "w"
       ]
     },
     {
       "name": "Deportiva Francesa E",
       "pts": 9,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 137,
-      "pc": 179,
+      "p": 4,
+      "pf": 166,
+      "pc": 229,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
+        "w",
         "l",
-        "w",
-        "w",
         "l",
         "l"
       ]
     },
     {
       "name": "Pueyrredon D",
-      "pts": 8,
-      "pj": 5,
-      "g": 1,
+      "pts": 13,
+      "pj": 6,
+      "g": 2,
       "e": 1,
       "p": 3,
-      "pf": 114,
-      "pc": 94,
-      "bp": 1,
+      "pf": 164,
+      "pc": 123,
+      "bp": 2,
       "bf": 1,
       "form": [
-        "l",
         "d",
+        "l",
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "San Luis E",
+      "pts": 15,
+      "pj": 6,
+      "g": 3,
+      "e": 0,
+      "p": 3,
+      "pf": 174,
+      "pc": 123,
+      "bp": 3,
+      "bf": 0,
+      "form": [
+        "w",
+        "l",
         "l",
         "w",
         "l"
       ]
     },
     {
-      "name": "San Luis E",
-      "pts": 15,
-      "pj": 5,
-      "g": 3,
-      "e": 0,
-      "p": 2,
-      "pf": 174,
-      "pc": 115,
-      "bp": 3,
-      "bf": 0,
-      "form": [
-        "w",
-        "w",
-        "l",
-        "l",
-        "w"
-      ]
-    },
-    {
       "name": "Pucara E",
-      "pts": 14,
-      "pj": 5,
-      "g": 3,
+      "pts": 18,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 141,
-      "pc": 127,
+      "pf": 154,
+      "pc": 138,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
-        "l",
+        "w",
         "w",
         "w",
         "w"
@@ -249,13 +249,13 @@
     },
     {
       "name": "Pucara D",
-      "pts": 21,
-      "pj": 5,
-      "g": 5,
+      "pts": 25,
+      "pj": 6,
+      "g": 6,
       "e": 0,
       "p": 0,
-      "pf": 147,
-      "pc": 86,
+      "pf": 169,
+      "pc": 105,
       "bp": 1,
       "bf": 0,
       "form": [
@@ -567,37 +567,56 @@
         {
           "home": "San Luis D",
           "away": "Pucara D",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 22,
+          "bf_home": true
         },
         {
           "home": "Olivos D",
           "away": "Curupayti D",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 50,
+          "bp_away": true
         },
         {
           "home": "Gimnasia y Esgrima D",
           "away": "Curupayti E",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 30
         },
         {
           "home": "San Cirano E",
           "away": "Hurling D",
-          "played": false
+          "played": true,
+          "hs": 30,
+          "as": 8,
+          "bp_home": true
         },
         {
           "home": "San Cirano D",
           "away": "Pucara E",
-          "played": false
+          "played": true,
+          "hs": 11,
+          "as": 13,
+          "bf_home": true
         },
         {
           "home": "Deportiva Francesa D",
           "away": "San Luis E",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
           "home": "Deportiva Francesa E",
           "away": "Pueyrredon D",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 50,
+          "bp_away": true
         }
       ]
     },
@@ -1402,8 +1421,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T21:46:34.720285+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T22:21:13.859869+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025203",
   "nombre": "1A Pre-Inter D"
 }
