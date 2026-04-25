@@ -21,29 +21,29 @@
     },
     {
       "name": "SITAS B",
-      "pts": 13,
-      "pj": 5,
-      "g": 2,
+      "pts": 18,
+      "pj": 6,
+      "g": 3,
       "e": 2,
       "p": 1,
-      "pf": 89,
-      "pc": 60,
-      "bp": 1,
+      "pf": 151,
+      "pc": 76,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "w",
         "d",
         "d",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Tigre",
-      "pts": 8,
-      "pj": 5,
+      "pts": 10,
+      "pj": 6,
       "g": 1,
-      "e": 2,
+      "e": 3,
       "p": 2,
       "pf": 48,
       "pc": 101,
@@ -51,10 +51,10 @@
       "bf": 0,
       "form": [
         "d",
-        "d",
         "l",
         "l",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -79,20 +79,20 @@
     {
       "name": "Virreyes B",
       "pts": 8,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 1,
-      "p": 3,
-      "pf": 99,
-      "pc": 171,
+      "p": 4,
+      "pf": 115,
+      "pc": 233,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
         "l",
-        "l",
         "w",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
@@ -117,39 +117,39 @@
     {
       "name": "CASA de Padua B",
       "pts": 5,
-      "pj": 5,
+      "pj": 6,
       "g": 0,
       "e": 2,
-      "p": 3,
-      "pf": 29,
-      "pc": 101,
+      "p": 4,
+      "pf": 63,
+      "pc": 149,
       "bp": 0,
       "bf": 1,
       "form": [
-        "d",
         "l",
         "d",
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Centro Naval B",
-      "pts": 3,
-      "pj": 5,
-      "g": 0,
+      "pts": 8,
+      "pj": 6,
+      "g": 1,
       "e": 1,
       "p": 4,
-      "pf": 60,
-      "pc": 189,
-      "bp": 0,
+      "pf": 108,
+      "pc": 223,
+      "bp": 1,
       "bf": 1,
       "form": [
-        "l",
         "d",
         "l",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -192,10 +192,10 @@
     },
     {
       "name": "Ciudad de Bs.As. B",
-      "pts": 15,
-      "pj": 5,
+      "pts": 17,
+      "pj": 6,
       "g": 3,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 152,
       "pc": 122,
@@ -203,10 +203,10 @@
       "bf": 1,
       "form": [
         "w",
+        "l",
+        "l",
         "w",
-        "l",
-        "l",
-        "w"
+        "d"
       ]
     }
   ],
@@ -504,7 +504,9 @@
         {
           "home": "Tigre",
           "away": "Ciudad de Bs.As. B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Lanus B",
@@ -516,7 +518,10 @@
         {
           "home": "Virreyes B",
           "away": "SITAS B",
-          "played": false
+          "played": true,
+          "hs": 16,
+          "as": 62,
+          "bp_away": true
         },
         {
           "home": "San Carlos B",
@@ -542,7 +547,10 @@
         {
           "home": "CASA de Padua B",
           "away": "Centro Naval B",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 48,
+          "bp_away": true
         }
       ]
     },
@@ -1347,8 +1355,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T22:21:28.927077+00:00",
-  "matchesScraped": 39,
+  "lastUpdate": "2026-04-25T22:34:21.811934+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025205",
   "nombre": "1C Pre-Inter B"
 }
