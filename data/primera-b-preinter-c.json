@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 60,
-      "pj": 30,
+      "pts": 72,
+      "pj": 36,
       "g": 0,
-      "e": 30,
+      "e": 36,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -40,10 +40,10 @@
     },
     {
       "name": "Don Bosco C",
-      "pts": 1,
-      "pj": 5,
+      "pts": 3,
+      "pj": 6,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 5,
       "pf": 58,
       "pc": 162,
@@ -54,7 +54,7 @@
         "l",
         "l",
         "l",
-        "l"
+        "d"
       ]
     },
     {
@@ -78,54 +78,35 @@
     },
     {
       "name": "San Martin D",
-      "pts": 9,
-      "pj": 5,
+      "pts": 11,
+      "pj": 6,
       "g": 1,
-      "e": 2,
+      "e": 3,
       "p": 2,
       "pf": 48,
       "pc": 59,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l",
         "d",
         "d",
         "w",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "Mariano Moreno C",
-      "pts": 14,
-      "pj": 5,
+      "pts": 16,
+      "pj": 6,
       "g": 3,
-      "e": 1,
+      "e": 2,
       "p": 1,
       "pf": 109,
       "pc": 82,
       "bp": 0,
       "bf": 0,
       "form": [
-        "w",
-        "l",
-        "w",
-        "w",
-        "d"
-      ]
-    },
-    {
-      "name": "Manuel Belgrano C",
-      "pts": 13,
-      "pj": 5,
-      "g": 2,
-      "e": 2,
-      "p": 1,
-      "pf": 99,
-      "pc": 78,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "l",
         "w",
         "w",
@@ -134,11 +115,30 @@
       ]
     },
     {
-      "name": "Delta C",
+      "name": "Manuel Belgrano C",
       "pts": 15,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 3,
+      "p": 1,
+      "pf": 99,
+      "pc": 78,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "d",
+        "d",
+        "d"
+      ]
+    },
+    {
+      "name": "Delta C",
+      "pts": 17,
+      "pj": 6,
+      "g": 2,
+      "e": 4,
       "p": 0,
       "pf": 41,
       "pc": 21,
@@ -146,7 +146,7 @@
       "bf": 0,
       "form": [
         "w",
-        "w",
+        "d",
         "d",
         "d",
         "d"
@@ -154,17 +154,17 @@
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 8,
-      "pj": 5,
+      "pts": 10,
+      "pj": 6,
       "g": 0,
-      "e": 4,
+      "e": 5,
       "p": 1,
       "pf": 15,
       "pc": 31,
       "bp": 0,
       "bf": 0,
       "form": [
-        "l",
+        "d",
         "d",
         "d",
         "d",
@@ -457,7 +457,9 @@
         {
           "home": "Don Bosco C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "San Martin C",
@@ -467,27 +469,37 @@
         {
           "home": "San Martin D",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Mariano Moreno C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Manuel Belgrano C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Delta C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "G y E de Ituzaingo",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -1292,8 +1304,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T20:06:47.841618+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T20:56:33.673210+00:00",
+  "matchesScraped": 41,
   "championshipId": "2025204",
   "nombre": "1B Pre-Inter C"
 }
