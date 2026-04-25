@@ -3,56 +3,56 @@
     {
       "name": "Areco",
       "pts": 9,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 109,
-      "pc": 137,
+      "p": 4,
+      "pf": 116,
+      "pc": 166,
       "bp": 0,
       "bf": 1,
       "form": [
-        "w",
         "l",
         "w",
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "SITAS",
-      "pts": 15,
-      "pj": 5,
-      "g": 3,
+      "pts": 19,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 134,
-      "pc": 115,
+      "pf": 148,
+      "pc": 123,
       "bp": 2,
       "bf": 1,
       "form": [
         "w",
         "w",
-        "w",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Miguel",
       "pts": 7,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 0,
-      "p": 4,
-      "pf": 101,
-      "pc": 170,
+      "p": 5,
+      "pf": 125,
+      "pc": 227,
       "bp": 1,
       "bf": 2,
       "form": [
         "l",
-        "l",
         "w",
+        "l",
         "l",
         "l"
       ]
@@ -60,14 +60,52 @@
     {
       "name": "St Brendan´s",
       "pts": 5,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 0,
-      "p": 4,
-      "pf": 130,
-      "pc": 214,
+      "p": 5,
+      "pf": 145,
+      "pc": 242,
       "bp": 0,
       "bf": 1,
+      "form": [
+        "l",
+        "l",
+        "w",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Lanus",
+      "pts": 25,
+      "pj": 6,
+      "g": 5,
+      "e": 0,
+      "p": 1,
+      "pf": 261,
+      "pc": 124,
+      "bp": 5,
+      "bf": 0,
+      "form": [
+        "l",
+        "w",
+        "w",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Virreyes",
+      "pts": 7,
+      "pj": 6,
+      "g": 1,
+      "e": 0,
+      "p": 5,
+      "pf": 115,
+      "pc": 180,
+      "bp": 0,
+      "bf": 3,
       "form": [
         "l",
         "l",
@@ -77,52 +115,14 @@
       ]
     },
     {
-      "name": "Lanus",
-      "pts": 20,
-      "pj": 5,
-      "g": 4,
-      "e": 0,
-      "p": 1,
-      "pf": 204,
-      "pc": 100,
-      "bp": 4,
-      "bf": 0,
-      "form": [
-        "w",
-        "l",
-        "w",
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Virreyes",
-      "pts": 6,
-      "pj": 5,
-      "g": 1,
-      "e": 0,
-      "p": 4,
-      "pf": 107,
-      "pc": 166,
-      "bp": 0,
-      "bf": 2,
-      "form": [
-        "l",
-        "l",
-        "l",
-        "l",
-        "w"
-      ]
-    },
-    {
       "name": "San Carlos",
-      "pts": 22,
-      "pj": 5,
-      "g": 5,
+      "pts": 26,
+      "pj": 6,
+      "g": 6,
       "e": 0,
       "p": 0,
-      "pf": 204,
-      "pc": 108,
+      "pf": 233,
+      "pc": 115,
       "bp": 2,
       "bf": 0,
       "form": [
@@ -136,54 +136,54 @@
     {
       "name": "Daom",
       "pts": 14,
-      "pj": 5,
+      "pj": 6,
       "g": 3,
       "e": 0,
-      "p": 2,
-      "pf": 150,
-      "pc": 137,
+      "p": 3,
+      "pf": 166,
+      "pc": 164,
       "bp": 2,
       "bf": 0,
       "form": [
-        "l",
         "w",
         "l",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Del Sur",
       "pts": 14,
-      "pj": 5,
+      "pj": 6,
       "g": 3,
       "e": 0,
-      "p": 2,
-      "pf": 133,
-      "pc": 122,
+      "p": 3,
+      "pf": 150,
+      "pc": 147,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "w",
         "l",
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "CASA de Padua",
       "pts": 5,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 0,
-      "p": 4,
-      "pf": 129,
-      "pc": 175,
+      "p": 5,
+      "pf": 139,
+      "pc": 205,
       "bp": 0,
       "bf": 1,
       "form": [
-        "w",
+        "l",
         "l",
         "l",
         "l",
@@ -192,56 +192,56 @@
     },
     {
       "name": "Centro Naval",
-      "pts": 9,
-      "pj": 5,
-      "g": 2,
+      "pts": 14,
+      "pj": 6,
+      "g": 3,
       "e": 0,
       "p": 3,
-      "pf": 110,
-      "pc": 131,
-      "bp": 0,
+      "pf": 140,
+      "pc": 141,
+      "bp": 1,
       "bf": 1,
       "form": [
-        "l",
         "w",
         "l",
         "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Los Molinos",
-      "pts": 12,
-      "pj": 5,
-      "g": 2,
-      "e": 0,
-      "p": 3,
-      "pf": 124,
-      "pc": 108,
-      "bp": 1,
-      "bf": 3,
-      "form": [
-        "l",
-        "w",
-        "l",
         "l",
         "w"
       ]
     },
     {
-      "name": "Lujan",
-      "pts": 18,
-      "pj": 5,
-      "g": 4,
+      "name": "Los Molinos",
+      "pts": 16,
+      "pj": 6,
+      "g": 3,
       "e": 0,
-      "p": 1,
-      "pf": 143,
-      "pc": 100,
+      "p": 3,
+      "pf": 149,
+      "pc": 125,
       "bp": 1,
-      "bf": 1,
+      "bf": 3,
       "form": [
         "w",
         "l",
+        "l",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Lujan",
+      "pts": 22,
+      "pj": 6,
+      "g": 5,
+      "e": 0,
+      "p": 1,
+      "pf": 170,
+      "pc": 116,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
         "w",
         "w",
         "w"
@@ -249,20 +249,20 @@
     },
     {
       "name": "Ciudad de Bs.As.",
-      "pts": 13,
-      "pj": 5,
-      "g": 3,
+      "pts": 17,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 107,
-      "pc": 102,
+      "pf": 135,
+      "pc": 117,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l",
         "w",
         "w",
         "l",
+        "w",
         "w"
       ]
     }
@@ -573,37 +573,54 @@
         {
           "home": "St Brendan´s",
           "away": "Ciudad de Bs.As.",
-          "played": false
+          "played": true,
+          "hs": 15,
+          "as": 28
         },
         {
           "home": "Lanus",
           "away": "San Miguel",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "Virreyes",
           "away": "SITAS",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 14,
+          "bf_home": true
         },
         {
           "home": "San Carlos",
           "away": "Areco",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 7
         },
         {
           "home": "Daom",
           "away": "Lujan",
-          "played": false
+          "played": true,
+          "hs": 16,
+          "as": 27
         },
         {
           "home": "Del Sur",
           "away": "Los Molinos",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 25
         },
         {
           "home": "CASA de Padua",
           "away": "Centro Naval",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 30,
+          "bp_away": true
         }
       ]
     },
@@ -1408,8 +1425,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T21:46:41.817190+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T22:21:23.773903+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025179",
   "nombre": "Primera C"
 }
