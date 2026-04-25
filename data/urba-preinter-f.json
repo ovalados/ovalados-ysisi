@@ -135,10 +135,10 @@
     },
     {
       "name": "Bye",
-      "pts": 10,
-      "pj": 5,
+      "pts": 12,
+      "pj": 6,
       "g": 0,
-      "e": 5,
+      "e": 6,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -230,21 +230,21 @@
     },
     {
       "name": "SIC G",
-      "pts": 9,
-      "pj": 5,
+      "pts": 11,
+      "pj": 6,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 3,
       "pf": 116,
       "pc": 143,
       "bp": 1,
       "bf": 0,
       "form": [
+        "l",
+        "l",
+        "l",
         "w",
-        "l",
-        "l",
-        "l",
-        "w"
+        "d"
       ]
     },
     {
@@ -577,7 +577,9 @@
         {
           "home": "Bye",
           "away": "SIC G",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CUBA G",
@@ -1392,8 +1394,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T20:06:32.029788+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T20:56:15.924945+00:00",
+  "matchesScraped": 36,
   "championshipId": "2025201",
   "nombre": "Pre-Inter F"
 }
