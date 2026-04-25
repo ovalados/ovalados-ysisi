@@ -2,75 +2,75 @@
   "teams": [
     {
       "name": "Hurling C",
-      "pts": 4,
-      "pj": 5,
-      "g": 1,
+      "pts": 8,
+      "pj": 6,
+      "g": 2,
       "e": 0,
       "p": 4,
-      "pf": 111,
-      "pc": 204,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w",
-        "l",
-        "l",
-        "l",
-        "l"
-      ]
-    },
-    {
-      "name": "Lomas Athletic C",
-      "pts": 4,
-      "pj": 5,
-      "g": 1,
-      "e": 0,
-      "p": 4,
-      "pf": 103,
-      "pc": 199,
+      "pf": 135,
+      "pc": 224,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "w",
         "l",
         "l",
-        "l"
-      ]
-    },
-    {
-      "name": "Curupayti C",
-      "pts": 16,
-      "pj": 5,
-      "g": 4,
-      "e": 0,
-      "p": 1,
-      "pf": 145,
-      "pc": 144,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w",
-        "w",
         "l",
-        "w",
         "w"
       ]
     },
     {
-      "name": "San Luis C",
-      "pts": 13,
-      "pj": 5,
-      "g": 3,
+      "name": "Lomas Athletic C",
+      "pts": 8,
+      "pj": 6,
+      "g": 2,
+      "e": 0,
+      "p": 4,
+      "pf": 135,
+      "pc": 219,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "l",
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Curupayti C",
+      "pts": 17,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 120,
-      "pc": 92,
+      "pf": 171,
+      "pc": 173,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "w",
+        "l",
+        "w",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "San Luis C",
+      "pts": 17,
+      "pj": 6,
+      "g": 4,
+      "e": 0,
+      "p": 2,
+      "pf": 144,
+      "pc": 110,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
-        "l",
+        "w",
         "w",
         "w",
         "w"
@@ -78,36 +78,36 @@
     },
     {
       "name": "Olivos C",
-      "pts": 10,
-      "pj": 5,
-      "g": 2,
+      "pts": 14,
+      "pj": 6,
+      "g": 3,
       "e": 0,
       "p": 3,
-      "pf": 99,
-      "pc": 140,
+      "pf": 128,
+      "pc": 166,
       "bp": 0,
       "bf": 2,
       "form": [
         "l",
+        "w",
+        "w",
         "l",
-        "w",
-        "w",
-        "l"
+        "w"
       ]
     },
     {
       "name": "Gimnasia y Esgrima C",
       "pts": 8,
-      "pj": 5,
+      "pj": 6,
       "g": 1,
       "e": 0,
-      "p": 4,
-      "pf": 112,
-      "pc": 106,
+      "p": 5,
+      "pf": 132,
+      "pc": 138,
       "bp": 1,
       "bf": 3,
       "form": [
-        "w",
+        "l",
         "l",
         "l",
         "l",
@@ -116,32 +116,32 @@
     },
     {
       "name": "San Albano C",
-      "pts": 9,
-      "pj": 5,
+      "pts": 10,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 98,
-      "pc": 158,
+      "p": 4,
+      "pf": 118,
+      "pc": 182,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
-        "l",
         "w",
         "l",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Cirano C",
-      "pts": 24,
-      "pj": 5,
-      "g": 5,
+      "pts": 28,
+      "pj": 6,
+      "g": 6,
       "e": 0,
       "p": 0,
-      "pf": 243,
-      "pc": 86,
+      "pf": 281,
+      "pc": 108,
       "bp": 4,
       "bf": 0,
       "form": [
@@ -154,18 +154,18 @@
     },
     {
       "name": "Deportiva Francesa C",
-      "pts": 17,
-      "pj": 5,
-      "g": 4,
+      "pts": 22,
+      "pj": 6,
+      "g": 5,
       "e": 0,
       "p": 1,
-      "pf": 152,
-      "pc": 102,
-      "bp": 1,
+      "pf": 214,
+      "pc": 140,
+      "bp": 2,
       "bf": 0,
       "form": [
-        "w",
         "l",
+        "w",
         "w",
         "w",
         "w"
@@ -174,35 +174,16 @@
     {
       "name": "San Fernando C",
       "pts": 15,
-      "pj": 5,
+      "pj": 6,
       "g": 3,
       "e": 0,
-      "p": 2,
-      "pf": 140,
-      "pc": 124,
+      "p": 3,
+      "pf": 162,
+      "pc": 183,
       "bp": 1,
       "bf": 2,
       "form": [
         "l",
-        "l",
-        "w",
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Pueyrredon C",
-      "pts": 20,
-      "pj": 5,
-      "g": 4,
-      "e": 0,
-      "p": 1,
-      "pf": 215,
-      "pc": 120,
-      "bp": 4,
-      "bf": 0,
-      "form": [
-        "w",
         "w",
         "w",
         "w",
@@ -210,19 +191,38 @@
       ]
     },
     {
+      "name": "Pueyrredon C",
+      "pts": 25,
+      "pj": 6,
+      "g": 5,
+      "e": 0,
+      "p": 1,
+      "pf": 274,
+      "pc": 142,
+      "bp": 5,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "Pueyrredon E",
       "pts": 4,
-      "pj": 5,
+      "pj": 6,
       "g": 0,
       "e": 1,
-      "p": 4,
-      "pf": 82,
-      "pc": 205,
+      "p": 5,
+      "pf": 120,
+      "pc": 267,
       "bp": 0,
       "bf": 2,
       "form": [
-        "l",
         "d",
+        "l",
         "l",
         "l",
         "l"
@@ -231,17 +231,17 @@
     {
       "name": "San Andres C",
       "pts": 3,
-      "pj": 5,
+      "pj": 6,
       "g": 0,
       "e": 1,
-      "p": 4,
-      "pf": 73,
-      "pc": 155,
+      "p": 5,
+      "pf": 95,
+      "pc": 193,
       "bp": 0,
       "bf": 1,
       "form": [
-        "l",
         "d",
+        "l",
         "l",
         "l",
         "l"
@@ -249,21 +249,21 @@
     },
     {
       "name": "Pucara C",
-      "pts": 20,
-      "pj": 5,
+      "pts": 21,
+      "pj": 6,
       "g": 4,
       "e": 0,
-      "p": 1,
-      "pf": 221,
-      "pc": 79,
+      "p": 2,
+      "pf": 239,
+      "pc": 103,
       "bp": 3,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "w",
         "w",
-        "w",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     }
   ],
@@ -571,37 +571,56 @@
         {
           "home": "San Luis C",
           "away": "Pucara C",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 18,
+          "bf_away": true
         },
         {
           "home": "Olivos C",
           "away": "Curupayti C",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 26,
+          "bf_away": true
         },
         {
           "home": "Gimnasia y Esgrima C",
           "away": "Lomas Athletic C",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 32
         },
         {
           "home": "San Albano C",
           "away": "Hurling C",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 24,
+          "bf_home": true
         },
         {
           "home": "San Cirano C",
           "away": "San Andres C",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 22
         },
         {
           "home": "Deportiva Francesa C",
           "away": "Pueyrredon E",
-          "played": false
+          "played": true,
+          "hs": 62,
+          "as": 38,
+          "bp_home": true
         },
         {
           "home": "San Fernando C",
           "away": "Pueyrredon C",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 59,
+          "bp_away": true
         }
       ]
     },
@@ -1406,8 +1425,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T21:46:33.584251+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T22:21:12.241176+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025202",
   "nombre": "1A Pre-Inter C"
 }
