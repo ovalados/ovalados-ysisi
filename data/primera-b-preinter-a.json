@@ -97,14 +97,14 @@
     },
     {
       "name": "Monte Grande",
-      "pts": 22,
+      "pts": 23,
       "pj": 6,
       "g": 5,
       "e": 0,
       "p": 1,
       "pf": 163,
       "pc": 100,
-      "bp": 1,
+      "bp": 2,
       "bf": 1,
       "form": [
         "l",
@@ -591,7 +591,8 @@
           "away": "C.U. de Quilmes",
           "played": true,
           "hs": 31,
-          "as": 15
+          "as": 15,
+          "bp_home": true
         },
         {
           "home": "Mariano Moreno",
@@ -1428,7 +1429,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T22:21:18.968581+00:00",
+  "lastUpdate": "2026-04-25T22:34:14.220528+00:00",
   "matchesScraped": 42,
   "championshipId": "2025191",
   "nombre": "1B Pre-Inter A"
