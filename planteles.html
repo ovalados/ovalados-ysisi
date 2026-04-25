@@ -38,85 +38,168 @@
 
 <main>
   <div class="page-title">TORNEO DE PLANTELES</div>
-  <div class="page-subtitle">Puntos acumulados por club · Superior + Intermedia + Pre-A + Pre-B + Pre-C + Pre-D · 2026</div>
+  <div class="page-subtitle">Elegí clubes y categorías para comparar puntos acumulados · URBA Top 14 2026</div>
+
+  <div class="filter-block">
+    <div class="filter-block-label">Clubes</div>
+    <div class="filter-buttons" id="club-btns"></div>
+    <div class="filter-actions">
+      <button class="filter-action-btn" onclick="selectAll('clubs')">Todos</button>
+      <button class="filter-action-btn" onclick="clearAll('clubs')">Ninguno</button>
+    </div>
+  </div>
+
+  <div class="filter-block">
+    <div class="filter-block-label">Categorías</div>
+    <div class="filter-buttons" id="div-btns"></div>
+    <div class="filter-actions">
+      <button class="filter-action-btn" onclick="selectAll('divs')">Todas</button>
+      <button class="filter-action-btn" onclick="clearAll('divs')">Ninguna</button>
+    </div>
+  </div>
+
   <div class="table-wrap">
-    <table id="planteles-table">
-      <thead>
-        <tr>
-          <th style="width:40px">#</th>
-          <th style="text-align:left">CLUB</th>
-          <th>TOTAL</th>
-          <th>SUP</th>
-          <th>INT</th>
-          <th>PRE A</th>
-          <th>PRE B</th>
-          <th>PRE C</th>
-          <th>PRE D</th>
-        </tr>
-      </thead>
-      <tbody id="planteles-body">
-        <tr><td colspan="9" style="text-align:center;color:var(--muted);padding:2rem">Cargando...</td></tr>
-      </tbody>
+    <table id="result-table" style="display:none">
+      <thead id="result-thead"></thead>
+      <tbody id="result-body"></tbody>
     </table>
+    <div class="empty-state" id="empty-state">Seleccioná al menos un club y una categoría</div>
   </div>
 </main>
 
 <script>
-function loadPlanteles() {
-  const tbody = document.getElementById('planteles-body');
-  const divs = [
-    { key:'sup',  url:'data/urba.json',             sfx:null },
-    { key:'int',  url:'data/urba-intermedia.json',   sfx:null },
-    { key:'prea', url:'data/urba-preinter-a.json',   sfx:null },
-    { key:'preb', url:'data/urba-preinter-b.json',   sfx:' B' },
-    { key:'prec', url:'data/urba-preinter-c.json',   sfx:' C' },
-    { key:'pred', url:'data/urba-preinter-d.json',   sfx:' D' },
-  ];
-  Promise.all(divs.map(d =>
-    fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
-  )).then(results => {
-    const supTeams = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
-    const tally = {};
-    supTeams.forEach(c => tally[c] = { sup:0, int:0, prea:0, preb:0, prec:0, pred:0 });
-    divs.forEach((d, i) => {
-      const data = results[i];
-      const pts = {};
-      (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
-      Object.values(data.matches || {}).forEach(rd => {
-        (rd.ms || []).forEach(m => {
-          if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
-          if (!(m.home in pts) || !(m.away in pts)) return;
-          const diff = m.hs - m.as;
-          if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
-          else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
-          else               { pts[m.home] += 2; pts[m.away] += 2; }
-          if (m.bp_home) pts[m.home]++;
-          if (m.bp_away) pts[m.away]++;
-        });
-      });
-      Object.entries(pts).forEach(([name, p]) => {
-        const base = d.sfx && name.endsWith(d.sfx) ? name.slice(0, -d.sfx.length).trim() : name;
-        if (tally[base]) tally[base][d.key] += p;
-      });
+const DIVS = [
+  { key:'sup',  label:'Superior',  url:'data/urba.json',             sfx:null },
+  { key:'int',  label:'Intermedia',url:'data/urba-intermedia.json',   sfx:null },
+  { key:'prea', label:'Pre-A',     url:'data/urba-preinter-a.json',   sfx:null },
+  { key:'preb', label:'Pre-B',     url:'data/urba-preinter-b.json',   sfx:' B' },
+  { key:'prec', label:'Pre-C',     url:'data/urba-preinter-c.json',   sfx:' C' },
+  { key:'pred', label:'Pre-D',     url:'data/urba-preinter-d.json',   sfx:' D' },
+];
+
+const tally = {};
+let clubOrder = [];
+
+const selClubs = new Set();
+const selDivs  = new Set(DIVS.map(d => d.key));
+
+function calcPts(data, sfx) {
+  const pts = {};
+  (data.teams || []).forEach(t => { if (t.name !== 'Bye') pts[t.name] = 0; });
+  Object.values(data.matches || {}).forEach(rd => {
+    (rd.ms || []).forEach(m => {
+      if (!m.played || m.home === 'Bye' || m.away === 'Bye') return;
+      if (!(m.home in pts) || !(m.away in pts)) return;
+      const diff = m.hs - m.as;
+      if (diff > 0)      { pts[m.home] += 4; if (diff <= 7) pts[m.away]++; }
+      else if (diff < 0) { pts[m.away] += 4; if (-diff <= 7) pts[m.home]++; }
+      else               { pts[m.home] += 2; pts[m.away] += 2; }
+      if (m.bp_home) pts[m.home]++;
+      if (m.bp_away) pts[m.away]++;
     });
-    const rows = supTeams.map(c => {
-      const t = tally[c];
-      return { club:c, sup:t.sup, int:t.int, prea:t.prea, preb:t.preb, prec:t.prec, pred:t.pred,
-               total: t.sup+t.int+t.prea+t.preb+t.prec+t.pred };
-    }).sort((a,b) => b.total - a.total);
-    tbody.innerHTML = rows.map((r,i) => `<tr>
-      <td><span class="pos-num">${i+1}</span></td>
-      <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
-      <td style="color:var(--green);font-weight:700">${r.total}</td>
-      <td>${r.sup}</td><td>${r.int}</td><td>${r.prea}</td>
-      <td>${r.preb}</td><td>${r.prec}</td><td>${r.pred}</td>
-    </tr>`).join('');
-  }).catch(() => {
-    tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:var(--muted)">Error al cargar datos</td></tr>';
   });
+  const base = {};
+  Object.entries(pts).forEach(([name, p]) => {
+    const b = sfx && name.endsWith(sfx) ? name.slice(0, -sfx.length).trim() : name;
+    base[b] = (base[b] || 0) + p;
+  });
+  return base;
 }
 
-loadPlanteles();
+function renderClubBtns() {
+  document.getElementById('club-btns').innerHTML = clubOrder.map(c => `
+    <button class="filter-btn ${selClubs.has(c)?'active':''}" onclick="toggleClub('${c.replace(/'/g,"\\'")}')">
+      ${c}
+    </button>`).join('');
+}
+
+function renderDivBtns() {
+  document.getElementById('div-btns').innerHTML = DIVS.map(d => `
+    <button class="filter-btn ${selDivs.has(d.key)?'active':''}" onclick="toggleDiv('${d.key}')">
+      ${d.label}
+    </button>`).join('');
+}
+
+function renderTable() {
+  const activeDivs  = DIVS.filter(d => selDivs.has(d.key));
+  const activeClubs = clubOrder.filter(c => selClubs.has(c));
+  const table = document.getElementById('result-table');
+  const empty = document.getElementById('empty-state');
+
+  if (!activeDivs.length || !activeClubs.length) {
+    table.style.display = 'none';
+    empty.style.display = 'block';
+    empty.textContent = !activeClubs.length ? 'Seleccioná al menos un club' : 'Seleccioná al menos una categoría';
+    return;
+  }
+
+  table.style.display = '';
+  empty.style.display = 'none';
+
+  document.getElementById('result-thead').innerHTML = `<tr>
+    <th style="width:40px">#</th>
+    <th style="text-align:left">CLUB</th>
+    <th>TOTAL</th>
+    ${activeDivs.map(d => `<th>${d.label.toUpperCase()}</th>`).join('')}
+  </tr>`;
+
+  const rows = activeClubs.map(c => {
+    const divPts = {};
+    activeDivs.forEach(d => { divPts[d.key] = tally[c]?.[d.key] || 0; });
+    const total = Object.values(divPts).reduce((s, v) => s + v, 0);
+    return { club:c, total, divPts };
+  }).sort((a, b) => b.total - a.total);
+
+  document.getElementById('result-body').innerHTML = rows.map((r, i) => `<tr>
+    <td><span class="pos-num">${i+1}</span></td>
+    <td style="text-align:left;font-weight:600;padding-left:4px">${r.club}</td>
+    <td style="color:var(--green);font-weight:700">${r.total}</td>
+    ${activeDivs.map(d => `<td>${r.divPts[d.key]}</td>`).join('')}
+  </tr>`).join('');
+}
+
+function toggleClub(c) {
+  if (selClubs.has(c)) selClubs.delete(c); else selClubs.add(c);
+  renderClubBtns();
+  renderTable();
+}
+
+function toggleDiv(k) {
+  if (selDivs.has(k)) selDivs.delete(k); else selDivs.add(k);
+  renderDivBtns();
+  renderTable();
+}
+
+function selectAll(type) {
+  if (type === 'clubs') { clubOrder.forEach(c => selClubs.add(c)); renderClubBtns(); }
+  else { DIVS.forEach(d => selDivs.add(d.key)); renderDivBtns(); }
+  renderTable();
+}
+
+function clearAll(type) {
+  if (type === 'clubs') { selClubs.clear(); renderClubBtns(); }
+  else { selDivs.clear(); renderDivBtns(); }
+  renderTable();
+}
+
+Promise.all(DIVS.map(d =>
+  fetch(d.url + '?v=' + Date.now()).then(r => r.json()).catch(() => ({ teams:[], matches:{} }))
+)).then(results => {
+  clubOrder = (results[0].teams || []).filter(t => t.name !== 'Bye').map(t => t.name);
+  clubOrder.forEach(c => { tally[c] = {}; DIVS.forEach(d => tally[c][d.key] = 0); });
+
+  DIVS.forEach((d, i) => {
+    const pts = calcPts(results[i], d.sfx);
+    Object.entries(pts).forEach(([base, p]) => {
+      if (tally[base]) tally[base][d.key] += p;
+    });
+  });
+
+  clubOrder.forEach(c => selClubs.add(c));
+  renderClubBtns();
+  renderDivBtns();
+  renderTable();
+});
 </script>
 
 <script src="js/share-table.js"></script>

@@ -907,6 +907,72 @@ tbody td:first-child { text-align: left; padding-left: 16px; }
 }
 .match-formacion a:hover { opacity: 1; }
 
+/* ── FILTROS PLANTELES ──────────────────────────────────── */
+.filter-block {
+  background: var(--dark2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.filter-block-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.filter-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--dark3);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn.active {
+  background: rgba(0,184,92,0.15);
+  border-color: rgba(0,184,92,0.5);
+  color: var(--green);
+}
+.filter-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.filter-action-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.filter-action-btn:hover { color: var(--text); border-color: var(--text); }
+.empty-state {
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--muted);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
 /* ── COMPARTIR TABLA ────────────────────────────────────── */
 .share-table-btn {
   display: inline-flex;
