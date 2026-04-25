@@ -3386,55 +3386,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_los_materos: {
-      local: {
-        nombre: "ALUMNI",
-        jugadores: [
-          "1. Luca, Federico",
-          "2. Lamelas, Maximo",
-          "3. Cozzi, Franco",
-          "4. Mazzoni, Geronimo",
-          "5. Mina, Augusto",
-          "6. Canzani, Matias",
-          "7. Milou, Ignacio",
-          "8. Vassolo, Bautista",
-          "9. Testoni, Rocco",
-          "10. Garcia Belmonte, Fermin",
-          "11. Sabato, Lucas",
-          "12. Gonzales Chaves, Jeronimo",
-          "13. Rivas, Felipe",
-          "14. Fuentes, Fermin",
-          "15. Desanto, Agostino",
-        ],
-        cambios: ["Luca, Federico por Castrillo, Maximo", "Cozzi, Franco por Frene, Nicolas", "Milou, Ignacio por Vassolo, Bautista", "Vassolo, Bautista por Alvariñas, Juan Cruz", "Sabato, Lucas por Peirone, Facundo"],
-      },
-      visitante: {
-        nombre: "LOS MATEROS",
-        jugadores: [
-          "1. Martinez, Mirko",
-          "2. Sanchez, Tomás",
-          "3. Muria, Facundo de",
-          "4. Cirelli, Mateo",
-          "5. Culatto, Matías",
-          "6. Antar, Agustín",
-          "7. Villone, Esteban",
-          "8. Stark, Tomás",
-          "9. Romanato, Martín",
-          "10. Urbina, Germán",
-          "11. Moggia, Leandro",
-          "12. Bendini, Rocco",
-          "13. Biudes, Marko",
-          "14. Guglielmo, Valentino",
-          "15. Plaza, Juan Segundo",
-        ],
-        cambios: [],
-      },
-    },
-
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Wright, James",
           "2. Mackinlay, Teófilo",
@@ -3455,7 +3411,7 @@ const PARTIDOS = {
         cambios: ["Wright, James por Bosch, Isidro", "Borio, Luciano por Garay, Delfín", "Fortín, Pablo por Garibaldi, Marcos", "Bruzone, Justo por Bruzzone, Justo", "Casá, Silvestre por Longinotti, Franco", "Mcgrech, Juan por Prince, Simón"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Adissi, Alberto Natan",
           "2. Panelo, Simón",
@@ -3500,7 +3456,7 @@ const PARTIDOS = {
         cambios: ["Ledesma, T por Gilligan, J", "Pavlovsky, S por Pavlosky, S"],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Palma, R",
           "2. Silveyra, B",
@@ -3524,7 +3480,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Etchecoin, Mateo",
           "2. de Siena, Ignacio",
@@ -3545,7 +3501,7 @@ const PARTIDOS = {
         cambios: ["de Siena, Ignacio por Schiappacase, Marcos", "Martinez Baques, Facundo por Morales, Franco", "Corrales, Jeronimo por Rebussone, Mauro", "Bernabé, Tobias por Fossati, Bautista", "Moro, Lucas por Rocca, Manuel", "Ceñal, Felix por Bernabé, Tobias"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
 ,
         ],
@@ -3553,9 +3509,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. Chajchir, Kael",
           "2. Ruiz, Tomás",
@@ -3576,7 +3532,7 @@ const PARTIDOS = {
         cambios: ["Llauro, Tomás por Traverso, Manuel"],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Galli, Felipe",
           "2. Reyes, Manuel de los",
@@ -3621,7 +3577,7 @@ const PARTIDOS = {
         cambios: ["Anderlic por Garoby, J.", "Aparicio, F. por Batista", "Cayol, P. por Bengolea, S.", "Sied por Landau, S.", "Landau, S. por Landau, J.", "Patrono por Quiroga", "Quiroga por Perdomo", "Perdomo por Patrono", "Cardini por Moroni", "Moroni por Ezcurra"],
       },
       visitante: {
-        nombre: "ATLETICO DEL ROSARIO",
+        nombre: "Atlético del Rosario",
         jugadores: [
           "1. Rubio, Felipe",
           "2. Malanos, Matias",
@@ -3666,7 +3622,7 @@ const PARTIDOS = {
         cambios: ["Pastorino, Franco por Acuña, Santiago", "Pichot, Isidro por Castillo, Ramón"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Briozzo, Joaquín",
           "2. Castro, Jeronimo",
@@ -3685,6 +3641,51 @@ const PARTIDOS = {
           "15. Cortes, Isidro",
         ],
         cambios: ["Briozzo, Joaquín por Briozzo, Joaquin", "Laurin, Maximo por Maffei, Facundo", "Cordero, Juan Pedro por Blaiotta Lago, Juan", "Broglia, Gianluca por Cordero, Juan Pedro", "Coria, Joaquin por Cortopasso, Valentino", "Varde, Tomas por Albina, Marcos"],
+      },
+    },
+
+    alumni_los_matreros: {
+      local: {
+        nombre: "Alumni",
+        jugadores: [
+          "1. Luca, Federico",
+          "2. Lamelas, Maximo",
+          "3. Cozzi, Franco",
+          "4. Mazzoni, Geronimo",
+          "5. Mina, Augusto",
+          "6. Canzani, Matias",
+          "7. Milou, Ignacio",
+          "8. Vassolo, Bautista",
+          "9. Testoni, Rocco",
+          "10. Garcia Belmonte, Fermin",
+          "11. Sabato, Lucas",
+          "12. Gonzales Chaves, Jeronimo",
+          "13. Rivas, Felipe",
+          "14. Fuentes, Fermin",
+          "15. Desanto, Agostino",
+        ],
+        cambios: ["Luca, Federico por Castrillo, Maximo", "Cozzi, Franco por Frene, Nicolas", "Milou, Ignacio por Vassolo, Bautista", "Vassolo, Bautista por Alvariñas, Juan Cruz", "Sabato, Lucas por Peirone, Facundo"],
+      },
+      visitante: {
+        nombre: "Los Matreros",
+        jugadores: [
+          "1. Martinez, Mirko",
+          "2. Sanchez, Tomás",
+          "3. Muria, Facundo de",
+          "4. Cirelli, Mateo",
+          "5. Culatto, Matías",
+          "6. Antar, Agustín",
+          "7. Villone, Esteban",
+          "8. Stark, Tomás",
+          "9. Romanato, Martín",
+          "10. Urbina, Germán",
+          "11. Moggia, Leandro",
+          "12. Bendini, Rocco",
+          "13. Biudes, Marko",
+          "14. Guglielmo, Valentino",
+          "15. Plaza, Juan Segundo",
+        ],
+        cambios: ["Martinez, Mirko por Genoud, Augusto", "Muria, Facundo de por Martinez, Mirko", "Cirelli, Mateo por Chiralt, Nahuel", "Moggia, Leandro por Laudani, Agustín"],
       },
     },
 },
@@ -5195,55 +5196,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_los_materos: {
-      local: {
-        nombre: "ALUMNI",
-        jugadores: [
-          "1. Baldo, Tomas",
-          "2. Wagener, Antonio",
-          "3. Frene, Nicolas",
-          "4. Mariani, Luca",
-          "5. Devoto, Santiago",
-          "6. Alepidote, Facundo",
-          "7. Guerrero, Juan Ignacio",
-          "8. Mendonca, Ignacio",
-          "9. Zalazar, Ezequiel",
-          "10. Guimarey, Tobias",
-          "11. Fernandez, Conrado",
-          "12. Machain, Mateo",
-          "13. Ortiz Moriset, Tomas",
-          "14. Peirone, Facundo",
-          "15. Maciel, Jacinto",
-        ],
-        cambios: ["Frene, Nicolas por Cozzi, Franco", "Devoto, Santiago por Fauve, Sebastian", "Guerrero, Juan Ignacio por Milou, Ignacio", "Mendonca, Ignacio por Piccinini, Bautista", "Fernandez, Conrado por Maciel, Jacinto", "Ortiz Moriset, Tomas por Ugo, Segundo", "Peirone, Facundo por Sabato, Luca", "Maciel, Jacinto por Ortiz Moriset, Tomas"],
-      },
-      visitante: {
-        nombre: "LOS MATEROS",
-        jugadores: [
-          "1. Castillo, Thiago",
-          "2. Sampaiño, Cristian",
-          "3. Puente, Joaquin Gil",
-          "4. Alberdi, Nacho",
-          "5. Sorci, Juan",
-          "6. Martinez, Hecker",
-          "7. Darriba, Germán",
-          "8. Chiralt, Nahuel",
-          "9. Barbieri, Santiago",
-          "10. Senesi, Juan Cruz",
-          "11. Bolognini, Facundo",
-          "12. Vázquez, Rodrigo",
-          "13. Perez, Alvaro",
-          "14. Marcos, Juan Bautista",
-          "15. Farias, Eros",
-        ],
-        cambios: [],
-      },
-    },
-
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Dewey, Juan Pablo",
           "2. Pueyrredon, Rodrigo",
@@ -5264,7 +5221,7 @@ const PARTIDOS = {
         cambios: ["Garay, Delfín por Roggero, Francisco", "Hardoy, José por Jaca Otaño, Iñaki", "Lanza, Juan por Casá, Silvestre", "Butler, Bautista por Iribarren, Marcos", "Iribarren, Marcos por Mcgrech, Juan", "Silva, Alfonso por Pereyra, Cruz"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Uriol Demarchi, Joaquín",
           "2. Domínguez, Federico",
@@ -5309,7 +5266,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Ruzo, G",
           "2. Cvitanovic, L",
@@ -5333,7 +5290,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Gomez, Manuel Fernando",
           "2. Chiodi, Valentin",
@@ -5354,7 +5311,7 @@ const PARTIDOS = {
         cambios: ["Gomez, Manuel Fernando por Mariano, Augusto", "Chiodi, Valentin por Sofer, Felipe", "Piazza, Jeronimo por Groenenberg, Geronimo", "Custidiano, Juan Cruz por Corrales, Jeronimo", "Alerino, Joaquin por Franco, Juan", "Allende, Andres por Alerino, Joaquin", "Filgueiras, Matias por Allende, Andres", "Bitthoff, Boris por Azcue, Segundo", "Vieytes, Jeronimo por Amadeo Lastra, Geronimo", "Pompei, Juan Pedro por Pitrelli, Cruz", "Pitrelli, Cruz por Galperin, Simon", "Azcue, Segundo por Celemin, Santiago"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -5376,9 +5333,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. Cambiasso, Facundo",
           "2. Chighizola, Mateo",
@@ -5399,7 +5356,7 @@ const PARTIDOS = {
         cambios: ["Carmona, Joaquín por Montobbio, Felipe", "Maldonado, Francisco por Gomez Tena, Santos", "Zunino, Vladimir por Degui, Francisco", "Follet, Alejo por Maldonado, Francisco"],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Brizuela, Juan",
           "2. Colinas, Pedro García",
@@ -5444,7 +5401,7 @@ const PARTIDOS = {
         cambios: ["Roque, Pitt por Peña", "Malnatti por Garoby, J.", "de, Miguel por Batista", "Lopez del, Carril por Loza", "Zabalza por Bengolea, S.", "Demaria, N. por Cogorno", "Landau, J. por Landau, S.", "Casaurang por Landau, J.", "Fontan por Albani", "Peres por Figueroa Bunge, F.", "Ezcurra por Quiroga", "Dousset por Perdomo", "Mengelle por Patrono", "Mesones por Moroni", "Irigaray por Ezcurra"],
       },
       visitante: {
-        nombre: "ATLETICO DEL ROSARIO",
+        nombre: "Atlético del Rosario",
         jugadores: [
           "1. Viola, Joaquin",
           "2. Hulgich, Ian",
@@ -5489,7 +5446,7 @@ const PARTIDOS = {
         cambios: ["Rocca Sackmann, Francisco por Pastorino, Franco", "Melisi, Ignacio por Ibañez, Joaquín", "Ibañez, Joaquín por Pichot, Isidro"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Graf, Nicolas",
           "2. Artola, Martin",
@@ -5508,6 +5465,51 @@ const PARTIDOS = {
           "15. Fernandez Pertierra, Ulises",
         ],
         cambios: ["Petigrosso, Bruno por Rial, Juan Pablo", "Cortopasso, Valentino por Guillon, Alain", "Colli, Dante por Varde, Tomas"],
+      },
+    },
+
+    alumni_los_matreros: {
+      local: {
+        nombre: "Alumni",
+        jugadores: [
+          "1. Baldo, Tomas",
+          "2. Wagener, Antonio",
+          "3. Frene, Nicolas",
+          "4. Mariani, Luca",
+          "5. Devoto, Santiago",
+          "6. Alepidote, Facundo",
+          "7. Guerrero, Juan Ignacio",
+          "8. Mendonca, Ignacio",
+          "9. Zalazar, Ezequiel",
+          "10. Guimarey, Tobias",
+          "11. Fernandez, Conrado",
+          "12. Machain, Mateo",
+          "13. Ortiz Moriset, Tomas",
+          "14. Peirone, Facundo",
+          "15. Maciel, Jacinto",
+        ],
+        cambios: ["Frene, Nicolas por Cozzi, Franco", "Devoto, Santiago por Fauve, Sebastian", "Guerrero, Juan Ignacio por Milou, Ignacio", "Mendonca, Ignacio por Piccinini, Bautista", "Fernandez, Conrado por Maciel, Jacinto", "Ortiz Moriset, Tomas por Ugo, Segundo", "Peirone, Facundo por Sabato, Luca", "Maciel, Jacinto por Ortiz Moriset, Tomas"],
+      },
+      visitante: {
+        nombre: "Los Matreros",
+        jugadores: [
+          "1. Castillo, Thiago",
+          "2. Sampaiño, Cristian",
+          "3. Puente, Joaquin Gil",
+          "4. Alberdi, Nacho",
+          "5. Sorci, Juan",
+          "6. Martinez, Hecker",
+          "7. Darriba, Germán",
+          "8. Chiralt, Nahuel",
+          "9. Barbieri, Santiago",
+          "10. Senesi, Juan Cruz",
+          "11. Bolognini, Facundo",
+          "12. Vázquez, Rodrigo",
+          "13. Perez, Alvaro",
+          "14. Marcos, Juan Bautista",
+          "15. Farias, Eros",
+        ],
+        cambios: ["Sampaiño, Cristian por Sampaño, Cristian", "Puente, Joaquin Gil por Tesolin, Santiago", "Sorci, Juan por Trabucco, Benjamin", "Martinez, Hecker por Martinez, Federico", "Chiralt, Nahuel por Martinez, Hecker", "Bolognini, Facundo por Moggia, Leandro"],
       },
     },
 },
@@ -6976,55 +6978,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_los_materos: {
-      local: {
-        nombre: "ALUMNI",
-        jugadores: [
-          "1. Berreta, Valentin",
-          "2. Miñana, Ignacio",
-          "3. Vizgarra, Vladimir",
-          "4. Rocha, Tiziano",
-          "5. Judges, Thiago",
-          "6. Trigili, Francisco",
-          "7. Mithaler, Diego",
-          "8. Piccinini, Bautista",
-          "9. Ortiz Piccazo, Francisco",
-          "10. Campbell, Mateo",
-          "11. Domecq, Joaquin",
-          "12. Segura, Lisandro",
-          "13. Barral, Santos",
-          "14. Domnanovich, Manuel",
-          "15. Ballatore, Pedro",
-        ],
-        cambios: ["Berreta, Valentin por Cuevas, Ramiro", "Vizgarra, Vladimir por Vidal, Bautista", "Rocha, Tiziano por Devoto, Santiago", "Piccinini, Bautista por Mendonca, Ignacio", "Ortiz Piccazo, Francisco por Ortiz Piccasso, Francisco", "Domnanovich, Manuel por Williams, Agustin"],
-      },
-      visitante: {
-        nombre: "LOS MATEROS",
-        jugadores: [
-          "1. Guindin, David",
-          "2. Gomez, Santiago",
-          "3. Gonzalez, Nicolas",
-          "4. Neboli, Santiago",
-          "5. Barletta, Santino",
-          "6. Meglio, Dante di",
-          "7. Martinez, Federico",
-          "8. Francini, Franco",
-          "9. Fillipone, Tomás",
-          "10. Baron, Santiago",
-          "11. Colombo, Ramiro",
-          "12. Gallastegui, Lautaro",
-          "13. Mendoza, Martino Medina",
-          "14. Vizconti, Juan Ignacio",
-          "15. Costa, Juan Ignacio",
-        ],
-        cambios: [],
-      },
-    },
-
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Brandi, Facundo",
           "2. Herrera, Segundo",
@@ -7045,7 +7003,7 @@ const PARTIDOS = {
         cambios: ["Herrera, Segundo por Iribarne, Gonzalo", "Uranga, Tomás por Ezcurra, Ramón", "Monpelat, Nicolás por Valls, José Quinto", "Saravia, Justo por Monpelat, Nicolás", "Ezcurra, Felipe por Saravia, Justo", "Bullrich, Simón por Rauch, Facundo", "Otaño, Iñaki Jaca por Bullrich, Marcos", "Mignone, Germán por Uranga, Félix", "Iribarne, Bautista por Butler, Bautista", "Pereyra, Cruz por Socas, Justo", "Taboada, Santiago G. por von Wuthenau, Juan Cruz"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Sánchez de la Puente, Javier",
           "2. Berardi, Felipe",
@@ -7090,7 +7048,7 @@ const PARTIDOS = {
         cambios: ["Ketelhon, F. G. por G. Ketelhon, F.", "Ayerza Sojo, T. por Ayerza Sojo, T", "Anchoni, B. por Anchoni, B", "Palacios, J. por Emiliani, L", "Miguens, F. por Palacios, J", "Gorgolas, B. F. por Roques, F", "Pereyra, F. por Pereyra, F", "Longo, M. por Longo, M", "Sascaro, B. por Sascaro, B", "Delor, B. por Delor, B", "Rubio, F. por Ghisolfi, D", "Rivarola, A. por Rivarola, A", "Battioli, T. por Battioli, T", "Brocca, B. por Brocca, B", "Tempone, T. por Tempone, T"],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Quiroga, I",
           "2. Díaz, de la Vega M.",
@@ -7114,7 +7072,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Perticone, Maxi",
           "2. Sofer, Felipe",
@@ -7135,7 +7093,7 @@ const PARTIDOS = {
         cambios: ["Sofer, Felipe por Garbini, Augusto", "Franco, Juan por Custidiano, Juan Cruz", "Scolari, Antonio por Maturana, Valentin", "Lavayen, Justo por Gatti, Salvador", "Roig, Iñaki por Losasso, Ignacio", "Gatti, Salvador por Filgueiras, Matias", "Gabalachi, Nicolas por Bitthoff, Boris", "Celemin, Santiago por Castiglione, Franco", "Castiglione, Franco por Casanello, Guido", "Amadeo Lastra, Geronimo por Gabalachi, Nicolas"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -7157,9 +7115,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. Avalos, Santiago",
           "2. Marchesi, Guido",
@@ -7180,7 +7138,7 @@ const PARTIDOS = {
         cambios: ["Avalos, Santiago por Radakovits, Santiago", "Panique, Esteban por García Mac Dougal, Tomás", "Bordalejo, Pedro por Carmona, Joaquín", "Mariotti, Gonzalo por Podestá, Santino", "Espinosa, Nahuel por Ticinese, Bautista", "Schon, Ramiro por Zunino, Vladimir", "Ferreiro, Matías por Habib, Lucas", "Ticinese, Bautista por Follet, Alejo"],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Vilches, Tomás",
           "2. Castilla, Fernando",
@@ -7225,7 +7183,7 @@ const PARTIDOS = {
         cambios: ["Vicetto por Carullo", "Bosch, I. por de, Miguel", "Walker, G. por Lopez del, Carril", "Mas por Zabalza", "Vallejos por Mas", "Arenaza por Carrasco", "Carrasco por Vallejo", "Coppola por Benedit", "Allaria por Peres", "Carreras por Miguens, B.", "Cafferata por Cardini, J.", "Roca por Randle", "Corleto por Kassai", "Eliçagaray por Carreras"],
       },
       visitante: {
-        nombre: "ATLETICO DEL ROSARIO",
+        nombre: "Atlético del Rosario",
         jugadores: [
           "1. Carro, José",
           "2. Entaish, Marco",
@@ -7270,7 +7228,7 @@ const PARTIDOS = {
         cambios: ["Llano, Benjamín por Lorenzo, Matías", "Parodi, Santiago por Rocca Sackmann, Francisco", "Sanchez, Ignacio por Guerrero, Felipe", "Costa, Francisco por Melisi, Ignacio", "Flores, Santiago por Esquivel, Bautista", "Baldrich, Mateo por Guerzoni, Santiago"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Almagro, Simon",
           "2. Cortopasso, Luca",
@@ -7289,6 +7247,51 @@ const PARTIDOS = {
           "15. Pioli, Federico",
         ],
         cambios: ["Almagro, Simon por Benito, Felipe", "Guillon, Alain por Ogresta, Santino", "Ogresta, Santino por Pirrone, Matias", "Ruiz Lopez, Juan Cruz por Colli, Dante"],
+      },
+    },
+
+    alumni_los_matreros: {
+      local: {
+        nombre: "Alumni",
+        jugadores: [
+          "1. Berreta, Valentin",
+          "2. Miñana, Ignacio",
+          "3. Vizgarra, Vladimir",
+          "4. Rocha, Tiziano",
+          "5. Judges, Thiago",
+          "6. Trigili, Francisco",
+          "7. Mithaler, Diego",
+          "8. Piccinini, Bautista",
+          "9. Ortiz Piccazo, Francisco",
+          "10. Campbell, Mateo",
+          "11. Domecq, Joaquin",
+          "12. Segura, Lisandro",
+          "13. Barral, Santos",
+          "14. Domnanovich, Manuel",
+          "15. Ballatore, Pedro",
+        ],
+        cambios: ["Berreta, Valentin por Cuevas, Ramiro", "Vizgarra, Vladimir por Vidal, Bautista", "Rocha, Tiziano por Devoto, Santiago", "Piccinini, Bautista por Mendonca, Ignacio", "Ortiz Piccazo, Francisco por Ortiz Piccasso, Francisco", "Domnanovich, Manuel por Williams, Agustin"],
+      },
+      visitante: {
+        nombre: "Los Matreros",
+        jugadores: [
+          "1. Guindin, David",
+          "2. Gomez, Santiago",
+          "3. Gonzalez, Nicolas",
+          "4. Neboli, Santiago",
+          "5. Barletta, Santino",
+          "6. Meglio, Dante di",
+          "7. Martinez, Federico",
+          "8. Francini, Franco",
+          "9. Fillipone, Tomás",
+          "10. Baron, Santiago",
+          "11. Colombo, Ramiro",
+          "12. Gallastegui, Lautaro",
+          "13. Mendoza, Martino Medina",
+          "14. Vizconti, Juan Ignacio",
+          "15. Costa, Juan Ignacio",
+        ],
+        cambios: ["Guindin, David por Paz, Tobías", "Gonzalez, Nicolas por Pietro, Luca di", "Neboli, Santiago por Sorci, Juan", "Martinez, Federico por Francini, Franco", "Francini, Franco por Reina, Matias", "Baron, Santiago por Amoedo, Manuel", "Colombo, Ramiro por Bolognini, Facundo", "Costa, Juan Ignacio por Indart, Iñaki"],
       },
     },
 },
@@ -8743,55 +8746,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_los_materos: {
-      local: {
-        nombre: "ALUMNI",
-        jugadores: [
-          "1. Mallea Gil, Toribio",
-          "2. Garcia, Santos",
-          "3. Benetti, Nahuel",
-          "4. Paz, Facundo",
-          "5. Mainardi, Pedro",
-          "6. Juan, Constantino",
-          "7. del Carril, Santiago",
-          "8. Schmidt, Máximo",
-          "9. Filgueira, Gonzalo",
-          "10. Berreta, Juan Marcos",
-          "11. Martínez, Tobías",
-          "12. Hardie, Bautista",
-          "13. Cingolani, Manuel",
-          "14. Lanusse, Segundo",
-          "15. Conte Mac Donell, Nicolás",
-        ],
-        cambios: [],
-      },
-      visitante: {
-        nombre: "LOS MATEROS",
-        jugadores: [
-          "1. Pollicino, Nicolas",
-          "2. Varde, Matias",
-          "3. Degiovani, Facundo",
-          "4. Aramburo, Mateo",
-          "5. Rodriguez, Julian",
-          "6. Reina, Matias",
-          "7. Rusiecki, Asael",
-          "8. Ugartemendia, Iñaki",
-          "9. Gómez, Tomás",
-          "10. Argañaraz, Tao",
-          "11. Fernández, Thiago",
-          "12. Mccormack, Liam",
-          "13. Arce, Tobías",
-          "14. Sturla, Felipe",
-          "15. Píriz, Bautista",
-        ],
-        cambios: [],
-      },
-    },
-
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Elizalde, Iñaki de",
           "2. Gaviña, Segundo",
@@ -8812,7 +8771,7 @@ const PARTIDOS = {
         cambios: ["Elizalde, Iñaki de por Naveiro, Joaquín", "Benedit, Juan Cruz por Irarrázaval, Bautista", "Moreno, Tomás Berton por Ezcurra, Felipe", "Longinotti, Tomás por Busto, José", "Busto, José por Longinotti, Tomás", "Zavaleta, Fermín García por Mignone, Germán"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Trujeque, Alejandro",
           "2. Daireaux Delfino, Santos",
@@ -8857,7 +8816,7 @@ const PARTIDOS = {
         cambios: ["Pezzenatti, A. por Cardillo, G", "Marples, J. por Marples, J", "Pereyra, I. por Pereyra, I", "Vallier, I. por Gauto, M", "Cariglia, J. por Vallier, I", "Gauto, M. por Gonzalez Chiappe, M", "Gonzalez Chiappe, M. por Vitton, M", "Vitton, M. por Gorgolas B, F.", "M Tomietto, R. por Garriga, T", "Ramallo, B. por Ramallo, B", "Giorgitti, S. por Giorgitti, S", "Miguens, G. por Miguens, G", "Rodriguez Delo, L. por Rodriguez Delor, F", "Ibañez, M. por Ibañez, M", "Cartaña, F. por Cartaña, F"],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Peñaloza, S",
           "2. Barboni, T",
@@ -8881,7 +8840,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -8902,7 +8861,7 @@ const PARTIDOS = {
         cambios: ["Sin, Información por Lavigne, Emilio", "Sin, Información por Calaszibetta, Lautaro", "Sin, Información por Romano, Miguel", "Sin, Información por Bellocq, Joaquin", "Sin, Información por Penoucos, Marcos", "Sin, Información por Beveraggi, Jaime", "Sin, Información por Gentile, Alvaro", "Sin, Información por Lavayen, Justo", "Sin, Información por Gallegos, Marcos", "Sin, Información por de las Carreras, Simon", "Sin, Información por Barreix, Benjamin", "Sin, Información por Beato, Bautista", "Sin, Información por Dipascuale, Tomas", "Sin, Información por Blanco, Bautista", "Sin, Información por Colantonio, Gonzalo"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -8924,9 +8883,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. Bello, Ramiro",
           "2. Halperín, Pedro",
@@ -8947,7 +8906,7 @@ const PARTIDOS = {
         cambios: ["Arnaldo, Bautista por Panique, Esteban", "Riera, Matías por Varela, Ezequiel", "Perez Rivero, Agustín por Mariotti, Gonzalo", "Naka, Juan por Bordalejo, Pedro", "Sanchez Bardi, Justo por Ferreiro, Matías", "Cuenya, Mateo por Schon, Ramiro", "Puigdemasa, Francisco por Espinoza, Nahuel"],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Esposito, Francisco",
           "2. González, Juan",
@@ -8992,7 +8951,7 @@ const PARTIDOS = {
         cambios: ["Carullo por Millberg", "Baldi por Rodriguez, Simon", "Tsin por Aparicio", "Ceniceros por Glucksmann", "Young, F. por Ceniceros", "Demaria, F. por Rocha", "de la, Arena por Montelatici", "Benedit por Travers", "Perrota por Perrotta", "Rodon por Tropea, B.", "Figueroa Bunge, E. por Cafferata", "Tropea, B. por Dorado", "Saravia por Figueroa Bunge, E.", "Kassai por Bracho"],
       },
       visitante: {
-        nombre: "ATLETICO DEL ROSARIO",
+        nombre: "Atlético del Rosario",
         jugadores: [
           "1. Viola, Mariano",
           "2. Vega, Facundo de la",
@@ -9037,7 +8996,7 @@ const PARTIDOS = {
         cambios: ["Lorenzo, Matías por Ladelfa, Santiago", "Lanus, Salvador por Souverbielle, Tomás", "Gonzalez, Franco por Mercier, Agustín", "Garcia, Jano por Obiglio, Agustín", "Souverbielle, Tomás por Parodi, Santiago", "Obligio, Agustín por Dondi, Nicolás", "Cresta, Nicolás por Baldrich, Mateo", "Esquivel, Bautista por Urien, Mateo", "Peci, Santiago por Flores, Santiago"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Selalle Orona, Ciro",
           "2. Ibarra, Manuel",
@@ -9056,6 +9015,51 @@ const PARTIDOS = {
           "15. Fumarola, Francisco",
         ],
         cambios: ["Selalle Orona, Ciro por Tejeda, Simon", "Buccigrossi, Valentin por Martin, Lopez", "Arrua, Filipo por Castagnet, Manuel", "Moreyra, Facundo por Ruiz Lopez, Juan Cruz", "Gil, Lautaro por Balbin, Federico", "Favre, Francisco por Gil, Lautaro", "Lilli de Landaburu, Juan Jose por Bradley, Ricardo"],
+      },
+    },
+
+    alumni_los_matreros: {
+      local: {
+        nombre: "Alumni",
+        jugadores: [
+          "1. Mallea Gil, Toribio",
+          "2. Garcia, Santos",
+          "3. Benetti, Nahuel",
+          "4. Paz, Facundo",
+          "5. Mainardi, Pedro",
+          "6. Juan, Constantino",
+          "7. del Carril, Santiago",
+          "8. Schmidt, Máximo",
+          "9. Filgueira, Gonzalo",
+          "10. Berreta, Juan Marcos",
+          "11. Martínez, Tobías",
+          "12. Hardie, Bautista",
+          "13. Cingolani, Manuel",
+          "14. Lanusse, Segundo",
+          "15. Conte Mac Donell, Nicolás",
+        ],
+        cambios: [],
+      },
+      visitante: {
+        nombre: "Los Matreros",
+        jugadores: [
+          "1. Pollicino, Nicolas",
+          "2. Varde, Matias",
+          "3. Degiovani, Facundo",
+          "4. Aramburo, Mateo",
+          "5. Rodriguez, Julian",
+          "6. Reina, Matias",
+          "7. Rusiecki, Asael",
+          "8. Ugartemendia, Iñaki",
+          "9. Gómez, Tomás",
+          "10. Argañaraz, Tao",
+          "11. Fernández, Thiago",
+          "12. Mccormack, Liam",
+          "13. Arce, Tobías",
+          "14. Sturla, Felipe",
+          "15. Píriz, Bautista",
+        ],
+        cambios: ["Pollicino, Nicolas por González, Nicolas", "Varde, Matias por Guindin, David", "Rodriguez, Julian por Neboli, Santiago", "Reina, Matias por Rodriguez, Julián", "Argañaraz, Tao por Baron, Santiago"],
       },
     },
 },
@@ -10657,55 +10661,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_los_materos: {
-      local: {
-        nombre: "ALUMNI",
-        jugadores: [
-          "1. Benitez, Mateo",
-          "2. Aragon, Marcos",
-          "3. Girini, Pedro",
-          "4. Williams, Felipe",
-          "5. Soto Quintus, Matias",
-          "6. Ambroa, Joquin",
-          "7. Zicareelli, Juan Pablo",
-          "8. Martin, Tomas",
-          "9. Pietra, Manuel",
-          "10. Fraga, Santiago",
-          "11. Guerrero, Facundo",
-          "12. Diaz, Gonzalo",
-          "13. Bourquin, Valentin",
-          "14. Claret, Ignacio",
-          "15. Martinez, Juan Francisco",
-        ],
-        cambios: [],
-      },
-      visitante: {
-        nombre: "LOS MATEROS",
-        jugadores: [
-          "1. Paz, Tobias",
-          "2. Monteverde, Joaquin",
-          "3. Salina, Kevin",
-          "4. Tulon, Joan",
-          "5. Falco, Martin",
-          "6. Cristofaro, Matias",
-          "7. Piñeyrua, Gaston",
-          "8. Gonzalez, Marcos",
-          "9. Marquevich, Tomás",
-          "10. Sorroche, Ramiro",
-          "11. Martínez, Sebastian",
-          "12. Purita, Marco",
-          "13. Coronel, Manuel",
-          "14. Peréz, Bautista",
-          "15. Casares, Martiniano",
-        ],
-        cambios: [],
-      },
-    },
-
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Aramburu, Bautista",
           "2. Aramburu, Marcos",
@@ -10726,7 +10686,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Cacios, Tadeo",
           "2. Carrizo, Mateo",
@@ -10771,7 +10731,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Cerino, Jc",
           "2. Fernández, F",
@@ -10795,7 +10755,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Redolatti, Oscar",
           "2. Hsu, Tom",
@@ -10816,7 +10776,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -10838,9 +10798,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. de Luca, Belisario",
           "2. Mallo, Gonzalo",
@@ -10861,7 +10821,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Bourse, Thiago",
           "2. Lemos, Julián García",
@@ -10906,7 +10866,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "ATLETICO DEL ROSARIO",
+        nombre: "Atlético del Rosario",
         jugadores: [
           "1. Morelli, Pedro",
           "2. Suarez, Tomás",
@@ -10951,7 +10911,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Ibarra, Ignacio",
           "2. Arce, Santiago",
@@ -10970,6 +10930,51 @@ const PARTIDOS = {
           "15. M. Mendinueta, Juan",
         ],
         cambios: [],
+      },
+    },
+
+    alumni_los_matreros: {
+      local: {
+        nombre: "Alumni",
+        jugadores: [
+          "1. Benitez, Mateo",
+          "2. Aragon, Marcos",
+          "3. Girini, Pedro",
+          "4. Williams, Felipe",
+          "5. Soto Quintus, Matias",
+          "6. Ambroa, Joquin",
+          "7. Zicareelli, Juan Pablo",
+          "8. Martin, Tomas",
+          "9. Pietra, Manuel",
+          "10. Fraga, Santiago",
+          "11. Guerrero, Facundo",
+          "12. Diaz, Gonzalo",
+          "13. Bourquin, Valentin",
+          "14. Claret, Ignacio",
+          "15. Martinez, Juan Francisco",
+        ],
+        cambios: [],
+      },
+      visitante: {
+        nombre: "Los Matreros",
+        jugadores: [
+          "1. Paz, Tobias",
+          "2. Monteverde, Joaquin",
+          "3. Salina, Kevin",
+          "4. Tulon, Joan",
+          "5. Falco, Martin",
+          "6. Cristofaro, Matias",
+          "7. Piñeyrua, Gaston",
+          "8. Gonzalez, Marcos",
+          "9. Marquevich, Tomás",
+          "10. Sorroche, Ramiro",
+          "11. Martínez, Sebastian",
+          "12. Purita, Marco",
+          "13. Coronel, Manuel",
+          "14. Peréz, Bautista",
+          "15. Casares, Martiniano",
+        ],
+        cambios: ["Paz, Tobias por Godoy, Carlos", "Monteverde, Joaquin por Pollicino, Nicolas", "Tulon, Joan por Francolino, Matias", "Falco, Martin por Monteverde, Joaquín", "Cristofaro, Matias por Bendini, Dante", "Piñeyrua, Gaston por Acuña, Joaquin", "Sorroche, Ramiro por Argañaraz, Tao"],
       },
     },
 },
@@ -12093,10 +12098,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    newman_champagnat: {
+    newman_e_champagnat_e: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman E",
         jugadores: [
           "1. Naveiro, Joaquín",
           "2. Iribas, Tomás",
@@ -12114,10 +12120,10 @@ const PARTIDOS = {
           "14. Zirolli, Bautista",
           "15. Galarraga, Simón",
         ],
-        cambios: [],
+        cambios: ["Naveiro, Joaquín por Gassiebayle, Ramón", "Monpelat, Felipe por Sbarra, Bautista", "Varela, Gonzalo por Fellner, Francisco", "Skinner, Ignacio por Torello, Mateo", "Sluzewski Montoya, Santiago por Pujato, Matías", "Skinner, Gonzalo por Otero, Benjamín"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat E",
         jugadores: [
           "1. Gurruchaga, Gonzalo",
           "2. Gourdy, Rosendo",
@@ -12135,13 +12141,13 @@ const PARTIDOS = {
           "14. Amadeo, Miguel",
           "15. Buscaglia, Lucas",
         ],
-        cambios: [],
+        cambios: ["Gurruchaga, Gonzalo por Gotelli, Andres", "Gourdy, Rosendo por Erdozain, Tobias", "Echenique, Felix por Garat, Federico", "Uriol, Rodrigo por Dietz, Gunther", "del Pino, Joaquín por Sierra, Genaro", "Schulz, Juan Francisco por Penney, Thomas", "Zavala, Felipe por Moreno Hueyo, Joaquin", "Macías, Jerónimo por Carrizo, Pedro", "Buscaglia, Lucas por Macías, Jeronimo"],
       },
     },
 
-    sic_hindu: {
+    sic_e_hindu_e: {
       local: {
-        nombre: "SIC",
+        nombre: "SIC E",
         jugadores: [
           "1. Villegas Leiva, F.",
           "2. Manzione, F.",
@@ -12159,10 +12165,10 @@ const PARTIDOS = {
           "14. Morini, F.",
           "15. Perez del Cerro, G.",
         ],
-        cambios: [],
+        cambios: ["Villegas Leiva, F. por Viero, G.", "Bartolome, I. por Montenegro, J.", "Lonardi, P. por Beccar Varela, T.", "Beccar Varela, T. por Giliberti, M.", "Gallardo, P. por Perez del Cerro, G.", "Alcaine, J. por Palacios, M.", "Perez del Cerro, G. por Gimenez Moro, B."],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu E",
         jugadores: [
           "1. Pascali, N",
           "2. Ibarra, D",
@@ -12184,9 +12190,9 @@ const PARTIDOS = {
       },
     },
 
-    belgrano_athletic_la_plata: {
+    belgrano_athletic_e_la_plata_e: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic E",
         jugadores: [
           "1. Jjuntunen, Santino",
           "2. Lambiasse, Federico",
@@ -12204,10 +12210,10 @@ const PARTIDOS = {
           "14. Cereghini, Gerónimo",
           "15. Kavanagh, Tomás",
         ],
-        cambios: [],
+        cambios: ["Jjuntunen, Santino por Juntunen, Santino", "Lambiasse, Federico por Hsu, Tom", "Federico, Juan por Lambiasse, Federico", "Trovisol, Valentín por Laplacette", "Gori, Aaron por Sfilio, Lucas", "Michur, Santiago por Trovisol, Valentín", "Kavanagh, Tomás por González Thomas, Papa"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata E",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -12229,9 +12235,9 @@ const PARTIDOS = {
       },
     },
 
-    cuba_cuba_f: {
+    cuba_e_cuba_f: {
       local: {
-        nombre: "CUBA",
+        nombre: "CUBA E",
         jugadores: [
           "1. Nobile",
           "2. Romero de, Haz",
@@ -12249,7 +12255,7 @@ const PARTIDOS = {
           "14. Alvarez",
           "15. Zabalza",
         ],
-        cambios: [],
+        cambios: ["Nobile por Peres", "Romero de, Haz por Chiesa", "Carrizo por Broggi", "Laszlo, Piña por Fitte", "Paez por Daireaux", "Bianco por Charlot", "Peña por Lozano", "Montes por Ledesma", "Piza por Forchieri", "Carneiro por Nobile", "Pascual por Cano", "Casaurang por Yacopino", "Weschler por Gallo", "Alvarez por Pueyrredon", "Zabalza por Vincent"],
       },
       visitante: {
         nombre: "CUBA F",
@@ -12274,9 +12280,9 @@ const PARTIDOS = {
       },
     },
 
-    casi_los_tilos: {
+    casi_e_los_tilos_e: {
       local: {
-        nombre: "CASI",
+        nombre: "CASI E",
         jugadores: [
           "1. Ladelfa, Agustín",
           "2. Ciri, Agustín",
@@ -12294,10 +12300,10 @@ const PARTIDOS = {
           "14. Sanguinetti, Guido",
           "15. Khoury, Fausto",
         ],
-        cambios: [],
+        cambios: ["Ladelfa, Agustín por Berrocal, Francisco", "Ciri, Agustín por Villanueva, Felipe", "Villanueva, Felipe por Riat, César", "Vitale, Tomás por O’reilly, Mariano", "Guastavino, Justo por Monte, Bautista", "Bertotti, Mateo por Vitale, Tomás", "Mancini, Rafael por Khoury, Fausto", "Casal, Ramiro por Belgrano, Felipe", "Tonnelier, Benjamín por Juarez, Benjamín", "Khoury, Fausto por Retta, Bautista"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos E",
         jugadores: [
           "1. Terzaghi, Lautaro",
           "2. Vachetta, Pedro",
@@ -13546,10 +13552,11 @@ const PARTIDOS = {
     },
 
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_newman_h: {
+    alumni_f_newman_h: {
       local: {
-        nombre: "ALUMNI",
+        nombre: "Alumni F",
         jugadores: [
           "1. Olmos, Carlos",
           "2. Rodriguez, Juan",
@@ -13567,10 +13574,10 @@ const PARTIDOS = {
           "14. Ruiz Guiñazu, Lucas",
           "15. Gonzalez Quesnel, Buatista",
         ],
-        cambios: [],
+        cambios: ["Olmos, Carlos por Alduncin, Pedro", "Rodriguez, Juan por Centurion, Alejo", "Santa Cruz, Federico por Ormeño, Facundo", "Adaro, Santiago por Montanucci, Fabricio", "Majdalani, Mateo por Maine, Francisco", "Nuesch, Lucas por Maine, Juan", "Lucini, Bautista por Nies, Pedro", "Severo Nieto, Tomas por Devoto, Diogenes", "Cobo, Tomas por Pagano, Salvador", "Rifner, Jonas por Lanusse, Justo", "Lanusse, Justo por Rifner, Tadeo", "Gonzalez Quesnel, Buatista por Gonzalez Quesnel, Bautista"],
       },
       visitante: {
-        nombre: "NEWMAN H",
+        nombre: "Newman H",
         jugadores: [
           "1. Mc Cormick, Santiago",
           "2. Paterson, Jerónimo",
@@ -13592,30 +13599,30 @@ const PARTIDOS = {
       },
     },
 
-    newman_champagnat: {
+    newman_f_champagnat_f: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman F",
         jugadores: [
-          "1. Merello, Santiago",
-          "2. Lanusse, Santiago",
-          "3. Bosch, Ramón",
-          "4. Lanusse, Joaquín",
-          "5. Sbarra, Bautista",
-          "6. Alvarado, Juan",
-          "7. Reyna, José",
-          "8. Bouquet, Esteban",
-          "9. Tedín, Rufino",
-          "10. von Wuthenau, Facundo",
-          "11. Bosch, Alfonso",
-          "12. Pujato, Gonzalo",
-          "13. Pujato, Francisco",
-          "14. Pahissa, Jaime",
-          "15. Bosch, Gonzalo",
+          "1. Mc Cormick, Santiago",
+          "2. Paterson, Jerónimo",
+          "3. Carey, Máximo",
+          "4. Quigley, Thomas",
+          "5. Monpelat, Pedro",
+          "6. Dominguez, Cruz",
+          "7. Erize, Bautista",
+          "8. Bosch, Vicente",
+          "9. Ibañez, Alfonso",
+          "10. Amaral, Quinto",
+          "11. Gonzalez del Solar, Santiago",
+          "12. Prat Gay, Iñaki",
+          "13. Garat, Ramón",
+          "14. Muxi, Tomás",
+          "15. Daireaux, Marcos",
         ],
-        cambios: [],
+        cambios: ["Mc Cormick, Santiago por Merello, Santiago", "Paterson, Jerónimo por Lanusse, Santiago", "Carey, Máximo por Bosch, Ramón", "Quigley, Thomas por Busto, Alejandro", "Monpelat, Pedro por Ibañez, Joaquín", "Dominguez, Cruz por Monpelat, Felipe", "Erize, Bautista por Alvarado, Juan", "Bosch, Vicente por Bouquet, Esteban", "Ibañez, Alfonso por Adrogué, Cesar", "Amaral, Quinto por von Wuthenau, Facundo", "Gonzalez del Solar, Santiago por Bosch, Alfonso", "Prat Gay, Iñaki por Pujato, Gonzalo", "Garat, Ramón por Skinner, Gonzalo", "Muxi, Tomás por Pujato, Francisco", "Daireaux, Marcos por Adrogué, Santiago"],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat F",
         jugadores: [
           "1. Crouzel, Tomás",
           "2. Erdozain, Tobías",
@@ -13633,13 +13640,13 @@ const PARTIDOS = {
           "14. Hesse, Eduardo",
           "15. Moreno Hueyo, Joaquín",
         ],
-        cambios: [],
+        cambios: ["Crouzel, Tomás por Crouzel, Tomas", "Erdozain, Tobías por Zavaley, Agustín", "Gomez, Héctor por Gomez, Hector", "Alegría, Felipe por Echenique, Felix", "Villanueva, Salvador por del Pino, Joaquin", "Sere, Matías por Uriol, Rodrigo", "Imbrosciano, Giuseppe por Schulz, Juan Francisco", "Garat Crotto, Juan por Perea, Toribio", "Benguria, Agustín por Benguria, Agustin", "Brizzi, Santos por Ciarlelli, Felipe", "Otero, Benjamín por Otero, Benjamin", "Romero Artaza, Ignacio por Vásquez Pini, Santiago", "Moreno Hueyo, Joaquín por Zavala, Felipe"],
       },
     },
 
-    sic_newman_g: {
+    sic_f_newman_g: {
       local: {
-        nombre: "SIC",
+        nombre: "SIC F",
         jugadores: [
           "1. Ferrari, F.",
           "2. Fanello, M.",
@@ -13657,10 +13664,10 @@ const PARTIDOS = {
           "14. Ramallo, J.",
           "15. Urdapilleta, F.",
         ],
-        cambios: [],
+        cambios: ["Ferrari, F. por Bartolome, I.", "Fanello, M. por Kopprio, U.", "Rams, F. por Crespo Montes, F.", "Rolon, J. C. por P de Olazabal, T.", "Crespo Montes, F. por Marples, B.", "Frias Silva, T. por Garcia Albornoz, M.", "Hechter, V. por Alcaine, J.", "Campbell, M. por Madero, R."],
       },
       visitante: {
-        nombre: "NEWMAN G",
+        nombre: "Newman G",
         jugadores: [
           "1. Pintelos, Benjamín",
           "2. Pavlovsky, José María",
@@ -13682,9 +13689,9 @@ const PARTIDOS = {
       },
     },
 
-    belgrano_athletic_la_plata: {
+    belgrano_athletic_f_la_plata_f: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic F",
         jugadores: [
           "1. Toledo, Iván",
           "2. Tabarone, Giuliano",
@@ -13702,10 +13709,10 @@ const PARTIDOS = {
           "14. Pelliza, Máximo",
           "15. Fernández Pacheco, Santiago",
         ],
-        cambios: [],
+        cambios: ["Toledo, Iván por Casas, Emilio", "Tabarone, Giuliano por Gori, Aaron", "Rondón, Elian por Andrietti, Ivo", "Casas, Emilio por Michur, Santiago", "Andrietti, Ivo por Toledo, Ivan", "González, Juan Ignacio por Tabarone, Giuliano", "Michur, Santiago por Pelliza, Maximo", "Basso, Juan por Fernandez Volpe, Francisco", "Ncatchian, Benizio por Spitaleri, Juan", "Wilkinson, Marcos por Porcaro, Benjamín", "Cerioni, Emiliano por Diaz Colodrero, Beli", "M de Apellaniz, Francisco por Cerioni, Emiliano", "Pelliza, Máximo por Bardi, Bautista", "Fernández Pacheco, Santiago por Dillon, Nicasio"],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata F",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -13750,7 +13757,7 @@ const PARTIDOS = {
         cambios: [],
       },
       visitante: {
-        nombre: "LOS TILOS G",
+        nombre: "Los Tilos G",
         jugadores: [
           "1. Ron, Juan",
           "2. D’alessandro, Bautista",
@@ -13772,9 +13779,9 @@ const PARTIDOS = {
       },
     },
 
-    casi_los_tilos: {
+    casi_f_los_tilos_f: {
       local: {
-        nombre: "CASI",
+        nombre: "CASI F",
         jugadores: [
           "1. del Santo, Juan Cruz",
           "2. Mata, Sebastián",
@@ -13792,28 +13799,28 @@ const PARTIDOS = {
           "14. Marmolejo, Juan",
           "15. Magnani, Tomás",
         ],
-        cambios: [],
+        cambios: ["del Santo, Juan Cruz por Mata, Sebastián", "Mata, Sebastián por Cotz, Velentino", "O’reilly, Mariano por Estivil, Bautista", "Bernasconi, Tomás por Fraga, Tomás", "Cataldi, Francisco por Bock, Balthazar", "Roy, Joaquín por Darritchon, Marcos", "Marmolejo, Juan por Magnani, Tomás", "Magnani, Tomás por Pasman, Francisco"],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos F",
         jugadores: [
-          "1. Iturrioz, Santiago",
-          "2. Bellettini, Mateo",
-          "3. Carrera, Luciano",
-          "4. de la Portilla, Juan",
-          "5. Berti, Jonas",
-          "6. Vitale, Santiago",
-          "7. Vela, Luis Manuel",
-          "8. Díaz, Carlos",
-          "9. Camaño, Conrado",
-          "10. Bustamante, Lautaro",
-          "11. Peri, Nahuel",
-          "12. Vega, Cristóbal",
-          "13. Arens, Juan Cruz",
-          "14. Giraud, Ignacio",
-          "15. Lares, Pedro",
+          "1. Ron, Juan",
+          "2. D’alessandro, Bautista",
+          "3. Rubbini, Antonio",
+          "4. Grindfield, Alejo",
+          "5. Fernandez, Augusto",
+          "6. Bargioni, Francisco",
+          "7. Elliggi, Jorge",
+          "8. Leonard, Alexis",
+          "9. Balbín, Hipólito",
+          "10. Etcheverry, Joaquín",
+          "11. Gubia, Isidro",
+          "12. Tettamanti, Lucas",
+          "13. Bassini, Santiago",
+          "14. Forte, Patricio",
+          "15. Mollo, Valentino",
         ],
-        cambios: [],
+        cambios: ["Ron, Juan por Rubbini, Antonio", "D’alessandro, Bautista por Vela, Luis Manuel", "Rubbini, Antonio por Fillol, Ignacio Nicolás", "Grindfield, Alejo por Heindryckx Arteaga, Bautista Nicolás", "Fernandez, Augusto por Berti, Jonas", "Bargioni, Francisco por Franco, Augusto", "Elliggi, Jorge por Permuy, Adolfo", "Leonard, Alexis por Alioto, Roberto", "Balbín, Hipólito por Rotonda, Rafael", "Etcheverry, Joaquín por Gutierrez Vieyro, Gregorio", "Gubia, Isidro por Peri, Ignacio", "Tettamanti, Lucas por Coscarelli, Lucio", "Bassini, Santiago por Aldauc, Jair", "Forte, Patricio por Durante, Agustín", "Mollo, Valentino por Guillen, Juan Ignacio"],
       },
     },
 },
@@ -14921,10 +14928,11 @@ const PARTIDOS = {
 
     
     
+    
     // ── FECHA 6 ────────────────────────────────────────────────
-    alumni_sic_m22_b: {
+    alumni_sic_b: {
       local: {
-        nombre: "ALUMNI",
+        nombre: "Alumni",
         jugadores: [
           "1. Tejerina, Lucas",
           "2. Bivort, Jose",
@@ -14942,10 +14950,10 @@ const PARTIDOS = {
           "14. Vassolo, Rafael",
           "15. Celaa, Pedro",
         ],
-        cambios: ["Venier, Slavador por Venier, Salvador", "Cardozo, Benjamin por Guerrero, Juan Ignacio", "Otondo, Martin por Cardozo, Benjamin", "Maglione, Jaime por Sanchez, Mateo", "Ceballos, Alejandro por Fernandez, Conrado", "Ugo, Segundo por Domnanovich, Manuel"],
+        cambios: [],
       },
       visitante: {
-        nombre: "SIC M22 B",
+        nombre: "SIC B",
         jugadores: [
           "1. Kopprio, U.",
           "2. Matarraz Krohn, T.",
@@ -14969,7 +14977,7 @@ const PARTIDOS = {
 
     newman_champagnat: {
       local: {
-        nombre: "NEWMAN",
+        nombre: "Newman",
         jugadores: [
           "1. Shaw, Marcos",
           "2. Olmos, Zenon",
@@ -14987,10 +14995,10 @@ const PARTIDOS = {
           "14. Socas, Justo",
           "15. Molina, Lucas",
         ],
-        cambios: ["Shaw, Marcos por de Elizalde, Iñaki", "Valls, José Quinto por Benedit, Juan Cruz", "Benitez Cruz, Blas por Davel, Lucas", "Autillio, Juan Cruz por Varela, Simón", "Ruzo, Ignacio por Autillio, Juan Cruz", "Socas, Justo por Santurio, Pedro"],
+        cambios: [],
       },
       visitante: {
-        nombre: "CHAMPAGNAT",
+        nombre: "Champagnat",
         jugadores: [
           "1. Chiesa, Tadeo",
           "2. Roquette, Tomás",
@@ -15008,7 +15016,7 @@ const PARTIDOS = {
           "14. Storni, Beltrán",
           "15. Rocha, Justo",
         ],
-        cambios: ["Chiesa, Tadeo por Cacios, Tadeo", "Roquette, Tomás por Sánchez de la Puente, Javier", "Moralejo Salvador, Francisco por Vizueta Arralde, Tomas", "Pascuzzi, Agustín por Pascuzzi, Agustin", "Scherer Keen, Tomás por Scherer Keen, Tomas", "Moneta, Juan Cruz por Bartoli, Santino", "del Sel, Zenón por del Sel, Zenon", "Peña, Nicolás por Lanfranchi, Tomas", "Ugarte, Francisco José por Roquette, Pedro", "Galarce, Agustín por Rodriguez, Bautista", "Marteau, Gastón por Battilana, Santos", "Fernández Sasso, Juan Cruz por Fernandez Sasso, Juan Cruz", "Storni, Beltrán por Storni, Beltran"],
+        cambios: [],
       },
     },
 
@@ -15032,10 +15040,10 @@ const PARTIDOS = {
           "14. Piran, J.",
           "15. Latorre, M.",
         ],
-        cambios: ["Vallier, J. por Nealon, M.", "Olcese, R. por Matarraz Krohn, T.", "Gingarelli, M. por Arrigoy, L.", "Hosel, G. por Copello, T.", "Bottazzini, A. por Tufarolo, T.", "Ledesma, M. por Filadoro, F.", "Adrogue, B. por Gibelli, L.", "Stutzbach, B. por Agejas, L.", "Mazal, A. por Elliot, F.", "Mazzuco, J. por Benitez Astoul, T.", "Ghisolfi, D. por Scarpatti, L.", "Gallo, I. por Leonard, T.", "Abaroa, I. por Bergara, F.", "Piran, J. por Romero Basco, G.", "Latorre, M. por Pazos, F."],
+        cambios: [],
       },
       visitante: {
-        nombre: "HINDU",
+        nombre: "Hindu",
         jugadores: [
           "1. Aguirre, V",
           "2. Fernandez, I",
@@ -15059,7 +15067,7 @@ const PARTIDOS = {
 
     belgrano_athletic_la_plata: {
       local: {
-        nombre: "BELGRANO ATHLETIC",
+        nombre: "Belgrano Athletic",
         jugadores: [
           "1. Alzugaray, Pumba",
           "2. Arrechea, Bautista",
@@ -15077,10 +15085,10 @@ const PARTIDOS = {
           "14. Miguel, Bautista",
           "15. Argonz, Facundo",
         ],
-        cambios: ["Alzugaray, Pumba por Romero, German", "Arrechea, Bautista por Dandrea, Santi", "Camoranesi, Leandro por Lohidoy, Pedro", "Giglio, Santiago por Tecca, Bautista", "Saccon, Santiago por Penoucos, Grego", "Durañona, Mateo por Garcés, Tomás", "Rivero, Facu por Beveraggi, Ramón", "Tecca, Santino por Rosa, Gonzalez", "Emembon, Juan por Maclean, Gregorio", "Antunovich, Ramiro por Ottino, Pedro", "Piedras, Gastón por Hamuy, Felipe", "Bruno, Cacu por Rossi, Faustino", "Terceño, Gonzalo por Copreni, Tiziano", "Miguel, Bautista por de Luca, Tomi", "Argonz, Facundo por Gradin, Matu"],
+        cambios: [],
       },
       visitante: {
-        nombre: "LA PLATA",
+        nombre: "La Plata",
         jugadores: [
           "1. Sin, Información",
           "2. Sin, Información",
@@ -15102,9 +15110,9 @@ const PARTIDOS = {
       },
     },
 
-    bacrc_regatas_bella_vista: {
+    buenos_aires_c_rc_regatas_bella_vista: {
       local: {
-        nombre: "BACRC",
+        nombre: "Buenos Aires C&RC",
         jugadores: [
           "1. Ricciuto, Enrique",
           "2. Parise, Santiago",
@@ -15122,10 +15130,10 @@ const PARTIDOS = {
           "14. Tanoira, Dimas",
           "15. Deges, Manuel",
         ],
-        cambios: ["Cersocimo, Manuel por Hoiak, Pedro", "Mosches Coll, Francisco por Sanchez Bardi, Justo", "Tanoira, Dimas por Mosches Coll, Francisco"],
+        cambios: [],
       },
       visitante: {
-        nombre: "REGATAS BELLA VISTA",
+        nombre: "Regatas Bella Vista",
         jugadores: [
           "1. Bodini, Francisco",
           "2. Calvente, Estanislao",
@@ -15147,7 +15155,7 @@ const PARTIDOS = {
       },
     },
 
-    cuba_bac_m22_b: {
+    cuba_belgrano_athletic_b: {
       local: {
         nombre: "CUBA",
         jugadores: [
@@ -15167,10 +15175,10 @@ const PARTIDOS = {
           "14. Randle",
           "15. Martinez, Bosch",
         ],
-        cambios: ["Combes por Castiglioni", "Rodriguez, Simon por Diaz, Alberdi", "Grosse por Clemente", "Civelli por Bestani", "Gluscksmann por Lanusse", "Montelatici por Gonzalez, Pondal", "Gonzalez, Pondal por Rotondaro", "Rocha por Arenaza", "Travers por Coppola", "Adhemar por Allaria", "Tropea, F. por Thomas", "Zonca por Tropea", "Bracho por Zonca", "Randle por Corleto", "Martinez, Bosch por Rodon"],
+        cambios: [],
       },
       visitante: {
-        nombre: "BAC M22 B",
+        nombre: "Belgrano Athletic B",
         jugadores: [
           "1. Almirón, Pedro",
           "2. Romero, Germán",
@@ -15212,10 +15220,10 @@ const PARTIDOS = {
           "14. Hancevic, Bautista",
           "15. Pasman, Alejo",
         ],
-        cambios: ["Guerrero, Felipe por Sanchez, Ignacio", "Terrado, Manuel por Guyot, Pedro", "Hancevic, Bautista por Costa, Francisco"],
+        cambios: [],
       },
       visitante: {
-        nombre: "LOS TILOS",
+        nombre: "Los Tilos",
         jugadores: [
           "1. Tejeda, Simón",
           "2. Videla, Valentino",
@@ -15233,7 +15241,7 @@ const PARTIDOS = {
           "14. de Cucco, Simón Diego",
           "15. Spina, Nicanor",
         ],
-        cambios: ["Tejeda, Simón por Almagro, Simón", "Rial, Juan Pablo por Petigrosso, Bruno", "Splendido, Genaro por Aldacourrou, Tobías", "Aldacourrou, Tobías por Ruoredda, Benjamín Olaf", "Ruoredda, Benjamín Olaf por Eguren, Federico", "Alayes, Beltrán por Alvarez, Torcuato", "Bradley, Ricardo por Buccigrossi, Federico", "Osacar, Álvaro por Osacar, Alvaro"],
+        cambios: [],
       },
     },
 },
