@@ -424,7 +424,9 @@
         {
           "home": "Dogos XV",
           "away": "Pampas",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 28
         },
         {
           "home": "Yacare XV",
@@ -569,6 +571,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T11:02:59.775031+00:00",
-  "matchesScraped": 0
+  "lastUpdate": "2026-04-25T11:52:12.851420+00:00",
+  "matchesScraped": 28
 }
