@@ -1,19 +1,35 @@
-/* share-table.js — Compartir tabla de posiciones como imagen */
+/* share-table.js — Compartir tabla como imagen */
 (function () {
+  var SVG_SHARE = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>';
+  var SVG_SPIN  = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px;animation:spin 1s linear infinite"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" opacity=".25"/><path d="M21 12a9 9 0 0 1-9 9"/></svg>';
+
+  function getCaptureTarget() {
+    /* Páginas de torneo */
+    var posiciones = document.getElementById('posiciones');
+    if (posiciones) return { el: posiciones, hideFilters: false };
+
+    /* Páginas de planteles */
+    var main = document.querySelector('main');
+    if (main && (document.getElementById('planteles-table') || document.getElementById('result-table'))) {
+      return { el: main, hideFilters: true };
+    }
+    return null;
+  }
+
   function init() {
-    var section = document.getElementById('posiciones');
-    if (!section) return;
+    var target = getCaptureTarget();
+    if (!target) return;
 
     var btn = document.createElement('button');
     btn.className = 'share-table-btn';
-    btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Compartir tabla';
-    btn.addEventListener('click', shareTable);
+    btn.innerHTML = SVG_SHARE + 'Compartir tabla';
+    btn.addEventListener('click', function () { shareTable(btn, target); });
 
-    var subtitle = section.querySelector('.page-subtitle');
+    var subtitle = target.el.querySelector('.page-subtitle');
     if (subtitle) {
       subtitle.insertAdjacentElement('afterend', btn);
     } else {
-      section.insertAdjacentElement('afterbegin', btn);
+      target.el.insertAdjacentElement('afterbegin', btn);
     }
   }
 
@@ -36,26 +52,30 @@
     return 'Ovalados';
   }
 
-  async function shareTable() {
-    var btn = this;
-    var section = document.getElementById('posiciones');
+  async function shareTable(btn, target) {
+    var el = target.el;
 
     btn.disabled = true;
-    btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px;animation:spin 1s linear infinite"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" opacity=".25"/><path d="M21 12a9 9 0 0 1-9 9"/></svg>Generando...';
+    btn.innerHTML = SVG_SPIN + 'Generando...';
+
+    /* Elementos a ocultar temporalmente durante la captura */
+    var hidden = [];
+    hidden.push(btn);
+    if (target.hideFilters) {
+      el.querySelectorAll('.filter-block').forEach(function (fb) { hidden.push(fb); });
+    }
+    hidden.forEach(function (n) { n.style.display = 'none'; });
+
+    /* Watermark temporal */
+    var wm = document.createElement('div');
+    wm.className = 'share-watermark';
+    wm.innerHTML = '<span>ovalados.com</span>';
+    el.appendChild(wm);
 
     try {
       await loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js');
 
-      /* Watermark temporal */
-      var wm = document.createElement('div');
-      wm.className = 'share-watermark';
-      wm.innerHTML = '<span>ovalados.com</span>';
-      section.appendChild(wm);
-
-      /* Ocultar el botón en la captura */
-      btn.style.display = 'none';
-
-      var canvas = await window.html2canvas(section, {
+      var canvas = await window.html2canvas(el, {
         backgroundColor: '#070a08',
         scale: 2,
         useCORS: true,
@@ -64,8 +84,8 @@
         windowWidth: 860,
       });
 
-      section.removeChild(wm);
-      btn.style.display = '';
+      el.removeChild(wm);
+      hidden.forEach(function (n) { n.style.display = ''; });
 
       var filename = 'tabla-ovalados.png';
 
@@ -75,7 +95,7 @@
         if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
           try {
             await navigator.share({
-              title: 'Tabla de posiciones — Ovalados',
+              title: 'Tabla — Ovalados',
               text: getTournamentName(),
               files: [file]
             });
@@ -88,11 +108,13 @@
       }, 'image/png');
 
     } catch (e) {
+      el.removeChild(wm);
+      hidden.forEach(function (n) { n.style.display = ''; });
       console.error('share-table:', e);
       alert('No se pudo generar la imagen. Intentá hacer captura de pantalla.');
     } finally {
       btn.disabled = false;
-      btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Compartir tabla';
+      btn.innerHTML = SVG_SHARE + 'Compartir tabla';
     }
   }
 
