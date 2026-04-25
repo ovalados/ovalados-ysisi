@@ -2,37 +2,37 @@
   "teams": [
     {
       "name": "Liceo Naval",
-      "pts": 21,
-      "pj": 5,
+      "pts": 22,
+      "pj": 6,
       "g": 4,
       "e": 0,
-      "p": 1,
-      "pf": 269,
-      "pc": 61,
+      "p": 2,
+      "pf": 291,
+      "pc": 88,
       "bp": 4,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "w",
         "w",
-        "w",
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "C.U. de Quilmes",
       "pts": 12,
-      "pj": 5,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 119,
-      "pc": 88,
+      "p": 4,
+      "pf": 134,
+      "pc": 119,
       "bp": 2,
       "bf": 2,
       "form": [
         "w",
-        "w",
+        "l",
         "l",
         "l",
         "l"
@@ -40,17 +40,17 @@
     },
     {
       "name": "Argentino",
-      "pts": 5,
-      "pj": 5,
+      "pts": 6,
+      "pj": 6,
       "g": 1,
       "e": 0,
-      "p": 4,
-      "pf": 95,
-      "pc": 106,
+      "p": 5,
+      "pf": 110,
+      "pc": 125,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
-        "w",
+        "l",
         "l",
         "l",
         "l",
@@ -59,15 +59,15 @@
     },
     {
       "name": "Don Bosco",
-      "pts": 0,
-      "pj": 5,
+      "pts": 1,
+      "pj": 6,
       "g": 0,
       "e": 0,
-      "p": 5,
-      "pf": 57,
-      "pc": 192,
+      "p": 6,
+      "pf": 84,
+      "pc": 223,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
         "l",
@@ -78,37 +78,37 @@
     },
     {
       "name": "San Martin",
-      "pts": 17,
-      "pj": 5,
-      "g": 3,
+      "pts": 21,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 142,
-      "pc": 43,
+      "pf": 161,
+      "pc": 58,
       "bp": 3,
       "bf": 2,
       "form": [
+        "l",
+        "l",
         "w",
-        "l",
-        "l",
         "w",
         "w"
       ]
     },
     {
       "name": "Monte Grande",
-      "pts": 18,
-      "pj": 5,
-      "g": 4,
+      "pts": 22,
+      "pj": 6,
+      "g": 5,
       "e": 0,
       "p": 1,
-      "pf": 132,
-      "pc": 85,
+      "pf": 163,
+      "pc": 100,
       "bp": 1,
       "bf": 1,
       "form": [
-        "w",
         "l",
+        "w",
         "w",
         "w",
         "w"
@@ -116,17 +116,17 @@
     },
     {
       "name": "Mariano Moreno",
-      "pts": 18,
-      "pj": 5,
-      "g": 4,
+      "pts": 22,
+      "pj": 6,
+      "g": 5,
       "e": 0,
       "p": 1,
-      "pf": 157,
-      "pc": 92,
+      "pf": 184,
+      "pc": 114,
       "bp": 2,
       "bf": 0,
       "form": [
-        "l",
+        "w",
         "w",
         "w",
         "w",
@@ -135,32 +135,32 @@
     },
     {
       "name": "Manuel Belgrano",
-      "pts": 14,
-      "pj": 5,
-      "g": 3,
+      "pts": 19,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 96,
-      "pc": 104,
-      "bp": 2,
+      "pf": 142,
+      "pc": 125,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
+        "w",
+        "w",
         "l",
-        "w",
-        "w",
-        "w",
-        "l"
+        "w"
       ]
     },
     {
       "name": "Delta",
-      "pts": 22,
-      "pj": 5,
-      "g": 5,
+      "pts": 26,
+      "pj": 6,
+      "g": 6,
       "e": 0,
       "p": 0,
-      "pf": 129,
-      "pc": 72,
+      "pf": 160,
+      "pc": 98,
       "bp": 2,
       "bf": 0,
       "form": [
@@ -174,12 +174,12 @@
     {
       "name": "Vicentinos",
       "pts": 0,
-      "pj": 5,
+      "pj": 6,
       "g": 0,
       "e": 0,
-      "p": 5,
-      "pf": 28,
-      "pc": 285,
+      "p": 6,
+      "pf": 42,
+      "pc": 330,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -192,78 +192,78 @@
     },
     {
       "name": "Liceo Militar",
-      "pts": 5,
-      "pj": 5,
-      "g": 1,
+      "pts": 10,
+      "pj": 6,
+      "g": 2,
       "e": 0,
       "p": 4,
-      "pf": 89,
-      "pc": 172,
-      "bp": 0,
+      "pf": 134,
+      "pc": 186,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
         "l",
         "l",
-        "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "San Patricio",
-      "pts": 10,
-      "pj": 5,
+      "pts": 11,
+      "pj": 6,
       "g": 2,
       "e": 0,
-      "p": 3,
-      "pf": 118,
-      "pc": 134,
+      "p": 4,
+      "pf": 144,
+      "pc": 165,
       "bp": 1,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "l",
         "l",
-        "l",
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Italiano",
       "pts": 14,
-      "pj": 5,
+      "pj": 6,
       "g": 3,
       "e": 0,
-      "p": 2,
-      "pf": 119,
-      "pc": 99,
+      "p": 3,
+      "pf": 140,
+      "pc": 145,
       "bp": 1,
       "bf": 1,
       "form": [
+        "w",
+        "w",
+        "w",
         "l",
-        "w",
-        "w",
-        "w",
         "l"
       ]
     },
     {
       "name": "Banco Nacion",
-      "pts": 13,
-      "pj": 5,
-      "g": 3,
+      "pts": 17,
+      "pj": 6,
+      "g": 4,
       "e": 0,
       "p": 2,
-      "pf": 79,
-      "pc": 96,
+      "pf": 110,
+      "pc": 123,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
         "w",
-        "w",
         "l",
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -573,37 +573,57 @@
         {
           "home": "Don Bosco",
           "away": "Banco Nacion",
-          "played": false
+          "played": true,
+          "hs": 27,
+          "as": 31,
+          "bf_home": true
         },
         {
           "home": "San Martin",
           "away": "Argentino",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 15,
+          "bf_away": true
         },
         {
           "home": "Monte Grande",
           "away": "C.U. de Quilmes",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 15
         },
         {
           "home": "Mariano Moreno",
           "away": "Liceo Naval",
-          "played": false
+          "played": true,
+          "hs": 27,
+          "as": 22,
+          "bf_away": true
         },
         {
           "home": "Manuel Belgrano",
           "away": "Italiano",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 21,
+          "bp_home": true
         },
         {
           "home": "Delta",
           "away": "San Patricio",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 26,
+          "bf_away": true
         },
         {
           "home": "Vicentinos",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 45,
+          "bp_away": true
         }
       ]
     },
@@ -1408,8 +1428,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T21:46:38.246873+00:00",
-  "matchesScraped": 35,
+  "lastUpdate": "2026-04-25T22:21:18.968581+00:00",
+  "matchesScraped": 42,
   "championshipId": "2025191",
   "nombre": "1B Pre-Inter A"
 }
