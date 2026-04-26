@@ -431,7 +431,9 @@
         {
           "home": "Yacare XV",
           "away": "Selknam",
-          "played": false
+          "played": true,
+          "hs": 13,
+          "as": 34
         },
         {
           "home": "Cobras BR",
@@ -571,6 +573,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-25T23:54:16.604799+00:00",
+  "lastUpdate": "2026-04-26T03:34:45.134959+00:00",
   "matchesScraped": 28
 }
