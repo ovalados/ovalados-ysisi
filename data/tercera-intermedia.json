@@ -143,7 +143,7 @@
       "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 70,
+      "pf": 73,
       "pc": 28,
       "bp": 1,
       "bf": 0,
@@ -172,15 +172,15 @@
     },
     {
       "name": "Ciudad de Campana",
-      "pts": 7,
+      "pts": 6,
       "pj": 3,
       "g": 1,
       "e": 1,
       "p": 1,
       "pf": 39,
-      "pc": 37,
+      "pc": 40,
       "bp": 0,
-      "bf": 1,
+      "bf": 0,
       "form": [
         "d",
         "w",
@@ -322,8 +322,7 @@
           "away": "Porteño",
           "played": true,
           "hs": 0,
-          "as": 5,
-          "bf_home": true
+          "as": 8
         },
         {
           "home": "Almafuerte",
@@ -1025,7 +1024,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:35:23.376404+00:00",
+  "lastUpdate": "2026-04-26T05:57:46.000768+00:00",
   "matchesScraped": 18,
   "championshipId": "2025199",
   "nombre": "Tercera Intermedia"
