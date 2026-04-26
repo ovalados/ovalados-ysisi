@@ -2,48 +2,51 @@
   "teams": [
     {
       "name": "CUBA A",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 12,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 115,
-      "pc": 26,
-      "bp": 1,
+      "pf": 195,
+      "pc": 38,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Buenos Aires A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 48,
-      "pc": 36,
+      "pf": 60,
+      "pc": 43,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Pueyrredon A",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 17,
-      "pc": 73,
+      "pc": 133,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -51,111 +54,118 @@
     {
       "name": "Los Matreros A",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 44,
-      "pc": 65,
+      "p": 3,
+      "pf": 68,
+      "pc": 98,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "A.D Francesa A",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 54,
-      "pc": 57,
+      "pf": 87,
+      "pc": 81,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "CASI A",
-      "pts": 8,
-      "pj": 2,
-      "g": 2,
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 41,
+      "pf": 101,
       "pc": 27,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "La Plata A",
-      "pts": 10,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 103,
-      "pc": 34,
+      "p": 1,
+      "pf": 110,
+      "pc": 46,
       "bp": 2,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Univ.  de la Plata A",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 33,
-      "pc": 41,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "w",
         "l"
       ]
     },
     {
-      "name": "Alumni A",
-      "pts": 6,
-      "pj": 2,
+      "name": "Univ.  de la Plata A",
+      "pts": 4,
+      "pj": 3,
       "g": 1,
-      "e": 1,
-      "p": 0,
-      "pf": 47,
-      "pc": 45,
+      "e": 0,
+      "p": 2,
+      "pf": 45,
+      "pc": 121,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Alumni A",
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
+      "e": 1,
+      "p": 0,
+      "pf": 87,
+      "pc": 69,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
+        "d",
+        "w"
       ]
     },
     {
       "name": "San Andres A",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 24,
-      "pc": 148,
+      "pc": 212,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -163,33 +173,35 @@
     {
       "name": "Hindu A",
       "pts": 6,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 85,
-      "pc": 57,
+      "p": 2,
+      "pf": 109,
+      "pc": 97,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Pucara A",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 66,
+      "pf": 130,
       "pc": 68,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -303,32 +315,48 @@
         {
           "home": "Pucara A",
           "away": "San Andres A",
-          "played": false
+          "played": true,
+          "hs": 64,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Hindu A",
           "away": "Alumni A",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 40
         },
         {
           "home": "CUBA A",
           "away": "Univ.  de la Plata A",
-          "played": false
+          "played": true,
+          "hs": 80,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Buenos Aires A",
           "away": "La Plata A",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 7,
+          "bf_away": true
         },
         {
           "home": "Pueyrredon A",
           "away": "CASI A",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 60,
+          "bp_away": true
         },
         {
           "home": "Los Matreros A",
           "away": "A.D Francesa A",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 33
         }
       ]
     },
@@ -613,8 +641,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:19.451681+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T19:34:44.938468+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025255",
   "nombre": "M15 N1-G2-ZA-EqA"
 }
