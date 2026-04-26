@@ -3,47 +3,50 @@
     {
       "name": "Ciudad de Campana",
       "pts": 7,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 1,
-      "p": 0,
-      "pf": 52,
-      "pc": 19,
+      "p": 1,
+      "pf": 64,
+      "pc": 43,
       "bp": 1,
       "bf": 0,
       "form": [
         "d",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Arsenal Zarate",
-      "pts": 5,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 58,
-      "pc": 81,
+      "p": 2,
+      "pf": 75,
+      "pc": 103,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Liceo Militar",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 19,
-      "pc": 91,
+      "p": 3,
+      "pf": 57,
+      "pc": 137,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -86,48 +89,51 @@
     },
     {
       "name": "Virreyes",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 45,
-      "pc": 35,
+      "pf": 91,
+      "pc": 73,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "d"
-      ]
-    },
-    {
-      "name": "Los Cedros",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
-      "e": 1,
-      "p": 0,
-      "pf": 36,
-      "pc": 14,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "d",
         "w"
       ]
     },
     {
-      "name": "CASA de Padua",
-      "pts": 10,
-      "pj": 2,
+      "name": "Los Cedros",
+      "pts": 11,
+      "pj": 3,
       "g": 2,
+      "e": 1,
+      "p": 0,
+      "pf": 58,
+      "pc": 31,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "d",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "CASA de Padua",
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 112,
-      "pc": 22,
+      "pf": 136,
+      "pc": 34,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -135,33 +141,35 @@
     {
       "name": "T. F. de San Pedro",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 43,
-      "pc": 93,
+      "pc": 200,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "SIC E",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 12,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 76,
+      "pf": 183,
       "pc": 5,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
@@ -297,22 +305,32 @@
         {
           "home": "SIC E",
           "away": "T. F. de San Pedro",
-          "played": false
+          "played": true,
+          "hs": 107,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Ciudad de Campana",
           "away": "CASA de Padua",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 24
         },
         {
           "home": "Arsenal Zarate",
           "away": "Los Cedros",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 22,
+          "bf_home": true
         },
         {
           "home": "Liceo Militar",
           "away": "Virreyes",
-          "played": false
+          "played": true,
+          "hs": 38,
+          "as": 46
         },
         {
           "home": "Bye",
@@ -604,8 +622,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:00.525128+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-04-26T22:47:32.049804+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025225",
   "nombre": "M19 G1-ZB"
 }
