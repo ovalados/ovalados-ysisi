@@ -3,121 +3,9 @@
     {
       "name": "Ciudad de Campana",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 0,
-      "pc": 8,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "l",
-        "d"
-      ]
-    },
-    {
-      "name": "Arsenal Zarate",
-      "pts": 8,
-      "pj": 2,
-      "g": 2,
-      "e": 0,
-      "p": 0,
-      "pf": 16,
-      "pc": 0,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Bco Hipotecario",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
-      "e": 0,
-      "p": 0,
-      "pf": 58,
-      "pc": 5,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "St. Brendans",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
-      "e": 0,
-      "p": 0,
-      "pf": 69,
-      "pc": 36,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Almafuerte",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 55,
-      "pc": 48,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Marcos Paz",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 46,
-      "pc": 36,
-      "bp": 0,
-      "bf": 1,
-      "form": [
-        "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Ezeiza",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 24,
-      "pc": 100,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "l",
-        "l"
-      ]
-    },
-    {
-      "name": "La Salle",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
       "p": 2,
       "pf": 0,
       "pc": 16,
@@ -125,15 +13,135 @@
       "bf": 0,
       "form": [
         "l",
+        "d",
         "l"
       ]
     },
     {
-      "name": "Atl. San Andres",
-      "pts": 2,
-      "pj": 2,
+      "name": "Arsenal Zarate",
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 59,
+      "pc": 0,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Bco Hipotecario",
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 104,
+      "pc": 5,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "St. Brendans",
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 122,
+      "pc": 36,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "w"
+      ]
+    },
+    {
+      "name": "Almafuerte",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 55,
+      "pc": 101,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Marcos Paz",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 46,
+      "pc": 82,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "w",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Ezeiza",
+      "pts": 0,
+      "pj": 3,
       "g": 0,
-      "e": 1,
+      "e": 0,
+      "p": 3,
+      "pf": 24,
+      "pc": 143,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "La Salle",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 8,
+      "pc": 16,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Atl. San Andres",
+      "pts": 4,
+      "pj": 3,
+      "g": 0,
+      "e": 2,
       "p": 1,
       "pf": 0,
       "pc": 8,
@@ -141,31 +149,33 @@
       "bf": 0,
       "form": [
         "l",
+        "d",
         "d"
       ]
     },
     {
       "name": "Rivadavia de Lobos",
-      "pts": 8,
-      "pj": 2,
-      "g": 2,
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 16,
-      "pc": 0,
-      "bp": 0,
+      "pf": 70,
+      "pc": 7,
+      "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Floresta",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 14,
       "pc": 68,
@@ -173,22 +183,24 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "San Jose",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 79,
-      "pc": 52,
+      "p": 2,
+      "pf": 86,
+      "pc": 106,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     }
@@ -298,32 +310,48 @@
         {
           "home": "San Jose",
           "away": "Rivadavia de Lobos",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 54,
+          "bp_away": true
         },
         {
           "home": "Floresta",
           "away": "Atl. San Andres",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Ciudad de Campana",
           "away": "La Salle",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Arsenal Zarate",
           "away": "Ezeiza",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Bco Hipotecario",
           "away": "Marcos Paz",
-          "played": false
+          "played": true,
+          "hs": 46,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "St. Brendans",
           "away": "Almafuerte",
-          "played": false
+          "played": true,
+          "hs": 53,
+          "as": 0,
+          "bp_home": true
         }
       ]
     },
@@ -608,8 +636,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:24.427017+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:51.823712+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025242",
   "nombre": "M16 G1-ZB"
 }
