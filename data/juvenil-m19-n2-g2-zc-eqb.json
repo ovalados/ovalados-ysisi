@@ -50,10 +50,10 @@
     },
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 2,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -61,15 +61,16 @@
       "bf": 0,
       "form": [
         "d",
+        "d",
         "d"
       ]
     },
     {
       "name": "Old Georgian B",
-      "pts": 1,
-      "pj": 2,
+      "pts": 3,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 23,
       "pc": 79,
@@ -77,7 +78,8 @@
       "bf": 1,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -329,7 +331,9 @@
         {
           "home": "Bye",
           "away": "Old Georgian B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -614,8 +618,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:35:30.349659+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:57:54.771628+00:00",
+  "matchesScraped": 13,
   "championshipId": "2025218",
   "nombre": "M19 N2-G2-ZC-EqB"
 }
