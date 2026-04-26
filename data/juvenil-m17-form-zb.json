@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "CUBA E",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 72,
-      "pc": 33,
-      "bp": 1,
+      "pf": 112,
+      "pc": 47,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -35,66 +36,70 @@
     },
     {
       "name": "Alumni E",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 66,
-      "pc": 60,
-      "bp": 0,
+      "pf": 102,
+      "pc": 72,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "San Luis C",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 74,
-      "pc": 33,
+      "pf": 110,
+      "pc": 62,
       "bp": 1,
       "bf": 1,
       "form": [
         "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Los Matreros C",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 43,
-      "pc": 47,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "l",
         "w"
       ]
     },
     {
+      "name": "Los Matreros C",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 72,
+      "pc": 83,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
       "name": "Buenos Aires E",
       "pts": 8,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 56,
-      "pc": 39,
+      "p": 1,
+      "pf": 68,
+      "pc": 75,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -117,81 +122,86 @@
     {
       "name": "CASI E",
       "pts": 6,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 1,
-      "p": 0,
-      "pf": 29,
-      "pc": 17,
+      "p": 1,
+      "pf": 43,
+      "pc": 57,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "d"
-      ]
-    },
-    {
-      "name": "G y Esgrima C",
-      "pts": 3,
-      "pj": 2,
-      "g": 0,
-      "e": 1,
-      "p": 1,
-      "pf": 28,
-      "pc": 29,
-      "bp": 0,
-      "bf": 1,
-      "form": [
         "d",
         "l"
       ]
     },
     {
-      "name": "Manuel Belgrano C",
-      "pts": 4,
-      "pj": 2,
+      "name": "G y Esgrima C",
+      "pts": 8,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
-      "pf": 29,
-      "pc": 62,
-      "bp": 0,
-      "bf": 0,
+      "pf": 85,
+      "pc": 36,
+      "bp": 1,
+      "bf": 1,
       "form": [
+        "d",
         "l",
         "w"
       ]
     },
     {
-      "name": "SIC G",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
+      "name": "Manuel Belgrano C",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
       "e": 0,
       "p": 2,
-      "pf": 24,
-      "pc": 69,
+      "pf": 43,
+      "pc": 112,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "SIC G",
+      "pts": 1,
+      "pj": 3,
+      "g": 0,
+      "e": 0,
+      "p": 3,
+      "pf": 31,
+      "pc": 126,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "CUBA F",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 57,
-      "pc": 26,
-      "bp": 1,
+      "pf": 107,
+      "pc": 40,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -302,17 +312,26 @@
         {
           "home": "CUBA F",
           "away": "Manuel Belgrano C",
-          "played": false
+          "played": true,
+          "hs": 50,
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "SIC G",
           "away": "G y Esgrima C",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 57,
+          "bp_away": true
         },
         {
           "home": "CUBA E",
           "away": "CASI E",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 14,
+          "bp_home": true
         },
         {
           "home": "Bye",
@@ -324,12 +343,18 @@
         {
           "home": "Alumni E",
           "away": "Buenos Aires E",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "San Luis C",
           "away": "Los Matreros C",
-          "played": false
+          "played": true,
+          "hs": 36,
+          "as": 29,
+          "bf_away": true
         }
       ]
     },
@@ -614,8 +639,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:06.323842+00:00",
-  "matchesScraped": 13,
+  "lastUpdate": "2026-04-26T22:47:36.796539+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025229",
   "nombre": "M17 Form-ZB"
 }
