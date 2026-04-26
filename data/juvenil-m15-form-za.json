@@ -90,16 +90,17 @@
     {
       "name": "Pueyrredon C",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 26,
-      "pc": 40,
+      "p": 2,
+      "pf": 45,
+      "pc": 79,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
+        "l",
         "l"
       ]
     },
@@ -122,17 +123,18 @@
     },
     {
       "name": "A.D. Francesa C",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 12,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 36,
-      "pc": 19,
-      "bp": 1,
+      "pf": 75,
+      "pc": 38,
+      "bp": 2,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w"
       ]
     }
@@ -248,7 +250,10 @@
         {
           "home": "A.D. Francesa C",
           "away": "Pueyrredon C",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "La Plata C",
@@ -561,8 +566,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:17.249131+00:00",
-  "matchesScraped": 17,
+  "lastUpdate": "2026-04-26T19:34:42.772864+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025253",
   "nombre": "M15 Form-ZA"
 }
