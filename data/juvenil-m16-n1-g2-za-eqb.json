@@ -2,32 +2,34 @@
   "teams": [
     {
       "name": "San Cirano B",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 36,
-      "pc": 57,
+      "pf": 67,
+      "pc": 64,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "San Albano B",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 76,
-      "pc": 19,
+      "pf": 115,
+      "pc": 48,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -35,15 +37,16 @@
     {
       "name": "G y Esgrima B",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 21,
-      "pc": 79,
+      "p": 3,
+      "pf": 26,
+      "pc": 155,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -51,47 +54,50 @@
     {
       "name": "San Martin B",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
+      "p": 2,
       "pf": 31,
-      "pc": 81,
+      "pc": 170,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
+        "l",
         "l"
       ]
     },
     {
       "name": "SIC B",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 41,
+      "pf": 130,
       "pc": 31,
-      "bp": 1,
+      "bp": 2,
       "bf": 1,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Pucara B",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 88,
-      "pc": 33,
-      "bp": 1,
+      "pf": 164,
+      "pc": 38,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -99,97 +105,103 @@
     {
       "name": "Liceo Naval B",
       "pts": 7,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 1,
-      "p": 0,
-      "pf": 49,
-      "pc": 31,
+      "p": 1,
+      "pf": 78,
+      "pc": 70,
       "bp": 1,
       "bf": 0,
       "form": [
         "d",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Buenos Aires B",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 61,
-      "pc": 41,
+      "p": 2,
+      "pf": 68,
+      "pc": 72,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Pueyrredon B",
-      "pts": 1,
-      "pj": 2,
+      "pts": 3,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
-      "pf": 24,
-      "pc": 68,
+      "pf": 48,
+      "pc": 92,
       "bp": 0,
       "bf": 1,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "Los Tilos B",
       "pts": 9,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 46,
-      "pc": 10,
+      "p": 1,
+      "pf": 58,
+      "pc": 57,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Mariano Moreno B",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
-      "pf": 7,
-      "pc": 99,
+      "pf": 31,
+      "pc": 123,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "CASI B",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 98,
-      "pc": 29,
-      "bp": 1,
+      "pf": 145,
+      "pc": 41,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -304,32 +316,47 @@
         {
           "home": "CASI B",
           "away": "Los Tilos B",
-          "played": false
+          "played": true,
+          "hs": 47,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Mariano Moreno B",
           "away": "Pueyrredon B",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 24
         },
         {
           "home": "San Cirano B",
           "away": "Buenos Aires B",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 7
         },
         {
           "home": "San Albano B",
           "away": "Liceo Naval B",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 29
         },
         {
           "home": "G y Esgrima B",
           "away": "Pucara B",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 76,
+          "bp_away": true
         },
         {
           "home": "San Martin B",
           "away": "SIC B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 89,
+          "bp_away": true
         }
       ]
     },
@@ -614,8 +641,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:07.516197+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T19:34:33.186813+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025244",
   "nombre": "M16 N1-G2-ZA-EqB"
 }
