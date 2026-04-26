@@ -18,16 +18,17 @@
     },
     {
       "name": "Bye",
-      "pts": 8,
-      "pj": 4,
+      "pts": 12,
+      "pj": 6,
       "g": 0,
-      "e": 4,
+      "e": 6,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d",
         "d",
@@ -100,10 +101,10 @@
     },
     {
       "name": "Ezeiza",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 10,
       "pc": 75,
@@ -111,7 +112,8 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -132,10 +134,10 @@
     },
     {
       "name": "Centro Naval",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 38,
       "pc": 0,
@@ -143,7 +145,8 @@
       "bf": 0,
       "form": [
         "d",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -291,7 +294,9 @@
         {
           "home": "Bye",
           "away": "Centro Naval",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Porteño",
@@ -301,7 +306,9 @@
         {
           "home": "Bye",
           "away": "Ezeiza",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bco Hipotecario",
@@ -596,8 +603,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:09.169680+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:44.426217+00:00",
+  "matchesScraped": 14,
   "championshipId": "2025254",
   "nombre": "M15 Form-ZB"
 }
