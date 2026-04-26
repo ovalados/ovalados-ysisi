@@ -3,79 +3,84 @@
     {
       "name": "Tigre",
       "pts": 3,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 29,
-      "pc": 34,
+      "p": 2,
+      "pf": 39,
+      "pc": 75,
       "bp": 0,
       "bf": 1,
       "form": [
         "d",
+        "l",
         "l"
       ]
     },
     {
       "name": "Lanus",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 87,
-      "pc": 45,
+      "pf": 111,
+      "pc": 67,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Delta",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 71,
-      "pc": 36,
-      "bp": 2,
+      "pf": 126,
+      "pc": 48,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Don Bosco",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
+      "pts": 6,
+      "pj": 3,
+      "g": 1,
       "e": 0,
       "p": 2,
-      "pf": 41,
-      "pc": 69,
-      "bp": 0,
+      "pf": 81,
+      "pc": 89,
+      "bp": 1,
       "bf": 1,
       "form": [
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Italiano",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 91,
-      "pc": 35,
-      "bp": 2,
+      "pf": 143,
+      "pc": 54,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -83,31 +88,33 @@
     {
       "name": "Mariano Moreno",
       "pts": 9,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 104,
-      "pc": 27,
+      "p": 1,
+      "pf": 123,
+      "pc": 79,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Albatros",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 19,
-      "pc": 128,
+      "p": 3,
+      "pf": 39,
+      "pc": 168,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -115,65 +122,69 @@
     {
       "name": "Lujan",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 54,
-      "pc": 70,
+      "p": 2,
+      "pf": 66,
+      "pc": 125,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "w"
-      ]
-    },
-    {
-      "name": "San Fernando",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 60,
-      "pc": 58,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "w",
         "l"
       ]
     },
     {
-      "name": "CASA de Padua",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
+      "name": "San Fernando",
+      "pts": 6,
+      "pj": 3,
+      "g": 1,
       "e": 0,
       "p": 2,
-      "pf": 45,
-      "pc": 67,
-      "bp": 0,
-      "bf": 0,
+      "pf": 82,
+      "pc": 82,
+      "bp": 1,
+      "bf": 1,
       "form": [
+        "w",
         "l",
         "l"
       ]
     },
     {
-      "name": "T.F. de San Pedro",
-      "pts": 4,
-      "pj": 2,
+      "name": "CASA de Padua",
+      "pts": 5,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 46,
-      "pc": 74,
-      "bp": 0,
+      "p": 2,
+      "pf": 86,
+      "pc": 77,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "l",
         "w"
+      ]
+    },
+    {
+      "name": "T.F. de San Pedro",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 65,
+      "pc": 100,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
+        "l"
       ]
     },
     {
@@ -195,18 +206,19 @@
     },
     {
       "name": "Manuel Belgrano",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 22,
-      "pc": 17,
+      "pf": 48,
+      "pc": 36,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
@@ -360,32 +372,50 @@
         {
           "home": "Manuel Belgrano",
           "away": "T.F. de San Pedro",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 19,
+          "bf_away": true
         },
         {
           "home": "Tigre",
           "away": "CASA de Padua",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 41,
+          "bp_away": true
         },
         {
           "home": "Lanus",
           "away": "San Fernando",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 22,
+          "bf_away": true
         },
         {
           "home": "Delta",
           "away": "Lujan",
-          "played": false
+          "played": true,
+          "hs": 55,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Don Bosco",
           "away": "Albatros",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 20,
+          "bp_home": true
         },
         {
           "home": "Italiano",
           "away": "Mariano Moreno",
-          "played": false
+          "played": true,
+          "hs": 52,
+          "as": 19,
+          "bp_home": true
         }
       ]
     },
@@ -710,8 +740,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:25.904629+00:00",
-  "matchesScraped": 15,
+  "lastUpdate": "2026-04-26T19:34:51.566179+00:00",
+  "matchesScraped": 21,
   "championshipId": "2025261",
   "nombre": "M15 G1-ZA"
 }
