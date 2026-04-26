@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "Tigre",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 175,
-      "pc": 0,
+      "pf": 204,
+      "pc": 14,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -19,95 +20,101 @@
     {
       "name": "Arsenal Zarate",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 19,
-      "pc": 124,
+      "p": 3,
+      "pf": 33,
+      "pc": 247,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Don Bosco",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
       "e": 0,
       "p": 2,
-      "pf": 17,
-      "pc": 64,
+      "pf": 31,
+      "pc": 76,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Carlos",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 46,
-      "pc": 45,
-      "bp": 0,
+      "pf": 94,
+      "pc": 71,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Almafuerte",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 50,
-      "pc": 63,
+      "p": 2,
+      "pf": 76,
+      "pc": 111,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Ciudad de Bs.As.",
-      "pts": 0,
-      "pj": 2,
+      "pts": 1,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 41,
-      "pc": 72,
+      "p": 3,
+      "pf": 53,
+      "pc": 86,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Liceo Militar",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 57,
-      "pc": 7,
-      "bp": 1,
+      "pf": 180,
+      "pc": 21,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -115,79 +122,84 @@
     {
       "name": "SITAS",
       "pts": 9,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 130,
-      "pc": 17,
+      "p": 1,
+      "pf": 144,
+      "pc": 46,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "T.F. de San Pedro",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 20,
-      "pc": 83,
+      "p": 2,
+      "pf": 32,
+      "pc": 140,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Varela Jr",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 5,
-      "pc": 178,
+      "pc": 292,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Pac Gral Rodriguez",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 89,
-      "pc": 43,
-      "bp": 1,
+      "pf": 146,
+      "pc": 55,
+      "bp": 2,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Lujan",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 86,
+      "pf": 200,
       "pc": 39,
-      "bp": 2,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -303,32 +315,49 @@
         {
           "home": "Lujan",
           "away": "Varela Jr",
-          "played": false
+          "played": true,
+          "hs": 114,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Pac Gral Rodriguez",
           "away": "T.F. de San Pedro",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Tigre",
           "away": "SITAS",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 14
         },
         {
           "home": "Arsenal Zarate",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 123,
+          "bp_away": true
         },
         {
           "home": "Don Bosco",
           "away": "Ciudad de Bs.As.",
-          "played": false
+          "played": true,
+          "hs": 14,
+          "as": 12,
+          "bf_away": true
         },
         {
           "home": "San Carlos",
           "away": "Almafuerte",
-          "played": false
+          "played": true,
+          "hs": 48,
+          "as": 26,
+          "bp_home": true
         }
       ]
     },
@@ -613,8 +642,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:16.225572+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T19:34:41.695508+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025252",
   "nombre": "M15 G1-ZB"
 }
