@@ -50,10 +50,10 @@
     },
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 2,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -61,15 +61,16 @@
       "bf": 0,
       "form": [
         "d",
+        "d",
         "d"
       ]
     },
     {
       "name": "SIC C",
-      "pts": 9,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 86,
       "pc": 22,
@@ -77,7 +78,8 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -326,7 +328,9 @@
         {
           "home": "Bye",
           "away": "SIC C",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -611,8 +615,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:03.632525+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:36.541345+00:00",
+  "matchesScraped": 13,
   "championshipId": "2025249",
   "nombre": "M16 G2-ZDes-EqA"
 }
