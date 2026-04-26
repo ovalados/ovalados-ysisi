@@ -3,95 +3,101 @@
     {
       "name": "Liceo Naval A",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 50,
-      "pc": 45,
+      "p": 2,
+      "pf": 62,
+      "pc": 78,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Newman A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 31,
-      "pc": 27,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "w",
         "l"
       ]
     },
     {
-      "name": "Regatas B. Vista A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "name": "Newman A",
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 88,
-      "pc": 10,
-      "bp": 1,
+      "pf": 83,
+      "pc": 34,
+      "bp": 2,
+      "bf": 0,
+      "form": [
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Regatas B. Vista A",
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
+      "e": 0,
+      "p": 1,
+      "pf": 145,
+      "pc": 15,
+      "bp": 2,
       "bf": 1,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Los Tilos A",
-      "pts": 10,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 69,
-      "pc": 24,
-      "bp": 2,
-      "bf": 0,
-      "form": [
-        "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Champagnat A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
       "p": 1,
-      "pf": 36,
-      "pc": 22,
-      "bp": 1,
+      "pf": 98,
+      "pc": 55,
+      "bp": 2,
       "bf": 1,
       "form": [
+        "w",
         "w",
         "l"
       ]
     },
     {
+      "name": "Champagnat A",
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
+      "e": 0,
+      "p": 1,
+      "pf": 67,
+      "pc": 51,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "Belgrano Athl. A",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 31,
-      "pc": 69,
+      "p": 3,
+      "pf": 36,
+      "pc": 126,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -99,31 +105,33 @@
     {
       "name": "San Luis A",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 5,
-      "pc": 112,
+      "p": 3,
+      "pf": 12,
+      "pc": 164,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Olivos A",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 37,
-      "pc": 5,
-      "bp": 1,
+      "pf": 70,
+      "pc": 17,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -131,65 +139,69 @@
     {
       "name": "San Martin A",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 7,
-      "pc": 57,
+      "pc": 134,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Lomas Athl. A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 48,
-      "pc": 39,
+      "pf": 65,
+      "pc": 49,
       "bp": 0,
       "bf": 1,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "SIC A",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 48,
+      "pf": 125,
       "pc": 10,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Los Molinos A",
-      "pts": 4,
-      "pj": 2,
+      "pts": 5,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 10,
-      "pc": 40,
+      "p": 2,
+      "pf": 20,
+      "pc": 57,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     }
   ],
@@ -305,32 +317,50 @@
         {
           "home": "Los Molinos A",
           "away": "Lomas Athl. A",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 17,
+          "bf_home": true
         },
         {
           "home": "SIC A",
           "away": "San Martin A",
-          "played": false
+          "played": true,
+          "hs": 77,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Liceo Naval A",
           "away": "Olivos A",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 33,
+          "bp_away": true
         },
         {
           "home": "Newman A",
           "away": "San Luis A",
-          "played": false
+          "played": true,
+          "hs": 52,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "Regatas B. Vista A",
           "away": "Belgrano Athl. A",
-          "played": false
+          "played": true,
+          "hs": 57,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "Los Tilos A",
           "away": "Champagnat A",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 31,
+          "bf_home": true
         }
       ]
     },
@@ -615,8 +645,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:21.547975+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T19:34:47.143229+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025257",
   "nombre": "M15 N1-G2-ZB-EqA"
 }
