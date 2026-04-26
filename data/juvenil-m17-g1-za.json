@@ -2,42 +2,44 @@
   "teams": [
     {
       "name": "Areco",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 125,
-      "pc": 24,
-      "bp": 2,
+      "pf": 168,
+      "pc": 36,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Delta",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 80,
-      "pc": 41,
-      "bp": 1,
+      "pf": 119,
+      "pc": 48,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "El Retiro",
-      "pts": 1,
-      "pj": 2,
+      "pts": 3,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 39,
       "pc": 85,
@@ -45,15 +47,16 @@
       "bf": 1,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "San Carlos",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 37,
       "pc": 74,
@@ -61,15 +64,16 @@
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "Banco Nacion",
-      "pts": 10,
-      "pj": 2,
+      "pts": 12,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 108,
       "pc": 0,
@@ -77,15 +81,16 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "Old Georgian",
-      "pts": 5,
-      "pj": 2,
+      "pts": 7,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 52,
       "pc": 84,
@@ -93,101 +98,108 @@
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "CUBA C",
       "pts": 6,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 78,
-      "pc": 41,
+      "p": 2,
+      "pf": 85,
+      "pc": 80,
       "bp": 1,
       "bf": 1,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "G y E de Ituzaingo",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 44,
-      "pc": 45,
+      "p": 2,
+      "pf": 56,
+      "pc": 88,
       "bp": 0,
       "bf": 1,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "T. F de San Pedro",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 38,
-      "pc": 131,
+      "p": 3,
+      "pf": 45,
+      "pc": 233,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Argentino",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 51,
-      "pc": 88,
-      "bp": 0,
+      "pf": 92,
+      "pc": 105,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Vicentinos",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 81,
-      "pc": 44,
-      "bp": 1,
+      "pf": 183,
+      "pc": 51,
+      "bp": 2,
       "bf": 1,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Tigre",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 5,
-      "pc": 81,
+      "p": 3,
+      "pf": 22,
+      "pc": 122,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -306,32 +318,48 @@
         {
           "home": "Tigre",
           "away": "Argentino",
-          "played": false
+          "played": true,
+          "hs": 17,
+          "as": 41,
+          "bp_away": true
         },
         {
           "home": "Vicentinos",
           "away": "T. F de San Pedro",
-          "played": false
+          "played": true,
+          "hs": 102,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "Areco",
           "away": "G y E de Ituzaingo",
-          "played": false
+          "played": true,
+          "hs": 43,
+          "as": 12,
+          "bp_home": true
         },
         {
           "home": "Delta",
           "away": "CUBA C",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "El Retiro",
           "away": "Old Georgian",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "San Carlos",
           "away": "Banco Nacion",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -616,8 +644,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:17.574427+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:46.040170+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025237",
   "nombre": "M17 G1-ZA"
 }
