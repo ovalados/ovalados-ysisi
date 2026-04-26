@@ -50,10 +50,10 @@
     },
     {
       "name": "Bye",
-      "pts": 8,
-      "pj": 4,
+      "pts": 12,
+      "pj": 6,
       "g": 0,
-      "e": 4,
+      "e": 6,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -63,15 +63,16 @@
         "d",
         "d",
         "d",
+        "d",
         "d"
       ]
     },
     {
       "name": "Monte Grande B",
-      "pts": 5,
-      "pj": 2,
+      "pts": 7,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 56,
       "pc": 43,
@@ -79,7 +80,8 @@
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -132,10 +134,10 @@
     },
     {
       "name": "G y Esgrima B",
-      "pts": 9,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 61,
       "pc": 28,
@@ -143,7 +145,8 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -291,7 +294,9 @@
         {
           "home": "Bye",
           "away": "G y Esgrima B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CUBA D",
@@ -311,7 +316,9 @@
         {
           "home": "Bye",
           "away": "Monte Grande B",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -596,8 +603,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:15.970867+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:52.939706+00:00",
+  "matchesScraped": 14,
   "championshipId": "2025260",
   "nombre": "M15 G2-ZDes-EqB"
 }
