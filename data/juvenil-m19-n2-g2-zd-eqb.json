@@ -2,80 +2,85 @@
   "teams": [
     {
       "name": "Curupayti B",
-      "pts": 10,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 81,
-      "pc": 14,
+      "p": 1,
+      "pf": 102,
+      "pc": 38,
       "bp": 2,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Centro Naval B",
-      "pts": 5,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 22,
-      "pc": 48,
+      "p": 2,
+      "pf": 32,
+      "pc": 60,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Mariano Moreno B",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 31,
-      "pc": 21,
+      "pf": 60,
+      "pc": 40,
       "bp": 0,
       "bf": 1,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Argentno B",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 53,
-      "pc": 54,
+      "p": 2,
+      "pf": 65,
+      "pc": 80,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Los Matreros B",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 83,
-      "pc": 5,
+      "pf": 109,
+      "pc": 17,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -83,63 +88,67 @@
     {
       "name": "Monte Grande B",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 54,
-      "pc": 69,
+      "p": 2,
+      "pf": 73,
+      "pc": 98,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Areco B",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 19,
-      "pc": 36,
+      "pf": 31,
+      "pc": 46,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Delta B",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 50,
-      "pc": 19,
+      "pf": 74,
+      "pc": 40,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "C.U. de Quilmes B",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 19,
-      "pc": 67,
+      "p": 3,
+      "pf": 40,
+      "pc": 98,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -147,49 +156,52 @@
     {
       "name": "San Carlos B",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 22,
-      "pc": 51,
+      "p": 2,
+      "pf": 41,
+      "pc": 90,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Banco Nacion B",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 46,
+      "pc": 102,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
         "l",
         "w"
       ]
     },
     {
-      "name": "Banco Nacion B",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 15,
-      "pc": 81,
-      "bp": 0,
-      "bf": 1,
-      "form": [
-        "l",
-        "l"
-      ]
-    },
-    {
       "name": "Ciudad de Bs.As. B",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 59,
-      "pc": 43,
+      "pf": 98,
+      "pc": 62,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     }
   ],
@@ -303,32 +315,46 @@
         {
           "home": "Ciudad de Bs.As. B",
           "away": "San Carlos B",
-          "played": false
+          "played": true,
+          "hs": 39,
+          "as": 19
         },
         {
           "home": "Banco Nacion B",
           "away": "C.U. de Quilmes B",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 21
         },
         {
           "home": "Curupayti B",
           "away": "Delta B",
-          "played": false
+          "played": true,
+          "hs": 21,
+          "as": 24,
+          "bf_home": true
         },
         {
           "home": "Centro Naval B",
           "away": "Areco B",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 12,
+          "bf_home": true
         },
         {
           "home": "Mariano Moreno B",
           "away": "Monte Grande B",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 19
         },
         {
           "home": "Argentno B",
           "away": "Los Matreros B",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 26
         }
       ]
     },
@@ -613,8 +639,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:53:57.429679+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:29.130449+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025220",
   "nombre": "M19 N2-G2-ZD-EqB"
 }
