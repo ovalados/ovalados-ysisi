@@ -3,63 +3,67 @@
     {
       "name": "San Albano A",
       "pts": 3,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 34,
-      "pc": 36,
+      "p": 2,
+      "pf": 41,
+      "pc": 74,
       "bp": 0,
       "bf": 1,
       "form": [
         "d",
-        "l"
-      ]
-    },
-    {
-      "name": "Hurling A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 94,
-      "pc": 66,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Univ. De la Plata A",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 34,
-      "pc": 108,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "l",
         "l"
       ]
     },
     {
-      "name": "San Martin A",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "name": "Hurling A",
+      "pts": 6,
+      "pj": 3,
+      "g": 1,
       "e": 0,
-      "p": 0,
-      "pf": 72,
-      "pc": 19,
-      "bp": 2,
+      "p": 2,
+      "pf": 114,
+      "pc": 88,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "w",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "name": "Univ. De la Plata A",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 66,
+      "pc": 120,
+      "bp": 0,
       "bf": 0,
       "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "San Martin A",
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 103,
+      "pc": 24,
+      "bp": 3,
+      "bf": 0,
+      "form": [
+        "w",
         "w",
         "w"
       ]
@@ -67,80 +71,85 @@
     {
       "name": "Manuel Belgrano A",
       "pts": 8,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 51,
-      "pc": 45,
+      "p": 1,
+      "pf": 56,
+      "pc": 76,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Lujan A",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 12,
-      "pc": 51,
+      "p": 3,
+      "pf": 24,
+      "pc": 83,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Curupayti A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 59,
-      "pc": 55,
+      "pf": 81,
+      "pc": 75,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Olivos A",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 115,
-      "pc": 41,
-      "bp": 2,
+      "pf": 153,
+      "pc": 48,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Mariano Moreno A",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 55,
-      "pc": 104,
-      "bp": 0,
+      "pf": 91,
+      "pc": 116,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
@@ -164,17 +173,18 @@
     {
       "name": "Virreyes A",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 14,
-      "pc": 56,
+      "p": 2,
+      "pf": 26,
+      "pc": 92,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
@@ -313,27 +323,41 @@
         {
           "home": "Virreyes A",
           "away": "Mariano Moreno A",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 36,
+          "bp_away": true
         },
         {
           "home": "San Albano A",
           "away": "Olivos A",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 38,
+          "bp_away": true
         },
         {
           "home": "Hurling A",
           "away": "Curupayti A",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 22,
+          "bf_home": true
         },
         {
           "home": "Univ. De la Plata A",
           "away": "Lujan A",
-          "played": false
+          "played": true,
+          "hs": 32,
+          "as": 12
         },
         {
           "home": "San Martin A",
           "away": "Manuel Belgrano A",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 5,
+          "bp_home": true
         }
       ]
     },
@@ -618,8 +642,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:14.653035+00:00",
-  "matchesScraped": 13,
+  "lastUpdate": "2026-04-26T22:47:43.757235+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025235",
   "nombre": "M17 N2-G2-ZC-EqA"
 }
