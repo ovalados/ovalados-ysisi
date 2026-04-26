@@ -3,15 +3,16 @@
     {
       "name": "Tiro F de Baradero",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 31,
-      "pc": 102,
+      "p": 3,
+      "pf": 38,
+      "pc": 182,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -35,10 +36,10 @@
     },
     {
       "name": "San Miguel",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 31,
       "pc": 86,
@@ -46,21 +47,23 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "CASI C",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 98,
-      "pc": 52,
-      "bp": 1,
+      "pf": 170,
+      "pc": 78,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -68,25 +71,26 @@
     {
       "name": "A.D. Francesa C",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 62,
-      "pc": 96,
+      "p": 2,
+      "pf": 88,
+      "pc": 168,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Pucara D",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 60,
       "pc": 114,
@@ -94,7 +98,8 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -116,80 +121,85 @@
     },
     {
       "name": "Newman C",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 12,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 39,
-      "pc": 26,
-      "bp": 1,
+      "pf": 119,
+      "pc": 33,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "d"
-      ]
-    },
-    {
-      "name": "Los Pinos",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
-      "e": 1,
-      "p": 0,
-      "pf": 38,
-      "pc": 12,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "d",
         "w"
       ]
     },
     {
-      "name": "San Andres C",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
-      "e": 0,
-      "p": 0,
-      "pf": 90,
-      "pc": 43,
+      "name": "Los Pinos",
+      "pts": 7,
+      "pj": 3,
+      "g": 1,
+      "e": 1,
+      "p": 1,
+      "pf": 62,
+      "pc": 65,
       "bp": 1,
       "bf": 0,
       "form": [
+        "d",
         "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Champagnat C",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 46,
-      "pc": 66,
-      "bp": 0,
-      "bf": 1,
-      "form": [
-        "l",
         "l"
       ]
     },
     {
-      "name": "Belgrano Athl. C",
+      "name": "San Andres C",
       "pts": 9,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 90,
-      "pc": 27,
+      "p": 1,
+      "pf": 121,
+      "pc": 92,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Champagnat C",
+      "pts": 6,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 99,
+      "pc": 90,
+      "bp": 1,
+      "bf": 1,
+      "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Belgrano Athl. C",
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 139,
+      "pc": 58,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
         "w",
         "w"
       ]
@@ -304,17 +314,25 @@
         {
           "home": "Belgrano Athl. C",
           "away": "San Andres C",
-          "played": false
+          "played": true,
+          "hs": 49,
+          "as": 31
         },
         {
           "home": "Champagnat C",
           "away": "Los Pinos",
-          "played": false
+          "played": true,
+          "hs": 53,
+          "as": 24,
+          "bp_home": true
         },
         {
           "home": "Tiro F de Baradero",
           "away": "Newman C",
-          "played": false
+          "played": true,
+          "hs": 7,
+          "as": 80,
+          "bp_away": true
         },
         {
           "home": "Bye",
@@ -326,12 +344,17 @@
         {
           "home": "San Miguel",
           "away": "Pucara D",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "CASI C",
           "away": "A.D. Francesa C",
-          "played": false
+          "played": true,
+          "hs": 72,
+          "as": 26,
+          "bp_home": true
         }
       ]
     },
@@ -616,8 +639,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:23.095056+00:00",
-  "matchesScraped": 13,
+  "lastUpdate": "2026-04-26T22:47:50.667813+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025241",
   "nombre": "M16 Form-ZA"
 }
