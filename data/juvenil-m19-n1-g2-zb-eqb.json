@@ -3,127 +3,135 @@
     {
       "name": "CUBA B",
       "pts": 10,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 109,
-      "pc": 36,
+      "p": 1,
+      "pf": 140,
+      "pc": 75,
       "bp": 2,
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Olivos B",
-      "pts": 1,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 26,
-      "pc": 87,
+      "p": 3,
+      "pf": 36,
+      "pc": 99,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Alumni B",
-      "pts": 6,
-      "pj": 2,
+      "pts": 7,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 61,
-      "pc": 44,
+      "p": 2,
+      "pf": 87,
+      "pc": 73,
       "bp": 1,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Tilos B",
       "pts": 6,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 73,
-      "pc": 46,
+      "p": 2,
+      "pf": 76,
+      "pc": 58,
       "bp": 1,
       "bf": 1,
       "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "San Luis B",
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
+      "e": 0,
+      "p": 1,
+      "pf": 46,
+      "pc": 50,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
         "l",
         "w"
       ]
     },
     {
-      "name": "San Luis B",
-      "pts": 5,
-      "pj": 2,
+      "name": "Buenos Aires B",
+      "pts": 4,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 34,
-      "pc": 47,
-      "bp": 1,
-      "bf": 0,
-      "form": [
-        "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Buenos Aires B",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
       "p": 2,
-      "pf": 31,
-      "pc": 78,
+      "pf": 60,
+      "pc": 104,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Cirano B",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 41,
-      "pc": 59,
+      "pf": 53,
+      "pc": 69,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "CASI B",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 86,
-      "pc": 28,
+      "pf": 125,
+      "pc": 59,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -131,64 +139,68 @@
     {
       "name": "G y Esgrima B",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
+      "p": 2,
       "pf": 43,
-      "pc": 62,
+      "pc": 136,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "San Martin B",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 19,
-      "pc": 177,
+      "p": 3,
+      "pf": 26,
+      "pc": 227,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "SIC B",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 161,
+      "pf": 235,
       "pc": 21,
-      "bp": 2,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "Hindu B",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 61,
-      "pc": 60,
-      "bp": 1,
+      "pf": 111,
+      "pc": 67,
+      "bp": 2,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     }
@@ -306,32 +318,48 @@
         {
           "home": "Hindu B",
           "away": "San Martin B",
-          "played": false
+          "played": true,
+          "hs": 50,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "SIC B",
           "away": "G y Esgrima B",
-          "played": false
+          "played": true,
+          "hs": 74,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "CUBA B",
           "away": "CASI B",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 39
         },
         {
           "home": "Olivos B",
           "away": "San Cirano B",
-          "played": false
+          "played": true,
+          "hs": 10,
+          "as": 12,
+          "bf_home": true
         },
         {
           "home": "Alumni B",
           "away": "Buenos Aires B",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 29,
+          "bf_home": true
         },
         {
           "home": "Los Tilos B",
           "away": "San Luis B",
-          "played": false
+          "played": true,
+          "hs": 3,
+          "as": 12
         }
       ]
     },
@@ -616,8 +644,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:53:51.984868+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:24.116996+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025216",
   "nombre": "M19 N1-G2-ZB-EqB"
 }
