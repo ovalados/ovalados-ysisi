@@ -3,47 +3,50 @@
     {
       "name": "Porteño",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
+      "p": 2,
       "pf": 8,
-      "pc": 8,
+      "pc": 16,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "Munc de Berazategui",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 8,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 41,
-      "pc": 39,
+      "pf": 70,
+      "pc": 61,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "San Miguel",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 48,
-      "pc": 87,
+      "pc": 135,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -86,48 +89,51 @@
     },
     {
       "name": "Los Molinos C",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 12,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 50,
+      "pf": 98,
       "pc": 10,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w"
       ]
     },
     {
       "name": "Ezeiza",
-      "pts": 5,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 53,
-      "pc": 85,
+      "p": 2,
+      "pf": 75,
+      "pc": 114,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "La Salle",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 13,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 47,
+      "pf": 55,
       "pc": 22,
       "bp": 1,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -135,17 +141,18 @@
     {
       "name": "Atletico y Progreso",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 39,
-      "pc": 41,
+      "p": 2,
+      "pf": 58,
+      "pc": 72,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
@@ -167,17 +174,18 @@
     },
     {
       "name": "Almafuerte",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 10,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 8,
-      "pc": 0,
+      "pf": 39,
+      "pc": 19,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w"
       ]
     }
@@ -295,22 +303,32 @@
         {
           "home": "Almafuerte",
           "away": "Atletico y Progreso",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 19
         },
         {
           "home": "Porteño",
           "away": "La Salle",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 8
         },
         {
           "home": "Munc de Berazategui",
           "away": "Ezeiza",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 22,
+          "bf_away": true
         },
         {
           "home": "San Miguel",
           "away": "Los Molinos C",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 48,
+          "bp_away": true
         },
         {
           "home": "T.F. de Baradero",
@@ -602,8 +620,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:07.702843+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-04-26T22:47:37.941995+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025230",
   "nombre": "M17 Form-ZC"
 }
