@@ -2,192 +2,204 @@
   "teams": [
     {
       "name": "Liceo Naval A",
-      "pts": 0,
-      "pj": 2,
+      "pts": 1,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 12,
-      "pc": 111,
+      "p": 3,
+      "pf": 31,
+      "pc": 136,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Newman A",
-      "pts": 9,
-      "pj": 2,
+      "pts": 10,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 83,
-      "pc": 47,
+      "p": 1,
+      "pf": 114,
+      "pc": 81,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "w",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Pueyrredon A",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 50,
-      "pc": 49,
+      "p": 2,
+      "pf": 69,
+      "pc": 107,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
+        "l",
         "l"
       ]
     },
     {
       "name": "San Andres A",
       "pts": 4,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 55,
-      "pc": 74,
+      "p": 2,
+      "pf": 67,
+      "pc": 96,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Champagnat A",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 42,
-      "pc": 64,
-      "bp": 0,
-      "bf": 1,
-      "form": [
         "l",
         "l"
       ]
     },
     {
+      "name": "Champagnat A",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 64,
+      "pc": 76,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "Belgrano Athl. A",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 72,
-      "pc": 34,
-      "bp": 2,
+      "pf": 130,
+      "pc": 53,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
     },
     {
       "name": "La Plata A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 67,
-      "pc": 55,
-      "bp": 1,
-      "bf": 1,
-      "form": [
-        "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Hurling A",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
-      "p": 2,
-      "pf": 25,
-      "pc": 74,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "l",
-        "l"
-      ]
-    },
-    {
-      "name": "Regatas B Vista A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 94,
-      "pc": 38,
-      "bp": 1,
-      "bf": 1,
-      "form": [
-        "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Lomas Athl. A",
-      "pts": 9,
-      "pj": 2,
+      "pts": 10,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 88,
-      "pc": 38,
+      "p": 1,
+      "pf": 101,
+      "pc": 86,
       "bp": 1,
-      "bf": 0,
+      "bf": 1,
       "form": [
+        "l",
         "w",
         "w"
       ]
     },
     {
-      "name": "A.D. Francesa A",
-      "pts": 0,
-      "pj": 2,
-      "g": 0,
+      "name": "Hurling A",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
       "e": 0,
       "p": 2,
-      "pf": 55,
-      "pc": 73,
+      "pf": 50,
+      "pc": 93,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Regatas B Vista A",
+      "pts": 7,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 118,
+      "pc": 64,
+      "bp": 1,
+      "bf": 2,
+      "form": [
+        "l",
+        "w",
         "l"
       ]
     },
     {
-      "name": "Pucara A",
-      "pts": 8,
-      "pj": 2,
+      "name": "Lomas Athl. A",
+      "pts": 9,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 72,
-      "pc": 58,
+      "p": 1,
+      "pf": 100,
+      "pc": 62,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "A.D. Francesa A",
+      "pts": 4,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 81,
+      "pc": 97,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
+      "name": "Pucara A",
+      "pts": 12,
+      "pj": 3,
+      "g": 3,
+      "e": 0,
+      "p": 0,
+      "pf": 96,
+      "pc": 70,
+      "bp": 0,
+      "bf": 0,
+      "form": [
+        "w",
         "w",
         "w"
       ]
@@ -304,32 +316,48 @@
         {
           "home": "Pucara A",
           "away": "Lomas Athl. A",
-          "played": false
+          "played": true,
+          "hs": 24,
+          "as": 12
         },
         {
           "home": "A.D. Francesa A",
           "away": "Regatas B Vista A",
-          "played": false
+          "played": true,
+          "hs": 26,
+          "as": 24,
+          "bf_away": true
         },
         {
           "home": "Liceo Naval A",
           "away": "Hurling A",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 25,
+          "bf_home": true
         },
         {
           "home": "Newman A",
           "away": "La Plata A",
-          "played": false
+          "played": true,
+          "hs": 31,
+          "as": 34,
+          "bf_home": true
         },
         {
           "home": "Pueyrredon A",
           "away": "Belgrano Athl. A",
-          "played": false
+          "played": true,
+          "hs": 19,
+          "as": 58,
+          "bp_away": true
         },
         {
           "home": "San Andres A",
           "away": "Champagnat A",
-          "played": false
+          "played": true,
+          "hs": 12,
+          "as": 22
         }
       ]
     },
@@ -614,8 +642,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:53:47.826329+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:20.657262+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025213",
   "nombre": "M19 N1-G2-ZA-EqA"
 }
