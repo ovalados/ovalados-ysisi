@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "La Plata C",
-      "pts": 9,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 85,
       "pc": 52,
@@ -13,15 +13,16 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "Bye",
-      "pts": 20,
-      "pj": 10,
+      "pts": 30,
+      "pj": 15,
       "g": 0,
-      "e": 10,
+      "e": 15,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -37,10 +38,10 @@
     },
     {
       "name": "San Andres C",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 31,
       "pc": 59,
@@ -48,15 +49,16 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
       "name": "Pucara C",
-      "pts": 6,
-      "pj": 2,
+      "pts": 8,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 8,
       "pc": 0,
@@ -64,15 +66,16 @@
       "bf": 0,
       "form": [
         "d",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "Liceo Naval C",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 51,
       "pc": 31,
@@ -80,6 +83,7 @@
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d"
       ]
     },
@@ -101,10 +105,10 @@
     },
     {
       "name": "Los Tilos C",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 45,
       "pc": 81,
@@ -112,7 +116,8 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -236,7 +241,9 @@
         {
           "home": "Bye",
           "away": "Los Tilos C",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "A.D. Francesa C",
@@ -246,22 +253,30 @@
         {
           "home": "La Plata C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Liceo Naval C",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Pucara C",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "San Andres C",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         }
       ]
     },
@@ -546,8 +561,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:08.005174+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:42.990212+00:00",
+  "matchesScraped": 17,
   "championshipId": "2025253",
   "nombre": "M15 Form-ZA"
 }
