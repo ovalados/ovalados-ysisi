@@ -22,31 +22,33 @@
     {
       "name": "Munic. De Berazategui",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 5,
-      "pc": 112,
+      "p": 3,
+      "pf": 20,
+      "pc": 138,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "C.U de Quilmes",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 165,
+      "pf": 199,
       "pc": 5,
-      "bp": 2,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -54,31 +56,33 @@
     {
       "name": "Beromama",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 10,
-      "pc": 76,
+      "pc": 150,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Atl. Chascomus",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 176,
+      "pf": 250,
       "pc": 5,
-      "bp": 2,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -86,33 +90,35 @@
     {
       "name": "Ciudad de Bs.As.",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
+      "p": 2,
       "pf": 45,
-      "pc": 92,
+      "pc": 126,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "Los Cedros",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 31,
-      "pc": 87,
+      "pf": 57,
+      "pc": 102,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
@@ -297,17 +303,25 @@
         {
           "home": "Munic. De Berazategui",
           "away": "Los Cedros",
-          "played": false
+          "played": true,
+          "hs": 15,
+          "as": 26
         },
         {
           "home": "C.U de Quilmes",
           "away": "Ciudad de Bs.As.",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "Beromama",
           "away": "Atl. Chascomus",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 74,
+          "bp_away": true
         }
       ]
     },
@@ -592,8 +606,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:20.307539+00:00",
-  "matchesScraped": 15,
+  "lastUpdate": "2026-04-26T22:47:48.369623+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025239",
   "nombre": "M17 G1-ZC"
 }
