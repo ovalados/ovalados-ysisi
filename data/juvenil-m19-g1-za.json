@@ -2,80 +2,85 @@
   "teams": [
     {
       "name": "Lanus",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 38,
-      "pc": 25,
-      "bp": 0,
+      "pf": 72,
+      "pc": 32,
+      "bp": 1,
       "bf": 0,
       "form": [
         "d",
+        "w",
         "w"
       ]
     },
     {
       "name": "Del Sur",
       "pts": 8,
-      "pj": 2,
+      "pj": 3,
       "g": 2,
       "e": 0,
-      "p": 0,
-      "pf": 50,
-      "pc": 39,
+      "p": 1,
+      "pf": 55,
+      "pc": 68,
       "bp": 0,
       "bf": 0,
       "form": [
         "w",
-        "w"
-      ]
-    },
-    {
-      "name": "Don Bosco",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 33,
-      "pc": 50,
-      "bp": 0,
-      "bf": 0,
-      "form": [
         "w",
         "l"
       ]
     },
     {
+      "name": "Don Bosco",
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
+      "e": 0,
+      "p": 1,
+      "pf": 68,
+      "pc": 60,
+      "bp": 1,
+      "bf": 0,
+      "form": [
+        "w",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "Beromama",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
+      "p": 2,
       "pf": 53,
-      "pc": 86,
+      "pc": 112,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
       "name": "Atletico Chascomus",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 81,
+      "pf": 107,
       "pc": 12,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -83,31 +88,33 @@
     {
       "name": "San Marcos",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 46,
-      "pc": 58,
+      "p": 2,
+      "pf": 56,
+      "pc": 93,
       "bp": 0,
       "bf": 0,
       "form": [
         "l",
-        "d"
+        "d",
+        "l"
       ]
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 83,
-      "pc": 26,
-      "bp": 2,
+      "pf": 112,
+      "pc": 31,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -115,15 +122,16 @@
     {
       "name": "Albatros",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 41,
-      "pc": 55,
+      "p": 3,
+      "pf": 48,
+      "pc": 89,
       "bp": 0,
       "bf": 2,
       "form": [
+        "l",
         "l",
         "l"
       ]
@@ -303,22 +311,34 @@
         {
           "home": "Lanus",
           "away": "Albatros",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 7,
+          "bp_home": true
         },
         {
           "home": "Del Sur",
           "away": "G y E de Ituzaingo",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 29,
+          "bp_away": true
         },
         {
           "home": "Don Bosco",
           "away": "San Marcos",
-          "played": false
+          "played": true,
+          "hs": 35,
+          "as": 10,
+          "bp_home": true
         },
         {
           "home": "Beromama",
           "away": "Atletico Chascomus",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 26,
+          "bp_away": true
         }
       ]
     },
@@ -603,8 +623,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:53:59.140472+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-04-26T22:47:30.906574+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025224",
   "nombre": "M19 G1-ZA"
 }
