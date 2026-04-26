@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 2,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d"
       ]
@@ -146,10 +147,10 @@
     },
     {
       "name": "Lanus",
-      "pts": 10,
-      "pj": 2,
+      "pts": 12,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 96,
       "pc": 5,
@@ -157,7 +158,8 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
@@ -358,7 +360,9 @@
         {
           "home": "Bye",
           "away": "Lanus",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "San Patricio",
@@ -703,8 +707,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:05.794968+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-04-26T05:58:39.549478+00:00",
+  "matchesScraped": 15,
   "championshipId": "2025251",
   "nombre": "M16 G1-ZA"
 }
