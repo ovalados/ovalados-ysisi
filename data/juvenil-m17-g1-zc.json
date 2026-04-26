@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Bye",
-      "pts": 12,
-      "pj": 6,
+      "pts": 18,
+      "pj": 9,
       "g": 0,
-      "e": 6,
+      "e": 9,
       "p": 0,
       "pf": 0,
       "pc": 0,
@@ -117,10 +117,10 @@
     },
     {
       "name": "Del Sur",
-      "pts": 5,
-      "pj": 2,
+      "pts": 7,
+      "pj": 3,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 1,
       "pf": 55,
       "pc": 88,
@@ -128,15 +128,16 @@
       "bf": 0,
       "form": [
         "l",
-        "w"
+        "w",
+        "d"
       ]
     },
     {
       "name": "Liceo Militar",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 62,
       "pc": 0,
@@ -144,15 +145,16 @@
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d"
       ]
     },
     {
       "name": "Daom",
-      "pts": 2,
-      "pj": 2,
+      "pts": 4,
+      "pj": 3,
       "g": 0,
-      "e": 1,
+      "e": 2,
       "p": 1,
       "pf": 5,
       "pc": 89,
@@ -160,7 +162,8 @@
       "bf": 0,
       "form": [
         "d",
-        "l"
+        "l",
+        "d"
       ]
     }
   ],
@@ -273,17 +276,23 @@
         {
           "home": "Daom",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Liceo Militar",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
           "away": "Del Sur",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Munic. De Berazategui",
@@ -583,8 +592,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:35:52.152022+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:22.030350+00:00",
+  "matchesScraped": 15,
   "championshipId": "2025239",
   "nombre": "M17 G1-ZC"
 }
