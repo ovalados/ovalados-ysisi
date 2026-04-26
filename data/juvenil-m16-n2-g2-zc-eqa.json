@@ -146,16 +146,17 @@
     },
     {
       "name": "Bye",
-      "pts": 4,
-      "pj": 2,
+      "pts": 6,
+      "pj": 3,
       "g": 0,
-      "e": 2,
+      "e": 3,
       "p": 0,
       "pf": 0,
       "pc": 0,
       "bp": 0,
       "bf": 0,
       "form": [
+        "d",
         "d",
         "d"
       ]
@@ -178,10 +179,10 @@
     },
     {
       "name": "San Fernando A",
-      "pts": 9,
-      "pj": 2,
+      "pts": 11,
+      "pj": 3,
       "g": 2,
-      "e": 0,
+      "e": 1,
       "p": 0,
       "pf": 69,
       "pc": 40,
@@ -189,7 +190,8 @@
       "bf": 0,
       "form": [
         "w",
-        "w"
+        "w",
+        "d"
       ]
     }
   ],
@@ -302,7 +304,9 @@
         {
           "home": "San Fernando A",
           "away": "Bye",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "A.D. Francesa A",
@@ -612,8 +616,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T03:36:01.188464+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T05:58:33.550708+00:00",
+  "matchesScraped": 13,
   "championshipId": "2025247",
   "nombre": "M16 N2-G2-ZC-EqA"
 }
