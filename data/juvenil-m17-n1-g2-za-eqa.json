@@ -2,16 +2,17 @@
   "teams": [
     {
       "name": "Buenos Aires A",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 15,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 67,
-      "pc": 38,
-      "bp": 2,
+      "pf": 107,
+      "pc": 55,
+      "bp": 3,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -19,95 +20,101 @@
     {
       "name": "CASA de Padua A",
       "pts": 0,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
-      "pf": 22,
-      "pc": 71,
+      "p": 3,
+      "pf": 27,
+      "pc": 176,
       "bp": 0,
       "bf": 0,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "Regatas B. Vista A",
-      "pts": 6,
-      "pj": 2,
-      "g": 1,
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 86,
-      "pc": 31,
-      "bp": 1,
+      "pf": 138,
+      "pc": 36,
+      "bp": 2,
       "bf": 1,
       "form": [
         "w",
-        "l"
+        "l",
+        "w"
       ]
     },
     {
       "name": "Lomas Athl. A",
       "pts": 1,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 0,
-      "p": 2,
+      "p": 3,
       "pf": 28,
-      "pc": 106,
+      "pc": 165,
       "bp": 0,
       "bf": 1,
       "form": [
+        "l",
         "l",
         "l"
       ]
     },
     {
       "name": "SIC A",
-      "pts": 4,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 53,
+      "pf": 112,
       "pc": 70,
-      "bp": 0,
+      "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "l"
-      ]
-    },
-    {
-      "name": "Hindu A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 69,
-      "pc": 69,
-      "bp": 0,
-      "bf": 1,
-      "form": [
         "l",
         "w"
       ]
     },
     {
+      "name": "Hindu A",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 74,
+      "pc": 121,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
       "name": "CUBA A",
-      "pts": 9,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 99,
-      "pc": 21,
-      "bp": 1,
+      "pf": 204,
+      "pc": 26,
+      "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -115,79 +122,84 @@
     {
       "name": "SITAS A",
       "pts": 5,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 22,
-      "pc": 74,
+      "p": 2,
+      "pf": 39,
+      "pc": 114,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Alumni A",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
-      "e": 0,
-      "p": 1,
-      "pf": 71,
-      "pc": 49,
-      "bp": 1,
-      "bf": 0,
-      "form": [
         "w",
         "l"
       ]
     },
     {
-      "name": "Los Tilos A",
-      "pts": 4,
-      "pj": 2,
+      "name": "Alumni A",
+      "pts": 6,
+      "pj": 3,
       "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 50,
-      "pc": 55,
-      "bp": 0,
-      "bf": 0,
-      "form": [
-        "l",
-        "w"
-      ]
-    },
-    {
-      "name": "Los Matreros A",
-      "pts": 1,
-      "pj": 2,
-      "g": 0,
-      "e": 0,
       "p": 2,
-      "pf": 34,
-      "pc": 117,
-      "bp": 0,
+      "pf": 99,
+      "pc": 83,
+      "bp": 1,
       "bf": 1,
       "form": [
+        "w",
         "l",
         "l"
       ]
     },
     {
+      "name": "Los Tilos A",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 70,
+      "pc": 77,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "w",
+        "l"
+      ]
+    },
+    {
+      "name": "Los Matreros A",
+      "pts": 5,
+      "pj": 3,
+      "g": 1,
+      "e": 0,
+      "p": 2,
+      "pf": 68,
+      "pc": 145,
+      "bp": 0,
+      "bf": 1,
+      "form": [
+        "l",
+        "l",
+        "w"
+      ]
+    },
+    {
       "name": "San Luis A",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 122,
-      "pc": 22,
+      "pf": 144,
+      "pc": 42,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -306,32 +318,50 @@
         {
           "home": "San Luis A",
           "away": "Los Tilos A",
-          "played": false
+          "played": true,
+          "hs": 22,
+          "as": 20,
+          "bf_away": true
         },
         {
           "home": "Los Matreros A",
           "away": "Alumni A",
-          "played": false
+          "played": true,
+          "hs": 34,
+          "as": 28,
+          "bf_away": true
         },
         {
           "home": "Buenos Aires A",
           "away": "SITAS A",
-          "played": false
+          "played": true,
+          "hs": 40,
+          "as": 17,
+          "bp_home": true
         },
         {
           "home": "CASA de Padua A",
           "away": "CUBA A",
-          "played": false
+          "played": true,
+          "hs": 5,
+          "as": 105,
+          "bp_away": true
         },
         {
           "home": "Regatas B. Vista A",
           "away": "Hindu A",
-          "played": false
+          "played": true,
+          "hs": 52,
+          "as": 5,
+          "bp_home": true
         },
         {
           "home": "Lomas Athl. A",
           "away": "SIC A",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 59,
+          "bp_away": true
         }
       ]
     },
@@ -616,8 +646,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:09.118507+00:00",
-  "matchesScraped": 12,
+  "lastUpdate": "2026-04-26T22:47:39.072273+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025231",
   "nombre": "M17 N1-G2-ZA-EqA"
 }
