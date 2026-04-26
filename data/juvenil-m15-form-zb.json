@@ -2,10 +2,10 @@
   "teams": [
     {
       "name": "Porteño",
-      "pts": 0,
-      "pj": 2,
+      "pts": 2,
+      "pj": 3,
       "g": 0,
-      "e": 0,
+      "e": 1,
       "p": 2,
       "pf": 0,
       "pc": 79,
@@ -13,7 +13,8 @@
       "bf": 0,
       "form": [
         "l",
-        "l"
+        "l",
+        "d"
       ]
     },
     {
@@ -37,32 +38,34 @@
     },
     {
       "name": "Bco Hipotecario",
-      "pts": 5,
-      "pj": 2,
-      "g": 1,
+      "pts": 9,
+      "pj": 3,
+      "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 32,
+      "pf": 40,
       "pc": 62,
       "bp": 1,
       "bf": 0,
       "form": [
         "l",
+        "w",
         "w"
       ]
     },
     {
       "name": "Las Cañas",
-      "pts": 10,
-      "pj": 2,
-      "g": 2,
+      "pts": 14,
+      "pj": 3,
+      "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 99,
-      "pc": 31,
+      "pf": 128,
+      "pc": 48,
       "bp": 2,
       "bf": 0,
       "form": [
+        "w",
         "w",
         "w"
       ]
@@ -70,32 +73,34 @@
     {
       "name": "Dorrego Rugby",
       "pts": 6,
-      "pj": 2,
+      "pj": 3,
       "g": 1,
       "e": 1,
-      "p": 0,
-      "pf": 8,
-      "pc": 0,
+      "p": 1,
+      "pf": 25,
+      "pc": 29,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
-        "w"
+        "w",
+        "l"
       ]
     },
     {
       "name": "San Marcos",
       "pts": 2,
-      "pj": 2,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
+      "p": 2,
       "pf": 26,
-      "pc": 56,
+      "pc": 64,
       "bp": 0,
       "bf": 0,
       "form": [
         "d",
+        "l",
         "l"
       ]
     },
@@ -118,10 +123,10 @@
     },
     {
       "name": "Vicente Lopez",
-      "pts": 7,
-      "pj": 2,
+      "pts": 9,
+      "pj": 3,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 0,
       "pf": 57,
       "pc": 0,
@@ -129,6 +134,7 @@
       "bf": 0,
       "form": [
         "w",
+        "d",
         "d"
       ]
     },
@@ -151,33 +157,35 @@
     },
     {
       "name": "G y E de Ituzaingo",
-      "pts": 7,
-      "pj": 2,
-      "g": 1,
+      "pts": 11,
+      "pj": 3,
+      "g": 2,
       "e": 1,
       "p": 0,
-      "pf": 41,
-      "pc": 0,
+      "pf": 77,
+      "pc": 32,
       "bp": 1,
       "bf": 0,
       "form": [
         "w",
-        "d"
+        "d",
+        "w"
       ]
     },
     {
       "name": "Daom",
-      "pts": 2,
-      "pj": 2,
+      "pts": 3,
+      "pj": 3,
       "g": 0,
       "e": 1,
-      "p": 1,
-      "pf": 0,
-      "pc": 8,
+      "p": 2,
+      "pf": 32,
+      "pc": 44,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "d",
+        "l",
         "l"
       ]
     }
@@ -289,7 +297,10 @@
         {
           "home": "Daom",
           "away": "G y E de Ituzaingo",
-          "played": false
+          "played": true,
+          "hs": 32,
+          "as": 36,
+          "bf_home": true
         },
         {
           "home": "Bye",
@@ -301,7 +312,9 @@
         {
           "home": "Porteño",
           "away": "Vicente Lopez",
-          "played": false
+          "played": true,
+          "hs": 0,
+          "as": 0
         },
         {
           "home": "Bye",
@@ -313,12 +326,16 @@
         {
           "home": "Bco Hipotecario",
           "away": "San Marcos",
-          "played": false
+          "played": true,
+          "hs": 8,
+          "as": 0
         },
         {
           "home": "Las Cañas",
           "away": "Dorrego Rugby",
-          "played": false
+          "played": true,
+          "hs": 29,
+          "as": 17
         }
       ]
     },
@@ -603,8 +620,8 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T18:32:18.343644+00:00",
-  "matchesScraped": 14,
+  "lastUpdate": "2026-04-26T19:34:43.837978+00:00",
+  "matchesScraped": 18,
   "championshipId": "2025254",
   "nombre": "M15 Form-ZB"
 }
