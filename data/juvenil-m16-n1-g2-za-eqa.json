@@ -19,19 +19,19 @@
     },
     {
       "name": "San Albano A",
-      "pts": 10,
+      "pts": 15,
       "pj": 3,
-      "g": 2,
+      "g": 3,
       "e": 0,
-      "p": 1,
-      "pf": 86,
-      "pc": 104,
-      "bp": 2,
+      "p": 0,
+      "pf": 138,
+      "pc": 52,
+      "bp": 3,
       "bf": 0,
       "form": [
         "w",
         "w",
-        "l"
+        "w"
       ]
     },
     {
@@ -104,19 +104,19 @@
     },
     {
       "name": "Liceo Naval A",
-      "pts": 10,
+      "pts": 5,
       "pj": 3,
-      "g": 2,
+      "g": 1,
       "e": 0,
-      "p": 1,
-      "pf": 103,
-      "pc": 72,
-      "bp": 2,
+      "p": 2,
+      "pf": 51,
+      "pc": 124,
+      "bp": 1,
       "bf": 0,
       "form": [
         "l",
         "w",
-        "w"
+        "l"
       ]
     },
     {
@@ -341,9 +341,9 @@
           "home": "San Albano A",
           "away": "Liceo Naval A",
           "played": true,
-          "hs": 0,
-          "as": 52,
-          "bp_away": true
+          "hs": 52,
+          "as": 0,
+          "bp_home": true
         },
         {
           "home": "G y Esgrima A",
@@ -644,7 +644,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T21:54:25.808232+00:00",
+  "lastUpdate": "2026-04-26T22:47:52.975943+00:00",
   "matchesScraped": 18,
   "championshipId": "2025243",
   "nombre": "M16 N1-G2-ZA-EqA"
