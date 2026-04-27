@@ -40,14 +40,14 @@
     },
     {
       "name": "Curupayti",
-      "pts": 18,
+      "pts": 17,
       "pj": 6,
       "g": 3,
       "e": 1,
       "p": 2,
-      "pf": 202,
-      "pc": 120,
-      "bp": 2,
+      "pf": 183,
+      "pc": 147,
+      "bp": 1,
       "bf": 2,
       "form": [
         "w",
@@ -78,15 +78,15 @@
     },
     {
       "name": "Olivos",
-      "pts": 7,
+      "pts": 8,
       "pj": 6,
       "g": 1,
       "e": 1,
       "p": 4,
-      "pf": 138,
-      "pc": 232,
+      "pf": 165,
+      "pc": 213,
       "bp": 0,
-      "bf": 1,
+      "bf": 2,
       "form": [
         "d",
         "l",
@@ -576,9 +576,9 @@
           "home": "Olivos",
           "away": "Curupayti",
           "played": true,
-          "hs": 0,
-          "as": 50,
-          "bp_away": true
+          "hs": 27,
+          "as": 31,
+          "bf_home": true
         },
         {
           "home": "Gimnasia y Esgrima",
@@ -1421,7 +1421,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T23:26:27.562332+00:00",
+  "lastUpdate": "2026-04-27T00:07:35.411018+00:00",
   "matchesScraped": 42,
   "championshipId": "2025188",
   "nombre": "1A Pre-Inter A"
