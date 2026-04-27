@@ -161,7 +161,7 @@
       "e": 0,
       "p": 2,
       "pf": 77,
-      "pc": 108,
+      "pc": 106,
       "bp": 1,
       "bf": 0,
       "form": [
@@ -194,7 +194,7 @@
       "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 93,
+      "pf": 91,
       "pc": 44,
       "bp": 2,
       "bf": 1,
@@ -314,7 +314,7 @@
           "home": "Ciudad de Bs.As.",
           "away": "San Carlos A",
           "played": true,
-          "hs": 34,
+          "hs": 32,
           "as": 5,
           "bp_home": true
         },
@@ -640,7 +640,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T23:26:53.553479+00:00",
+  "lastUpdate": "2026-04-27T00:08:10.199272+00:00",
   "matchesScraped": 18,
   "championshipId": "2025219",
   "nombre": "M19 N2-G2-ZD-EqA"
