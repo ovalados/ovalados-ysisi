@@ -161,7 +161,7 @@
       "e": 0,
       "p": 3,
       "pf": 32,
-      "pc": 89,
+      "pc": 86,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -194,7 +194,7 @@
       "g": 3,
       "e": 0,
       "p": 0,
-      "pf": 110,
+      "pf": 107,
       "pc": 26,
       "bp": 2,
       "bf": 0,
@@ -316,7 +316,7 @@
           "home": "Pucara B",
           "away": "San Andres B",
           "played": true,
-          "hs": 27,
+          "hs": 24,
           "as": 0,
           "bp_home": true
         },
@@ -642,7 +642,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-27T12:58:04.417046+00:00",
+  "lastUpdate": "2026-04-27T15:13:38.478162+00:00",
   "matchesScraped": 18,
   "championshipId": "2025256",
   "nombre": "M15 N1-G2-ZA-EqB"
