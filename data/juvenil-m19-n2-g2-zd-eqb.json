@@ -189,14 +189,14 @@
     },
     {
       "name": "Ciudad de Bs.As. B",
-      "pts": 9,
+      "pts": 10,
       "pj": 3,
       "g": 2,
       "e": 0,
       "p": 1,
       "pf": 98,
       "pc": 62,
-      "bp": 1,
+      "bp": 2,
       "bf": 0,
       "form": [
         "w",
@@ -317,7 +317,8 @@
           "away": "San Carlos B",
           "played": true,
           "hs": 39,
-          "as": 19
+          "as": 19,
+          "bp_home": true
         },
         {
           "home": "Banco Nacion B",
@@ -639,7 +640,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T23:26:54.681091+00:00",
+  "lastUpdate": "2026-04-27T00:08:11.863445+00:00",
   "matchesScraped": 18,
   "championshipId": "2025220",
   "nombre": "M19 N2-G2-ZD-EqB"
