@@ -445,7 +445,9 @@
         {
           "home": "Tarucas",
           "away": "Peñarol",
-          "played": false
+          "played": true,
+          "hs": 20,
+          "as": 34
         }
       ]
     },
@@ -575,6 +577,6 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T23:26:12.244706+00:00",
-  "matchesScraped": 0
+  "lastUpdate": "2026-04-27T00:07:14.749893+00:00",
+  "matchesScraped": 28
 }
