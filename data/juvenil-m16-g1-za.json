@@ -53,15 +53,15 @@
     },
     {
       "name": "Beromama",
-      "pts": 0,
+      "pts": 1,
       "pj": 3,
       "g": 0,
       "e": 0,
       "p": 3,
-      "pf": 38,
+      "pf": 40,
       "pc": 137,
       "bp": 0,
-      "bf": 0,
+      "bf": 1,
       "form": [
         "l",
         "l",
@@ -110,7 +110,7 @@
       "e": 0,
       "p": 2,
       "pf": 75,
-      "pc": 113,
+      "pc": 115,
       "bp": 0,
       "bf": 0,
       "form": [
@@ -401,8 +401,9 @@
           "home": "Beromama",
           "away": "Atl. Chascomus",
           "played": true,
-          "hs": 20,
-          "as": 29
+          "hs": 22,
+          "as": 29,
+          "bf_home": true
         },
         {
           "home": "Lomas Athl. C",
@@ -734,7 +735,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-27T12:57:58.509098+00:00",
+  "lastUpdate": "2026-04-27T15:13:29.883955+00:00",
   "matchesScraped": 21,
   "championshipId": "2025251",
   "nombre": "M16 G1-ZA"
