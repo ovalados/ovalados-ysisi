@@ -144,7 +144,7 @@
       "e": 0,
       "p": 2,
       "pf": 72,
-      "pc": 156,
+      "pc": 163,
       "bp": 1,
       "bf": 0,
       "form": [
@@ -177,7 +177,7 @@
       "g": 2,
       "e": 0,
       "p": 1,
-      "pf": 98,
+      "pf": 105,
       "pc": 72,
       "bp": 1,
       "bf": 0,
@@ -324,7 +324,7 @@
           "home": "Champagnat B",
           "away": "Pueyrredon B",
           "played": true,
-          "hs": 50,
+          "hs": 57,
           "as": 10,
           "bp_home": true
         },
@@ -641,7 +641,7 @@
       ]
     }
   },
-  "lastUpdate": "2026-04-26T23:27:06.704250+00:00",
+  "lastUpdate": "2026-04-27T00:08:27.906794+00:00",
   "matchesScraped": 18,
   "championshipId": "2025234",
   "nombre": "M17 N1-G2-ZB-EqB"
